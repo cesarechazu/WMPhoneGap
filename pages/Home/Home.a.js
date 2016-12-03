@@ -23,8 +23,8 @@ wire: ["wm.Wire", {"expression":"\"Battery\"","targetProperty":"pageName"}, {}]
 layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 Fila1: ["wm.Panel", {"height":"100px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 panel5: ["wm.Panel", {"height":"100px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture1: ["wm.Picture", {"aspect":"h","height":"100%","source":"resources/images/PrimoIcons/battery_full.png","styles":{},"width":"100%"}, {"onclick":"navPrecios"}],
-labelPrecios: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Battery","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navPrecios"}]
+picture1: ["wm.Picture", {"aspect":"h","height":"100%","source":"resources/images/PrimoIcons/battery_full.png","styles":{},"width":"100%"}, {"onclick":"navBattery"}],
+labelPrecios: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Battery","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBattery"}]
 }],
 panel6: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture2: ["wm.Picture", {"aspect":"h","height":"100%","source":"resources/images/PrimoIcons/camera.png","styles":{},"width":"100%"}, {"onclick":"navStock"}],
