@@ -1,0 +1,240 @@
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dojoxGrid .dijitTextBox,
+.linkapp_shamcey .dojoxGrid .dijitComboBox,
+.linkapp_shamcey .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitTextBox,
+.linkapp_shamcey .wmeditor .dijitTextArea,
+.linkapp_shamcey .wmeditor .dijitComboBox,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitButtonContents,
+.linkapp_shamcey .dijitTimePickerItem,
+.linkapp_shamcey .wmeditor .RichTextEditable iframe {
+	border: solid 1px #999999;
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #000;
+	font-weight: normal;
+	background-color: #ffffff;
+	background-image: none;
+    box-sizing: border-box;
+	filter: none;
+    padding: 2px;
+    vertical-align: middle;
+    line-height: 1.25;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey  .wmeditor .dijitTextBox,
+.linkapp_shamcey  .wmeditor .dijitTextArea,
+.linkapp_shamcey  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey  .dojoxGrid .dijitTextBox,
+.linkapp_shamcey  .dojoxGrid .dijitTextArea,
+.linkapp_shamcey  .dojoxGrid .dijitComboBox
+ {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.linkapp_shamcey .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapp_shamcey .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitTextBox.dijitHover,
+.linkapp_shamcey .wmeditor .dijitTextArea:hover,
+.linkapp_shamcey .wmeditor .dijitComboBox.dijitHover,
+.linkapp_shamcey .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapp_shamcey .wmeditor .RichTextEditable:hover iframe {
+/* 	color: ; // THEMER: DISABLED */
+	border: solid 0px #0866c6;
+/* 	background-color: rgb(68, 68, 68); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dojoxGrid .dijitTextBox.dijitFocused,
+.linkapp_shamcey .dojoxGrid .dijitComboBox.dijitFocused,
+.linkapp_shamcey .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitTextBox.dijitFocused,
+.linkapp_shamcey .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapp_shamcey .wmeditor .dijitTextArea.dijitFocused,
+.linkapp_shamcey .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapp_shamcey .wmeditor .dijitComboBox.dijitFocused,
+.linkapp_shamcey .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapp_shamcey .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapp_shamcey .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapp_shamcey .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.linkapp_shamcey .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.linkapp_shamcey .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.linkapp_shamcey .wmeditor .RichTextEditable.Focused iframe {
+/* 	color: ; // THEMER: DISABLED */
+	border: solid 0px #0866c6;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: isDirty */
+.linkapp_shamcey .isDirty.wmeditor .dijitTextBox,
+.linkapp_shamcey .isDirty.wmeditor .dijitTextArea,
+.linkapp_shamcey .isDirty.wmeditor .dijitComboBox {
+/* 	color: ; // THEMER: DISABLED */
+/* 	border: solid 0px #0866c6; // THEMER: DISABLED */
+/* 	background-color: rgb(68, 68, 68); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.linkapp_shamcey .wmeditor .dijitError.dijitTextBox,
+.linkapp_shamcey .wmeditor .dijitError.dijitTextArea,
+.linkapp_shamcey .wmeditor .dijitError.dijitComboBox,
+.linkapp_shamcey .wmeditor .dijitError.isDirty.dijitTextBox,
+.linkapp_shamcey .wmeditor .dijitError.isDirty.dijitTextArea,
+.linkapp_shamcey .wmeditor .dijitError.isDirty.dijitComboBox
+{
+/* 	color: ; // THEMER: DISABLED */
+	border-color: #666666; 
+	background-color: #F9F7BA; 
+	background-image: none; 
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.linkapp_shamcey .wmeditor .wmeditor-caption {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	font-weight: normal;
+}
+
+/* GROUP: Read-only */
+.linkapp_shamcey .wmeditor .wmeditor-readonlyNode {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+	color: ;
+	font-weight: normal;
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapp_shamcey .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(170, 170, 170)), color-stop(52%,rgb(102, 102, 102)), to(rgb(102, 102, 102)));
+	background-image: -moz-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -o-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -ms-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(170, 170, 170)', endColorstr='rgb(102, 102, 102)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapp_shamcey .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.linkapp_shamcey .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitArrowButton,
+.linkapp_shamcey .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.linkapp_shamcey .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitArrowButton:hover {
+/* 	background-color: rgb(255, 102, 102); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitSpinner .dijitArrowButton:active,
+.linkapp_shamcey .wmeditor .dijitComboBox .dijitArrowButton:active,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitArrowButton:active {
+/* 		  background-color: rgb(102, 102, 255); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_shamcey .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_shamcey .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_shamcey .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_shamcey .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+    background-position: 50% 50%;
+	background-image: url(images/comboArrowDownLight.png);
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.linkapp_shamcey .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background-position: 30% 30%;
+	background-image: url(images/comboArrowDownLight.png); 
+}
+
+/* GROUP: Spinner Arrows Up */
+.linkapp_shamcey .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background-image: url(images/comboArrowUpLight.png);
+}
+
+
+
+/* GROUP: Sliders */
+.linkapp_shamcey .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+    outline-width: 0;
+}
+
+/* GROUP: Slider Bar Progress */
+.linkapp_shamcey .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.linkapp_shamcey .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.linkapp_shamcey .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.linkapp_shamcey .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #0866c6;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.linkapp_shamcey .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.linkapp_shamcey .wmeditor .dijitSlider .dijitSliderRightBumper,
+.linkapp_shamcey .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.linkapp_shamcey .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}    

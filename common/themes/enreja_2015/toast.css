@@ -1,0 +1,111 @@
+/* GROUP: Toast Dialog */
+html.WMApp .enreja_2015 div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 4px 4px 8px #222;
+	-webkit-box-shadow: 4px 4px 8px #222;
+}
+.enreja_2015 .wmtoast .wmtoastmessage {
+	font-family: Verdana, Geneva, sans-serifVerdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .enreja_2015 div.wmtoast.Success.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.enreja_2015 .wmtoast .wmtoasttitle,
+.enreja_2015 .wmtoast.Success .wmtoastmessage {
+    color: black;
+}
+
+
+/* GROUP: Success Graphic */
+.enreja_2015 .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .enreja_2015 div.wmtoast.Warning.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.enreja_2015 .wmtoast .wmtoasttitle,
+.enreja_2015 .wmtoast.Warning .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Warning Graphic */
+.enreja_2015 .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .enreja_2015 div.wmtoast.Error.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.enreja_2015 .wmtoast .wmtoasttitle,
+.enreja_2015 .wmtoast.Error .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Error Graphic */
+.enreja_2015 .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .enreja_2015 div.wmtoast.Info.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.enreja_2015 .wmtoast .wmtoasttitle,
+.enreja_2015 .wmtoast.Info .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Info Graphic */
+.enreja_2015 .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.enreja_2015 .wmtoast .wmtoasttitle {
+	font-family: Verdana, Geneva, sans-serifVerdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+    color: black;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .enreja_2015 div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}

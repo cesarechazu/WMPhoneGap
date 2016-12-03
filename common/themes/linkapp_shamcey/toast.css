@@ -1,0 +1,111 @@
+/* GROUP: Toast Dialog */
+html.WMApp .linkapp_shamcey div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+     -webkit-box-shadow: 3px 4px 4px #222;
+     box-shadow: 3px 4px 4px #222;
+}
+.linkapp_shamcey .wmtoast .wmtoastmessage {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .linkapp_shamcey div.wmtoast.Success.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_shamcey .wmtoast .wmtoasttitle,
+.linkapp_shamcey .wmtoast.Success .wmtoastmessage {
+    color: black;
+}
+
+
+/* GROUP: Success Graphic */
+.linkapp_shamcey .wmtoast.Success .ToastLeft {
+	background: url(images/OK.png) 0% 0%;
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .linkapp_shamcey div.wmtoast.Warning.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_shamcey .wmtoast .wmtoasttitle,
+.linkapp_shamcey .wmtoast.Warning .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Warning Graphic */
+.linkapp_shamcey .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .linkapp_shamcey div.wmtoast.Error.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_shamcey .wmtoast .wmtoasttitle,
+.linkapp_shamcey .wmtoast.Error .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Error Graphic */
+.linkapp_shamcey .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .linkapp_shamcey div.wmtoast.Info.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_shamcey .wmtoast .wmtoasttitle,
+.linkapp_shamcey .wmtoast.Info .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Info Graphic */
+.linkapp_shamcey .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.linkapp_shamcey .wmtoast .wmtoasttitle {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+    color: black;
+    font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+       opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .linkapp_shamcey div.wmtoast.wmtoastExtraSpecific {
+opacity: 0.9;
+}

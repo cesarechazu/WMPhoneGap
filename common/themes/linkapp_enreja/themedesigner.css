@@ -1,0 +1,1525 @@
+ /***** START SECTION: Main Document *****/
+/* GROUP: Main Document Styles */
+.linkapp_enreja  .wmapproot {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	font-weight: normal;
+}
+.linkapp_enreja .wmapproot > .wmpagecontainer,
+.linkapp_enreja.wmapproot > .wmpagecontainer,
+.linkapp_enreja #studio_designer > .wmlayout {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* IE9 has buggy display when combinding both gradients and radius.
+ * Gradients and not radius work on IE8, so we'll just do it the IE 8 way */
+.dj_ie9 .linkapp_enreja div,
+.dj_ie9 .linkapp_enreja input,
+.dj_ie9 .linkapp_enreja button {
+   border-radius: 0px !important; /* THEMER: HIDE */
+}
+/***** END SECTION: Main Document *****//***** START SECTION: Tabs *****/
+/* GROUP: Standard Tab Button */
+.linkapp_enreja .wmtablayers .wmtablayers-tab,
+.linkapp_enreja .wmtablayers button.wmtablayers-verticaltab {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFFFFF; 
+	font-weight: normal;
+	font-size: 1em;
+	background-color: rgb(85, 85, 85);
+	background-image: none;
+	filter: none;
+}
+.linkapp_enreja .wmtablayers .wmtablayers-tab {
+
+	height: 22px;
+    margin-left: 8px; 
+	border-radius: 2px 2px 0px 0px;
+	-webkit-border-radius: 2px 2px 0px 0px;
+	box-shadow: -1px 1px 1px #444444;
+	-webkit-box-shadow: -1px 1px 1px #444444;
+
+	border-top: solid 1px rgb(68, 68, 68);
+	border-right: solid 1px #444444;
+	border-bottom: solid 1px #444444;
+	border-left: solid 1px rgb(68, 68, 68);
+}
+.dj_ff .linkapp_enreja .wmtablayers .wmtablayers-tab {
+       box-shadow: 0 0 0 black !important; /* THEMER: HIDE */
+}
+/* GROUP: First Tab */
+.linkapp_enreja .wmtablayers-tab:first-child {
+	margin-left: 4px;
+}
+
+
+/* GROUP: Standard Selected Tab Button */
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+	background-color: #8f1b11;
+	background-image: none;
+	filter: none;
+}
+.linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+    box-shadow: -1px 1px 1px #444444; 
+/* 	top: 2px; // THEMER: DISABLED */
+    /* NOTE: To create different values of top for different browsers, use
+     .dj_ie .linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected, 
+     .dj_ff .linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+     .dj_webkit .linkapp_enreja .wmtablayers .wmtablayers-tab.wmtablayers-selected */
+}
+
+/* GROUP: Tab Button with Focus */
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:focus,
+.linkapp_enreja .wmtablayers .wmtablayers-tab:focus {
+	outline: solid 0px ;
+}
+
+/* GROUP: Tab Button with Hover */
+.linkapp_enreja .wmtablayers .wmtablayers-tab:hover,
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:hover {
+	color: #FFFFFF; 
+	background-color: #444444;
+	background-image: none;
+	filter: none;
+}
+.linkapp_enreja .wmtablayers .wmtablayers-tab:hover {
+    box-shadow: inherit;
+}
+
+/* GROUP: Tab Button with Mouse Down */
+/* NOTE: This does not appear to work in firefox at design time but is fine at runtime */
+.linkapp_enreja .wmtablayers .wmtablayers-tab:active,
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:active,
+.linkapp_enreja .wmtablayers .wmtablayers-tab:active:.focus,
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:active:focus {
+color: #FFFFFF; 
+background-color: #444444; 
+background-image: none;
+filter: none;
+}
+.linkapp_enreja .wmtablayers .wmtablayers-tab:active,
+.linkapp_enreja .wmtablayers .wmtablayers-tab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+
+
+/* GROUP: Layer Borders */
+.linkapp_enreja .wmtablayers  .wmTabLayers-client > .wmlayer {
+	border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+}
+
+/* GROUP: Tab Bar */
+.linkapp_enreja .wmtablayers div.wmtablayers-tabbar {
+	background-color: #f2f2f2;
+	background-image: none;
+	filter: none;
+}
+
+
+
+/* GROUP: Vertical Tab Buttons */
+.linkapp_enreja .wmtablayers button.wmtablayers-verticaltab {
+	font-size: 1em;
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+/* 	border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+	border-bottom-color: #444444;
+	border-top-color: #444444; 
+	border-left-color:#444444; 
+	border-right-color: transparent;
+	box-shadow: -1px 1px 1px #444444;
+	-webkit-box-shadow: -1px 1px 1px #444444;
+}
+
+/* GROUP: First Vertical Tab */
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:first-child {
+	margin-top: 4px;
+}
+
+/* GROUP: Vertical Tab Buttons with Hover */
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:hover {
+    box-shadow: inherit;
+}
+
+/* GROUP: Vertical Selected Tab Buttons */
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+    box-shadow: inherit;
+/*  border: solid 1px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab with Mouse Down */
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:active,
+.linkapp_enreja .wmtablayers .wmtablayers-verticaltab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+/***** END SECTION: Tabs *****//***** START SECTION: Accordions *****/
+
+/* GROUP: Accordion Header */
+.linkapp_enreja .wmaccordion div.wmaccordion-header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+  color: #FFFFFF;
+	font-weight: normal;
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Closed Header */
+.linkapp_enreja .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+  color: #FFFFFF;
+	font-weight: normal;
+	background-color: #555555;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Header Hover */
+.linkapp_enreja div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+  color: #FFFFFF;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#8f1b11), color-stop(98%,#555555), to(#555555));
+	background-image: -moz-linear-gradient(top, #8f1b11 0%,#555555 98%,#555555 100%);
+	background-image: -o-linear-gradient(top, #8f1b11 0%,#555555 98%,#555555 100%);
+	background-image: -ms-linear-gradient(top, #8f1b11 0%,#555555 98%,#555555 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f1b11', endColorstr='#555555',GradientType=0);
+}
+
+
+
+/* GROUP: Accordion Arrow (Selected) */
+.linkapp_enreja .wmaccordion .accordionArrowNode {
+   float: none !important; /* THEMER: HIDE */
+   position: absolute; /* THEMER: HIDE */
+   right: 5px;
+   background-image: url(images/comboArrowDownDark.png);
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+}
+.linkapp_enreja .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+     position: relative; /* THEMER: HIDE */
+     float: none; /* THEMER: HIDE */
+}
+
+/* GROUP: Accordion Arrow (Closed) */
+.linkapp_enreja .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+   background-image: url(images/arrowRightDark.png); 
+}
+
+
+/* GROUP: Layer Styling */
+.linkapp_enreja .wmaccordion .wmlayer.wmaccordion-content {
+    border-radius: 2px;
+	background-color: #f2f2f2;
+	background-image: none;
+	filter: none;
+}
+
+/***** END SECTION: Accordions *****//***** START SECTION: Titled Panel *****/
+/* GROUP: Container */
+.linkapp_enreja .wmfancypanel .wmFancyPanel-containerWidget {
+    border-top-left-radius: 0px !important; /* THEMER: HIDE */
+    border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-left-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black !important;/* THEMER: HIDE */
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+    background-color: white;
+    background-image: none;
+    filter: none;
+}
+
+
+/* GROUP: Panel Title */
+.linkapp_enreja .wmfancypanel .wmFancyPanel-labelWidget {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #333333;
+	background-color: #dedede;
+	background-image: none;
+	filter: none;
+}
+/***** END SECTION: Titled Panel *****//***** START SECTION: Buttons *****/
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.linkapp_enreja .wmbutton,
+.linkapp_enreja button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
+.linkapp_enreja .wmbutton .dijitReset {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.linkapp_enreja .wmbutton {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+/* 	box-shadow: 2px 2px 2px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 2px black; // THEMER: DISABLED */
+	background-color: #333333;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Hover State */
+ .linkapp_enreja   .wmbutton:hover {
+ 	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Active State */
+/* button.wmbutton required instead of .wmbutton for IE8 */
+.linkapp_enreja   button.wmbutton.toggleButtonDown,
+.linkapp_enreja   .wmbutton.Active,
+.linkapp_enreja   .wmbutton.Active:hover,
+.linkapp_enreja   .wmbutton:active,
+.linkapp_enreja   .wmbutton:hover:active {
+	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 2px 2px 2px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 2px black; // THEMER: DISABLED */
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.linkapp_enreja   .wmbutton:focus {
+/* 	outline: solid 0px ; // THEMER: DISABLED */
+}
+
+/* GROUP: Popup Menu */
+.linkapp_enreja .wmbutton.wmPopupButton .popupIcon {
+	background: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png) 0% 50%;
+}
+
+/* GROUP: Disabled Button */
+.linkapp_enreja .Disabled.wmbutton,
+.linkapp_enreja .Disabled.wmbutton:hover,
+.linkapp_enreja .Disabled.wmbutton:active,
+.linkapp_enreja .Disabled.wmbutton:active:hover {
+  color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+  background-color: #333333;
+  background-image: none;
+	opacity: 0.40;
+}
+/***** END SECTION: Buttons *****//***** START SECTION: Toggle Button Panel *****/
+/* GROUP: Toggle Panel */
+.linkapp_enreja .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.linkapp_enreja .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.linkapp_enreja .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.linkapp_enreja .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.linkapp_enreja .wmtogglebuttonpanel .wmbutton {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: normal;
+
+/*	background-color: #333333;// THEMER: DISABLED */
+/*	background-image: none;// THEMER: DISABLED */
+/*	filter: none;// THEMER: DISABLED */
+}
+
+
+/* GROUP: Selected Button */
+.linkapp_enreja .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+/* 	font-family: sans-serif; // THEMER: DISABLED */
+/*	font-size: 12px;// THEMER: DISABLED */
+/*	color: #FFFFFF;// THEMER: DISABLED */
+/*	font-weight: bold;// THEMER: DISABLED */
+
+/*	background-color: #333333;// THEMER: DISABLED */
+/*	background-image: none;// THEMER: DISABLED */
+/*	filter: none;// THEMER: DISABLED */
+}
+/***** END SECTION: Toggle Button Panel *****//***** START SECTION: Editors *****/
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitTextBox,
+.linkapp_enreja .dojoxGrid .dijitComboBox,
+.linkapp_enreja .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitTextBox,
+.linkapp_enreja .wmeditor .dijitTextArea,
+.linkapp_enreja .wmeditor .dijitComboBox,
+.linkapp_enreja .wmeditor .dijitSelect .dijitButtonContents,
+.linkapp_enreja .dijitTimePickerItem,
+.linkapp_enreja .wmeditor .RichTextEditable iframe {
+	border: solid 1px rgb(102, 102, 102);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-weight: normal;
+	background-color: rgb(255, 255, 255);
+	background-image: none;
+	filter: none;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja  .wmeditor .dijitTextBox,
+.linkapp_enreja  .wmeditor .dijitTextArea,
+.linkapp_enreja  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja  .dojoxGrid .dijitTextBox,
+.linkapp_enreja  .dojoxGrid .dijitTextArea,
+.linkapp_enreja  .dojoxGrid .dijitComboBox
+ {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+}
+
+.linkapp_enreja .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapp_enreja .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitTextBox.dijitHover,
+.linkapp_enreja .wmeditor .dijitTextArea:hover,
+.linkapp_enreja .wmeditor .dijitComboBox.dijitHover,
+.linkapp_enreja .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapp_enreja .wmeditor .RichTextEditable:hover iframe {
+	color: #333333;
+/* 	border: solid 1px rgb(102, 102, 102); // THEMER: DISABLED */
+/* 	background-color: #edadad; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitTextBox.dijitFocused,
+.linkapp_enreja .dojoxGrid .dijitComboBox.dijitFocused,
+.linkapp_enreja .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitTextBox.dijitFocused,
+.linkapp_enreja .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapp_enreja .wmeditor .dijitTextArea.dijitFocused,
+.linkapp_enreja .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapp_enreja .wmeditor .dijitComboBox.dijitFocused,
+.linkapp_enreja .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapp_enreja .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapp_enreja .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapp_enreja .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.linkapp_enreja .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.linkapp_enreja .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.linkapp_enreja .wmeditor .RichTextEditable.Focused iframe {
+	color: #000000;
+/* 	border: solid 1px rgb(102, 102, 102); // THEMER: DISABLED */
+/* 	background-color: #eddddb; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: isDirty */
+.linkapp_enreja .isDirty.wmeditor .dijitTextBox,
+.linkapp_enreja .isDirty.wmeditor .dijitTextArea,
+.linkapp_enreja .isDirty.wmeditor .dijitComboBox {
+	color: #000000;
+/* 	border: solid 1px rgb(178, 168, 168); // THEMER: DISABLED */
+/* 	background-color: #ffffff; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.linkapp_enreja .wmeditor .dijitError.dijitTextBox,
+.linkapp_enreja .wmeditor .dijitError.dijitTextArea,
+.linkapp_enreja .wmeditor .dijitError.dijitComboBox,
+.linkapp_enreja .wmeditor .dijitError.isDirty.dijitTextBox,
+.linkapp_enreja .wmeditor .dijitError.isDirty.dijitTextArea,
+.linkapp_enreja .wmeditor .dijitError.isDirty.dijitComboBox
+{
+/* 	color: ; // THEMER: DISABLED */
+/* 	border: solid 0px rgb(102, 102, 102); // THEMER: DISABLED */
+	background-color: #F9F7BA; 
+	background-image: none; 
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.linkapp_enreja .wmeditor .wmeditor-caption {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	font-weight: bold;
+}
+
+/* GROUP: Read-only */
+.linkapp_enreja .wmeditor .wmeditor-readonlyNode {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+/* 	color: ; // THEMER: DISABLED */
+	font-weight: normal;
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(170, 170, 170)), color-stop(52%,rgb(102, 102, 102)), to(rgb(102, 102, 102)));
+	background-image: -moz-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -o-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -ms-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(170, 170, 170)', endColorstr='rgb(102, 102, 102)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapp_enreja .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.linkapp_enreja .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton:hover {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton:active,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton:active,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton:active {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_enreja .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+    background-position: 50% 50%;
+	background-image: url(images/comboArrowDownLight.png);
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background-position: 30% 30%;
+	background-image: url(images/comboArrowDownLight.png); 
+}
+
+/* GROUP: Spinner Arrows Up */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background-image: url(images/comboArrowUpLight.png);
+}
+
+
+
+/* GROUP: Sliders */
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+	outline: solid 0px ;
+}
+
+/* GROUP: Slider Bar Progress */
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderRightBumper,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}    
+
+/***** END SECTION: Editors *****//***** START SECTION: Grids *****/
+/* GROUP: Grid Rows */
+.linkapp_enreja .GridListStyle div.dojoxGrid, 
+.linkapp_enreja .GridListStyle .wmlist {
+	font-size: 1em;
+}
+
+.linkapp_enreja .GridListStyle  .wmlist-cell,
+.linkapp_enreja .GridListStyle td.dojoxGridCell {
+/* 	border: solid 1px #c5c5c5; // THEMER: DISABLED */
+}
+
+.linkapp_enreja .GridListStyle div.dojoxGridRow,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.linkapp_enreja .GridListStyle div.wmlist-item,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+	font-family: Verdana, Geneva, sans-serif;
+    font-weight: normal;
+}
+
+.linkapp_enreja .GridListStyle div.dojoxGridContent .dojoxGridCell {
+   background-color: transparent; /* THEMER: HIDE */
+}
+
+.linkapp_enreja .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.linkapp_enreja .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+   border: 1px dashed transparent !important; /* THEMER: HIDE */
+}
+
+
+/* GROUP: Odd Numbered Rows */
+.linkapp_enreja .GridListStyle div.dojoxGridRow,
+.linkapp_enreja .GridListStyle div.wmlist-item,
+
+/* Disabled grid rows */
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+
+/* Disabled odd    rows */
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+	color: #505050;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Even Numbered Rows */
+.linkapp_enreja .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.linkapp_enreja .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.linkapp_enreja .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.linkapp_enreja .GridListStyle .wmlist-item.Odd {
+	color: #505050;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Selected Row */
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.linkapp_enreja .GridListStyle .wmlist-item.wmlist-item-selected,
+.linkapp_enreja .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.linkapp_enreja .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+   color: #FFFFFF;
+}
+
+/* GROUP: Selected Cell */
+.linkapp_enreja .dojoxGridCellFocus {
+	   outline: solid 0px #ae0909;
+    outline-offset: -1px; /* Change this to match outline width (but negative). Not supported by IE */ /* THEMER: HIDE */
+}
+
+/* GROUP: Hover row */
+.linkapp_enreja .GridListStyle .wmlist-item.wmlist-item-over,
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.linkapp_enreja .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapp_enreja .GridListStyle .dojoxGridRowOver a,
+.linkapp_enreja .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+	background-color: #efefef;
+	background-image: none;
+	filter: none;
+   color: #000000;
+}
+
+/* GROUP: Grid Header */
+.linkapp_enreja .GridListStyle .wmlist-header th,
+.linkapp_enreja .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+	font-size: 1em;
+}
+
+.linkapp_enreja .GridListStyle .wmlist-header .wmlist-cell,
+.linkapp_enreja .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 1px #c5c5c5;
+	border-bottom: solid 1px #c5c5c5;
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+
+
+.linkapp_enreja .GridListStyle .wmlist-header,
+.linkapp_enreja .GridListStyle div.dojoxGridHeader {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#333333), color-stop(50%,#666666), to(#666666));
+	background-image: -moz-linear-gradient(top, #333333 0%,#666666 50%,#666666 100%);
+	background-image: -o-linear-gradient(top, #333333 0%,#666666 50%,#666666 100%);
+	background-image: -ms-linear-gradient(top, #333333 0%,#666666 50%,#666666 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#666666',GradientType=0);
+}
+.linkapp_enreja .GridListStyle .wmlist-header th,
+.linkapp_enreja .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.linkapp_enreja .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
+  background: transparent none !important; /* THEMER: HIDE */
+
+	font-family: Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+/* GROUP: Grid Cells */
+.linkapp_enreja .GridListStyle .dojoxGridCell,
+.linkapp_enreja .GridListStyle .wmlist-cell {
+	padding: 4px 8px;
+}
+
+/* GROUP: Focused Cell */
+.linkapp_enreja .GridListStyle .dojoxGridCellFocus {
+/*   outline: solid 1px #5b9dd7; // THEMER: DISABLED */
+}
+
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Mobile List */
+.linkapp_enreja .MobileListStyle div.wmlist-item,
+.linkapp_enreja .Disabled.MobileListStyle div.wmlist-item,
+.linkapp_enreja .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+   border-radius: 4px;
+   margin: 5px;
+	background-color: #e6e6e6;
+	background-image: none;
+	filter: none;
+   color: #000000;
+	font-family: Verdana, Geneva, sans-serif;
+   min-height: 24px;
+}
+
+.linkapp_enreja .wmlist.MobileListStyle td.wmlist-cell {
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 0px;
+}
+
+/* GROUP: Mobile List Hover (Desktop only!) */
+.linkapp_enreja .MobileListStyle div.wmlist-item.wmlist-item-over,
+.linkapp_enreja .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+		background-color: #555555;
+		color: #FFFFFF;
+}
+
+/* GROUP: Mobile List Selected Row */
+.linkapp_enreja .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.linkapp_enreja .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.linkapp_enreja .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.linkapp_enreja .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+		color: #FFFFFF; 
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Grids *****//***** START SECTION: Progress Bar *****/
+/* GROUP: ProgressBar */
+.linkapp_enreja .wmprogressbar .dijitProgressBar {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+/* 	border: solid 1px black; // THEMER: DISABLED */
+}
+
+
+.linkapp_enreja .wmprogressbar .dijitProgressBarLabel {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+		color: #FFFFFF;
+	font-weight: normal;
+}
+
+.linkapp_enreja .wmprogressbar .dijitProgressBar {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Progress Indicator */
+.linkapp_enreja .wmprogressbar .dijitProgressBarFull {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+/* 	border-radius: 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px 0px; // THEMER: DISABLED */
+/* 	border-top: solid 0px black; // THEMER: DISABLED */
+/* 	border-right: solid 1px black; // THEMER: DISABLED */
+/* 	border-bottom: solid 0px black; // THEMER: DISABLED */
+/* 	border-left: solid 0px black; // THEMER: DISABLED */
+    }
+
+
+.linkapp_enreja .wmprogressbar .dijitProgressBarTile {
+   background-image: inherit; /* THEMER: HIDE */
+   background-color: inherit; /* THEMER: HIDE */
+}
+/***** END SECTION: Progress Bar *****//***** START SECTION: Splitter/Bevel *****/
+/* GROUP: Bevel */
+.linkapp_enreja .wmbevel {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Splitter */
+/* NOTE: If you use gradients, then you can't use the horizontal and vertical images (which is important) */
+.linkapp_enreja div.wmsplitter-h,
+.linkapp_enreja div.wmsplitter-v {
+	background-color: #666666; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Hover */
+.linkapp_enreja div.wmsplitter-h:hover,
+.linkapp_enreja div.wmsplitter-v:hover {
+	background-color: #666666; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Horizontal Image */
+.linkapp_enreja .wmsplitter-h {
+	background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+
+/* GROUP: Splitter Vertical Image */
+.linkapp_enreja .wmsplitter-v {
+	background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+
+/***** END SECTION: Splitter/Bevel *****//***** START SECTION: Calendar *****/
+/* GROUP: Calendar Cells */
+.linkapp_enreja .dijitCalendarDayLabel,
+.linkapp_enreja .dijitCalendarDateLabel {
+	font-size: 1.1em;
+}
+
+.linkapp_enreja table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #333333;
+}
+
+.linkapp_enreja .dijitCalendarBodyContainer td {
+	border-top: solid 1px rgb(204, 204, 204);
+	border-right: solid 1px rgb(204, 204, 204);
+	border-bottom: solid 0px rgb(102, 102, 102);
+	border-left: solid 0px rgb(102, 102, 102);
+}
+
+/* GROUP: Selected Cell */
+.linkapp_enreja .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.linkapp_enreja .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+	background-color: #d9241a !important;
+	background-image: none !important;
+	filter: none !important;
+		color: #e2e2d4 !important;
+}
+
+/* GROUP: Hover Cell */
+.linkapp_enreja .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.linkapp_enreja .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.linkapp_enreja .dijitCalendarContainer .dijitCalendarHoveredYear,
+.linkapp_enreja .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.linkapp_enreja .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+	background-color: #d9241a !important;
+	background-image: none !important;
+	filter: none !important;
+		color: #ebebe2;
+}
+
+
+/* GROUP: Dates Not In Month */
+.linkapp_enreja .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.linkapp_enreja .dijitCalendarContainer .dijitCalendarNextMonth {
+	background-color: #666666 !important;
+	background-image: none !important;
+	filter: none !important;
+		color: #bab0b0;
+}
+
+/* GROUP: Column Headings */
+.linkapp_enreja .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+	background-color: #d9241a !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #ffffff;
+}
+
+/* GROUP: Header */
+.linkapp_enreja tr.dijitCalendarMonthContainer th {    
+	background-color: rgb(51, 51, 51);
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Month Container */
+.linkapp_enreja tr.dijitCalendarMonthContainer th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+/* GROUP: Month Label */
+.linkapp_enreja tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.1em;
+    color: #FFFFFF; 
+	font-weight: bold;
+    border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black; /* THEMER: HIDE */
+}
+
+/* GROUP: Outer Widget */
+.linkapp_enreja table.dijitCalendarContainer {
+/* 	border: solid 1px rgb(102, 102, 102); // THEMER: DISABLED */
+
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+
+/***** END SECTION: Calendar *****//***** START SECTION: Links *****/
+/* GROUP: Links */
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.linkapp_enreja .wmapproot a,
+.linkapp_enreja  #wavemakerNode  .wmapproot a,
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.linkapp_enreja .wmapproot a:visited,
+.linkapp_enreja  #wavemakerNode  .wmapproot a:visited {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+  color: #336699;
+  font-weight: bold;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot a:hover,
+.linkapp_enreja  #wavemakerNode  .wmapproot a:hover:visited {
+  color: #336699;
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot a:active,
+.linkapp_enreja  #wavemakerNode  .wmapproot a:hover:active,
+.linkapp_enreja  #wavemakerNode  .wmapproot a:hover:visited:active {
+  color: #336699;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot .Disabled a,
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot .Disabled a:hover,
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot .Disabled a:active,
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.linkapp_enreja .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.linkapp_enreja  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}
+/***** END SECTION: Links *****//***** START SECTION: Dashboard *****/
+/* GROUP: Portlet Titlebar */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle {
+  font-family: Arial;
+	font-size: 1.3em;
+  font-weight: bold;
+
+  min-height: 22px;
+  line-height: 22px;
+  padding-left: 10px;
+}
+
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+  color: #333333;
+}
+
+.linkapp_enreja .dojoxPortlet {
+  border: solid 1px #949494;
+  border-radius: 4px;
+}
+
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle {
+  background-color: #E8E9EA;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: solid 1px #949494;
+}
+
+/* GROUP: Portlet Titlebar Icons */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+  border-color: #333333;
+  width: 16px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+/* GROUP: Portlet Close Icon */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+  background-image: url(images/DialogIconsGray.png);
+  background-position: 0px 0px;
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+/* GROUP: Portlet Close Icon Hover */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+/* background-position: 0px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Minify Icon */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+  background-image: url(images/DialogIconsGray.png);
+  position: relative;
+  top: 3px;
+  height: 16px;
+  background-position: -16px 0px;
+}
+
+/* GROUP: Portlet Minify Icon Hover */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Unminify Icon */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+  background-image: url(images/DialogIconsGray.png);
+  background-position: -32px 0px;
+}
+
+/* GROUP: Portlet Unminify Icon Hover */
+.linkapp_enreja .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+/***** END SECTION: Dashboard *****//***** START SECTION: Dialogs *****/
+/* GROUP: Dialog Frame */
+.linkapp_enreja .wmdialog {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+/* 	box-shadow: 2px 2px 2px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 2px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Dialog Container */
+.linkapp_enreja .wmdialog {
+	background-color: rgb(255, 255, 255);
+	background-image: none;
+	filter: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	font-weight: normal;
+}
+
+/* GROUP: Dialog Titlebar */
+.linkapp_enreja .dialogtitlebar .wmlabel{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+	color: #d9241a;
+	font-weight: bold;
+}
+
+.linkapp_enreja .dialogtitlebar {
+	background-color: rgb(222, 222, 222);
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Titlebar Buttons: Close Button */
+.linkapp_enreja .dialogtitlebar .dialogclosebutton {
+	background: url(images/DialogIconsGray.png) no-repeat 0% 0%;
+}
+
+/* GROUP: Titlebar Buttons: Minify Button */
+.linkapp_enreja .dialogtitlebar .dialogminifybutton {
+	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+}
+/* GROUP: Titlebar Buttons: Maxify Button */
+.linkapp_enreja .dialogtitlebar .dialogmaxifybutton {
+	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+
+/***** END SECTION: Dialogs *****//***** START SECTION: Menus *****/
+/* GROUP: Menu Bar Styling */
+.linkapp_enreja .dojoMenu .dijitMenu,
+.linkapp_enreja .dojoMenu .dijitMenuBar,
+.linkapp_enreja .dojoMenu .dijitMenuItem {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #ffffff;
+
+	background-color: #333333;
+	background-image: none;
+	filter: none;
+}
+
+.linkapp_enreja .dojoMenu .dijitMenuBar .dijitMenuItem {
+	margin-right: 10px;
+}
+
+/* GROUP: Menu Bar Hover */
+.linkapp_enreja .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+	color: #ffffff;
+	background-color: rgb(102,102,102);
+	background-image: none;
+	filter: none;
+/* 	outline: solid 0px ; // THEMER: DISABLED */
+}
+
+/* GROUP: Menu Bar Select */
+.linkapp_enreja .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+	color: #ffffff;
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+outline: 0px;
+}
+
+/* GROUP: Horizontal Menu Bar Icon */
+.linkapp_enreja .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+	background: url(images/comboArrowDownDark.png) no-repeat 90% 50% !important;
+	padding-right: 32px !important;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Popup Menu Box */
+.linkapp_enreja .dijitMenuPopup .dijitMenuTable {
+	background-color: #333333;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px rgb(153, 153, 153);
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	border-left: solid 1px black;
+}
+.linkapp_enreja .dijitMenuPopup {
+/* 	box-shadow: 2px 2px 3px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 3px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Popup Menu Item */
+.linkapp_enreja .dijitPopup .dijitMenuTable .dijitMenuItem {
+	font-size: 1.1em;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: transparent; /* THEMER: IGNORE */
+	background-image: none; /* THEMER: IGNORE */
+	filter: none; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 0px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+/* GROUP: Popup Menu Item Hover/Selected */
+/* NOTE: There is no good way with dojo menus to distinguish between hover and select */
+.linkapp_enreja .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.linkapp_enreja .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+    outline-width: 0;
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Menus *****//***** START SECTION: Combobox Dropdowns *****/
+/* GROUP: ComboBox Drop-down Box */
+.linkapp_enreja .dijitPopup .dijitCalendarMonthMenu,
+.linkapp_enreja  ul.dijitMenu {
+	background-color: #333333;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px rgb(153, 153, 153);
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	border-left: solid 1px black;
+/* 	box-shadow: 3px 3px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 3px 3px 4px black; // THEMER: DISABLED */
+}
+
+/* GROUP: ComboBox Drop-down Items */
+.linkapp_enreja .dijitPopup .dijitCalendarMonthLabel,
+.linkapp_enreja  ul.dijitMenu .dijitMenuItem {
+    padding: 4px 5px;
+    text-align: left;
+	font-size: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000000;
+	font-weight: normal;
+	background-color: #ffffff; /* THEMER: IGNORE */
+	background-image: none; /* THEMER: IGNORE */
+	filter: none; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 1px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+
+/* GROUP: ComboBox Item Hover */
+.linkapp_enreja .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.linkapp_enreja  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #d9241a; /* THEMER: IGNORE */
+	background-image: none; /* THEMER: IGNORE */
+	filter: none; /* THEMER: IGNORE */
+/* 	border-top: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+/* 	border-right: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+/* 	border-bottom: solid 1px rgb(170, 170, 170); // THEMER: DISABLED */
+/* 	border-left: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+}
+
+/***** END SECTION: Combobox Dropdowns *****//***** START SECTION: Tool Tips *****/
+/* GROUP: Tool tips */
+.linkapp_enreja .AppToolTip {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #333333;
+  font-weight: bold;
+
+	background-color: #fffecb;
+	background-image: none;
+	filter: none;
+
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+  box-shadow: 2px 2px 2px #666;
+}
+/***** END SECTION: Tool Tips *****//***** START SECTION: Toast Dialogs *****/
+/* GROUP: Toast Dialog */
+html.WMApp .linkapp_enreja div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+     -webkit-box-shadow: 3px 4px 4px #222;
+     box-shadow: 3px 4px 4px #222;
+}
+.linkapp_enreja .wmtoast .wmtoastmessage {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #333333;
+    font-weight: bold;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .linkapp_enreja div.wmtoast.Success.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_enreja .wmtoast .wmtoasttitle,
+.linkapp_enreja .wmtoast.Success .wmtoastmessage {
+	color: #333333;
+}
+
+
+/* GROUP: Success Graphic */
+.linkapp_enreja .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .linkapp_enreja div.wmtoast.Warning.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_enreja .wmtoast .wmtoasttitle,
+.linkapp_enreja .wmtoast.Warning .wmtoastmessage {
+	color: #333333;
+}
+
+/* GROUP: Warning Graphic */
+.linkapp_enreja .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .linkapp_enreja div.wmtoast.Error.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_enreja .wmtoast .wmtoasttitle,
+.linkapp_enreja .wmtoast.Error .wmtoastmessage {
+	color: #800505;
+}
+
+/* GROUP: Error Graphic */
+.linkapp_enreja .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .linkapp_enreja div.wmtoast.Info.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.linkapp_enreja .wmtoast .wmtoasttitle,
+.linkapp_enreja .wmtoast.Info .wmtoastmessage {
+	color: #333333;
+}
+
+/* GROUP: Info Graphic */
+.linkapp_enreja .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.linkapp_enreja .wmtoast .wmtoasttitle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+       opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .linkapp_enreja div.wmtoast.wmtoastExtraSpecific {
+opacity: 0.9;
+}
+/***** END SECTION: Toast Dialogs *****//***** START SECTION: Dialog Button Bars *****/
+
+/* GROUP: Dialog Footer */
+.linkapp_enreja .dialogfooter,
+.linkapp_enreja .wmpagedialog-controlspanel {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Dialog Footer Buttons */
+.linkapp_enreja .dialogfooter .wmbutton {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+    color: #FFFFFF; 
+	font-weight: normal;
+	background-color: #333333;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Hover) */
+.linkapp_enreja .dialogfooter .wmbutton:hover {
+    color: #FFFFFF; 
+	background-color: #444444;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Active) */
+.linkapp_enreja .dialogfooter button.wmbutton.toggleButtonDown,
+.linkapp_enreja .dialogfooter .wmbutton.Active,
+.linkapp_enreja .dialogfooter .wmbutton:active,
+.linkapp_enreja .dialogfooter .wmbutton.Active:hover,
+.linkapp_enreja .dialogfooter .wmbutton:active:hover {
+    color: #FFFFFF; 
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+}
+
+
+/***** END SECTION: Dialog Button Bars *****//***** START SECTION: SubmitButton *****/
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.linkapp_enreja .SubmitButton.wmbutton,
+.linkapp_enreja button.SubmitButton.wmbutton, /* mostly to clobber .dj_ie .SubmitButton.wmbutton in default/theme.css */
+.linkapp_enreja .SubmitButton.wmbutton .dijitReset {
+/* font-family: sans-serif; // THEMER: DISABLED */
+/* font-size: 12px; // THEMER: DISABLED */
+/* color: #FFFFFF; // THEMER: DISABLED */
+/* font-weight: bold; // THEMER: DISABLED */
+}
+.linkapp_enreja .SubmitButton.wmbutton {
+/* -webkit-border-radius: 4px; // THEMER: DISABLED */
+/* border-radius: 4px; // THEMER: DISABLED */
+/* box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* background-color: #333333; // THEMER: DISABLED */
+/* background-image: none; // THEMER: DISABLED */
+/* filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Hover State */
+ .linkapp_enreja   .wmbutton:hover {
+/* color: #FFFFFF; // THEMER: DISABLED */
+/* font-weight: bold; // THEMER: DISABLED */
+/* box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* background-color: #333333; // THEMER: DISABLED */
+/* background-image: none; // THEMER: DISABLED */
+/* filter: none; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Active State */
+/* button.SubmitButton.wmbutton required instead of .SubmitButton.wmbutton for IE8 */
+.linkapp_enreja   button.SubmitButton.wmbutton.toggleButtonDown,
+.linkapp_enreja   .SubmitButton.wmbutton.Active,
+.linkapp_enreja   .SubmitButton.wmbutton.Active:hover,
+.linkapp_enreja   .wmbutton:active,
+.linkapp_enreja   .wmbutton:hover:active {
+/* color: #FFFFFF; // THEMER: DISABLED */
+/* font-weight: bold; // THEMER: DISABLED */
+/* box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* background-color: #333333; // THEMER: DISABLED */
+/* background-image: none; // THEMER: DISABLED */
+/* filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.linkapp_enreja   .wmbutton:focus {
+/* outline: solid 1px #9999ff; // THEMER: DISABLED */
+}
+
+/* GROUP: Popup Menu */
+.linkapp_enreja .SubmitButton.wmbutton.wmPopupButton .popupIcon {
+/* background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png); // THEMER: DISABLED */
+/* background-position: 0% 50%; // THEMER: DISABLED */
+}
+
+/* GROUP: Disabled Button */
+.linkapp_enreja .Disabled.SubmitButton.wmbutton,
+.linkapp_enreja .Disabled.wmbutton:hover,
+.linkapp_enreja .Disabled.wmbutton:active,
+.linkapp_enreja .Disabled.wmbutton:active:hover {
+/* color: #FFFFFF; // THEMER: DISABLED */
+/* font-weight: bold; // THEMER: DISABLED */
+/* box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* background-color: #333333; // THEMER: DISABLED */
+/* background-image: none; // THEMER: DISABLED */
+/* opacity: 0.65; // THEMER: DISABLED */
+}
+/***** END SECTION: SubmitButton *****/

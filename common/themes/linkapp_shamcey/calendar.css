@@ -1,0 +1,94 @@
+/* GROUP: Calendar Cells */
+.linkapp_shamcey .dijitCalendarDayLabel,
+.linkapp_shamcey .dijitCalendarDateLabel {
+	font-size: 1em;
+}
+
+.linkapp_shamcey table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+		background-color: #f8f8f8 !important;
+		background-image: none !important;
+		filter: none !important;
+		color: #030000;
+}
+
+.linkapp_shamcey .dijitCalendarBodyContainer td {
+		border-top: solid 1px #ccc;
+		border-right: solid 1px #ccc;
+		border-bottom: solid 0px rgb(102, 102, 102);
+		border-left: solid 0px rgb(102, 102, 102);
+}
+
+/* GROUP: Selected Cell */
+.linkapp_shamcey .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.linkapp_shamcey .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+	background-color: #0866c6 !important;
+	background-image: none !important;
+	filter: none !important;
+		color: #e2e2d4 !important;
+}
+
+/* GROUP: Hover Cell */
+.linkapp_shamcey .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.linkapp_shamcey .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.linkapp_shamcey .dijitCalendarContainer .dijitCalendarHoveredYear,
+.linkapp_shamcey .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.linkapp_shamcey .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+		background-color: #908a8a !important;
+		background-image: none !important;
+		filter: none !important;
+		color: #ebebe2;
+}
+
+
+/* GROUP: Dates Not In Month */
+.linkapp_shamcey .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.linkapp_shamcey .dijitCalendarContainer .dijitCalendarNextMonth {
+		background-color: #655f5f !important;
+		background-image: none !important;
+		filter: none !important;
+		color: #bab0b0;
+}
+
+/* GROUP: Column Headings */
+.linkapp_shamcey .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+		background-color: #655f5f !important;
+		background-image: none !important;
+		filter: none !important;
+		color: #bab0b0;
+}
+
+/* GROUP: Header */
+.linkapp_shamcey tr.dijitCalendarMonthContainer th {    
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#0866c6), color-stop(51%,#0866ff), to(#0866ff));
+	background-image: -moz-linear-gradient(top, #0866c6 0%,#0866ff 51%,#0866ff 100%);
+	background-image: -o-linear-gradient(top, #0866c6 0%,#0866ff 51%,#0866ff 100%);
+	background-image: -ms-linear-gradient(top, #0866c6 0%,#0866ff 51%,#0866ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0866c6', endColorstr='#0866ff',GradientType=0);
+}
+
+/* GROUP: Month Container */
+.linkapp_shamcey tr.dijitCalendarMonthContainer th {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+    color: #f3e6e6;
+	font-weight: bold;
+}
+
+/* GROUP: Month Label */
+.linkapp_shamcey tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+    color: #FFFFFF; 
+    font-weight: bold;
+    border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black; /* THEMER: HIDE */
+}
+
+/* GROUP: Outer Widget */
+.linkapp_shamcey table.dijitCalendarContainer {
+		border: solid 2px rgb(102, 102, 102);
+
+		border-radius: 4px;
+		-webkit-border-radius: 4px;
+}
+

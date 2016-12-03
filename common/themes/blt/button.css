@@ -1,0 +1,74 @@
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.blt .wmbutton,
+.blt button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
+.blt .wmbutton .dijitReset {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.blt .wmbutton {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Hover State */
+ .blt   .wmbutton:hover {
+ 	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+	background-color: #a86464;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Active State */
+/* button.wmbutton required instead of .wmbutton for IE8 */
+.blt   button.wmbutton.toggleButtonDown,
+.blt   .wmbutton.Active,
+.blt   .wmbutton.Active:hover,
+.blt   .wmbutton:active,
+.blt   .wmbutton:hover:active {
+	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #a86464;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.blt   .wmbutton:focus {
+     outline: solid 1px #9999ff;
+}
+
+/* GROUP: Popup Menu */
+.blt .wmbutton.wmPopupButton .popupIcon {
+   background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+   background-position: 0% 50%;
+}
+
+/* GROUP: Disabled Button */
+.blt .Disabled.wmbutton,
+.blt .Disabled.wmbutton:hover,
+.blt .Disabled.wmbutton:active,
+.blt .Disabled.wmbutton:active:hover {
+	color: #fbfbfb;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+  background-color: #333333;
+  background-image: none;
+	opacity: 0.25;
+}

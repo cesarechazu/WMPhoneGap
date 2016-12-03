@@ -1,0 +1,85 @@
+
+/* GROUP: Accordion Header */
+.clinica .wmaccordion div.wmaccordion-header {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	font-weight: normal;
+	background-color: rgb(255,255,255);
+	background-image: none;
+	filter: none;
+    -webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(252, 252, 252);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+	border-top: solid 1px rgb(51, 51, 51);
+	border-right: solid 1px rgb(51, 51, 51);
+	border-bottom: solid 1px rgb(51, 51, 51);
+	border-left: solid 1px rgb(51, 51, 51);
+/* 	cursor: auto; // THEMER: DISABLED */
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Closed Header */
+.clinica .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+	color: #333333;
+	font-weight: normal;
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Header Hover */
+.clinica div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+/* 	color: #ffffff; // THEMER: DISABLED */
+	background-color: #e7e7e7;
+	background-image: none;
+	filter: none;
+}
+
+
+
+/* GROUP: Accordion Arrow (Selected) */
+.clinica .wmaccordion .accordionArrowNode {
+   float: none !important; /* THEMER: HIDE */
+   position: absolute; /* THEMER: HIDE */
+/* 	right: 5px; // THEMER: DISABLED */
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%; // THEMER: DISABLED */
+}
+.clinica .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+     position: relative; /* THEMER: HIDE */
+     float: none; /* THEMER: HIDE */
+}
+
+/* GROUP: Accordion Arrow (Closed) */
+.clinica .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+/* 	background: url(images/arrowRightDark.png) no-repeat 0% 0%; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Layer Styling */
+.clinica .wmaccordion .wmlayer.wmaccordion-content {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+    background-color: transparent;
+}

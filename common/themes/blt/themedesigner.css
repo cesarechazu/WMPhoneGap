@@ -1,0 +1,1494 @@
+ /***** START SECTION: Main Document *****/
+/* GROUP: Main Document Styles */
+.blt  .wmapproot {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+}
+.blt .wmapproot > .wmpagecontainer,
+.blt.wmapproot > .wmpagecontainer,
+.blt #studio_designer > .wmlayout {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* IE9 has buggy display when combinding both gradients and radius.
+ * Gradients and not radius work on IE8, so we'll just do it the IE 8 way */
+.dj_ie9 .blt div,
+.dj_ie9 .blt input,
+.dj_ie9 .blt button {
+   border-radius: 0px !important; /* THEMER: HIDE */
+}
+/***** END SECTION: Main Document *****//***** START SECTION: Tabs *****/
+/* GROUP: Standard Tab Button */
+.blt .wmtablayers .wmtablayers-tab,
+.blt .wmtablayers button.wmtablayers-verticaltab {
+	font-family: Helvetica, sans-serif;
+	color: #333333;
+	font-weight: normal;
+	font-size: 12px;
+	background-color: rgb(238, 238, 238);
+	background-image: none;
+	filter: none;
+}
+.blt .wmtablayers .wmtablayers-tab {
+
+	height: 24px;
+	margin-left: 4px;
+/* 	border-radius: 8px 8px 0px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 8px 0px 0px; // THEMER: DISABLED */
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+
+	border-top: solid 1px #bbbbbb;
+	border-right: solid 1px rgb(187, 187, 187);
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px rgb(187, 187, 187);
+}
+.dj_ff .blt .wmtablayers .wmtablayers-tab {
+       box-shadow: 0 0 0 black !important; /* THEMER: HIDE */
+}
+/* GROUP: First Tab */
+.blt .wmtablayers-tab:first-child {
+	margin-left: 0px;
+}
+
+
+/* GROUP: Standard Selected Tab Button */
+.blt .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.blt .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.blt .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.blt .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+.blt .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.blt .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+	top: 0px;
+    /* NOTE: To create different values of top for different browsers, use
+     .dj_ie .blt .wmtablayers .wmtablayers-tab.wmtablayers-selected, 
+     .dj_ff .blt .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+     .dj_webkit .blt .wmtablayers .wmtablayers-tab.wmtablayers-selected */
+}
+
+/* GROUP: Tab Button with Focus */
+.blt .wmtablayers .wmtablayers-verticaltab:focus,
+.blt .wmtablayers .wmtablayers-tab:focus {
+/* 	outline: solid 0px ; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Button with Hover */
+.blt .wmtablayers .wmtablayers-tab:hover,
+.blt .wmtablayers .wmtablayers-verticaltab:hover {
+/* 	color: #ffffff; // THEMER: DISABLED */
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+.blt .wmtablayers .wmtablayers-tab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Button with Mouse Down */
+/* NOTE: This does not appear to work in firefox at design time but is fine at runtime */
+.blt .wmtablayers .wmtablayers-tab:active,
+.blt .wmtablayers .wmtablayers-verticaltab:active,
+.blt .wmtablayers .wmtablayers-tab:active:.focus,
+.blt .wmtablayers .wmtablayers-verticaltab:active:focus {
+color: #FFFFFF; 
+background-color: #444444; 
+background-image: none;
+filter: none;
+}
+.blt .wmtablayers .wmtablayers-tab:active,
+.blt .wmtablayers .wmtablayers-tab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+
+
+/* GROUP: Layer Borders */
+.blt .wmtablayers  .wmTabLayers-client > .wmlayer {
+/* 	border-radius: 4px !important; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px !important; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Bar */
+.blt .wmtablayers div.wmtablayers-tabbar {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	margin-top: 0px;
+}
+
+
+
+/* GROUP: Vertical Tab Buttons */
+.blt .wmtablayers button.wmtablayers-verticaltab {
+	font-size: 12px;
+	width: 100%;
+/* 	margin-left: 5%; // THEMER: DISABLED */
+/* 	margin-bottom: 10px; // THEMER: DISABLED */
+/* 	border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+	border-top: solid 1px #bbbbbb;
+	border-right: solid 1px #bbbbbb;
+	border-bottom: solid 1px #bbbbbb;
+	border-left: solid 1px #bbbbbb;
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+}
+
+/* GROUP: First Vertical Tab */
+.blt .wmtablayers .wmtablayers-verticaltab:first-child {
+/* 	margin-top: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab Buttons with Hover */
+.blt .wmtablayers .wmtablayers-verticaltab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Selected Tab Buttons */
+.blt .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+/*  border: solid 1px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab with Mouse Down */
+.blt .wmtablayers .wmtablayers-verticaltab:active,
+.blt .wmtablayers .wmtablayers-verticaltab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+/***** END SECTION: Tabs *****//***** START SECTION: Accordions *****/
+
+/* GROUP: Accordion Header */
+.blt .wmaccordion div.wmaccordion-header {
+	font-family: Helvetica, sans-serif;
+  font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+	background-color: rgb(255,255,255);
+	background-image: none;
+	filter: none;
+    -webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(252, 252, 252);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+	border-top: solid 1px rgb(51, 51, 51);
+	border-right: solid 1px rgb(51, 51, 51);
+	border-bottom: solid 1px rgb(51, 51, 51);
+	border-left: solid 1px rgb(51, 51, 51);
+/* 	cursor: auto; // THEMER: DISABLED */
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Closed Header */
+.blt .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+	color: #333333;
+	font-weight: normal;
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Header Hover */
+.blt div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+/* 	color: #ffffff; // THEMER: DISABLED */
+	background-color: #e7e7e7;
+	background-image: none;
+	filter: none;
+}
+
+
+
+/* GROUP: Accordion Arrow (Selected) */
+.blt .wmaccordion .accordionArrowNode {
+   float: none !important; /* THEMER: HIDE */
+   position: absolute; /* THEMER: HIDE */
+/* 	right: 5px; // THEMER: DISABLED */
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%; // THEMER: DISABLED */
+}
+.blt .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+     position: relative; /* THEMER: HIDE */
+     float: none; /* THEMER: HIDE */
+}
+
+/* GROUP: Accordion Arrow (Closed) */
+.blt .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+/* 	background: url(images/arrowRightDark.png) no-repeat 0% 0%; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Layer Styling */
+.blt .wmaccordion .wmlayer.wmaccordion-content {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+    background-color: transparent;
+}
+
+/***** END SECTION: Accordions *****//***** START SECTION: Titled Panel *****/
+/* GROUP: Container */
+.blt .wmfancypanel .wmFancyPanel-containerWidget {
+    border-top-left-radius: 0px !important; /* THEMER: HIDE */
+    border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-left-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black !important;/* THEMER: HIDE */
+	border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Panel Title */
+.blt .wmfancypanel .wmFancyPanel-labelWidget {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+    color: #FFFFFF;
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+}
+/***** END SECTION: Titled Panel *****//***** START SECTION: Buttons *****/
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.blt .wmbutton,
+.blt button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
+.blt .wmbutton .dijitReset {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.blt .wmbutton {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Hover State */
+ .blt   .wmbutton:hover {
+ 	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+	background-color: #a86464;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Active State */
+/* button.wmbutton required instead of .wmbutton for IE8 */
+.blt   button.wmbutton.toggleButtonDown,
+.blt   .wmbutton.Active,
+.blt   .wmbutton.Active:hover,
+.blt   .wmbutton:active,
+.blt   .wmbutton:hover:active {
+	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #a86464;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.blt   .wmbutton:focus {
+     outline: solid 1px #9999ff;
+}
+
+/* GROUP: Popup Menu */
+.blt .wmbutton.wmPopupButton .popupIcon {
+   background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+   background-position: 0% 50%;
+}
+
+/* GROUP: Disabled Button */
+.blt .Disabled.wmbutton,
+.blt .Disabled.wmbutton:hover,
+.blt .Disabled.wmbutton:active,
+.blt .Disabled.wmbutton:active:hover {
+	color: #fbfbfb;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+  background-color: #333333;
+  background-image: none;
+	opacity: 0.25;
+}
+/***** END SECTION: Buttons *****//***** START SECTION: Toggle Button Panel *****/
+/* GROUP: Toggle Panel */
+.blt .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.blt .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.blt .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.blt .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.blt .wmtogglebuttonpanel .wmbutton {
+/*	font-family: sans-serif; // THEMER: DISABLED */
+/*	font-size: 12px;// THEMER: DISABLED */
+/*	color: #FFFFFF;// THEMER: DISABLED */
+/*	font-weight: bold;// THEMER: DISABLED */
+
+/*	background-color: #333333;// THEMER: DISABLED */
+/*	background-image: none;// THEMER: DISABLED */
+/*	filter: none;// THEMER: DISABLED */
+}
+
+
+/* GROUP: Selected Button */
+.blt .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+/*	font-family: sans-serif;// THEMER: DISABLED */
+/*	font-size: 12px;// THEMER: DISABLED */
+/*	color: #FFFFFF;// THEMER: DISABLED */
+/*	font-weight: bold;// THEMER: DISABLED */
+
+/*	background-color: #333333;// THEMER: DISABLED */
+/*	background-image: none;// THEMER: DISABLED */
+/*	filter: none;// THEMER: DISABLED */
+}
+/***** END SECTION: Toggle Button Panel *****//***** START SECTION: Editors *****/
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dojoxGrid .dijitTextBox,
+.blt .dojoxGrid .dijitComboBox,
+.blt .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitTextBox,
+.blt .wmeditor .dijitTextArea,
+.blt .wmeditor .dijitComboBox,
+.blt .wmeditor .dijitSelect .dijitButtonContents,
+.blt .dijitTimePickerItem,
+.blt .wmeditor .RichTextEditable iframe {
+	border: solid 1px rgb(187, 187, 187);
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #555555;
+	font-weight: normal;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.blt  .wmeditor .dijitTextBox,
+.blt  .wmeditor .dijitTextArea,
+.blt  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.blt  .dojoxGrid .dijitTextBox,
+.blt  .dojoxGrid .dijitTextArea,
+.blt  .dojoxGrid .dijitComboBox
+ {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.blt .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.blt .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitTextBox.dijitHover,
+.blt .wmeditor .dijitTextArea:hover,
+.blt .wmeditor .dijitComboBox.dijitHover,
+.blt .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.blt .wmeditor .RichTextEditable:hover iframe {
+	color: #000000;
+	border: solid 1px #bbbbbb;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dojoxGrid .dijitTextBox.dijitFocused,
+.blt .dojoxGrid .dijitComboBox.dijitFocused,
+.blt .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitTextBox.dijitFocused,
+.blt .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.blt .wmeditor .dijitTextArea.dijitFocused,
+.blt .wmeditor .dijitTextArea.dijitFocused:hover,
+.blt .wmeditor .dijitComboBox.dijitFocused,
+.blt .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.blt .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.blt .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.blt .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.blt .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.blt .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.blt .wmeditor .RichTextEditable.Focused iframe {
+	color: #000000;
+	border: solid 1px #bbbbbb;
+	background-color: #dbd3e1;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: isDirty */
+.blt .isDirty.wmeditor .dijitTextBox,
+.blt .isDirty.wmeditor .dijitTextArea,
+.blt .isDirty.wmeditor .dijitComboBox {
+/* 	color: #ffffff; // THEMER: DISABLED */
+	border: solid 1px rgb(187, 187, 187);
+/* 	background-color: #b98181; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.blt .wmeditor .dijitError.dijitTextBox,
+.blt .wmeditor .dijitError.dijitTextArea,
+.blt .wmeditor .dijitError.dijitComboBox,
+.blt .wmeditor .dijitError.isDirty.dijitTextBox,
+.blt .wmeditor .dijitError.isDirty.dijitTextArea,
+.blt .wmeditor .dijitError.isDirty.dijitComboBox
+{
+	color: #ffffff;
+	border: solid 1px #bbbbbb;
+	background-color: red;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.blt .wmeditor .wmeditor-caption {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+/* GROUP: Read-only */
+.blt .wmeditor .wmeditor-readonlyNode {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+/* 	color: ; // THEMER: DISABLED */
+/* 	font-weight: undefined; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitSpinner .dijitArrowButton,
+.blt .wmeditor .dijitComboBox .dijitArrowButton,
+.blt .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(170, 170, 170)), color-stop(52%,rgb(102, 102, 102)), to(rgb(102, 102, 102)));
+	background-image: -moz-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -o-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -ms-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(170, 170, 170)', endColorstr='rgb(102, 102, 102)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dojoxGrid .dijitComboBox .dijitArrowButton,
+.blt .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.blt .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitComboBox .dijitArrowButton,
+.blt .wmeditor .dijitSelect .dijitArrowButton,
+.blt .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.blt .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.blt .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.blt .wmeditor .dijitSelect .dijitArrowButton:hover {
+/* 		  background-color: rgb(255, 102, 102); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitSpinner .dijitArrowButton:active,
+.blt .wmeditor .dijitComboBox .dijitArrowButton:active,
+.blt .wmeditor .dijitSelect .dijitArrowButton:active {
+/* 		  background-color: rgb(102, 102, 255); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.blt .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.blt .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.blt .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.blt .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+    background-position: 50% 50%;
+	background-image: url(images/comboArrowDownLight.png);
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.blt .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background-position: 30% 30%;
+	background-image: url(images/comboArrowDownLight.png); 
+}
+
+/* GROUP: Spinner Arrows Up */
+.blt .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background-image: url(images/comboArrowUpLight.png);
+}
+
+
+
+/* GROUP: Sliders */
+.blt .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+    outline-width: 0;
+}
+
+/* GROUP: Slider Bar Progress */
+.blt .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.blt .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.blt .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.blt .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.blt .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.blt .wmeditor .dijitSlider .dijitSliderRightBumper,
+.blt .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.blt .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}    
+
+/***** END SECTION: Editors *****//***** START SECTION: Grids *****/
+/* GROUP: Grid Rows */
+.blt .GridListStyle div.dojoxGrid, 
+.blt .GridListStyle .wmlist {
+	font-size: 12px;
+}
+
+.blt .GridListStyle  .wmlist-cell,
+.blt .GridListStyle td.dojoxGridCell {
+	border: solid 0px rgb(153, 153, 153);
+}
+
+.blt .GridListStyle div.dojoxGridRow,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.blt .GridListStyle div.wmlist-item,
+.blt .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+	font-family: Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.blt .GridListStyle div.dojoxGridContent .dojoxGridCell {
+   background-color: transparent; /* THEMER: HIDE */
+}
+
+.blt .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.blt .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+   border: 1px dashed transparent !important; /* THEMER: HIDE */
+}
+
+
+/* GROUP: Odd Numbered Rows */
+.blt .GridListStyle div.dojoxGridRow,
+.blt .GridListStyle div.wmlist-item,
+
+/* Disabled grid rows */
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.blt .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.blt .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.blt .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+
+/* Disabled odd    rows */
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.blt .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.blt .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+	color: #333333;
+	background-color: rgb(252, 252, 252);
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Even Numbered Rows */
+.blt .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.blt .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.blt .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.blt .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.blt .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.blt .GridListStyle .wmlist-item.Odd {
+	color: #333333;
+	background-color: rgb(238, 238, 238);
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Selected Row */
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.blt .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.blt .GridListStyle .wmlist-item.wmlist-item-selected,
+.blt .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.blt .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+	background-color: #6b6b6b;
+	background-image: none;
+	filter: none;
+   color: #FFFFFF;
+}
+
+/* GROUP: Selected Cell */
+.blt .dojoxGridCellFocus {
+	   outline: solid 0px #ae0909;
+    outline-offset: -1px; /* Change this to match outline width (but negative). Not supported by IE */ /* THEMER: HIDE */
+}
+
+/* GROUP: Hover row */
+.blt .GridListStyle .wmlist-item.wmlist-item-over,
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.blt .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.blt .GridListStyle .dojoxGridRowOver a,
+.blt .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+   background-color: #999999;
+   color: #000000;
+}
+
+/* GROUP: Grid Header */
+.blt .GridListStyle .wmlist-header th,
+.blt .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+	font-size: 12px;
+}
+
+.blt .GridListStyle .wmlist-header .wmlist-cell,
+.blt .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+    border-top: solid 0px rgb(251, 251, 251);
+    border-right: solid 1px rgb(170, 170, 170);
+    border-bottom: solid 0px rgb(251, 251, 251);
+    border-left: solid 0px rgb(251, 251, 251);
+}
+
+
+
+.blt .GridListStyle .wmlist-header,
+.blt .GridListStyle div.dojoxGridHeader {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#cccccc), color-stop(100%,#333333), to(#333333));
+	background-image: -moz-linear-gradient(top, #cccccc 0%,#333333 100%,#333333 100%);
+	background-image: -o-linear-gradient(top, #cccccc 0%,#333333 100%,#333333 100%);
+	background-image: -ms-linear-gradient(top, #cccccc 0%,#333333 100%,#333333 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#333333',GradientType=0);
+  border-bottom: solid 1px #666666;
+}
+.blt .GridListStyle .wmlist-header th,
+.blt .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.blt .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
+  background: transparent none !important; /* THEMER: HIDE */
+
+	font-family: Helvetica, sans-serif;
+  color: #e6e6e6;
+	font-weight: normal;
+}
+
+/* GROUP: Grid Cells */
+.blt .GridListStyle .dojoxGridCell,
+.blt .GridListStyle .wmlist-cell {
+    padding: 4px 8px;
+}
+
+/* GROUP: Focused Cell */
+.blt .GridListStyle .dojoxGridCellFocus {
+/*   outline: solid 1px #5b9dd7; // THEMER: DISABLED */
+}
+
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Mobile List */
+.blt .MobileListStyle div.wmlist-item,
+.blt .Disabled.MobileListStyle div.wmlist-item,
+.blt .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+   border-radius: 4px;
+   margin: 5px;
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+   color: #000000;
+   font-family: sans-serif;
+   min-height: 24px;
+}
+
+.blt .wmlist.MobileListStyle td.wmlist-cell {
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 0px;
+}
+
+/* GROUP: Mobile List Hover (Desktop only!) */
+.blt .MobileListStyle div.wmlist-item.wmlist-item-over,
+.blt .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+		background-color: #555555;
+		color: #FFFFFF;
+}
+
+/* GROUP: Mobile List Selected Row */
+.blt .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.blt .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.blt .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.blt .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+		background-color: #333333; 
+		color: #FFFFFF; 
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Grids *****//***** START SECTION: Progress Bar *****/
+/* GROUP: ProgressBar */
+.blt .wmprogressbar .dijitProgressBar {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+/* 	border: solid 1px black; // THEMER: DISABLED */
+}
+
+
+.blt .wmprogressbar .dijitProgressBarLabel {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+		color: #FFFFFF;
+	font-weight: normal;
+}
+
+.blt .wmprogressbar .dijitProgressBar {
+	background-color: #6b6b6b;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Progress Indicator */
+.blt .wmprogressbar .dijitProgressBarFull {
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+/* 	border-radius: 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px; // THEMER: DISABLED */
+/* 	border-top: solid 0px black; // THEMER: DISABLED */
+/* 	border-right: solid 1px black; // THEMER: DISABLED */
+/* 	border-bottom: solid 0px black; // THEMER: DISABLED */
+/* 	border-left: solid 0px black; // THEMER: DISABLED */
+    }
+
+
+.blt .wmprogressbar .dijitProgressBarTile {
+   background-image: inherit; /* THEMER: HIDE */
+   background-color: inherit; /* THEMER: HIDE */
+}
+/***** END SECTION: Progress Bar *****//***** START SECTION: Splitter/Bevel *****/
+/* GROUP: Bevel */
+.blt .wmbevel {
+	background-color: #cccccc;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Splitter */
+/* NOTE: If you use gradients, then you can't use the horizontal and vertical images (which is important) */
+.blt div.wmsplitter-h,
+.blt div.wmsplitter-v {
+	background-color: #cccccc; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Hover */
+.blt div.wmsplitter-h:hover,
+.blt div.wmsplitter-v:hover {
+	background-color: #6b6b6b; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Horizontal Image */
+.blt .wmsplitter-h {
+	background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+
+/* GROUP: Splitter Vertical Image */
+.blt .wmsplitter-v {
+	background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+
+/***** END SECTION: Splitter/Bevel *****//***** START SECTION: Calendar *****/
+/* GROUP: Calendar Cells */
+.blt .dijitCalendarDayLabel,
+.blt .dijitCalendarDateLabel {
+	font-size: 12px;
+}
+
+.blt table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #333333;
+}
+
+.blt .dijitCalendarBodyContainer td {
+	border-top: solid 1px rgb(204, 204, 204);
+	border-right: solid 1px rgb(204, 204, 204);
+	border-bottom: solid 0px rgb(102, 102, 102);
+	border-left: solid 0px rgb(102, 102, 102);
+}
+
+/* GROUP: Selected Cell */
+.blt .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.blt .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+	background-color: #a81919 !important;
+	background-image: none !important;
+	filter: none !important;
+		color: #e2e2d4 !important;
+}
+
+/* GROUP: Hover Cell */
+.blt .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.blt .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.blt .dijitCalendarContainer .dijitCalendarHoveredYear,
+.blt .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.blt .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+	background-color: #e7e7e7 !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #333333;
+}
+
+
+/* GROUP: Dates Not In Month */
+.blt .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.blt .dijitCalendarContainer .dijitCalendarNextMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #ffffff;
+}
+
+/* GROUP: Column Headings */
+.blt .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+	background-color: #eeeeee !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #333333;
+}
+
+/* GROUP: Header */
+.blt tr.dijitCalendarMonthContainer th {    
+	background-color: #333333;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Month Container */
+.blt tr.dijitCalendarMonthContainer th {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #eeeeee;
+    font-weight: bold;
+}
+
+/* GROUP: Month Label */
+.blt tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+    color: #FFFFFF; 
+    font-weight: bold;
+    border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black; /* THEMER: HIDE */
+}
+
+/* GROUP: Outer Widget */
+.blt table.dijitCalendarContainer {
+/* 	border: solid 2px rgb(102, 102, 102); // THEMER: DISABLED */
+
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+
+/***** END SECTION: Calendar *****//***** START SECTION: Links *****/
+/* GROUP: Links */
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.blt .wmapproot a,
+.blt  #wavemakerNode  .wmapproot a,
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.blt .wmapproot a:visited,
+.blt  #wavemakerNode  .wmapproot a:visited {
+	font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  color: #336699;
+  font-weight: bold;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot a:hover,
+.blt  #wavemakerNode  .wmapproot a:hover:visited {
+  color: #336699;
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot a:active,
+.blt  #wavemakerNode  .wmapproot a:hover:active,
+.blt  #wavemakerNode  .wmapproot a:hover:visited:active {
+  color: #336699;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot .Disabled a,
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot .Disabled a:hover,
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot .Disabled a:active,
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.blt .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.blt  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}
+/***** END SECTION: Links *****//***** START SECTION: Dashboard *****/
+/* GROUP: Portlet Titlebar */
+.blt .dojoxPortlet div.dijitTitlePaneTitle {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+
+  min-height: 22px;
+	line-height: 28px;
+  padding-left: 10px;
+}
+
+.blt .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+  color: #333333;
+}
+
+.blt .dojoxPortlet {
+  border: solid 1px #949494;
+/* 	border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+}
+
+.blt .dojoxPortlet div.dijitTitlePaneTitle {
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+  border-bottom: solid 1px #949494;
+}
+
+/* GROUP: Portlet Titlebar Icons */
+.blt .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+  border-color: #333333;
+  width: 16px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+/* GROUP: Portlet Close Icon */
+.blt .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+  background-image: url(images/DialogIconsGray.png);
+  background-position: 0px 0px;
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+/* GROUP: Portlet Close Icon Hover */
+.blt .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+/* background-position: 0px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Minify Icon */
+.blt .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+  background-image: url(images/DialogIconsGray.png);
+  position: relative;
+  top: 3px;
+  height: 16px;
+  background-position: -16px 0px;
+}
+
+/* GROUP: Portlet Minify Icon Hover */
+.blt .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Unminify Icon */
+.blt .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+  background-image: url(images/DialogIconsGray.png);
+  background-position: -32px 0px;
+}
+
+/* GROUP: Portlet Unminify Icon Hover */
+.blt .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+/***** END SECTION: Dashboard *****//***** START SECTION: Dialogs *****/
+/* GROUP: Dialog Frame */
+.blt .wmdialog {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+/* 	box-shadow: 3px 3px 3px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 3px 3px 3px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Dialog Container */
+.blt .wmdialog {
+    background-color: white;
+    background-image: none;
+    filter: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+}
+
+/* GROUP: Dialog Titlebar */
+.blt .dialogtitlebar .wmlabel{
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	font-weight: normal;
+}
+
+.blt .dialogtitlebar {
+	background-color: #e7e7e7;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Titlebar Buttons: Close Button */
+.blt .dialogtitlebar .dialogclosebutton {
+    background-image: url(images/DialogIconsGray.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+/* GROUP: Titlebar Buttons: Minify Button */
+.blt .dialogtitlebar .dialogminifybutton {
+    background-image: url(images/DialogIconsGray.png);
+    background-position: -16px 0px;
+    background-repeat: no-repeat;
+}
+/* GROUP: Titlebar Buttons: Maxify Button */
+.blt .dialogtitlebar .dialogmaxifybutton {
+    background-image: url(images/DialogIconsGray.png);
+    background-position: -32px 0px;
+    background-repeat: no-repeat;
+}
+
+/***** END SECTION: Dialogs *****//***** START SECTION: Dialog Button Bars *****/
+
+/* GROUP: Dialog Footer */
+.blt .dialogfooter,
+.blt .wmpagedialog-controlspanel {
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Dialog Footer Buttons */
+.blt .dialogfooter .wmbutton {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Hover) */
+.blt .dialogfooter .wmbutton:hover {
+    color: #FFFFFF; 
+	background-color: #a86464;
+	background-image: none;
+	filter: none;
+	box-shadow: 0px 0px 0px black;
+	-webkit-box-shadow: 0px 0px 0px black;
+}
+
+/* GROUP: Footer Buttons (Active) */
+.blt .dialogfooter button.wmbutton.toggleButtonDown,
+.blt .dialogfooter .wmbutton.Active,
+.blt .dialogfooter .wmbutton:active,
+.blt .dialogfooter .wmbutton.Active:hover,
+.blt .dialogfooter .wmbutton:active:hover {
+/* 	color: #ffffff; // THEMER: DISABLED */
+/* 	background-color: rgb(68, 68, 68); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+	box-shadow: 0px 0px 0px black;
+	-webkit-box-shadow: 0px 0px 0px black;
+}
+
+
+/***** END SECTION: Dialog Button Bars *****//***** START SECTION: Menus *****/
+/* GROUP: Menu Bar Styling */
+.blt .dojoMenu .dijitMenu,
+.blt .dojoMenu .dijitMenuBar,
+.blt .dojoMenu .dijitMenuItem {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #eeeeee;
+	background-color: #232323;
+	background-image: none;
+	filter: none;
+}
+
+.blt .dojoMenu .dijitMenuBar .dijitMenuItem {
+	margin-right: 0px;
+    margin-left: 0px;
+    height: 28px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* GROUP: Menu Bar Hover */
+.blt .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+	color: #ffffff;
+/* 	background-color: rgb(35, 35, 35); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+	outline: 0px;
+}
+
+/* GROUP: Menu Bar Select */
+.blt .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+
+/* GROUP: Horizontal Menu Bar Icon */
+.blt .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 90% 50% !important; // THEMER: DISABLED */
+	padding-right: 25px !important;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Popup Menu Box */
+.blt .dijitMenuPopup .dijitMenuTable {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.blt .dijitMenuPopup {
+	box-shadow: 3px 3px 4px #6b6b6b;
+	-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+
+/* GROUP: Popup Menu Item */
+.blt .dijitPopup .dijitMenuTable .dijitMenuItem {
+	font-size: 12px;
+	font-family: Helvetica, sans-serif;
+	color: #333333;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 0px #cccccc;
+	border-left: solid 1px #cccccc;
+    height: 28px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+}
+
+/* GROUP: Popup Menu Item Hover/Selected */
+/* NOTE: There is no good way with dojo menus to distinguish between hover and select */
+.blt .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.blt .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+    outline-width: 0;
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Menus *****//***** START SECTION: Combobox Dropdowns *****/
+/* GROUP: ComboBox Drop-down Box */
+.blt .dijitPopup .dijitCalendarMonthMenu,
+.blt  ul.dijitMenu {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	box-shadow: 3px 3px 4px #cccccc;
+	-webkit-box-shadow: 3px 3px 4px #cccccc;
+}
+
+/* GROUP: ComboBox Drop-down Items */
+.blt .dijitPopup .dijitCalendarMonthLabel,
+.blt  ul.dijitMenu .dijitMenuItem {
+    padding: 4px 5px;
+    text-align: left;
+	font-size: 12px;
+	font-family: Helvetica, sans-serif;
+	color: #333333;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 0px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+
+/* GROUP: ComboBox Item Hover */
+.blt .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.blt  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #a81919; /* THEMER: IGNORE */
+	background-image: none; /* THEMER: IGNORE */
+	filter: none; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 0px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+/***** END SECTION: Combobox Dropdowns *****//***** START SECTION: Tool Tips *****/
+/* GROUP: Tool tips */
+.blt .AppToolTip {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+
+  background-color: #FFFECB;
+  background-image: none;
+  filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+  box-shadow: 2px 2px 2px #666;
+}
+/***** END SECTION: Tool Tips *****//***** START SECTION: Toast Dialogs *****/
+/* GROUP: Toast Dialog */
+html.WMApp .blt div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+     -webkit-box-shadow: 3px 4px 4px #222;
+     box-shadow: 3px 4px 4px #222;
+}
+.blt .wmtoast .wmtoastmessage {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #333333;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .blt div.wmtoast.Success.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.blt .wmtoast .wmtoasttitle,
+.blt .wmtoast.Success .wmtoastmessage {
+    color: black;
+}
+
+
+/* GROUP: Success Graphic */
+.blt .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .blt div.wmtoast.Warning.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.blt .wmtoast .wmtoasttitle,
+.blt .wmtoast.Warning .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Warning Graphic */
+.blt .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .blt div.wmtoast.Error.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.blt .wmtoast .wmtoasttitle,
+.blt .wmtoast.Error .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Error Graphic */
+.blt .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .blt div.wmtoast.Info.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.blt .wmtoast .wmtoasttitle,
+.blt .wmtoast.Info .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Info Graphic */
+.blt .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.blt .wmtoast .wmtoasttitle {
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+    color: black;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .blt div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}
+/***** END SECTION: Toast Dialogs *****/

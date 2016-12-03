@@ -1,0 +1,197 @@
+/* GROUP: Grid Rows */
+.linkapp_shamcey .GridListStyle div.dojoxGrid, 
+.linkapp_shamcey .GridListStyle .wmlist {
+	font-size: 1em;
+}
+
+.linkapp_shamcey .GridListStyle  .wmlist-cell,
+.linkapp_shamcey .GridListStyle td.dojoxGridCell {
+	border-style: inherit;
+	border-width: 1px;
+	border-color: rgb(153, 153, 153);
+    border-bottom: 1px solid #e3e3e3;
+/* 	padding: undefined; // THEMER: DISABLED */
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.linkapp_shamcey .GridListStyle div.dojoxGridRow,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.linkapp_shamcey .GridListStyle div.wmlist-item,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+	font-family: Ubuntu, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.linkapp_shamcey .GridListStyle div.dojoxGridContent .dojoxGridCell {
+   background-color: transparent; /* THEMER: HIDE */
+}
+
+.linkapp_shamcey .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.linkapp_shamcey .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+   border: 1px dashed transparent !important; /* THEMER: HIDE */
+}
+
+
+/* GROUP: Odd Numbered Rows */
+.linkapp_shamcey .GridListStyle div.dojoxGridRow,
+.linkapp_shamcey .GridListStyle div.wmlist-item,
+
+/* Disabled grid rows */
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+
+/* Disabled odd    rows */
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+/* 	color: #333333; // THEMER: DISABLED */
+/* 	background-color: rgb(170, 170, 170); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Even Numbered Rows */
+.linkapp_shamcey .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.linkapp_shamcey .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.linkapp_shamcey .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.linkapp_shamcey .GridListStyle .wmlist-item.Odd {
+/* 	color: #1e1c1c; // THEMER: DISABLED */
+	background-color: #f3f3f3;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Selected Row */
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.linkapp_shamcey .GridListStyle .wmlist-item.wmlist-item-selected,
+.linkapp_shamcey .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.linkapp_shamcey .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+	background-color: #dddddd;
+	background-image: none;
+	filter: none;
+/* 	color: #ffffff; // THEMER: DISABLED */
+}
+
+/* GROUP: Selected Cell */
+.linkapp_shamcey .dojoxGridCellFocus {
+/* 	outline: solid 0px ; // THEMER: DISABLED */
+    outline-offset: -1px; /* Change this to match outline width (but negative). Not supported by IE */ /* THEMER: HIDE */
+}
+
+/* GROUP: Hover row */
+.linkapp_shamcey .GridListStyle .wmlist-item.wmlist-item-over,
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.linkapp_shamcey .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapp_shamcey .GridListStyle .dojoxGridRowOver a,
+.linkapp_shamcey .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+	background-color: #dddddd;
+	background-image: none;
+	filter: none;
+	color: #000000;
+}
+
+/* GROUP: Grid Header */
+.linkapp_shamcey .GridListStyle .wmlist-header th,
+.linkapp_shamcey .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+	cursor: pointer;
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(170, 170, 170);
+	border-bottom: solid 0px rgb(102, 102, 102);
+	border-left: solid 0px rgb(251, 251, 251);
+	font-weight: bold;
+    text-align: left;
+	font-size: 1em;
+    text-transform: uppercase;
+    padding: 2px 4px;
+	height: 32px;
+}
+
+.linkapp_shamcey .GridListStyle .wmlist-header .wmlist-cell,
+.linkapp_shamcey .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+}
+
+
+
+.linkapp_shamcey .GridListStyle .wmlist-header,
+.linkapp_shamcey .GridListStyle div.dojoxGridHeader {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(77%,#d2d2d2), to(#d2d2d2));
+	background-image: -moz-linear-gradient(top, #ffffff 0%,#d2d2d2 77%,#d2d2d2 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%,#d2d2d2 77%,#d2d2d2 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%,#d2d2d2 77%,#d2d2d2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d2d2d2',GradientType=0);
+}
+.linkapp_shamcey .GridListStyle .wmlist-header th,
+.linkapp_shamcey .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.linkapp_shamcey .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
+  background: transparent none !important; /* THEMER: HIDE */
+
+	font-family: Ubuntu, Helvetica, sans-serif;
+	color: #3a3939;
+	font-weight: normal;
+}
+
+/* GROUP: Grid Cells */
+.linkapp_shamcey .GridListStyle .dojoxGridCell,
+.linkapp_shamcey .GridListStyle .wmlist-cell {
+    padding: 4px 8px;
+}
+
+/* GROUP: Focused Cell */
+.linkapp_shamcey .GridListStyle .dojoxGridCellFocus {
+/*   outline: solid 1px #5b9dd7; // THEMER: DISABLED */
+}
+
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Mobile List */
+.linkapp_shamcey .MobileListStyle div.wmlist-item,
+.linkapp_shamcey .Disabled.MobileListStyle div.wmlist-item,
+.linkapp_shamcey .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+   border-radius: 4px;
+   margin: 5px;
+	background-color: #0866c6;
+	background-image: none;
+	filter: none;
+	color: #d2d2d2;
+	font-family: Ubuntu, Helvetica, sans-serif;
+   min-height: 24px;
+}
+
+.linkapp_shamcey .wmlist.MobileListStyle td.wmlist-cell {
+    border-style: solid;
+    border-color: #AAAAAA;
+    border-width: 0px;
+}
+
+/* GROUP: Mobile List Hover (Desktop only!) */
+.linkapp_shamcey .MobileListStyle div.wmlist-item.wmlist-item-over,
+.linkapp_shamcey .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+		background-color: #555555;
+		color: #FFFFFF;
+}
+
+/* GROUP: Mobile List Selected Row */
+.linkapp_shamcey .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.linkapp_shamcey .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.linkapp_shamcey .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.linkapp_shamcey .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+		background-color: #333333; 
+		color: #FFFFFF; 
+}
+/* THEMER: DO NOT SUBCLASS END */

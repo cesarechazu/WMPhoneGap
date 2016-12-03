@@ -1,0 +1,111 @@
+/* GROUP: Toast Dialog */
+html.WMApp .dgr div.wmtoast.wmtoastExtraSpecific {
+	background-color: #505050;
+	background-image: none;
+	filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 4px 4px 8px #222;
+	-webkit-box-shadow: 4px 4px 8px #222;
+}
+.dgr .wmtoast .wmtoastmessage {
+/* 	font-family: Helvetica, sans-serif; // THEMER: DISABLED */
+	font-size: 1em;
+	color: #333333;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .dgr div.wmtoast.Success.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.dgr .wmtoast .wmtoasttitle,
+.dgr .wmtoast.Success .wmtoastmessage {
+	color: #505050;
+}
+
+
+/* GROUP: Success Graphic */
+.dgr .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .dgr div.wmtoast.Warning.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.dgr .wmtoast .wmtoasttitle,
+.dgr .wmtoast.Warning .wmtoastmessage {
+	color: #505050;
+}
+
+/* GROUP: Warning Graphic */
+.dgr .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .dgr div.wmtoast.Error.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.dgr .wmtoast .wmtoasttitle,
+.dgr .wmtoast.Error .wmtoastmessage {
+	color: #a02828;
+}
+
+/* GROUP: Error Graphic */
+.dgr .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .dgr div.wmtoast.Info.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.dgr .wmtoast .wmtoasttitle,
+.dgr .wmtoast.Info .wmtoastmessage {
+	color: #505050;
+}
+
+/* GROUP: Info Graphic */
+.dgr .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.dgr .wmtoast .wmtoasttitle {
+/* 	font-family: Helvetica, sans-serif; // THEMER: DISABLED */
+	font-size: 1.3em;
+    color: black;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .dgr div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}

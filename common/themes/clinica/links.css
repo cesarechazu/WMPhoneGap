@@ -1,0 +1,43 @@
+/* GROUP: Links */
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.clinica .wmapproot a,
+.clinica  #wavemakerNode  .wmapproot a,
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.clinica .wmapproot a:visited,
+.clinica  #wavemakerNode  .wmapproot a:visited {
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+  color: #336699;
+	font-weight: normal;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot a:hover,
+.clinica  #wavemakerNode  .wmapproot a:hover:visited {
+  color: #336699;
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot a:active,
+.clinica  #wavemakerNode  .wmapproot a:hover:active,
+.clinica  #wavemakerNode  .wmapproot a:hover:visited:active {
+  color: #336699;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot .Disabled a,
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot .Disabled a:hover,
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot .Disabled a:active,
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.clinica .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.clinica  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}

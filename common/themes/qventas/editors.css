@@ -1,0 +1,236 @@
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dojoxGrid .dijitTextBox,
+.qventas .dojoxGrid .dijitComboBox,
+.qventas .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitTextBox,
+.qventas .wmeditor .dijitTextArea,
+.qventas .wmeditor .dijitComboBox,
+.qventas .wmeditor .dijitSelect .dijitButtonContents,
+.qventas .dijitTimePickerItem,
+.qventas .wmeditor .RichTextEditable iframe {
+	border: solid 1px #a8a8a8;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #474747;
+	font-weight: normal;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+/* 	padding: 0px ; // THEMER: DISABLED */
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.qventas  .wmeditor .dijitTextBox,
+.qventas  .wmeditor .dijitTextArea,
+.qventas  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas  .dojoxGrid .dijitTextBox,
+.qventas  .dojoxGrid .dijitTextArea,
+.qventas  .dojoxGrid .dijitComboBox
+ {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.qventas .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.qventas .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitTextBox.dijitHover,
+.qventas .wmeditor .dijitTextArea:hover,
+.qventas .wmeditor .dijitComboBox.dijitHover,
+.qventas .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.qventas .wmeditor .RichTextEditable:hover iframe {
+	color: #505050;
+	border: solid 1px #0866c6;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dojoxGrid .dijitTextBox.dijitFocused,
+.qventas .dojoxGrid .dijitComboBox.dijitFocused,
+.qventas .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitTextBox.dijitFocused,
+.qventas .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.qventas .wmeditor .dijitTextArea.dijitFocused,
+.qventas .wmeditor .dijitTextArea.dijitFocused:hover,
+.qventas .wmeditor .dijitComboBox.dijitFocused,
+.qventas .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.qventas .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.qventas .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.qventas .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.qventas .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.qventas .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.qventas .wmeditor .RichTextEditable.Focused iframe {
+	color: #505050;
+	border: solid 1px #0866c6;
+	background-color: rgb(250, 250, 250);
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: isDirty */
+.qventas .isDirty.wmeditor .dijitTextBox,
+.qventas .isDirty.wmeditor .dijitTextArea,
+.qventas .isDirty.wmeditor .dijitComboBox {
+/* 	color: #ffffff; // THEMER: DISABLED */
+	border: solid 1px #a8a8a8;
+/* 	background-color: #b98181; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.qventas .wmeditor .dijitError.dijitTextBox,
+.qventas .wmeditor .dijitError.dijitTextArea,
+.qventas .wmeditor .dijitError.dijitComboBox,
+.qventas .wmeditor .dijitError.isDirty.dijitTextBox,
+.qventas .wmeditor .dijitError.isDirty.dijitTextArea,
+.qventas .wmeditor .dijitError.isDirty.dijitComboBox
+{
+	color: #ffffff;
+	border: solid 1px #a8a8a8;
+	background-color: #c90909;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.qventas .wmeditor .wmeditor-caption {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #474747;
+	font-weight: normal;
+}
+
+/* GROUP: Read-only */
+.qventas .wmeditor .wmeditor-readonlyNode {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+    border: solid 1px #a8a8a8;
+/* 	color: ; // THEMER: DISABLED */
+/* 	font-weight: undefined; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitSpinner .dijitArrowButton,
+.qventas .wmeditor .dijitComboBox .dijitArrowButton,
+.qventas .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dojoxGrid .dijitComboBox .dijitArrowButton,
+.qventas .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.qventas .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitComboBox .dijitArrowButton,
+.qventas .wmeditor .dijitSelect .dijitArrowButton,
+.qventas .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.qventas .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.qventas .wmeditor .dijitSelect .dijitArrowButton:hover {
+/* 		  background-color: rgb(255, 102, 102); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitSpinner .dijitArrowButton:active,
+.qventas .wmeditor .dijitComboBox .dijitArrowButton:active,
+.qventas .wmeditor .dijitSelect .dijitArrowButton:active {
+/* 		  background-color: rgb(102, 102, 255); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.qventas .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+
+/* GROUP: Spinner Arrows Up */
+.qventas .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+
+
+
+/* GROUP: Sliders */
+.qventas .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+    outline-width: 0;
+}
+
+/* GROUP: Slider Bar Progress */
+.qventas .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.qventas .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #0866c6;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.qventas .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.qventas .wmeditor .dijitSlider .dijitSliderRightBumper,
+.qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #dcdcdc;
+	background-image: none;
+	filter: none;
+}    

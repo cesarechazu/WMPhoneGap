@@ -1,0 +1,65 @@
+
+/* GROUP: Accordion Header */
+.linkapp_shamcey .wmaccordion div.wmaccordion-header {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #222222;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#d2d2d2), color-stop(49%,rgb(160, 160, 160)), to(rgb(160, 160, 160)));
+	background-image: -moz-linear-gradient(top, #d2d2d2 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	background-image: -o-linear-gradient(top, #d2d2d2 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	background-image: -ms-linear-gradient(top, #d2d2d2 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d2d2', endColorstr='rgb(160, 160, 160)',GradientType=0);
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Closed Header */
+.linkapp_shamcey .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+	color: #222222;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(49%,rgb(160, 160, 160)), to(rgb(160, 160, 160)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(160, 160, 160)',GradientType=0);
+}
+
+/* GROUP: Header Hover */
+.linkapp_shamcey div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+	color: #222222;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(49%,rgb(160, 160, 160)), to(rgb(160, 160, 160)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(160, 160, 160) 49%,rgb(160, 160, 160) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(160, 160, 160)',GradientType=0);
+}
+
+
+
+/* GROUP: Accordion Arrow (Selected) */
+.linkapp_shamcey .wmaccordion .accordionArrowNode {
+   float: none !important; /* THEMER: HIDE */
+   position: absolute; /* THEMER: HIDE */
+/* 	right: 5px; // THEMER: DISABLED */
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%; // THEMER: DISABLED */
+}
+.linkapp_shamcey .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+     position: relative; /* THEMER: HIDE */
+     float: none; /* THEMER: HIDE */
+}
+
+/* GROUP: Accordion Arrow (Closed) */
+.linkapp_shamcey .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+/* 	background: url(images/arrowRightDark.png) no-repeat 0% 0%; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Layer Styling */
+.linkapp_shamcey .wmaccordion .wmlayer.wmaccordion-content {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}

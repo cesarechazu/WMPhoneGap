@@ -1,0 +1,49 @@
+/* GROUP: Toggle Panel */
+.clinica .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.clinica .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.clinica .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.clinica .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.clinica .wmtogglebuttonpanel .wmbutton {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 1em;
+/*	color: #FFFFFF;// THEMER: DISABLED */
+/*	font-weight: bold;// THEMER: DISABLED */
+
+/*	background-color: #333333;// THEMER: DISABLED */
+/*	background-image: none;// THEMER: DISABLED */
+/*	filter: none;// THEMER: DISABLED */
+}
+
+
+/* GROUP: Selected Button */
+.clinica .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 1em;
+/*	color: #FFFFFF;// THEMER: DISABLED */
+/*	font-weight: bold;// THEMER: DISABLED */
+
+	background-color: #a51919;
+	background-image: none;
+	filter: none;
+}

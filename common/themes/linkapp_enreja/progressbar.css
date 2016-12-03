@@ -1,0 +1,40 @@
+/* GROUP: ProgressBar */
+.linkapp_enreja .wmprogressbar .dijitProgressBar {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+/* 	border: solid 1px black; // THEMER: DISABLED */
+}
+
+
+.linkapp_enreja .wmprogressbar .dijitProgressBarLabel {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+		color: #FFFFFF;
+	font-weight: normal;
+}
+
+.linkapp_enreja .wmprogressbar .dijitProgressBar {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Progress Indicator */
+.linkapp_enreja .wmprogressbar .dijitProgressBarFull {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+/* 	border-radius: 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px 0px; // THEMER: DISABLED */
+/* 	border-top: solid 0px black; // THEMER: DISABLED */
+/* 	border-right: solid 1px black; // THEMER: DISABLED */
+/* 	border-bottom: solid 0px black; // THEMER: DISABLED */
+/* 	border-left: solid 0px black; // THEMER: DISABLED */
+    }
+
+
+.linkapp_enreja .wmprogressbar .dijitProgressBarTile {
+   background-image: inherit; /* THEMER: HIDE */
+   background-color: inherit; /* THEMER: HIDE */
+}

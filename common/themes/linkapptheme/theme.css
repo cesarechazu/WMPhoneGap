@@ -1,0 +1,2115 @@
+@import url("custom.css");
+body .linkapptheme input:focus,
+.linkapptheme button, .linkapptheme button:focus {
+outline-width: 0 !important;
+}
+@media screen {
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .EmphasizedContent a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .EmphasizedContent a:visited,
+#studio_designer.linkapptheme .wmlayout .EmphasizedContent a,
+#studio_designer.linkapptheme .wmlayout .EmphasizedContent a:visited,
+.linkapptheme #wavemakerNode .wmlayout .EmphasizedContent a,
+.linkapptheme #wavemakerNode .wmlayout .EmphasizedContent a:visited,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .MainContent .EmphasizedContent a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .MainContent .EmphasizedContent a:visited,
+#studio_designer.linkapptheme .wmlayout .MainContent .EmphasizedContent a,
+#studio_designer.linkapptheme .wmlayout .MainContent .EmphasizedContent a:visited,
+.linkapptheme #wavemakerNode .wmlayout .MainContent .EmphasizedContent a,
+.linkapptheme #wavemakerNode .wmlayout .MainContent .EmphasizedContent a:visited {
+color: #000000;
+}
+}
+@media screen {
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .HeaderContent a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .HeaderContent a:visited,
+#studio_designer.linkapptheme .wmlayout .HeaderContent a,
+#studio_designer.linkapptheme .wmlayout .HeaderContent a:visited,
+.linkapptheme #wavemakerNode .wmlayout .HeaderContent a,
+.linkapptheme #wavemakerNode .wmlayout .HeaderContent a:visited {
+color: #444444;
+}
+}
+@media screen {
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .MainContent a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .linkapptheme .wmlayout .MainContent a:visited,
+#studio_designer.linkapptheme .wmlayout .MainContent a,
+#studio_designer.linkapptheme .wmlayout .MainContent a:visited,
+.linkapptheme #wavemakerNode .wmlayout .MainContent a,
+.linkapptheme #wavemakerNode  .wmlayout .MainContent a:visited {
+color: #674c4c;
+}
+}
+@media screen {
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .wmlayout a,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .wmlayout a:visited,
+#studio_designer.linkapptheme .wmlayout a,
+#studio_designer.linkapptheme .wmlayout a:visited,
+.linkapptheme  #wavemakerNode  .wmlayout a,
+.linkapptheme  #wavemakerNode  .wmlayout a:visited {
+color: #674c4c;
+font-weight: bold;
+}
+}
+@media screen {
+.linkapptheme .wmtogglebuttonpanel .wmbutton:first-child {
+-webkit-border-top-left-radius: 1px !important;
+-webkit-border-bottom-left-radius: 1px !important;
+-moz-border-radius-topleft: 1px !important;
+-moz-border-radius-bottomleft: 1px !important;
+border-top-left-radius: 1px !important;
+border-bottom-left-radius: 1px !important;
+}
+.linkapptheme .wmtogglebuttonpanel .wmbutton:last-child {
+-moz-border-radius-topright: 1px !important;
+-moz-border-radius-bottomright: 1px !important;
+-webkit-border-top-right-radius: 1px !important;
+-webkit-border-bottom-right-radius: 1px !important;
+border-top-right-radius: 1px !important;
+border-bottom-right-radius: 1px !important;
+}
+.linkapptheme .wmtogglebuttonpanel .wmbutton {
+-moz-border-radius-topright: 0px !important;
+-moz-border-radius-bottomright: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+-webkit-border-bottom-right-radius: 0px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+.linkapptheme .wmtogglebuttonpanel,
+.linkapptheme   .wmbutton,
+.linkapptheme   .wmtogglebutton,
+.linkapptheme   .wmroundedbutton,
+.linkapptheme   .wmbutton.wmbutton-disabled:hover,
+.linkapptheme   .wmbutton.wmbutton-disabled:focus
+{
+font-family: Arial;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dj_ie6 .linkapptheme .wmbutton {
+background-image: none !important;
+}
+.linkapptheme .wmbutton span {
+font-weight: bold;
+}
+.linkapptheme   .wmbutton.toggleButtonDown {
+color: #000000;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme   .wmbutton.Active,
+.linkapptheme   .wmbutton:active,
+.linkapptheme   .wmbutton:hover,
+.linkapptheme   .wmbutton:focus,
+.linkapptheme   .wmroundedbutton:hover,
+.linkapptheme   .wmroundedbutton:focus {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/greyThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+}
+@media screen {
+.linkapptheme .MainContent  .wmbutton,
+.linkapptheme .MainContent  .wmtogglebutton,
+.linkapptheme .MainContent  .wmroundedbutton,
+.linkapptheme .MainContent  .wmbutton.wmbutton-disabled:hover,
+.linkapptheme .MainContent  .wmbutton.wmbutton-disabled:focus
+{
+font-family: sans-serif;
+font-size: 8pt;
+color: #333333;
+font-weight: bold;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+background-color: #cccccc;
+background-image: url(images/repeatx/greyThickEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .wmbutton span {
+font-weight: bold;
+}
+.linkapptheme .MainContent  .wmbutton.toggleButtonDown {
+color: #ffffff;
+background-color: #007cc2;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme .MainContent  .wmbutton:hover,
+.linkapptheme .MainContent  .wmbutton:focus,
+.linkapptheme .MainContent  .wmroundedbutton:hover,
+.linkapptheme .MainContent  .wmroundedbutton:focus {
+color: #ffffff;
+background-color: #444444;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 1px 1px 1px #444444;
+-webkit-box-shadow: 1px 1px 1px #444444;
+box-shadow: 1px 1px 1px #444444;
+}
+}
+@media screen {
+.linkapptheme .EmphasizedContent  .wmbutton,
+.linkapptheme .EmphasizedContent  .wmtogglebutton,
+.linkapptheme .EmphasizedContent  .wmroundedbutton,
+.linkapptheme .EmphasizedContent  .wmbutton.wmbutton-disabled:hover,
+.linkapptheme .EmphasizedContent  .wmbutton.wmbutton-disabled:focus
+{
+font-family: Verdana;
+font-size: 10pt;
+color: #FFFFFF;
+font-weight: bold;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-moz-box-shadow: 3px 3px 3px #444444;
+-webkit-box-shadow: 3px 3px 3px #444444;
+box-shadow: 3px 3px 3px #444444;
+background-color: #333333;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .wmbutton span {
+font-weight: bold;
+}
+.linkapptheme .EmphasizedContent  .wmbutton.toggleButtonDown {
+color: #ffffff;
+background-color: #575757;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme .EmphasizedContent  .wmbutton:hover,
+.linkapptheme .EmphasizedContent  .wmbutton:focus,
+.linkapptheme .EmphasizedContent  .wmroundedbutton:hover,
+.linkapptheme .EmphasizedContent  .wmroundedbutton:focus {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 1px 1px 1px #444444;
+-webkit-box-shadow: 1px 1px 1px #444444;
+box-shadow: 1px 1px 1px #444444;
+}
+}
+@media screen {
+.linkapptheme .HeaderContent  .wmbutton,
+.linkapptheme .HeaderContent  .wmtogglebutton,
+.linkapptheme .HeaderContent  .wmroundedbutton,
+.linkapptheme .HeaderContent  .wmbutton.wmbutton-disabled:hover,
+.linkapptheme .HeaderContent  .wmbutton.wmbutton-disabled:focus
+{
+font-family: Verdana;
+font-size: 10pt;
+color: #FFFFFF;
+font-weight: bold;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-moz-box-shadow: 3px 3px 3px #444444;
+-webkit-box-shadow: 3px 3px 3px #444444;
+box-shadow: 3px 3px 3px #444444;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmbutton span {
+font-weight: bold;
+}
+.linkapptheme .HeaderContent  .wmbutton.toggleButtonDown {
+color: #ffffff;
+background-color: #999999;
+background-image: url(images/repeatx/greyThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme .HeaderContent  .wmbutton:hover,
+.linkapptheme .HeaderContent  .wmbutton:focus,
+.linkapptheme .HeaderContent  .wmroundedbutton:hover,
+.linkapptheme .HeaderContent  .wmroundedbutton:focus {
+color: #ffffff;
+background-color: #333333;
+background-image: url(images/repeatx/brightSliverEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+}
+.linkapptheme .wmPopupButton .popupIcon {
+background-image: url(images/comboArrowDownLight.png) !important;
+}
+.linkapptheme .dijitCalendarDayLabel,
+.linkapptheme .dijitCalendarDateLabel {
+font-size: 7px;
+}
+.linkapptheme tr.dijitCalendarMonthContainer th {
+font-family: Arial;
+font-size: 10px;
+color: #ffffff;
+font-weight: bold;
+background-color: #a6a6a6;
+background-image: none;
+}
+.dj_ie6 .linkapptheme tr.dijitCalendarMonthContainer th {
+background-image: none !important;
+}
+.dj_ie6 .linkapptheme .dijitCalendarArrow img {
+background-color: white !important;
+}
+.linkapptheme tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+font-family: Arial;
+font-size: 10px;
+color: #ffffff;
+font-weight: bold;
+border-width: 0px;
+-moz-box-shadow: 0px 0px 0px black;
+-webkit-box-shadow: 0px 0px 0px black;
+box-shadow: 0px 0px 0px black;
+}
+.linkapptheme table.dijitCalendarContainer {
+border-color: #999999;
+border-style: solid;
+border-width: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.linkapptheme table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+background-color: #ffffff !important;
+color: #000000 !important;
+}
+.linkapptheme .dijitCalendarBodyContainer td {
+border-style: solid;
+border-color: #999999;
+border-right-width: 1px;
+border-top-width: 1px;
+border-left-width: 0px;
+border-bottom-width: 0px;
+}
+.linkapptheme .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.linkapptheme .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+background-color: #666666 !important;
+color: #000000 !important;
+}
+.linkapptheme .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.linkapptheme .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.linkapptheme .dijitCalendarContainer .dijitCalendarHoveredYear,
+.linkapptheme .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.linkapptheme .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+background-color: #666666 !important;
+color: #ffffff !important;
+}
+.linkapptheme tr.dijitCalendarMonthContainer th .dijitCalendarPreviousYear,
+.linkapptheme tr.dijitCalendarMonthContainer th .dijitCalendarNextYear,
+.linkapptheme tr.dijitCalendarMonthContainer th .dijitCalendarCurrentMonthLabel {
+padding: 2px 5px;
+border-width: 1px;
+border-color: #000000;
+border: solid 1px white;
+}
+.linkapptheme .dijitCalendarContainer {
+background-color: #ffffff;
+}
+.linkapptheme .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.linkapptheme .dijitCalendarContainer .dijitCalendarNextMonth,
+.linkapptheme .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+background-color: #f0eeee !important;
+background-image: none;
+color: #674c4c;
+}
+.linkapptheme .dijitCalendarDayLabelTemplate {
+border-style: solid;
+border-color: #999999;
+border-right-width: 1px;
+}
+.linkapptheme .wmdialog {
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+-moz-box-shadow: 3px 3px 3px black;
+-webkit-box-shadow: 3px 3px 3px black;
+box-shadow: 3px 3px 3px black;
+}
+.linkapptheme .dialogtitlebar .wmlabel{
+font-family: Arial;
+font-size: 8pt;
+color: #0a0a0a;
+font-weight: bold;
+}
+.linkapptheme .dialogtitlebar {
+background-color: #f0eeee;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dj_ie6 .linkapptheme .dialogtitlebar {
+background-image: none !important;
+}
+.linkapptheme .dialogtitlebar {
+-moz-border-radius-topleft: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-top-left-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-top-left-radius: 2px;
+border-top-right-radius: 2px;
+}
+.linkapptheme .dialogfooter,
+.linkapptheme .wmpagedialog-controlspanel {
+font-family: Arial;
+font-size: 8pt;
+color: #0a0a0a;
+font-weight: bold;
+background-color: #f0eeee;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius-bottomleft: 2px;
+-moz-border-radius-bottomright: 2px;
+-webkit-border-bottom-left-radius: 2px;
+-webkit-border-bottom-right-radius: 2px;
+border-radius-bottomleft: 2px;
+border-radius-bottomright: 2px;
+}
+body.linkapptheme .dialogtitlebar .wmbutton,
+body .linkapptheme .dialogtitlebar .wmbutton {
+background-color: #c6d3d7;
+background-image: url(images/repeatx/brightEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+color: #000000;
+font-size: 12pt !important;
+font-weight: normal !important;
+padding: 2px 0px 0px 2px !important;
+font-family: sans-serif !important;
+-moz-border-radius: 0px !important;
+-webkit-border-radius: 0px !important;
+border-radius: 0px !important;
+-moz-box-shadow: 2px 2px 2px #444444;
+-webkit-box-shadow: 2px 2px 2px #444444;
+box-shadow: 2px 2px 2px #444444;
+}
+body.linkapptheme .dialogfooter .wmbutton,
+body .linkapptheme .dialogfooter .wmbutton {
+font-family: Arial;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+body.linkapptheme .dialogtitlebar .wmbutton:hover,
+body .linkapptheme .dialogtitlebar .wmbutton:hover {
+color: #000000;
+background-color: #86a2ac;
+background-image: url(images/repeatx/brightEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-box-shadow: 1px 1px 1px #000000;
+-webkit-box-shadow: 1px 1px 1px #000000;
+box-shadow: 1px 1px 1px #000000;
+}
+body.linkapptheme .dialogfooter .wmbutton.toggleButtonDown,
+body .linkapptheme .dialogfooter .wmbutton.toggleButtonDown,
+body.linkapptheme .dialogfooter .wmbutton:hover,
+body .linkapptheme .dialogfooter .wmbutton:hover {
+color: #ffffff;
+background-color: #666666;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+`
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme .dialogtitlebar .dialogminifybutton {
+background-position: -16px;
+}
+.linkapptheme .dialogtitlebar .dialogmaxifybutton {
+background-position: -32px;
+}
+.linkapptheme .dialogtitlebar .dialogmaxifybutton,
+.linkapptheme .dialogtitlebar .dialogclosebutton,
+.linkapptheme .dialogtitlebar .dialogminifybutton {
+background-image: url(images/dialogIconsGray.png) !important;
+background-repeat: no-repeat;
+}
+.linkapptheme .wmeditor .dijitTextBox.dijitFocused,
+.linkapptheme .wmeditor .dijitTextArea.dijitFocused,
+.linkapptheme .wmeditor .dijitComboBox.dijitFocused,
+.linkapptheme .wmeditor .dijitSelect.dijitFocused {
+outline-width: 0 !important;
+}
+.linkapptheme  .wmeditor .dijitTextBox,
+.linkapptheme  .wmeditor .dijitTextArea,
+.linkapptheme  .wmeditor .dijitComboBox,
+.linkapptheme  .dojoxGrid .dijitTextBox,
+.linkapptheme  .dojoxGrid .dijitTextArea,
+.linkapptheme  .dojoxGrid .dijitComboBox
+{
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+}
+.linkapptheme  .wmeditor .dijitSelect .dijitButtonContents {
+-moz-border-radius-bottomleft: 1px;
+-moz-border-radius-topleft: 1px;
+-webkit-border-top-left-radius: 1px;
+-webkit-border-bottom-left-radius: 1px;
+border-top-left-radius: 1px;
+border-bottom-left-radius: 1px;
+border-right: solid 0px transparent !important;
+display:block;
+}
+.linkapptheme .wmeditor.wmrichtext {
+-moz-border-radius-bottomleft: 1px;
+-moz-border-radius-bottomright: 1px;
+-webkit-border-bottom-left-radius: 1px;
+-webkit-border-bottom-right-radius: 1px;
+border-bottom-left-radius: 1px;
+border-bottom-right-radius: 1px;
+}
+.linkapptheme .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapptheme .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapptheme .wmeditor .dijitSelect .dijitArrowButton {
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-bottom-right-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-radius-bottomright: 2px;
+border-radius-topright: 2px;
+}
+.linkapptheme .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapptheme .wmeditor .dijitSelect .dijitArrowButton {
+height: 100% !important;
+}
+.linkapptheme .dijitComboBox .dijitArrowButton .dijitArrowButtonInner {
+height: 100% !important;
+}
+.linkapptheme .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapptheme .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+background-position: 50% 50%;
+background-image: url(images/comboArrowDownLight.png);
+-moz-border-radius-bottomright: 2px;
+-moz-border-radius-topright: 2px;
+-webkit-border-bottom-right-radius: 2px;
+-webkit-border-top-right-radius: 2px;
+border-radius-bottomright: 2px;
+border-radius-topright: 2px;
+}
+.linkapptheme .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+background-position: 30% 30%;
+background-image: url(images/comboArrowDownDark.png);
+}
+.linkapptheme .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+background-image: url(images/comboArrowUpDark.png);
+}
+.linkapptheme .dijitSlider .dijitProgressBarLabel {
+color: white;
+}
+.linkapptheme .dijitSlider .dijitSliderImageHandleH {
+background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+outline-width: 0;
+}
+@media screen {
+.linkapptheme .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapptheme .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapptheme .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapptheme .wmeditor .dijitSelect .dijitArrowButton {
+background-color: #a6a6a6;
+background-image: none;
+}
+.linkapptheme .wmeditor .wmeditor-caption {
+font-family: Arial;
+font-size: 8pt;
+color: #674c4c;
+font-weight: bold;
+}
+.linkapptheme .wmeditor .wmeditor-readonlyNode {
+font-family: Arial;
+font-size: 8pt;
+color: #8d8383;
+font-weight: normal;
+}
+.linkapptheme .dojoxGrid .dijitTextBox,
+.linkapptheme .dojoxGrid .dijitComboBox,
+.linkapptheme .dojoxGrid .dijitSelect .dijitButtonContents,
+.linkapptheme .wmeditor .dijitTextBox,
+.linkapptheme .wmeditor .dijitTextArea,
+.linkapptheme .wmeditor .dijitComboBox,
+.linkapptheme .wmeditor .dijitSelect .dijitButtonContents,
+.linkapptheme .dijitTimePickerItem,
+.linkapptheme .wmeditor .RichTextEditable iframe {
+border-color: #999999;
+border-width: 1px;
+font-family: Arial;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .linkapptheme .wmeditor .dijitTextBox,
+.dj_ie6 .linkapptheme .wmeditor .dijitTextArea,
+.dj_ie6 .linkapptheme .wmeditor .dijitComboBox,
+.dj_ie6 .linkapptheme .dijitTimePickerItem,
+.dj_ie6 .linkapptheme .wmeditor .RichTextEditable iframe {
+background-image: none !important;
+}
+.linkapptheme .wmeditor .dijitTextBox.dijitHover,
+.linkapptheme .wmeditor .dijitTextArea:hover,
+.linkapptheme .wmeditor .dijitComboBox.dijitHover,
+.linkapptheme .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapptheme .wmeditor .RichTextEditable:hover iframe,
+.linkapptheme .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapptheme .dijitTimePickerItem.dijitTimePickerItemHover {
+color: #000000;
+border-color: #999999;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.linkapptheme .dojoxGrid .dijitTextBox.dijitFocused,
+.linkapptheme .dojoxGrid .dijitComboBox.dijitFocused,
+.linkapptheme .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapptheme .wmeditor .dijitTextBox.dijitFocused,
+.linkapptheme .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapptheme .wmeditor .dijitTextArea.dijitFocused,
+.linkapptheme .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapptheme .wmeditor .dijitComboBox.dijitFocused,
+.linkapptheme .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapptheme .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapptheme .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapptheme .isDirty.wmeditor .dijitTextBox,
+.linkapptheme .isDirty.wmeditor .dijitTextArea,
+.linkapptheme .isDirty.wmeditor .dijitComboBox,
+.linkapptheme .isDirty.wmeditor .dijitSelect .dijitButtonContents,
+.linkapptheme .wmeditor .RichTextEditable.Focused iframe {
+color: #000000;
+border-color: #999999;
+background-color: #ffffff;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+@media screen {
+.linkapptheme .MainContent .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapptheme .MainContent .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapptheme .MainContent .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapptheme .MainContent .wmeditor .dijitSelect .dijitArrowButton {
+background-color: #cccccc;
+}
+.linkapptheme .MainContent .wmeditor .dijitTextBox,
+.linkapptheme .MainContent .wmeditor .dijitTextArea,
+.linkapptheme .MainContent .wmeditor .dijitComboBox,
+.linkapptheme .MainContent .wmeditor .dijitSelect .dijitButtonContents,
+.linkapptheme .MainContent .dijitTimePickerItem,
+.linkapptheme .MainContent .wmeditor .RichTextEditable iframe {
+border-color: #333333;
+border-width: 1px;
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .wmeditor.wmrichtext {
+-moz-border-radius-bottomleft: 4px;
+-moz-border-radius-bottomright: 4px;
+-webkit-border-bottom-left-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+border-radius-bottomleft: 4px;
+border-radius-bottomright: 4px;
+}
+.linkapptheme .MainContent .wmeditor .dijitTextBox.dijitHover,
+.linkapptheme .MainContent .wmeditor .dijitTextArea:hover,
+.linkapptheme .MainContent .wmeditor .dijitComboBox.dijitHover,
+.linkapptheme .MainContent .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapptheme .MainContent .wmeditor .RichTextEditable:hover iframe,
+.linkapptheme .MainContent .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapptheme .MainContent .dijitTimePickerItem.dijitTimePickerItemHover {
+color: #000000;
+border-color: #333333;
+background-color: #dddddd;
+background-image: url(images/repeatx/greyEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .wmeditor .dijitTextBox.dijitFocused,
+.linkapptheme .MainContent .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapptheme .MainContent .wmeditor .dijitTextArea.dijitFocused,
+.linkapptheme .MainContent .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapptheme .MainContent .wmeditor .dijitComboBox.dijitFocused,
+.linkapptheme .MainContent .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapptheme .MainContent .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapptheme .MainContent .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapptheme .MainContent .wmeditor .RichTextEditable.Focused iframe {
+color: #000000;
+border-color: #000000;
+background-color: #FFFFFF;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+@media screen {
+.linkapptheme .EmphasizedContent .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapptheme .EmphasizedContent .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapptheme .EmphasizedContent .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapptheme .EmphasizedContent .wmeditor .dijitSelect .dijitArrowButton {
+background-color: #333333;
+}
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextBox,
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextArea,
+.linkapptheme .EmphasizedContent .wmeditor .dijitComboBox,
+.linkapptheme .EmphasizedContent .wmeditor .dijitSelect .dijitButtonContents,
+.linkapptheme .EmphasizedContent .dijitTimePickerItem,
+.linkapptheme .EmphasizedContent .wmeditor .RichTextEditable iframe {
+border-color: #333333;
+border-width: 1px;
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextBox.dijitHover,
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextArea:hover,
+.linkapptheme .EmphasizedContent .wmeditor .dijitComboBox.dijitHover,
+.linkapptheme .EmphasizedContent .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapptheme .EmphasizedContent .wmeditor .RichTextEditable:hover iframe,
+.linkapptheme .EmphasizedContent .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapptheme .EmphasizedContent .dijitTimePickerItem.dijitTimePickerItemHover {
+color: #000000;
+border-color: #333333;
+background-color: #dddddd;
+background-image: url(images/repeatx/greyEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextBox.dijitFocused,
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextArea.dijitFocused,
+.linkapptheme .EmphasizedContent .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapptheme .EmphasizedContent .wmeditor .dijitComboBox.dijitFocused,
+.linkapptheme .EmphasizedContent .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapptheme .EmphasizedContent .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapptheme .EmphasizedContent .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapptheme .EmphasizedContent .wmeditor .RichTextEditable.Focused iframe {
+color: #000000;
+border-color: #000000;
+background-color: #FFFFFF;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+@media screen {
+.linkapptheme .HeaderContent .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapptheme .HeaderContent .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapptheme .HeaderContent .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapptheme .HeaderContent .wmeditor .dijitSelect .dijitArrowButton {
+background-color: #666666;
+}
+.linkapptheme .HeaderContent .wmeditor .dijitTextBox,
+.linkapptheme .HeaderContent .wmeditor .dijitTextArea,
+.linkapptheme .HeaderContent .wmeditor .dijitComboBox,
+.linkapptheme .HeaderContent .wmeditor .dijitSelect .dijitButtonContents,
+.linkapptheme .HeaderContent .dijitTimePickerItem,
+.linkapptheme .HeaderContent .wmeditor .RichTextEditable iframe {
+border-color: #333333;
+border-width: 1px;
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmeditor .dijitTextBox.dijitHover,
+.linkapptheme .HeaderContent .wmeditor .dijitTextArea:hover,
+.linkapptheme .HeaderContent .wmeditor .dijitComboBox.dijitHover,
+.linkapptheme .HeaderContent .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapptheme .HeaderContent .wmeditor .RichTextEditable:hover iframe,
+.linkapptheme .HeaderContent .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapptheme .HeaderContent .dijitTimePickerItem.dijitTimePickerItemHover {
+color: #000000;
+border-color: #333333;
+background-color: #dddddd;
+background-image: url(images/repeatx/greyEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmeditor .dijitTextBox.dijitFocused,
+.linkapptheme .HeaderContent .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapptheme .HeaderContent .wmeditor .dijitTextArea.dijitFocused,
+.linkapptheme .HeaderContent .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapptheme .HeaderContent .wmeditor .dijitComboBox.dijitFocused,
+.linkapptheme .HeaderContent .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapptheme .HeaderContent .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapptheme .HeaderContent .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapptheme .HeaderContent .wmeditor .RichTextEditable.Focused iframe {
+color: #000000;
+border-color: #000000;
+background-color: #FFFFFF;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+}
+.linkapptheme div.dojoxGrid, .linkapptheme .wmlist {
+font-size: 8pt;
+}
+.linkapptheme .wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+font-size: 8pt;
+}
+.linkapptheme div.dojoxGrid-row,
+.linkapptheme div.dojoxGridRow,
+.linkapptheme .Disabled div.dojoxGridRow.dojoxGridRowOver,
+.linkapptheme .Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.linkapptheme .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.linkapptheme .GridListStyle div.wmlist-item {
+font-family: sans-serif;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+}
+.linkapptheme div.dojoxGrid-row.dojoxGrid-row-odd,
+.linkapptheme div.dojoxGridRow.dojoxGridRowOdd,
+.linkapptheme .Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.linkapptheme .Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.linkapptheme .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.linkapptheme .GridListStyle .wmlist-item.Odd {
+color: #000000;
+background-color: #f3f3f3;
+}
+.linkapptheme .MobileListStyle div.wmlist-item,
+.linkapptheme .Disabled.MobileListStyle div.wmlist-item,
+.linkapptheme .Disabled.MobileListStyle div.wmlist-item.Odd,
+.linkapptheme .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over,
+.linkapptheme .Disabled.MobileListStyle div.wmlist-item.Odd.wmlist-item-over,
+.linkapptheme .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+background-color: #a6a6a6;
+color: #ffffff;
+font-family: Arial;
+}
+.linkapptheme .MobileListStyle div.wmlist-item.wmlist-item-over,
+.linkapptheme .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+background-color: #666666;
+color: #ffffff;
+}
+.linkapptheme .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.linkapptheme .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.linkapptheme .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.linkapptheme .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+background-color: #666666;
+color: #000000;
+}
+.linkapptheme td.dojoxGrid-cell,
+.linkapptheme td.dojoxGridCell {
+border-left-width: 0px;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-right-width: 2px !important;
+border-style: solid;
+border-color: #e3e3e3;
+}
+.linkapptheme .wmlist-cell {
+border-style: solid;
+border-color: #e3e3e3;
+border-left-width: 0px;
+border-right-width: 2px;
+border-top-width: 0px;
+border-bottom-width: 0px;
+}
+.linkapptheme .wmlist-header .wmlist-cell {
+border-right-width: 0px;
+}
+@media screen {
+.linkapptheme div.dojoxGrid-row.dojoxGrid-row-selected,
+.linkapptheme div.dojoxGrid-row.dojoxGrid-row-selected.dojoxGrid-row-over,
+.linkapptheme div.dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-selected,
+.linkapptheme div.dojoxGridRow.dojoxGridRowSelected,
+.linkapptheme div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapptheme div.dojoxGridRow.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .dojoxGridRowSelected.dojoxGridRowOver td.dojoxGridCell,
+.linkapptheme .GridListStyle .wmlist-item.wmlist-item-selected,
+.linkapptheme .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over,
+.dj_ie6 .linkapptheme .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #666666 !important;
+color: #000000;
+}
+.linkapptheme .GridListStyle .wmlist-item.wmlist-item-over,
+.dj_ie6 .linkapptheme .GridListStyle .wmlist-item.wmlist-item-over,
+.linkapptheme div.dojoxGrid-row.dojoxGrid-row-over,
+.linkapptheme .dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-over,
+.linkapptheme div.dojoxGridRow.dojoxGridRowOver,
+.linkapptheme .dojoxGridRowOdd.dojoxGridRowOver,
+.linkapptheme #wavemakerNode .wmlayout .dojoxGridRowOdd.dojoxGridRowOver a,
+.linkapptheme .dojoxGridRowOver td.dojoxGridCell
+{
+background-color: #666666;
+color: #ffffff;
+}
+.linkapptheme div.dojoxGridContent .dojoxGridCell {
+background-color: transparent;
+}
+.linkapptheme div.dojoxGridContent .dojoxGridCellFocus,
+.linkapptheme div.dojoxGridContent .dojoxGrid-cell-focus {
+border: 1px dashed transparent !important;
+}
+.linkapptheme div.dojoxGrid-header .dojoxGrid-cell,
+.linkapptheme div.dojoxGridHeader .dojoxGridCell {
+background: inherit;
+border-right-width: 2px;
+border-right-style: solid;
+border-right-color: #e3e3e3;
+font-family: Verdana;
+color: #3a3a3a !important;
+font-weight: bold;
+}
+.linkapptheme .wmlist-header th {
+font-family: Verdana;
+color: #3a3a3a !important;
+font-weight: bold;
+}
+body.tundra .linkapptheme .dojoxGrid-header,
+body.tundra .linkapptheme .dojoxGridHeader,
+body.tundra .linkapptheme .wmlist-header,
+body.tundra.linkapptheme .dojoxGrid-header,
+body.tundra.linkapptheme .dojoxGridHeader,
+body.tundra.linkapptheme .wmlist-header,
+.dj_ie7 .linkapptheme .dojoxGridHeader .dojoxGridCell,
+.dj_ie6 .linkapptheme .dojoxGridHeader .dojoxGridCell {
+background-color: #e5e5e5;
+background-image: url(images/repeatx/greyEdge0.png);
+background-position: left top;
+background-repeat: repeat-x;
+}
+.dj_ie6 .linkapptheme .dojoxGrid-header,
+.dj_ie6 .linkapptheme .dojoxGridHeader,
+.dj_ie6 .linkapptheme .wmlist-header,
+.dj_ie6 .linkapptheme .dojoxGridHeader .dojoxGridCell {
+background-image: none !important;
+}
+}
+@media screen {
+.linkapptheme .MainContent div.dojoxGrid-row.dojoxGrid-row-selected,
+.linkapptheme .MainContent div.dojoxGrid-row.dojoxGrid-row-selected.dojoxGrid-row-over,
+.linkapptheme .MainContent div.dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-selected,
+.linkapptheme .MainContent div.dojoxGridRow.dojoxGridRowSelected,
+.linkapptheme .MainContent div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapptheme .MainContent div.dojoxGridRow.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .MainContent div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .MainContent .GridListStyle .wmlist-item.wmlist-item-selected,
+.linkapptheme .MainContent .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over,
+.dj_ie6 .linkapptheme .MainContent .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #007cc2 !important;
+color: #ffffff;
+}
+.linkapptheme .MainContent .GridListStyle .wmlist-item.wmlist-item-over,
+.dj_ie6 .linkapptheme .MainContent .GridListStyle .wmlist-item.wmlist-item-over,
+.linkapptheme .MainContent div.dojoxGrid-row.dojoxGrid-row-over,
+.linkapptheme .MainContent .dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-over,
+.linkapptheme .MainContent .dojoxGridRowOver,
+.linkapptheme #wavemakerNode .wmlayout .MainContent .dojoxGridRowOver a,
+.linkapptheme .MainContent .dojoxGridRowOdd.dojoxGridRowOver
+{
+background-color: #444444;
+color: #ffffff;
+}
+.linkapptheme .MainContent div.dojoxGridContent .dojoxGridCell {
+background-color: transparent;
+}
+.linkapptheme .MainContent div.dojoxGridContent .dojoxGridCellFocus,
+.linkapptheme .MainContent div.dojoxGridContent .dojoxGrid-cell-focus {
+border: 1px dashed transparent !important;
+}
+}
+@media screen {
+.linkapptheme .EmphasizedContent div.dojoxGrid-row.dojoxGrid-row-selected,
+.linkapptheme .EmphasizedContent div.dojoxGrid-row.dojoxGrid-row-selected.dojoxGrid-row-over,
+.linkapptheme .EmphasizedContent div.dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-selected,
+.linkapptheme .EmphasizedContent div.dojoxGridRow.dojoxGridRowSelected,
+.linkapptheme .EmphasizedContent div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapptheme .EmphasizedContent div.dojoxGridRow.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .EmphasizedContent div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .EmphasizedContent .GridListStyle .wmlist-item.wmlist-item-selected,
+.linkapptheme .EmphasizedContent .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over,
+.dj_ie6 .linkapptheme .EmphasizedContent .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #575757 !important;
+color: #ffffff;
+}
+.linkapptheme .EmphasizedContent .GridListStyle .wmlist-item.wmlist-item-over,
+.dj_ie6 .linkapptheme .EmphasizedContent .GridListStyle .wmlist-item.wmlist-item-over,
+.linkapptheme .EmphasizedContent div.dojoxGrid-row.dojoxGrid-row-over,
+.linkapptheme .EmphasizedContent .dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-over,
+.linkapptheme .EmphasizedContent .dojoxGridRowOver,
+.linkapptheme .EmphasizedContent .dojoxGridRowOdd.dojoxGridRowOver
+{
+background-color: #666666;
+color: #ffffff;
+}
+.linkapptheme .EmphasizedContent div.dojoxGridContent .dojoxGridCell {
+background-color: transparent;
+}
+.linkapptheme .EmphasizedContent div.dojoxGridContent .dojoxGridCellFocus,
+.linkapptheme .EmphasizedContent div.dojoxGridContent .dojoxGrid-cell-focus {
+border: 1px dashed transparent !important;
+}
+}
+@media screen {
+.linkapptheme .HeaderContent div.dojoxGrid-row.dojoxGrid-row-selected,
+.linkapptheme .HeaderContent div.dojoxGrid-row.dojoxGrid-row-selected.dojoxGrid-row-over,
+.linkapptheme .HeaderContent div.dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-selected,
+.linkapptheme .HeaderContent div.dojoxGridRow.dojoxGridRowSelected,
+.linkapptheme .HeaderContent div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.linkapptheme .HeaderContent div.dojoxGridRow.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .HeaderContent div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected.dojoxGridRowOver,
+.linkapptheme .HeaderContent .GridListStyle .wmlist-item.wmlist-item-selected,
+.linkapptheme .HeaderContent .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over,
+.dj_ie6 .linkapptheme .HeaderContent .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #999999 !important;
+color: #ffffff;
+}
+.linkapptheme .HeaderContent .GridListStyle .wmlist-item.wmlist-item-over,
+.dj_ie6 .linkapptheme .HeaderContent .GridListStyle .wmlist-item.wmlist-item-over,
+.linkapptheme .HeaderContent div.dojoxGrid-row.dojoxGrid-row-over,
+.linkapptheme .HeaderContent .dojoxGrid-row.dojoxGrid-row-odd.dojoxGrid-row-over,
+.linkapptheme .HeaderContent .dojoxGridRowOver,
+.linkapptheme .HeaderContent .dojoxGridRowOdd.dojoxGridRowOver,
+.linkapptheme #wavemakerNode .wmlayout .HeaderContent .dojoxGridRowOver a
+{
+background-color: #333333;
+color: #ffffff;
+}
+.linkapptheme .HeaderContent div.dojoxGridContent .dojoxGridCell {
+background-color: transparent;
+}
+.linkapptheme .HeaderContent div.dojoxGridContent .dojoxGridCellFocus,
+.linkapptheme .HeaderContent div.dojoxGridContent .dojoxGrid-cell-focus {
+border: 1px dashed transparent !important;
+}
+.linkapptheme .HeaderContent div.dojoxGrid-header .dojoxGrid-cell,
+.linkapptheme .HeaderContent div.dojoxGridHeader .dojoxGridCell
+{
+background: inherit;
+font-family: Verdana;
+color: inherit !important;
+font-weight: bold;
+}
+.linkapptheme .HeaderContent div.dojoxGridHeader .dojoxGridCell {
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+font-family: Verdana;
+color: #FFFFFF;
+font-weight: bold;
+}
+.linkapptheme .HeaderContent .dojoxGrid-header,
+.linkapptheme .HeaderContent .dojoxGridHeader,
+.linkapptheme .HeaderContent .wmlist-header,
+.dj_ie7 .linkapptheme .HeaderContent .dojoxGridHeader .dojoxGridCell,
+.dj_ie6 .linkapptheme .HeaderContent .dojoxGridHeader .dojoxGridCell {
+color: #FFFFFF;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+}
+#studio_designer.linkapptheme .dojoMenu,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .dojoMenu {
+background-image: none !important;
+}
+.linkapptheme .dijitMenu .dijitMenuArrowCell img.dijitMenuExpand {
+background-image: url(images/arrowRightLight.png) !important;
+background-position: 0% 50% !important;
+}
+.linkapptheme div.dijitMenuBar div.dijitMenuItem {
+background-image: url(images/comboArrowDownDark.png) !important;
+background-position: 90% 50% !important;
+background-repeat: no-repeat !important;
+padding-right: 25px !important;
+}
+@media screen {
+.linkapptheme .dojoMenu .dijitMenu,
+.linkapptheme .dojoMenu .dijitMenuBar {
+font-family: Arial;
+font-size: 8pt;
+font-weight: bold;
+color: #674c4c;
+background-color: transparent;
+background-image: none;
+}
+.linkapptheme .dojoMenu.ClickableDojoMenu {
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.linkapptheme .dojoMenu.ClickableDojoMenu .dijitMenuItem {
+color: #ffffff;
+}
+.linkapptheme .dojoMenu .dijitMenuItem {
+color: #674c4c;
+}
+.linkapptheme .dijitMenuBar .dijitMenuItem,
+.tundra .wm-darksnazzy .linkapptheme .dijitMenuBar .dijitMenuItem {
+margin-right: 15px;
+}
+body.linkapptheme .dojoMenu .dijitMenuPassive.dijitMenuBar .dijitMenuItem.dijitMenuItemHover,
+body .linkapptheme .dojoMenu .dijitMenuPassive.dijitMenuBar .dijitMenuItem.dijitMenuItemHover,
+body.linkapptheme .dojoMenu .dijitMenuPassive.dijitMenuBar .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .dojoMenu .dijitMenuPassive.dijitMenuBar .dijitMenuItem.dijitMenuItemSelected,
+body.linkapptheme .dojoMenu .dijitMenuActive.dijitMenuBar .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .dojoMenu .dijitMenuActive.dijitMenuBar .dijitMenuItem.dijitMenuItemSelected {
+color: #ffffff;
+background-color: #666666;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+outline-width: 0;
+}
+}
+@media screen {
+.linkapptheme .MainContent .dojoMenu .dijitMenu,
+.linkapptheme .MainContent .dojoMenu .dijitMenuBar {
+font-family: sans-serif;
+font-size: 8pt;
+font-weight: bold;
+color: #674c4c;
+background-color: transparent;
+background-image: none;
+}
+.linkapptheme .MainContent .dojoMenu.ClickableDojoMenu {
+background-color: #cccccc;
+background-image: url(images/repeatx/greyThickEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .dojoMenu.ClickableDojoMenu .dijitMenuItem {
+color: #333333;
+}
+.linkapptheme .MainContent .dojoMenu .dijitMenuItem {
+color: #674c4c;
+}
+body.linkapptheme .MainContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemHover,
+body .linkapptheme .MainContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemHover,
+body.linkapptheme .MainContent  .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .MainContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemSelected,
+body.linkapptheme .MainContent  .dojoMenu .dijitMenuActive .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .MainContent .dojoMenu .dijitMenuActive .dijitMenuItem.dijitMenuItemSelected {
+color: #ffffff;
+background-color: #444444;
+background-image: url(images/repeatx/greyThickEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+outline-width: 0;
+}
+}
+@media screen {
+.linkapptheme .HeaderContent .dojoMenu .dijitMenu,
+.linkapptheme .HeaderContent .dojoMenu .dijitMenuBar {
+font-family: Verdana;
+font-size: 10pt;
+font-weight: bold;
+color: #444444;
+background-color: transparent;
+background-image: none;
+}
+.linkapptheme .HeaderContent .dojoMenu.ClickableDojoMenu {
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .dojoMenu.ClickableDojoMenu .dijitMenuItem {
+color: #FFFFFF;
+}
+.linkapptheme .HeaderContent .dojoMenu .dijitMenuItem {
+color: #444444;
+}
+body.linkapptheme .HeaderContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemHover,
+body .linkapptheme .HeaderContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemHover,
+body.linkapptheme .HeaderContent  .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .HeaderContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemSelected,
+body.linkapptheme .HeaderContent  .dojoMenu .dijitMenuActive .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .HeaderContent .dojoMenu .dijitMenuActive .dijitMenuItem.dijitMenuItemSelected {
+color: #ffffff;
+background-color: #333333;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+outline-width: 0;
+}
+}
+@media screen {
+.linkapptheme .EmphasizedContent .dojoMenu .dijitMenu,
+.linkapptheme .EmphasizedContent .dojoMenu .dijitMenuBar {
+font-family: Verdana;
+font-size: 10pt;
+font-weight: bold;
+color: #000000;
+background-color: transparent;
+background-image: none;
+}
+.linkapptheme .EmphasizedContent .dojoMenu.ClickableDojoMenu {
+background-color: #333333;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .dojoMenu.ClickableDojoMenu .dijitMenuItem {
+color: #FFFFFF;
+}
+.linkapptheme .EmphasizedContent .dojoMenu .dijitMenuItem {
+color: #000000;
+}
+body.linkapptheme .EmphasizedContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemHover,
+body .linkapptheme .EmphasizedContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemHover,
+body.linkapptheme .EmphasizedContent  .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .EmphasizedContent .dojoMenu .dijitMenuPassive .dijitMenuItem.dijitMenuItemSelected,
+body.linkapptheme .EmphasizedContent  .dojoMenu .dijitMenuActive .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .EmphasizedContent .dojoMenu .dijitMenuActive .dijitMenuItem.dijitMenuItemSelected {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+outline-width: 0;
+}
+}
+.linkapptheme .dijitMenuPopup .dijitMenuTable.dijitMenu.dijitReset,
+.linkapptheme .dijitPopup .dijitCalendarMonthLabel {
+font-family: Arial;
+color: #ffffff;
+font-weight: bold;
+background-color: #a6a6a6;
+border: solid 1px black;
+border-top: solid 1px #999999;
+-moz-box-shadow: 3px 3px 4px black;
+-webkit-box-shadow: 3px 3px 4px black;
+box-shadow: 3px 3px 4px black;
+}
+body.linkapptheme  .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemHover,
+body .linkapptheme .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemHover,
+body.linkapptheme  .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected
+{
+color: #ffffff;
+background-color: #666666;
+background-image: none;
+outline-width: 0;
+}
+body.linkapptheme ul.dijitMenu .dijitMenuItem,
+body .linkapptheme ul.dijitMenu .dijitMenuItem,
+body.linkapptheme div.dijitMenu .dijitCalendarMonthLabel {
+color: #000000;
+background-color: #ffffff;
+border-bottom-size: 1px;
+border-bottom-style: solid;
+border-bottom-color: #e3e3e3;
+}
+body.linkapptheme  ul.dijitMenu .dijitMenuItem.dijitMenuItemHover,
+body .linkapptheme ul.dijitMenu .dijitMenuItem.dijitMenuItemHover,
+body.linkapptheme  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected,
+body .linkapptheme ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected,
+body.linkapptheme div.dijitMenu .dijitCalendarMonthLabel.dijitMenuItemHover,
+body .linkapptheme div.dijitMenu .dijitCalendarMonthLabel.dijitMenuItemHover {
+color: #ffffff;
+background-color: #666666;
+outline-width: 0;
+}
+body.tundra.linkapptheme .dijitPopup ul.dijitMenu {
+border-width: 1px;
+border-style: solid;
+border-color: black;
+-moz-box-shadow: 4px 4px 8px black;
+-webkit-box-shadow: 4px 4px 8px black;
+box-shadow: 4px 4px 8px black;
+}
+.linkapptheme button.wmtablayers-tab {
+height: 23px;
+font-size: 9;
+}
+.linkapptheme .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .wmtablayers-tab.wmtablayers-tab {
+margin-left: 8px;
+-moz-border-radius-topleft: 1px;
+-moz-border-radius-topright: 1px;
+-webkit-border-top-left-radius: 1px;
+-webkit-border-top-right-radius: 1px;
+border-top-left-radius: 1px;
+border-top-right-radius: 1px;
+}
+.linkapptheme button.wmtablayers-verticaltab {
+-moz-box-shadow: 1px 0px 1px #444444;
+-webkit-box-shadow: 1px 0px 1px #444444;
+box-shadow: 1px 0px 1px #444444;
+font-size: 9;
+width: 95%;
+margin-left: 5%;
+}
+.linkapptheme .wmtablayers-verticaltab.wmtablayers-selected,
+.linkapptheme .wmtablayers-verticaltab.wmtablayers-verticaltab {
+margin-bottom: 5px;
+-moz-border-radius-bottomleft: 1px;
+-moz-border-radius-topleft: 1px;
+-webkit-border-bottom-left-radius: 1px;
+-webkit-border-top-left-radius: 1px;
+border-bottom-left-radius: 1px;
+border-top-left-radius: 1px;
+}
+.linkapptheme .wmtablayers-verticaltab:focus,
+.linkapptheme .wmtablayers-tab:focus {
+outline-width: 0;
+}
+.linkapptheme .wmFancyPanel-containerWidget {
+-moz-border-radius-topright: 0px !important;
+-moz-border-radius-topleft: 0px !important;
+-webkit-border-top-left-radius: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+-moz-box-shadow: 0px 0px 0px black !important;
+-webkit-box-shadow: 0px 0px 0px black !important;
+box-shadow: 0px 0px 0px black !important;
+}
+.linkapptheme .wmaccordion .wmlayer {
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+}
+body.tundra.linkapptheme  div.wmheader,
+body.tundra .linkapptheme  div.wmheader,
+.linkapptheme  .wmTabLayers-client > .wmlayer,
+.linkapptheme  .wmWizardLayers-client > .wmlayer {
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+}
+.linkapptheme .wmFancyPanel-containerWidget {
+-moz-border-radius-bottomleft: 1px;
+-moz-border-radius-bottomright: 1px;
+-webkit-border-bottom-left-radius: 1px;
+-webkit-border-bottom-right-radius: 1px;
+border-bottom-left-radius: 1px;
+border-bottom-right-radius: 1px;
+}
+.linkapptheme .wmFancyPanel-labelWidget {
+-moz-border-radius-topleft: 1px;
+-moz-border-radius-topright: 1px;
+-webkit-border-top-left-radius: 1px;
+-webkit-border-top-right-radius: 1px;
+border-top-left-radius: 1px;
+border-top-right-radius: 1px;
+}
+.linkapptheme .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+display: block;
+background-image: url(images/arrowRightLight.png);
+}
+.linkapptheme .wmaccordion .accordionArrowNode {
+display: block;
+background-image: url(images/comboArrowDownDark.png);
+}
+.linkapptheme .wmaccordion .wmaccordion-content {
+background-color: transparent;
+}
+.linkapptheme div.wmtablayers-tabbar {
+background: transparent;
+}
+.linkapptheme  #wavemakerNode > div > .wmlayout,
+#studio_designer.linkapptheme > .wmlayout,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .wmlayout {
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme  #wavemakerNode  > div > .wmlayout,
+#studio_designer.linkapptheme > .wmlayout,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .wmlayout,
+.linkapptheme  #wavemakerNode  > .Document,
+#studio_designer.linkapptheme > .Document,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .Document {
+font-family: sans-serif;
+font-size: 8pt;
+color: #674c4c;
+font-weight: normal;
+background-color: #f0eeee;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+font-family: sans-serif;
+font-size: 8pt;
+color: #674c4c;
+font-weight: normal;
+}
+.dj_ie6 .linkapptheme .wmlayout {
+background-image: none !important;
+}
+#studio_designer.linkapptheme,
+body.linkapptheme {
+background-color: #f0eeee;
+}
+.linkapptheme div.wmaccordion-header {
+font-family: Arial;
+font-size: 8pt;
+color: #000000;
+font-weight: bold;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+padding-left: 10px;
+}
+.dj_ie6 .linkapptheme .wmaccordion-header {
+background-image: none !important;
+}
+.linkapptheme div.wmaccordion .wmaccordion-collapsed {
+color: #ffffff;
+font-weight: bold;
+font-family: Arial;
+font-size: 8pt;
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+-moz-border-radius: 1px;
+-webkit-border-radius: 1px;
+border-radius: 1px;
+}
+.linkapptheme div.wmaccordion-header:hover,
+.linkapptheme div.wmaccordion wmaccordion-header.wmaccordion-collapsed:hover {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/greyThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .wmfancypanel .wmFancyPanel-labelWidget,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .wmfancypanel .wmFancyPanel-labelWidget  {
+font-family: Arial;
+font-size: 8pt;
+font-weight: bold;
+color: #000000;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .linkapptheme .wmFancyPanel-labelWidget {
+background-image: none !important;
+}
+.linkapptheme button.wmtablayers-tab,
+.linkapptheme button.wmtablayers-verticaltab {
+font-family: Arial;
+color: #ffffff;
+font-weight: bold;
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+border-bottom-color: transparent;
+border-top-color: #999999;
+border-left-color: #999999;
+border-width: 2px;
+border-style: solid;
+}
+.linkapptheme button.wmtablayers-tab {
+border-bottom-color: transparent;
+border-right-color: #999999;
+}
+.linkapptheme button.wmtablayers-verticaltab {
+border-right-color: transparent;
+border-bottom-color: #999999;
+}
+.dj_ie6 .linkapptheme .wmtablayers-tab {
+background-image: none !important;
+}
+.linkapptheme .wmtablayers-tab:hover,
+.linkapptheme .wmtablayers-tab:focus,
+.linkapptheme .wmtablayers-verticaltab:hover,
+.linkapptheme .wmtablayers-verticaltab:focus {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/greyThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .linkapptheme .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .wmtablayers-tab.wmtablayers-selected:hover,
+.linkapptheme .wmtablayers-tab.wmtablayers-selected:focus,
+.linkapptheme .wmtablayers-verticaltab.wmtablayers-selected,
+.linkapptheme .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.linkapptheme .wmtablayers-verticaltab.wmtablayers-selected:focus {
+color: #000000;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .wmtablayers-tab, .dj_ie7 .wmtablayers-tab {
+border-bottom-color: #a6a6a6 !important;
+}
+.linkapptheme .wmwizardlayers-tab:focus,
+.linkapptheme .wmwizardlayers-tab:hover,
+.linkapptheme .wmwizardlayers-verticaltab:focus,
+.linkapptheme .wmwizardlayers-verticaltab:hover {
+color: black;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle {
+font-family: Arial;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dj_ie6 .linkapptheme .dijitTitlePaneTitle {
+background-image: none !important;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #ffffff;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle-hover {
+font-family: Arial;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #666666;
+background-image: url(images/repeatx/greyThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle-hover .dijitTitlePaneTextNode {
+color: #ffffff;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+background-image: url(images/dialogIconsGray.png) !important;
+border-color: #333333;
+width: 16px;
+margin-left: 1px;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+background-position: 0px 0px;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+margin-top: 1px;
+background-position: -16px;
+}
+.linkapptheme .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+background-position: -32px;
+}
+}
+.linkapptheme .MainContent {
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme  .MainContent,
+#studio_designer.linkapptheme .MainContent {
+font-family: Arial;
+font-size: 8pt;
+color: #674c4c;
+font-weight: normal;
+background-color: #f0eeee;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dj_ie6 .linkapptheme .MainContent {
+background-image: none !important;
+}
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .MainContent,
+.linkapptheme #studio_themesPage_themeDesigner_demoPanel .MainContent {
+font-family: Arial;
+font-size: 8pt;
+color: #674c4c;
+font-weight: normal;
+}
+.linkapptheme .MainContent div.wmaccordion-header {
+font-family: sans-serif;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #007cc2;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+padding-left: 10px;
+}
+.linkapptheme .MainContent div.wmaccordion .wmaccordion-collapsed {
+color: #333333;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 8pt;
+background-color: #cccccc;
+background-image: url(images/repeatx/greyThickEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+.linkapptheme .MainContent div.wmaccordion-header:hover,
+.linkapptheme .MainContent div.wmaccordion wmaccordion-header.wmaccordion-collapsed:hover {
+color: #ffffff;
+background-color: #444444;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .wmfancypanel .wmFancyPanel-labelWidget,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .MainContent .wmfancypanel .wmFancyPanel-labelWidget  {
+font-family: sans-serif;
+font-size: 8pt;
+font-weight: bold;
+color: #ffffff;
+background-color: #007cc2;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent button.wmtablayers-tab {
+font-family: sans-serif;
+color: #333333;
+font-weight: bold;
+background-color: #cccccc;
+background-image: url(images/repeatx/greyThickEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .wmtablayers-tab:hover, .linkapptheme .wmtablayers-tab:focus {
+color: #ffffff;
+background-color: #444444;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .linkapptheme .MainContent .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .MainContent .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .MainContent .wmtablayers-tab.wmtablayers-selected:hover,
+.linkapptheme .MainContent .wmtablayers-tab.wmtablayers-selected:focus {
+color: #ffffff;
+background-color: #007cc2;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .MainContent .wmtablayers-tab, .dj_ie7 .MainContent .wmtablayers-tab {
+border-bottom-color: #cccccc !important;
+}
+.linkapptheme .MainContent .wmwizardlayers-tab:focus,
+.linkapptheme .MainContent .wmwizardlayers-tab:hover,
+.linkapptheme .MainContent .wmwizardlayers-verticaltab:focus,
+.linkapptheme .MainContent .wmwizardlayers-verticaltab:hover
+color: black;
+}
+.linkapptheme .MainContent div.dijitTitlePaneTitle {
+font-family: sans-serif;
+font-size: 12pt;
+color: #FFFFFF;
+font-weight: bold;
+background-color: #444444;
+background-image: url(images/repeatx/brightEdge1.png);
+background-position: left top;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #FFFFFF;
+}
+.linkapptheme .MainContent div.dijitTitlePaneTitle-hover {
+font-family: sans-serif;
+font-size: 12pt;
+color: #FFFFFF;
+font-weight: bold;
+background-color: #444444;
+background-image: url(images/repeatx/brightEdge1.png);
+background-position: left top;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .dojoxPortlet div.dijitTitlePaneTitle-hover .dijitTitlePaneTextNode {
+color: #FFFFFF;
+}
+.linkapptheme .EmphasizedContent {
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+-moz-box-shadow: 0px 0px 0px #444444;
+-webkit-box-shadow: 0px 0px 0px #444444;
+box-shadow: 0px 0px 0px #444444;
+}
+.linkapptheme  .EmphasizedContent,
+#studio_designer.linkapptheme .EmphasizedContent {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: bold;
+background-color: #a1d0f0;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dj_ie6 .linkapptheme .EmphasizedContent {
+background-image: none !important;
+}
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .EmphasizedContent,
+.linkapptheme #studio_themesPage_themeDesigner_demoPanel .EmphasizedContent {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: bold;
+}
+.linkapptheme .EmphasizedContent div.wmaccordion-header {
+font-family: Verdana;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #575757;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding-left: 10px;
+}
+.linkapptheme .EmphasizedContent div.wmaccordion .wmaccordion-collapsed {
+color: #FFFFFF;
+font-weight: bold;
+font-family: Verdana;
+font-size: 10pt;
+background-color: #333333;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.linkapptheme .EmphasizedContent div.wmaccordion-header:hover,
+.linkapptheme .EmphasizedContent div.wmaccordion wmaccordion-header.wmaccordion-collapsed:hover {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .wmfancypanel .wmFancyPanel-labelWidget,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .EmphasizedContent .wmfancypanel .wmFancyPanel-labelWidget  {
+font-family: Verdana;
+font-size: 10pt;
+font-weight: bold;
+color: #ffffff;
+background-color: #575757;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent button.wmtablayers-tab {
+font-family: Verdana;
+color: #FFFFFF;
+font-weight: bold;
+background-color: #333333;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .wmtablayers-tab:hover, .linkapptheme .wmtablayers-tab:focus {
+color: #ffffff;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .linkapptheme .EmphasizedContent .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .EmphasizedContent .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .EmphasizedContent .wmtablayers-tab.wmtablayers-selected:hover,
+.linkapptheme .EmphasizedContent .wmtablayers-tab.wmtablayers-selected:focus {
+color: #ffffff;
+background-color: #575757;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .EmphasizedContent .wmtablayers-tab, .dj_ie7 .EmphasizedContent .wmtablayers-tab {
+border-bottom-color: #333333 !important;
+}
+.linkapptheme .EmphasizedContent .wmwizardlayers-tab:focus,
+.linkapptheme .EmphasizedContent .wmwizardlayers-tab:hover,
+.linkapptheme .EmphasizedContent .wmwizardlayers-verticaltab:focus,
+.linkapptheme .EmphasizedContent .wmwizardlayers-verticaltab:hover {
+color: black;
+}
+.linkapptheme .EmphasizedContent div.dijitTitlePaneTitle {
+font-family: Verdana;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #575757;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #FFFFFF;
+}
+.linkapptheme .EmphasizedContent div.dijitTitlePaneTitle-hover {
+font-family: Verdana;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge0.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .dojoxPortlet div.dijitTitlePaneTitle-hover .dijitTitlePaneTextNode {
+color: #ffffff;
+}
+.linkapptheme .HeaderContent {
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+-moz-box-shadow: 2px 2px 2px #444444;
+-webkit-box-shadow: 2px 2px 2px #444444;
+box-shadow: 2px 2px 2px #444444;
+}
+.linkapptheme  .HeaderContent,
+#studio_designer.linkapptheme .HeaderContent {
+font-family: Verdana;
+font-size: 11pt;
+color: #444444;
+font-weight: normal;
+background-color: #FFFFFF;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dj_ie6 .linkapptheme .HeaderContent {
+background-image: none !important;
+}
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .HeaderContent,
+.linkapptheme #studio_themesPage_themeDesigner_demoPanel .HeaderContent {
+font-family: Verdana;
+font-size: 11pt;
+color: #444444;
+font-weight: normal;
+}
+.linkapptheme .HeaderContent div.wmaccordion-header {
+font-family: Verdana;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #999999;
+background-image: url(images/repeatx/greyThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+padding-left: 10px;
+}
+.linkapptheme .HeaderContent div.wmaccordion .wmaccordion-collapsed {
+color: #FFFFFF;
+font-weight: bold;
+font-family: Verdana;
+font-size: 10pt;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.linkapptheme .HeaderContent div.wmaccordion-header:hover,
+.linkapptheme .HeaderContent div.wmaccordion wmaccordion-header.wmaccordion-collapsed:hover {
+color: #ffffff;
+background-color: #333333;
+background-image: url(images/repeatx/brightSliverEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmfancypanel .wmFancyPanel-labelWidget,
+#studio_themesPage_themeDesigner_demoPanelTabLayers_client .HeaderContent .wmfancypanel .wmFancyPanel-labelWidget  {
+font-family: Verdana;
+font-size: 10pt;
+font-weight: bold;
+color: #ffffff;
+background-color: #999999;
+background-image: url(images/repeatx/greyThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent button.wmtablayers-tab {
+font-family: Verdana;
+color: #FFFFFF;
+font-weight: bold;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmtablayers-tab:hover, .linkapptheme .wmtablayers-tab:focus {
+color: #ffffff;
+background-color: #333333;
+background-image: url(images/repeatx/brightSliverEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmtablayers-tab.wmtablayers-selected,
+.linkapptheme .HeaderContent .wmtablayers-tab.wmtablayers-selected:hover,
+.linkapptheme .HeaderContent .wmtablayers-tab.wmtablayers-selected:focus {
+color: #ffffff;
+background-color: #444444;
+background-image: url(images/repeatx/greyThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.dj_ie6 .HeaderContent .wmtablayers-tab, .dj_ie7 .HeaderContent .wmtablayers-tab {
+border-bottom-color: #666666 !important;
+}
+.linkapptheme .HeaderContent .wmwizardlayers-tab:focus,
+.linkapptheme .HeaderContent .wmwizardlayers-tab:hover,
+.linkapptheme .HeaderContent .wmwizardlayers-verticaltab:focus,
+.linkapptheme .HeaderContent .wmwizardlayers-verticaltab:hover {
+color: black;
+}
+.linkapptheme .HeaderContent div.dijitTitlePaneTitle {
+font-family: Verdana;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #999999;
+background-image: url(images/repeatx/greyThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #FFFFFF;
+}
+.linkapptheme .HeaderContent div.dijitTitlePaneTitle-hover {
+font-family: Verdana;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #333333;
+background-image: url(images/repeatx/brightSliverEdge4.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .dojoxPortlet div.dijitTitlePaneTitle-hover .dijitTitlePaneTextNode {
+color: #ffffff;
+}
+.linkapptheme #wmMinifiedDialogPanel {
+opacity: 0.6;
+background-color: #666666;
+-moz-box-shadow: 0px -2px 4px black;
+-webkit-box-shadow: 0px -2px 4px black;
+box-shadow: 0px -2px 4px black;
+}
+.linkapptheme #wmMinifiedDialogPanel:hover {
+opacity: 1;
+}
+.linkapptheme #wmMinifiedDialogPanel .wmbutton {
+-moz-border-radius: 0px !important;
+-webkit-border-radius: 0px !important;
+border-radius: 0px !important;
+font-size: 8pt;
+}
+.linkapptheme .wmprogressbar .dijitProgressBar {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.linkapptheme .wmprogressbar .dijitProgressBarTile {
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+.linkapptheme .wmprogressbar .dijitProgressBarFull {
+border-right-width: 0px;
+}
+@media screen {
+.linkapptheme .wmprogressbar .dijitProgressBarTile {
+font-family: Arial;
+font-size: 8pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #a6a6a6;
+background-image: none;
+background-position: top left;
+background-repeat: no-repeat;
+}
+.linkapptheme .wmprogressbar .dijitProgressBar {
+font-family: Arial;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #ffffff;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+}
+.dj_ie6 .linkapptheme .dijitProgressBarTile,
+.dj_ie6 .linkapptheme .dijitProgressBar {
+background-image: none !important;
+}
+@media screen {
+.linkapptheme .MainContent .wmprogressbar .dijitProgressBarTile {
+font-family: sans-serif;
+font-size: 8pt;
+color: #333333;
+font-weight: bold;
+background-color: #cccccc;
+background-image: url(images/repeatx/greyThickEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .MainContent .wmprogressbar .dijitProgressBar {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+}
+@media screen {
+.linkapptheme .EmphasizedContent .wmprogressbar .dijitProgressBarTile {
+font-family: Verdana;
+font-size: 10pt;
+color: #FFFFFF;
+font-weight: bold;
+background-color: #333333;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .EmphasizedContent .wmprogressbar .dijitProgressBar {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+}
+@media screen {
+.linkapptheme .HeaderContent .wmprogressbar .dijitProgressBarTile {
+font-family: Verdana;
+font-size: 10pt;
+color: #FFFFFF;
+font-weight: bold;
+background-color: #666666;
+background-image: url(images/repeatx/brightThickEdge1.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+.linkapptheme .HeaderContent .wmprogressbar .dijitProgressBar {
+font-family: Verdana;
+font-size: 8pt;
+color: #000000;
+font-weight: normal;
+background-color: #eeeeee;
+background-image: url(images/repeatx/greyEdge2.png);
+background-position: top left;
+background-repeat: repeat-x;
+}
+}
+.linkapptheme div.wmsplitter-h,
+.linkapptheme div.wmsplitter-v,
+.linkapptheme .wmbevel {
+background-color: #a6a6a6;
+}
+.linkapptheme div.wmsplitter-h:hover,
+.linkapptheme div.wmsplitter-v:hover {
+background-color: #666666;
+}
+.linkapptheme .wmsplitter-h {
+background-image: url(images/splitter_bg_h.png);
+}
+.linkapptheme .wmsplitter-v {
+background-image: url(images/splitter_bg_v.png);
+}

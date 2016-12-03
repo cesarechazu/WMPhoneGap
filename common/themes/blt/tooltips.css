@@ -1,0 +1,15 @@
+/* GROUP: Tool tips */
+.blt .AppToolTip {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	font-weight: normal;
+
+  background-color: #FFFECB;
+  background-image: none;
+  filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+  box-shadow: 2px 2px 2px #666;
+}

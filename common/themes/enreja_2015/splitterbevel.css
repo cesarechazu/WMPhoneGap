@@ -1,0 +1,27 @@
+/* GROUP: Bevel */
+.enreja_2015 .wmbevel {
+	background-color: #cccccc;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Splitter */
+/* NOTE: If you use gradients, then you can't use the horizontal and vertical images (which is important) */
+.enreja_2015 div.wmsplitter-h,
+.enreja_2015 div.wmsplitter-v {
+	background-color: #cccccc; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Hover */
+.enreja_2015 div.wmsplitter-h:hover,
+.enreja_2015 div.wmsplitter-v:hover {
+	background-color: #6b6b6b; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Horizontal Image */
+.enreja_2015 .wmsplitter-h {
+	background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+
+/* GROUP: Splitter Vertical Image */
+.enreja_2015 .wmsplitter-v {
+	background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}

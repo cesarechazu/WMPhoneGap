@@ -1,0 +1,236 @@
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitTextBox,
+.linkapp_enreja .dojoxGrid .dijitComboBox,
+.linkapp_enreja .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitTextBox,
+.linkapp_enreja .wmeditor .dijitTextArea,
+.linkapp_enreja .wmeditor .dijitComboBox,
+.linkapp_enreja .wmeditor .dijitSelect .dijitButtonContents,
+.linkapp_enreja .dijitTimePickerItem,
+.linkapp_enreja .wmeditor .RichTextEditable iframe {
+	border: solid 1px rgb(102, 102, 102);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #000000;
+	font-weight: normal;
+	background-color: rgb(255, 255, 255);
+	background-image: none;
+	filter: none;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja  .wmeditor .dijitTextBox,
+.linkapp_enreja  .wmeditor .dijitTextArea,
+.linkapp_enreja  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja  .dojoxGrid .dijitTextBox,
+.linkapp_enreja  .dojoxGrid .dijitTextArea,
+.linkapp_enreja  .dojoxGrid .dijitComboBox
+ {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+}
+
+.linkapp_enreja .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.linkapp_enreja .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitTextBox.dijitHover,
+.linkapp_enreja .wmeditor .dijitTextArea:hover,
+.linkapp_enreja .wmeditor .dijitComboBox.dijitHover,
+.linkapp_enreja .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.linkapp_enreja .wmeditor .RichTextEditable:hover iframe {
+	color: #333333;
+/* 	border: solid 1px rgb(102, 102, 102); // THEMER: DISABLED */
+/* 	background-color: #edadad; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitTextBox.dijitFocused,
+.linkapp_enreja .dojoxGrid .dijitComboBox.dijitFocused,
+.linkapp_enreja .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitTextBox.dijitFocused,
+.linkapp_enreja .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.linkapp_enreja .wmeditor .dijitTextArea.dijitFocused,
+.linkapp_enreja .wmeditor .dijitTextArea.dijitFocused:hover,
+.linkapp_enreja .wmeditor .dijitComboBox.dijitFocused,
+.linkapp_enreja .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.linkapp_enreja .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.linkapp_enreja .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.linkapp_enreja .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.linkapp_enreja .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.linkapp_enreja .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.linkapp_enreja .wmeditor .RichTextEditable.Focused iframe {
+	color: #000000;
+/* 	border: solid 1px rgb(102, 102, 102); // THEMER: DISABLED */
+/* 	background-color: #eddddb; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: isDirty */
+.linkapp_enreja .isDirty.wmeditor .dijitTextBox,
+.linkapp_enreja .isDirty.wmeditor .dijitTextArea,
+.linkapp_enreja .isDirty.wmeditor .dijitComboBox {
+	color: #000000;
+/* 	border: solid 1px rgb(178, 168, 168); // THEMER: DISABLED */
+/* 	background-color: #ffffff; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.linkapp_enreja .wmeditor .dijitError.dijitTextBox,
+.linkapp_enreja .wmeditor .dijitError.dijitTextArea,
+.linkapp_enreja .wmeditor .dijitError.dijitComboBox,
+.linkapp_enreja .wmeditor .dijitError.isDirty.dijitTextBox,
+.linkapp_enreja .wmeditor .dijitError.isDirty.dijitTextArea,
+.linkapp_enreja .wmeditor .dijitError.isDirty.dijitComboBox
+{
+/* 	color: ; // THEMER: DISABLED */
+/* 	border: solid 0px rgb(102, 102, 102); // THEMER: DISABLED */
+	background-color: #F9F7BA; 
+	background-image: none; 
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.linkapp_enreja .wmeditor .wmeditor-caption {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+	color: #333333;
+	font-weight: bold;
+}
+
+/* GROUP: Read-only */
+.linkapp_enreja .wmeditor .wmeditor-readonlyNode {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1em;
+/* 	color: ; // THEMER: DISABLED */
+	font-weight: normal;
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(170, 170, 170)), color-stop(52%,rgb(102, 102, 102)), to(rgb(102, 102, 102)));
+	background-image: -moz-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -o-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	background-image: -ms-linear-gradient(top, rgb(170, 170, 170) 0%,rgb(102, 102, 102) 52%,rgb(102, 102, 102) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(170, 170, 170)', endColorstr='rgb(102, 102, 102)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton,
+.linkapp_enreja .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.linkapp_enreja .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton:hover {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton:active,
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton:active,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton:active {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.linkapp_enreja .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_enreja .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.linkapp_enreja .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.linkapp_enreja .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+    background-position: 50% 50%;
+	background-image: url(images/comboArrowDownLight.png);
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background-position: 30% 30%;
+	background-image: url(images/comboArrowDownLight.png); 
+}
+
+/* GROUP: Spinner Arrows Up */
+.linkapp_enreja .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background-image: url(images/comboArrowUpLight.png);
+}
+
+
+
+/* GROUP: Sliders */
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+	outline: solid 0px ;
+}
+
+/* GROUP: Slider Bar Progress */
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #d9241a;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.linkapp_enreja .wmeditor .dijitSlider .dijitSliderRightBumper,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.linkapp_enreja .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #666666;
+	background-image: none;
+	filter: none;
+}    

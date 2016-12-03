@@ -1,0 +1,43 @@
+/* GROUP: ProgressBar */
+.linkapp_shamcey .wmprogressbar .dijitProgressBar {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+	border: solid 1px black;
+}
+
+
+.linkapp_shamcey .wmprogressbar .dijitProgressBarLabel {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+		color: #FFFFFF;
+	font-weight: normal;
+}
+
+.linkapp_shamcey .wmprogressbar .dijitProgressBar {
+    background-color: rgb(68, 68, 68);
+    background-image: none;
+    filter: none;
+}
+
+
+/* GROUP: Progress Indicator */
+.linkapp_shamcey .wmprogressbar .dijitProgressBarFull {
+    background-color: rgb(68, 68, 68);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#c4c4cb), color-stop(20%,#5c5d60), to(#5c5d60));
+    background-image: -moz-linear-gradient(top, #c4c4cb 0%,#5c5d60 20%,#5c5d60 100%);
+    background-image: -o-linear-gradient(top, #c4c4cb 0%,#5c5d60 20%,#5c5d60 100%);
+    background-image: -ms-linear-gradient(top, #c4c4cb 0%,#5c5d60 20%,#5c5d60 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4cb', endColorstr='#5c5d60',GradientType=0);
+/* 	border-radius: 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px; // THEMER: DISABLED */
+    border-right: solid 1px black;
+    border-top: solid 0px black;
+    border-bottom: solid 0px black;
+    border-left: solid 0px black;
+    }
+
+
+.linkapp_shamcey .wmprogressbar .dijitProgressBarTile {
+   background-image: inherit; /* THEMER: HIDE */
+   background-color: inherit; /* THEMER: HIDE */
+}

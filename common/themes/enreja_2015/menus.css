@@ -1,0 +1,92 @@
+/* GROUP: Menu Bar Styling */
+.enreja_2015 .dojoMenu .dijitMenu,
+.enreja_2015 .dojoMenu .dijitMenuBar,
+.enreja_2015 .dojoMenu .dijitMenuItem {
+	font-family: Verdana, Geneva, sans-serifVerdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #eeeeee;
+	background-color: #232323;
+	background-image: none;
+	filter: none;
+}
+
+.enreja_2015 .dojoMenu .dijitMenuBar .dijitMenuItem {
+	margin-right: 0px;
+    margin-left: 0px;
+    height: 28px;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* GROUP: Menu Bar Hover */
+.enreja_2015 .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+	color: #ffffff;
+/* 	background-color: rgb(35, 35, 35); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+	outline: 0px;
+}
+
+/* GROUP: Menu Bar Select */
+.enreja_2015 .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+
+/* GROUP: Horizontal Menu Bar Icon */
+.enreja_2015 .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 90% 50% !important; // THEMER: DISABLED */
+	padding-right: 25px !important;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Popup Menu Box */
+.enreja_2015 .dijitMenuPopup .dijitMenuTable {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.enreja_2015 .dijitMenuPopup {
+	box-shadow: 3px 3px 4px #6b6b6b;
+	-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+
+/* GROUP: Popup Menu Item */
+.enreja_2015 .dijitPopup .dijitMenuTable .dijitMenuItem {
+	font-size: 11px;
+	font-family: Verdana, Geneva, sans-serifVerdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 0px #cccccc;
+	border-left: solid 1px #cccccc;
+    height: 28px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+}
+
+/* GROUP: Popup Menu Item Hover/Selected */
+/* NOTE: There is no good way with dojo menus to distinguish between hover and select */
+.enreja_2015 .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.enreja_2015 .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #a81919;
+	background-image: none;
+	filter: none;
+    outline-width: 0;
+}
+/* THEMER: DO NOT SUBCLASS END */

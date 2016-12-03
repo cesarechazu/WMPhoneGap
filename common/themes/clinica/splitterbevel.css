@@ -1,0 +1,27 @@
+/* GROUP: Bevel */
+.clinica .wmbevel {
+	background-color: #cccccc;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Splitter */
+/* NOTE: If you use gradients, then you can't use the horizontal and vertical images (which is important) */
+.clinica div.wmsplitter-h,
+.clinica div.wmsplitter-v {
+	background-color: #cccccc; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Hover */
+.clinica div.wmsplitter-h:hover,
+.clinica div.wmsplitter-v:hover {
+	background-color: #6b6b6b; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Horizontal Image */
+.clinica .wmsplitter-h {
+	background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+
+/* GROUP: Splitter Vertical Image */
+.clinica .wmsplitter-v {
+	background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}

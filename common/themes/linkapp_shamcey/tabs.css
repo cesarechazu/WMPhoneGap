@@ -1,0 +1,145 @@
+/* GROUP: Standard Tab Button */
+.linkapp_shamcey .wmtablayers .wmtablayers-tab,
+.linkapp_shamcey .wmtablayers button.wmtablayers-verticaltab {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	color: #222222;
+	font-weight: normal;
+	font-size: 1em;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+.linkapp_shamcey .wmtablayers .wmtablayers-tab {
+
+/* 	height: 100%; // THEMER: DISABLED */
+/* 	margin-left: 1px; // THEMER: DISABLED */
+/* 	border-radius: 8px 8px 0px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 8px 0px 0px; // THEMER: DISABLED */
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+
+	border-top: solid 0px rgb(68, 68, 68);
+	border-right: solid 1px rgb(68, 68, 68);
+	border-bottom: solid 1px #444444;
+	border-left: solid 0px rgb(68, 68, 68);
+}
+.dj_ff .linkapp_shamcey .wmtablayers .wmtablayers-tab {
+       box-shadow: 0 0 0 black !important; /* THEMER: HIDE */
+}
+/* GROUP: First Tab */
+.linkapp_shamcey .wmtablayers-tab:first-child {
+/* 	margin-left: 5px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Standard Selected Tab Button */
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+	background-color: #2176cc;
+	background-image: none;
+	filter: none;
+}
+.linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	top: 2px; // THEMER: DISABLED */
+    /* NOTE: To create different values of top for different browsers, use
+     .dj_ie .linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected, 
+     .dj_ff .linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+     .dj_webkit .linkapp_shamcey .wmtablayers .wmtablayers-tab.wmtablayers-selected */
+}
+
+/* GROUP: Tab Button with Focus */
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:focus,
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:focus {
+/* 	outline: solid 1px ; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Button with Hover */
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:hover,
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:hover {
+	color: #FFFFFF; 
+	background-color: #2176cc;
+	background-image: none;
+	filter: none;
+}
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Button with Mouse Down */
+/* NOTE: This does not appear to work in firefox at design time but is fine at runtime */
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:active,
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:active,
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:active:.focus,
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:active:focus {
+color: #FFFFFF; 
+background-color: #444444; 
+background-image: none;
+filter: none;
+}
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:active,
+.linkapp_shamcey .wmtablayers .wmtablayers-tab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+
+
+/* GROUP: Layer Borders */
+.linkapp_shamcey .wmtablayers  .wmTabLayers-client > .wmlayer {
+	border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+}
+
+/* GROUP: Tab Bar */
+.linkapp_shamcey .wmtablayers div.wmtablayers-tabbar {
+/* 	background-color: rgb(8, 102, 198); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+
+
+/* GROUP: Vertical Tab Buttons */
+.linkapp_shamcey .wmtablayers button.wmtablayers-verticaltab {
+	font-size: 1em;
+	width: 110px;
+	margin-left: 0;
+	margin-bottom: 0px;
+/* 	border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+	border-top: solid 0px rgb(68, 68, 68);
+	border-right: solid 0px transparent;
+	border-bottom: solid 0px rgb(68, 68, 68);
+	border-left: solid 0px rgb(68, 68, 68);
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+}
+
+/* GROUP: First Vertical Tab */
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:first-child {
+	margin-top: 0px;
+}
+
+/* GROUP: Vertical Tab Buttons with Hover */
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Selected Tab Buttons */
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+/*  border: solid 1px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab with Mouse Down */
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:active,
+.linkapp_shamcey .wmtablayers .wmtablayers-verticaltab:active:focus {
+/* 	box-shadow: 0px 0px 0px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px #444444; // THEMER: DISABLED */
+}

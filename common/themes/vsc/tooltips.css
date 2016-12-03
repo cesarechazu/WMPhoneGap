@@ -1,0 +1,15 @@
+/* GROUP: Tool tips */
+.vsc .AppToolTip {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333333;
+	font-weight: normal;
+
+  background-color: #FFFECB;
+  background-image: none;
+  filter: none;
+
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  box-shadow: 2px 2px 2px #666;
+}

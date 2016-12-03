@@ -1,0 +1,49 @@
+/* GROUP: Toggle Panel */
+.linkapp_shamcey .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.linkapp_shamcey .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.linkapp_shamcey .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.linkapp_shamcey .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.linkapp_shamcey .wmtogglebuttonpanel .wmbutton {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #d2d2d2;
+	font-weight: normal;
+
+	background-color: #222222;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Selected Button */
+.linkapp_shamcey .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+	font-family: Ubuntu, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #0866c6;
+	background-image: none;
+	filter: none;
+}
