@@ -21,7 +21,7 @@ iconsNameLabel: ["wm.Label", {"_classes":{"domNode":["iconsNameLabel"]},"caption
 devNameLabel: ["wm.Label", {"_classes":{"domNode":["iconsNameLabel"]},"caption":"Desarrollado por: César Echazú","padding":"4","styles":{},"width":"100%"}, {"onclick":"navHome"}]
 }],
 panelSeparador: ["wm.Panel", {"height":"8px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{"backgroundColor":"#505050"},"verticalAlign":"top","width":"100%"}, {}],
-pageContainer: ["wm.PageContainer", {"deferLoad":true,"pageName":"Home","styles":{},"subpageEventlist":{},"subpageMethodlist":{},"subpageProplist":{}}, {}]
+pageContainer: ["wm.PageContainer", {"deferLoad":true,"padding":"10","pageName":"Home","styles":{},"subpageEventlist":{},"subpageMethodlist":{},"subpageProplist":{}}, {}]
 }]
 };
 
