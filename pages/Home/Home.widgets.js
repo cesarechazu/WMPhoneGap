@@ -27,6 +27,13 @@ Home.widgets = {
 			}]
 		}]
 	}],
+	navCameraPhoto: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+		input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+			binding: ["wm.Binding", {}, {}, {
+				wire: ["wm.Wire", {"expression":"\"CameraPhoto\"","targetProperty":"pageName"}, {}]
+			}]
+		}]
+	}],
 	layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 		Fila1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 			panel5: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -34,8 +41,8 @@ Home.widgets = {
 				labelPrecios: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Battery","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBattery"}]
 			}],
 			panel6: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-				picture2: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/camera.png","styles":{},"width":"100%"}, {"onclick":"picture2Click"}],
-				labelStock: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Camera","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navCamera"}]
+				picture2: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/camera.png","styles":{},"width":"100%"}, {"onclick":"navCameraPhoto"}],
+				labelStock: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Camera","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navCameraPhoto"}]
 			}],
 			panel7: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 				picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/video.png","styles":{},"width":"100%"}, {"onclick":"navPedidos"}],

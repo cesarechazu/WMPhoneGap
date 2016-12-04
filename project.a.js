@@ -362,7 +362,7 @@ WMPhoneGap.extend({
 });
 WMPhoneGap.prototype._css = 'html.WMApp body .appNameLabel {\
 color: #ffffff;\
-font-size: 16px;\
+font-size: 20px;\
 font-weight: bold;\
 }\
 html.WMApp body .mainHeaderPanel {\
@@ -370,6 +370,6 @@ background-color: #0866c6;\
 }\
 html.WMApp body .iconsNameLabel {\
 color: #ffffff;\
-font-size: 10px;\
+font-size: 12px;\
 }\
 ';
