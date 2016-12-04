@@ -7,7 +7,7 @@ CameraPhoto.widgets = {
 			}]
 		}]
 	}],
-	layoutBox1: ["wm.Layout", {"horizontalAlign":"left","verticalAlign":"top"}, {}, {
+	layoutBox1: ["wm.Layout", {"horizontalAlign":"center","verticalAlign":"top"}, {}, {
 		takePhotoPGButton: ["wm.Button", {"border":"1","caption":"Take photo with PhoneGapCall","height":"40px","width":"100%"}, {"onclick":"phoneGapCallPhoto"}],
 		takePhotoJSButton: ["wm.Button", {"border":"1","caption":"Take photo with java script function","height":"40px","width":"100%"}, {"onclick":"takePhotoJSButtonClick"}],
 		picture1: ["wm.Picture", {"aspect":"h","height":"100%","width":"100%"}, {}, {
@@ -15,6 +15,6 @@ CameraPhoto.widgets = {
 				wire: ["wm.Wire", {"expression":undefined,"source":"phoneGapCallPhoto.dataValue","targetProperty":"source"}, {}]
 			}]
 		}],
-		imageURILabel: ["wm.Label", {"caption":"","padding":"4","width":"100%"}, {}]
+		imageURIText: ["wm.LargeTextArea", {"border":"0","caption":undefined,"dataValue":undefined,"displayValue":"","height":"80px","mobileHeight":"80px","styles":{},"width":"98%"}, {}]
 	}]
 }

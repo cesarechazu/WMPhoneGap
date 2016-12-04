@@ -18,8 +18,7 @@ dojo.declare("CameraPhoto", wm.Page, {
         function onJSSuccess(imageURI) {
             //var image = document.getElementById('myImage');
             //image.src = imageURI;
-            app.toastInfo(imageURI, 2500);
-            this.imageURILabel.setCaption(imageURI.toString());
+            this.imageURIText.setDataValue(imageURI);
             this.picture1.setSource(imageURI)
         }
 
