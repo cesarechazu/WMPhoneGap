@@ -1,26 +1,26 @@
 dojo.declare("CameraPhoto", wm.Page, {
 start: function() {
-var t = this;
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
 console.log(navigator.camera);
 }
+app.cameraPicVar.setValue("dataValue",null);
 },
 "preferredDevice": "phone",
-setPhoto: function(inPath) {
-app.toastSuccess("File: " + inPath, 2500);
-this.picture1.setSource(inPath);
-},
 phoneGapCallPhotoError: function(inSender, inError) {
 app.alert(inError.toString());
+},
+takePhotoPGButtonClick: function(inSender) {
+this.phoneGapCallPhoto.update();
+this.picture1.setSource(this.phoneGapCallPhoto.getValue("dataValue"));
 },
 takePhotoJSButtonClick: function(inSender) {
 navigator.camera.getPicture(onJSSuccess, onJSFail, {quality: 50,destinationType: Camera.DestinationType.FILE_URI});
 function onJSSuccess(imageURI) {
 //var image = document.getElementById('myImage');
 //image.src = imageURI;
-app.stringAppVar.setValue("dataValue",imageURI);
-t.setPhoto(imageURI);
+app.toastSuccess("Taken", 2500);
+app.cameraPicVar.setValue("dataValue",imageURI);
 }
 function onJSFail(message) {
 alert('Failed because: ' + message);
@@ -39,11 +39,11 @@ wire1: ["wm.Wire", {"expression":"\"Camera\"","targetProperty":"sourceType"}, {}
 }]
 }],
 layoutBox1: ["wm.Layout", {"horizontalAlign":"center","verticalAlign":"top"}, {}, {
-takePhotoPGButton: ["wm.Button", {"border":"1","caption":"Take photo with PhoneGapCall","height":"40px","width":"100%"}, {"onclick":"phoneGapCallPhoto"}],
+takePhotoPGButton: ["wm.Button", {"border":"1","caption":"Take photo with PhoneGapCall","height":"40px","width":"100%"}, {"onclick":"takePhotoPGButtonClick"}],
 takePhotoJSButton: ["wm.Button", {"border":"1","caption":"Take photo with java script function","height":"40px","width":"100%"}, {"onclick":"takePhotoJSButtonClick"}],
 picture1: ["wm.Picture", {"aspect":"h","height":"100%","width":"100%"}, {}, {
 binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":undefined,"source":"phoneGapCallPhoto.dataValue","targetProperty":"source"}, {}]
+wire: ["wm.Wire", {"expression":undefined,"source":"app.cameraPicVar.dataValue","targetProperty":"source"}, {}]
 }]
 }],
 imageURIText: ["wm.LargeTextArea", {"border":"0","caption":undefined,"displayValue":"","height":"80px","mobileHeight":"80px","readonly":true,"styles":{},"width":"98%"}, {}, {
