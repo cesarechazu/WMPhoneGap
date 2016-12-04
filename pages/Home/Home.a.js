@@ -27,17 +27,17 @@ wire: ["wm.Wire", {"expression":"\"Contacts\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
-navCamera: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
-input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
-binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":"\"Camera\"","targetProperty":"pageName"}, {}]
-}]
-}]
-}],
 navCameraPhoto: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
 input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
 binding: ["wm.Binding", {}, {}, {
 wire: ["wm.Wire", {"expression":"\"CameraPhoto\"","targetProperty":"pageName"}, {}]
+}]
+}]
+}],
+navMediaCapture: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":"\"MediaCapture\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
@@ -52,8 +52,8 @@ picture2: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/image
 labelStock: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Camera","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navCameraPhoto"}]
 }],
 panel7: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/video.png","styles":{},"width":"100%"}, {"onclick":"navPedidos"}],
-labelPedidos: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media Capture","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navPedidos"}]
+picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/video.png","styles":{},"width":"100%"}, {"onclick":"navMediaCapture"}],
+labelPedidos: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media Capture","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navMediaCapture"}]
 }]
 }],
 Fila2: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
