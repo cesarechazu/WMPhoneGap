@@ -14,7 +14,7 @@ dojo.declare("MediaCapture", wm.Page, {
             var i, path, len;
             for (i = 0, len = mediaFiles.length; i < len; i += 1) {
                 path = mediaFiles[i].fullPath;
-                paths = paths + "||" + path;
+                paths = paths + "\n" + path;
             }
             app.stringAppVar.setValue("dataValue",paths);
         };
