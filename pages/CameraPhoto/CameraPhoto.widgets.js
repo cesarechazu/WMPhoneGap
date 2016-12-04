@@ -14,6 +14,7 @@ CameraPhoto.widgets = {
 			binding: ["wm.Binding", {}, {}, {
 				wire: ["wm.Wire", {"expression":undefined,"source":"phoneGapCallPhoto.dataValue","targetProperty":"source"}, {}]
 			}]
-		}]
+		}],
+		imageURILabel: ["wm.Label", {"caption":"","padding":"4","width":"100%"}, {}]
 	}]
 }

@@ -14,9 +14,9 @@ navigator.camera.getPicture(onSuccess, onFail, {quality: 50,destinationType: Cam
 function onSuccess(imageURI) {
 //var image = document.getElementById('myImage');
 //image.src = imageURI;
-app.toastInfo("Photo taken", 2500);
-this.picture1.setValue("source",null);
-this.picture1.setValue("source",imageURI);
+app.toastInfo("Taken", 2500);
+this.imageURILabel.setCaption(imageURI.toString());
+this.picture1.setSource(imageURI)
 }
 function onFail(message) {
 alert('Failed because: ' + message);
@@ -41,7 +41,8 @@ picture1: ["wm.Picture", {"aspect":"h","height":"100%","width":"100%"}, {}, {
 binding: ["wm.Binding", {}, {}, {
 wire: ["wm.Wire", {"expression":undefined,"source":"phoneGapCallPhoto.dataValue","targetProperty":"source"}, {}]
 }]
-}]
+}],
+imageURILabel: ["wm.Label", {"caption":"","padding":"4","width":"100%"}, {}]
 }]
 };
 
