@@ -13,16 +13,18 @@ dojo.declare("CameraPhoto", wm.Page, {
     },
     
     takePhotoPGButtonClick: function(inSender) {
+        this.pictureJSPanel.setShowing(false);
+        this.picturePGPanel.setShowing(true);
         this.phoneGapCallPhoto.update();
-    	this.picture1.setSource(this.phoneGapCallPhoto.getValue("dataValue"));
 	},
 
     takePhotoJSButtonClick: function(inSender) {
+        this.picturePGPanel.setShowing(false);
+        this.pictureJSPanel.setShowing(true);
+        
         navigator.camera.getPicture(onJSSuccess, onJSFail, {quality: 50,destinationType: Camera.DestinationType.FILE_URI});
 
         function onJSSuccess(imageURI) {
-            //var image = document.getElementById('myImage');
-            //image.src = imageURI;
             app.toastSuccess("Taken", 2500);
             app.cameraPicVar.setValue("dataValue",imageURI);
         }
@@ -32,5 +34,6 @@ dojo.declare("CameraPhoto", wm.Page, {
         }
     },
     
+	
 	_end: 0
 });
