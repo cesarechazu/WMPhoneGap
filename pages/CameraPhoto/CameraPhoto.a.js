@@ -1,11 +1,16 @@
 dojo.declare("CameraPhoto", wm.Page, {
 start: function() {
+var t = this;
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
 console.log(navigator.camera);
 }
 },
 "preferredDevice": "phone",
+setPhoto: function(inPath) {
+app.toastSuccess("File: " + inPath, 2500);
+this.picture1.setSource(inPath);
+},
 phoneGapCallPhotoError: function(inSender, inError) {
 app.alert(inError.toString());
 },
@@ -14,8 +19,8 @@ navigator.camera.getPicture(onJSSuccess, onJSFail, {quality: 50,destinationType:
 function onJSSuccess(imageURI) {
 //var image = document.getElementById('myImage');
 //image.src = imageURI;
-app.toastSuccess("File: " + imageURI, 2500);
 app.stringAppVar.setValue("dataValue",imageURI);
+t.setPhoto(imageURI);
 }
 function onJSFail(message) {
 alert('Failed because: ' + message);
