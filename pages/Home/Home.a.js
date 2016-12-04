@@ -2,6 +2,9 @@ dojo.declare("Home", wm.Page, {
 start: function() {
 },
 "preferredDevice": "phone",
+picture2Click: function(inSender) {
+this.navCamera.update();
+},
 _end: 0
 });
 
@@ -35,13 +38,13 @@ wire: ["wm.Wire", {"expression":"\"Camera\"","targetProperty":"pageName"}, {}]
 }]
 }],
 layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
-Fila1: ["wm.Panel", {"height":"126px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panel5: ["wm.Panel", {"height":"124px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+Fila1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panel5: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture1: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/battery_full.png","styles":{},"width":"100%"}, {"onclick":"navBattery"}],
 labelPrecios: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Battery","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBattery"}]
 }],
 panel6: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture2: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/camera.png","styles":{},"width":"100%"}, {"onclick":"navCamera"}],
+picture2: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/camera.png","styles":{},"width":"100%"}, {"onclick":"picture2Click"}],
 labelStock: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Camera","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navCamera"}]
 }],
 panel7: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -49,8 +52,8 @@ picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/image
 labelPedidos: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media Capture","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navPedidos"}]
 }]
 }],
-Fila2: ["wm.Panel", {"height":"106px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panel8: ["wm.Panel", {"height":"104px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+Fila2: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panel8: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture4: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/keyboard.png","styles":{},"width":"100%"}, {"onclick":"navCuentas"}],
 labelCtasCtes: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Console","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navCuentas"}]
 }],
@@ -63,8 +66,8 @@ picture6: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/image
 labelPedidos1: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Device","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navRecibos"}]
 }]
 }],
-Fila3: ["wm.Panel", {"height":"126px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panel11: ["wm.Panel", {"height":"124px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+Fila3: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panel11: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture7: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/design.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],
 labelCtasCtes1: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Device Motion","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navAgenda"}]
 }],
@@ -77,8 +80,8 @@ picture9: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/image
 labelPedidos2: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Dialogs","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navInformes"}]
 }]
 }],
-Fila4: ["wm.Panel", {"height":"106px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panel14: ["wm.Panel", {"height":"104px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+Fila4: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panel14: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture10: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/archive.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],
 labelCtasCtes2: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"File","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navAgenda"}]
 }],
@@ -91,22 +94,22 @@ picture12: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/imag
 labelPedidos3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Geolocation","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navInformes"}]
 }]
 }],
-Fila5: ["wm.Panel", {"height":"106px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panel17: ["wm.Panel", {"height":"104px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+Fila5: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panel17: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture13: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/gear.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],
 labelCtasCtes3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Globalization","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navAgenda"}]
 }],
 panel18: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture14: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/link.png","styles":{},"width":"100%"}, {"onclick":"navCalendario"}],
-labelStock4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Inapp Browser","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navCalendario"}]
+labelStock4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Inapp Browser","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navCalendario"}]
 }],
 panel19: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navInformes"}],
 labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navInformes"}]
 }]
 }],
-Fila6: ["wm.Panel", {"height":"126px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panel20: ["wm.Panel", {"height":"124px","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+Fila6: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panel20: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture16: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/warning_blue.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],
 labelCtasCtes4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Network Information","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navAgenda"}]
 }],
