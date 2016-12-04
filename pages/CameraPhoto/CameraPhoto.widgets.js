@@ -15,6 +15,10 @@ CameraPhoto.widgets = {
 				wire: ["wm.Wire", {"expression":undefined,"source":"phoneGapCallPhoto.dataValue","targetProperty":"source"}, {}]
 			}]
 		}],
-		imageURIText: ["wm.LargeTextArea", {"border":"0","caption":undefined,"dataValue":undefined,"displayValue":"","height":"80px","mobileHeight":"80px","styles":{},"width":"98%"}, {}]
+		imageURIText: ["wm.LargeTextArea", {"border":"0","caption":undefined,"displayValue":"","height":"80px","mobileHeight":"80px","readonly":true,"styles":{},"width":"98%"}, {}, {
+			binding: ["wm.Binding", {}, {}, {
+				wire: ["wm.Wire", {"expression":undefined,"source":"app.stringAppVar.dataValue","targetProperty":"dataValue"}, {}]
+			}]
+		}]
 	}]
 }

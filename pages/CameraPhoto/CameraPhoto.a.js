@@ -14,8 +14,8 @@ navigator.camera.getPicture(onJSSuccess, onJSFail, {quality: 50,destinationType:
 function onJSSuccess(imageURI) {
 //var image = document.getElementById('myImage');
 //image.src = imageURI;
-this.imageURIText.setDataValue(imageURI);
-this.picture1.setSource(imageURI)
+app.toastSuccess("File: " + imageURI, 2500);
+app.stringAppVar.setValue("dataValue",imageURI);
 }
 function onJSFail(message) {
 alert('Failed because: ' + message);
@@ -41,7 +41,11 @@ binding: ["wm.Binding", {}, {}, {
 wire: ["wm.Wire", {"expression":undefined,"source":"phoneGapCallPhoto.dataValue","targetProperty":"source"}, {}]
 }]
 }],
-imageURIText: ["wm.LargeTextArea", {"border":"0","caption":undefined,"dataValue":undefined,"displayValue":"","height":"80px","mobileHeight":"80px","styles":{},"width":"98%"}, {}]
+imageURIText: ["wm.LargeTextArea", {"border":"0","caption":undefined,"displayValue":"","height":"80px","mobileHeight":"80px","readonly":true,"styles":{},"width":"98%"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":undefined,"source":"app.stringAppVar.dataValue","targetProperty":"dataValue"}, {}]
+}]
+}]
 }]
 };
 

@@ -20,7 +20,8 @@ dojo.declare("WMPhoneGap", wm.Application, {
 	"touchToClickDelay": 500, 
 	"touchToRightClickDelay": 1500,
 	"widgets": {
-		silkIconList: ["wm.ImageList", {"colCount":39,"height":16,"iconCount":90,"url":"lib/images/silkIcons/silk.png","width":16}, {}]
+		silkIconList: ["wm.ImageList", {"colCount":39,"height":16,"iconCount":90,"url":"lib/images/silkIcons/silk.png","width":16}, {}], 
+		stringAppVar: ["wm.Variable", {"type":"StringData"}, {}]
 	},
 	_end: 0
 });
