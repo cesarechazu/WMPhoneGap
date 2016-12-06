@@ -10,13 +10,16 @@ dojo.declare("DeviceMotion", wm.Page, {
             var info = "";
 
             function onSuccess(acceleration) {
-                info = 'Acceleration X: ' + acceleration.x + '\n' + 'Acceleration Y: ' + acceleration.y + '\n' + 'Acceleration Z: ' + acceleration.z + '\n' + 'Timestamp: ' + acceleration.timestamp + '\n';
-                form.labelMotionInfo.setCaption(info);
+                info =  'X: ' + acceleration.x + '\n' + 
+                        'Y: ' + acceleration.y + '\n' + 
+                        'Z: ' + acceleration.z + '\n' +  
+                        'Timestamp: ' + acceleration.timestamp;
+                form.textInfo.setDataValue(info);
             }
 
             function onError() {
                 info = "onError";
-                form.labelMotionInfo.setCaption(info);
+                form.textInfo.setDataValue(info);
             }
 
             var options = {frequency: 3000}; // Update every 3 seconds

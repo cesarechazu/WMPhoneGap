@@ -1,6 +1,7 @@
 dojo.declare("Device", wm.Page, {
     start: function() {
         var form = this;
+        
         document.addEventListener("deviceready", onDeviceReady, false);
 
         function onDeviceReady() {

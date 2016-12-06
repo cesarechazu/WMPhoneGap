@@ -1,5 +1,6 @@
 Device.widgets = {
-	layoutBox1: ["wm.Layout", {"horizontalAlign":"left","verticalAlign":"top"}, {}, {
+	layoutBox1: ["wm.Layout", {"horizontalAlign":"left","styles":{},"verticalAlign":"top"}, {}, {
+		labelTitle: ["wm.Label", {"_classes":{"domNode":["labelTitle"]},"caption":"Device information","height":"50px","padding":"4","styles":{},"width":"100%"}, {}],
 		labelCordovaVersion: ["wm.Label", {"caption":"Cordova version: [cordova]","height":"34px","margin":"5","padding":"4","styles":{},"width":"100%"}, {}],
 		labelModel: ["wm.Label", {"caption":"Model: [model]","height":"34px","margin":"5","padding":"4","styles":{},"width":"100%"}, {}],
 		labelPlatform: ["wm.Label", {"caption":"Platform: [platform]","height":"34px","margin":"5","padding":"4","styles":{},"width":"100%"}, {}],
