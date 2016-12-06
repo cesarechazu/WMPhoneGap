@@ -19,7 +19,7 @@ dojo.declare("Geolocation", wm.Page, {
         var onSuccess = function(position) {
             form.labelInfo.setCaption('Position: ' + 'Latitude: ' + position.coords.latitude + '\n' + 'Longitude: ' + position.coords.longitude + '\n' + 'Altitude: ' + position.coords.altitude + '\n' + 'Accuracy: ' + position.coords.accuracy + '\n' + 'Altitude Accuracy: ' + position.coords.altitudeAccuracy + '\n' + 'Heading: ' + position.coords.heading + '\n' + 'Speed: ' + position.coords.speed + '\n' + 'Timestamp: ' + position.timestamp + '\n');
             
-            var embedHtml  = '<iframe width="310" height="360" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyB-Vx4g2maQTaK-srl_8KYzxl4MiTXW2cc&center=%latitude%,%longitude%&zoom=18&maptype=satellite></iframe>';
+            var embedHtml  = '<iframe>width="310" height="360" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyB-Vx4g2maQTaK-srl_8KYzxl4MiTXW2cc&center=%latitude%,%longitude%&zoom=18&maptype=satellite</iframe>';
             embedHtml = embedHtml.replace("%latitude%", position.coords.latitude);
             embedHtml = embedHtml.replace("%longitude%", position.coords.longitude);
             form.htmlMap.setHtml(embedHtml);
