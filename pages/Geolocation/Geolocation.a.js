@@ -11,10 +11,11 @@ buttonGetPositionClick: function(inSender) {
 // This method accepts a Position object, which contains the
 // current GPS coordinates
 //
+var form = this;
 var onSuccess = function(position) {
-this.labelInfo.setCaption('Position: ' + 'Latitude: ' + position.coords.latitude + '\n' + 'Longitude: ' + position.coords.longitude + '\n' + 'Altitude: ' + position.coords.altitude + '\n' + 'Accuracy: ' + position.coords.accuracy + '\n' + 'Altitude Accuracy: ' + position.coords.altitudeAccuracy + '\n' + 'Heading: ' + position.coords.heading + '\n' + 'Speed: ' + position.coords.speed + '\n' + 'Timestamp: ' + position.timestamp + '\n');
-this.googleMap.setLatitude(position.coords.latitude);
-this.googleMap.setLongitude(position.coords.latitude);
+form.labelInfo.setCaption('Position: ' + 'Latitude: ' + position.coords.latitude + '\n' + 'Longitude: ' + position.coords.longitude + '\n' + 'Altitude: ' + position.coords.altitude + '\n' + 'Accuracy: ' + position.coords.accuracy + '\n' + 'Altitude Accuracy: ' + position.coords.altitudeAccuracy + '\n' + 'Heading: ' + position.coords.heading + '\n' + 'Speed: ' + position.coords.speed + '\n' + 'Timestamp: ' + position.timestamp + '\n');
+form.googleMap.setLatitude(position.coords.latitude);
+form.googleMap.setLongitude(position.coords.latitude);
 };
 // onError Callback receives a PositionError object
 //
