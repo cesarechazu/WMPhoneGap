@@ -35,4 +35,7 @@ googleMap: ["wm.gadget.GoogleMap", {"minDesktopHeight":100}, {}]
 };
 
 Geolocation.prototype._cssText = '';
-Geolocation.prototype._htmlText = '';
+Geolocation.prototype._htmlText = '<script async defer\
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-Vx4g2maQTaK-srl_8KYzxl4MiTXW2cc=initMap">\
+</script>\
+';
