@@ -374,4 +374,9 @@ html.WMApp body .iconsNameLabel {\
 color: #ffffff;\
 font-size: 12px;\
 }\
+html.WMApp body .labelTitle {\
+font-size: 18px;\
+text-align: center;\
+font-weight: bold;\
+}\
 ';
