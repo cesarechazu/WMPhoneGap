@@ -62,6 +62,13 @@ Home.widgets = {
 			}]
 		}]
 	}],
+	navDialogs: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+		input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+			binding: ["wm.Binding", {}, {}, {
+				wire: ["wm.Wire", {"expression":"\"Dialogs\"","targetProperty":"pageName"}, {}]
+			}]
+		}]
+	}],
 	layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 		Fila1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 			panelBattery: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -97,8 +104,8 @@ Home.widgets = {
 				labelStock2: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Device Orientation","height":"48px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navDeviceOrientation"}]
 			}],
 			panelDialogs: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-				picture9: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/windows.png","styles":{},"width":"100%"}, {"onclick":"navInformes"}],
-				labelPedidos2: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Dialogs","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navInformes"}]
+				picture9: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/windows.png","styles":{},"width":"100%"}, {"onclick":"navDialogs"}],
+				labelPedidos2: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Dialogs","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navDialogs"}]
 			}],
 			panelFile: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 				picture10: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/archive.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],

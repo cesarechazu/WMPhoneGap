@@ -8,15 +8,15 @@ dojo.declare("DeviceOrientation", wm.Page, {
             console.log(navigator.compass);
 
             function onSuccess(heading) {
-                form.numberOrientation.setDataValue(heading.magneticHeading);
+                form.textOrientation.setDataValue(heading.magneticHeading);
             };
 
             function onError(compassError) {
-                form.numberOrientation.setDataValue('Compass error: ' + compassError.code);
+                form.textOrientation.setDataValue('Compass error: ' + compassError.code);
             };
 
             var options = {
-                frequency: 1500
+                frequency: 3000
             }; 
             var watchID = navigator.compass.watchHeading(onSuccess, onError, options);
         }
