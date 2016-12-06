@@ -76,6 +76,13 @@ wire: ["wm.Wire", {"expression":"\"Dialogs\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
+navGeolocation: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":"\"Geolocation\"","targetProperty":"pageName"}, {}]
+}]
+}]
+}],
 layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 Fila1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 panelBattery: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -125,8 +132,8 @@ picture11: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/imag
 labelStock3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"File Transfer","height":"48px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navCalendario"}]
 }],
 panelGeolocation: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture12: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/globe.png","styles":{},"width":"100%"}, {"onclick":"navInformes"}],
-labelPedidos3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Geolocation","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navInformes"}]
+picture12: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/globe.png","styles":{},"width":"100%"}, {"onclick":"navGeolocation"}],
+labelPedidos3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Geolocation","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navGeolocation"}]
 }],
 panelGlobalization: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture13: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/gear.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],

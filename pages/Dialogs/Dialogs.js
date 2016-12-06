@@ -10,6 +10,8 @@ dojo.declare("Dialogs", wm.Page, {
     "preferredDevice": "phone",
 
     buttonAlertClick: function(inSender) {
+        this.labelResult.setCaption("");
+
         function alertDismissed() {
 
         }
@@ -17,6 +19,7 @@ dojo.declare("Dialogs", wm.Page, {
     },
     buttonConfirmClick: function(inSender) {
         var form = this;
+        form.labelResult.setCaption("");
 
         function onConfirm(buttonIndex) {
             form.labelResult.setCaption('You selected button ' + buttonIndex);
@@ -26,6 +29,7 @@ dojo.declare("Dialogs", wm.Page, {
     },
     buttonPromptClick: function(inSender) {
         var form = this;
+        form.labelResult.setCaption("");
 
         function onPrompt(results) {
             form.labelResult.setCaption("You selected button number " + results.buttonIndex + " and entered " + results.input1);
@@ -39,6 +43,7 @@ dojo.declare("Dialogs", wm.Page, {
         );
     },
     buttonBeepClick: function(inSender) {
+        this.labelResult.setCaption("");
         navigator.notification.beep(2);
     },
     _end: 0

@@ -7,12 +7,14 @@ console.log(navigator.notification);
 },
 "preferredDevice": "phone",
 buttonAlertClick: function(inSender) {
+this.labelResult.setCaption("");
 function alertDismissed() {
 }
 navigator.notification.alert('WaveMaker 6.7 and PhoneGap demo application', alertDismissed, 'Alert', 'Ok');
 },
 buttonConfirmClick: function(inSender) {
 var form = this;
+form.labelResult.setCaption("");
 function onConfirm(buttonIndex) {
 form.labelResult.setCaption('You selected button ' + buttonIndex);
 }
@@ -20,6 +22,7 @@ navigator.notification.confirm('Select one choice!', onConfirm, 'Confirm', ['Res
 },
 buttonPromptClick: function(inSender) {
 var form = this;
+form.labelResult.setCaption("");
 function onPrompt(results) {
 form.labelResult.setCaption("You selected button number " + results.buttonIndex + " and entered " + results.input1);
 }
@@ -31,6 +34,7 @@ onPrompt, // callback to invoke
 );
 },
 buttonBeepClick: function(inSender) {
+this.labelResult.setCaption("");
 navigator.notification.beep(2);
 },
 _end: 0
@@ -43,7 +47,7 @@ buttonAlert: ["wm.Button", {"border":"1","caption":"Alert","height":"40px"}, {"o
 buttonConfirm: ["wm.Button", {"border":"1","caption":"Confirm","height":"40px"}, {"onclick":"buttonConfirmClick"}],
 buttonPrompt: ["wm.Button", {"border":"1","caption":"Prompt","height":"40px"}, {"onclick":"buttonPromptClick"}],
 buttonBeep: ["wm.Button", {"border":"1","caption":"Beep","height":"40px"}, {"onclick":"buttonBeepClick"}],
-labelResult: ["wm.Label", {"caption":"","padding":"4","width":"100%"}, {}]
+labelResult: ["wm.Label", {"caption":"","height":"100%","padding":"4","singleLine":false,"width":"100%"}, {}]
 }]
 };
 

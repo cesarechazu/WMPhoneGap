@@ -5,6 +5,6 @@ Dialogs.widgets = {
 		buttonConfirm: ["wm.Button", {"border":"1","caption":"Confirm","height":"40px"}, {"onclick":"buttonConfirmClick"}],
 		buttonPrompt: ["wm.Button", {"border":"1","caption":"Prompt","height":"40px"}, {"onclick":"buttonPromptClick"}],
 		buttonBeep: ["wm.Button", {"border":"1","caption":"Beep","height":"40px"}, {"onclick":"buttonBeepClick"}],
-		labelResult: ["wm.Label", {"caption":"","padding":"4","width":"100%"}, {}]
+		labelResult: ["wm.Label", {"caption":"","height":"100%","padding":"4","singleLine":false,"width":"100%"}, {}]
 	}]
 }
