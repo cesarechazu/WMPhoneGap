@@ -18,8 +18,8 @@ dojo.declare("Geolocation", wm.Page, {
             form.labelInfo.setCaption('Position: ' + 'Latitude: ' + position.coords.latitude + '\n' + 'Longitude: ' + position.coords.longitude + '\n' + 'Altitude: ' + position.coords.altitude + '\n' + 'Accuracy: ' + position.coords.accuracy + '\n' + 'Altitude Accuracy: ' + position.coords.altitudeAccuracy + '\n' + 'Heading: ' + position.coords.heading + '\n' + 'Speed: ' + position.coords.speed + '\n' + 'Timestamp: ' + position.timestamp + '\n');
             
             var mapSource  = 'https://www.google.com/maps/embed/v1/view?key=AIzaSyB-Vx4g2maQTaK-srl_8KYzxl4MiTXW2cc&center=%latitude%,%longitude%&zoom=14';
-            mapSource = embedHtml.replace("%latitude%", position.coords.latitude);
-            mapSource = embedHtml.replace("%longitude%", position.coords.longitude);
+            mapSource = mapSource.replace("%latitude%", position.coords.latitude);
+            mapSource = mapSource.replace("%longitude%", position.coords.longitude);
             form.iFrameMap.setSource(mapSource);
             
         };
