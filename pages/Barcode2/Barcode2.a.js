@@ -5,7 +5,6 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
 console.log("plugins.barcodeScanner works well");
 }
-}
 },
 "preferredDevice": "phone",
 buttonScannClick: function(inSender) {

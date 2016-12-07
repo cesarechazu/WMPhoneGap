@@ -6,7 +6,6 @@ dojo.declare("Barcode2", wm.Page, {
         function onDeviceReady() {
             console.log("plugins.barcodeScanner works well");
             }
-        }
     },
     "preferredDevice": "phone",
 
