@@ -79,7 +79,14 @@ wire: ["wm.Wire", {"expression":"\"Dialogs\"","targetProperty":"pageName"}, {}]
 navGeolocation: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
 input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
 binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":"\"Geolocation\"","targetProperty":"pageName"}, {}]
+wire: ["wm.Wire", {"expression":"\"Geolocation2\"","targetProperty":"pageName"}, {}]
+}]
+}]
+}],
+navBarcode: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":"\"Barcode\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
@@ -162,6 +169,10 @@ labelCtasCtes4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"
 panelVibration: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture17: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/telephone_black.png","styles":{},"width":"100%"}, {"onclick":"navVibrate"}],
 labelStock5: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Vibration","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navVibrate"}]
+}],
+panelBarCode: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+picture18: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/barcode.png","styles":{},"width":"100%"}, {"onclick":"navBarcode"}],
+labelStock6: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Barcode","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBarcode"}]
 }]
 }]
 }]

@@ -38,4 +38,5 @@ iFrameMap: ["wm.IFrame", {"height":"100%","width":"100%"}, {}]
 };
 
 Geolocation.prototype._cssText = '';
-Geolocation.prototype._htmlText = '';
+Geolocation.prototype._htmlText = '<div id="map"></div>\
+';
