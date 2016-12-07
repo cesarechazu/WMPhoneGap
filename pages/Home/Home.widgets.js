@@ -79,7 +79,7 @@ Home.widgets = {
 	navBarcode: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
 		input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
 			binding: ["wm.Binding", {}, {}, {
-				wire: ["wm.Wire", {"expression":"\"Barcode\"","targetProperty":"pageName"}, {}]
+				wire: ["wm.Wire", {"expression":"\"Barcode2\"","targetProperty":"pageName"}, {}]
 			}]
 		}]
 	}],
