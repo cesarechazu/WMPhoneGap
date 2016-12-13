@@ -27,9 +27,7 @@ dojo.declare("Barcode2", wm.Page, {
             // iOS 
             "prompt": "Place a barcode inside the scan area",
             // supported on Android only 
-            "formats": "QR_CODE,PDF_417",
-            // default: all but PDF_417 and RSS_EXPANDED 
-            "orientation": "portrait" // Android only (portrait|landscape), default unset so it rotates with the device 
+            "formats": "QR_CODE,DATA_MATRIX,UPC_E,UPC_A,EAN_8,EAN_13,CODE_128,CODE_39,CODE_93,CODABAR,ITF,RSS14,RSS_EXPANDED,PDF417,AZTEC"
         });
 
     },
