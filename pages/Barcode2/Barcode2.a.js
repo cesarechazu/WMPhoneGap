@@ -8,13 +8,14 @@ console.log("plugins.barcodeScanner works well");
 },
 "preferredDevice": "phone",
 buttonScannClick: function(inSender) {
+var form = this;
 cordova.plugins.barcodeScanner.scan(
 function(result) {
-alert("We got a barcode\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
+this.textResult.setDataValue("We got a barcode\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
 }, function(error) {
 alert("Scanning failed: " + error);
 }, {
-"preferFrontCamera": true,
+"preferFrontCamera": false,
 // iOS and Android
 "showFlipCameraButton": true,
 // iOS and Android
