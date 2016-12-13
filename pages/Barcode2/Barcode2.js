@@ -13,7 +13,7 @@ dojo.declare("Barcode2", wm.Page, {
         var form = this;
         cordova.plugins.barcodeScanner.scan(
         function(result) {
-            this.textResult.setDataValue("We got a barcode\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
+            form.textResult.setDataValue("We got a barcode\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
         }, function(error) {
             alert("Scanning failed: " + error);
         }, {
