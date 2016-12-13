@@ -234,6 +234,31 @@
 			"target": null,
 			"token": null,
 			"username": null
+		}, {
+			"applicationName": "qventas",
+			"archiveType": "WAR",
+			"databases": [{
+				"connectionUrl": "jdbc:postgresql://localhost:5432/qventas",
+				"dataModelId": "qventasDB",
+				"dbName": "qventas",
+				"jndiName": null,
+				"password": "7b6a43524a747f493f39312b425c32205754",
+				"updateSchema": false,
+				"username": "dba"
+			}],
+			"deploymentId": "qventas1",
+			"deploymentType": "FILE",
+			"deploymentUrl": null,
+			"destroyAllData": null,
+			"host": null,
+			"httpPort": 0,
+			"httpsPort": 0,
+			"name": "Corralon",
+			"password": "7b6a43524a2b381667313a6b124c1a",
+			"port": 0,
+			"target": null,
+			"token": null,
+			"username": null
 		}]
 	}
 }
