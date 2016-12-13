@@ -86,7 +86,7 @@ wire: ["wm.Wire", {"expression":"\"Geolocation2\"","targetProperty":"pageName"},
 navBarcode: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
 input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
 binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":"\"Barcode2\"","targetProperty":"pageName"}, {}]
+wire: ["wm.Wire", {"expression":"\"Barcode\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
