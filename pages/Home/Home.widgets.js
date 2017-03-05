@@ -104,6 +104,13 @@ Home.widgets = {
 			}]
 		}]
 	}],
+	navNetworkInfo: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+		input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+			binding: ["wm.Binding", {}, {}, {
+				wire: ["wm.Wire", {"expression":"\"NetworkInformation\"","targetProperty":"pageName"}, {}]
+			}]
+		}]
+	}],
 	layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 		panelRow1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 			panelBattery: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -171,8 +178,8 @@ Home.widgets = {
 				labelStock6: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Barcode","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBarcode"}]
 			}],
 			panelNetwork: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-				picture19: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/rss_blue.png","styles":{},"width":"100%"}, {"onclick":"navBarcode"}],
-				labelStock7: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Network Info","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBarcode"}]
+				picture19: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/rss_blue.png","styles":{},"width":"100%"}, {"onclick":"navNetworkInfo"}],
+				labelStock7: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Network Info","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navNetworkInfo"}]
 			}]
 		}]
 	}]
