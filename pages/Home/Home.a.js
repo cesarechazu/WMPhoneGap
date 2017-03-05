@@ -162,10 +162,6 @@ labelPedidos: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"ce
 }]
 }],
 panelRow6: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panelNetworkInformation: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture16: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/warning_blue.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],
-labelCtasCtes4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Network Information","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navAgenda"}]
-}],
 panelVibration: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture17: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/telephone_black.png","styles":{},"width":"100%"}, {"onclick":"navVibrate"}],
 labelStock5: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Vibration","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navVibrate"}]

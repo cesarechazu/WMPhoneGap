@@ -3,15 +3,14 @@ dojo.declare("Media", wm.Page, {
         document.addEventListener("deviceready", onDeviceReady, false);
 
         function onDeviceReady() {
-            console.log(Media);
+            
         }
     },
     "preferredDevice": "phone",
 
     buttonStartRecordClick: function(inSender) {
-        this.buttonStartRecord.setValue("disabled", true);
-
         var form = this;
+        form.buttonStartRecord.setValue("disabled", true);
         function recordAudio() {
             var src = "wmphonegap_recording.mp3";
             var mediaRec = new Media(src, 
