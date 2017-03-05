@@ -11,17 +11,18 @@ dojo.declare("Media", wm.Page, {
     buttonStartRecordClick: function(inSender) {
         this.buttonStartRecord.setValue("disabled", true);
 
+        var form = this;
         function recordAudio() {
             var src = "wmphonegap_recording.mp3";
             var mediaRec = new Media(src, 
             
             
             function() {
-                this.buttonPlayRecord.setValue("disabled",true);
+                form.buttonPlayRecord.setValue("disabled",true);
             }, 
             
             function(err) {
-                this.buttonPlayRecord.setValue("disabled",false);
+                form.buttonPlayRecord.setValue("disabled",false);
                 
             });
             
@@ -35,12 +36,13 @@ dojo.declare("Media", wm.Page, {
         }
     },
     buttonPlayRecordClick: function(inSender) {
+        var form = this;
         function playAudio(url) {
             var src = "wmphonegap_recording.mp3";
             var my_media = new Media(src,
             // success callback
             function() {
-                this.buttonStartRecord.setValue("disabled", false);
+                form.buttonStartRecord.setValue("disabled", false);
             },
             
             // error callback

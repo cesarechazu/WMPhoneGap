@@ -4,11 +4,14 @@ dojo.declare("InappBrowser", wm.Page, {
 
         function onDeviceReady() {
             console.log("window.open works well");
-            var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
-            window.open = cordova.InAppBrowser.open;
+
         }
     },
     "preferredDevice": "phone",
 
+    buttonStartClick: function(inSender) {
+        var ref = cordova.InAppBrowser.open('https://www.youtube.com/', '_blank', 'location=yes');
+        window.open = cordova.InAppBrowser.open;
+    },
     _end: 0
 });

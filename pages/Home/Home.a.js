@@ -97,6 +97,13 @@ wire: ["wm.Wire", {"expression":"\"InappBrowser\"","targetProperty":"pageName"},
 }]
 }]
 }],
+navMedia: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":"\"Media\"","targetProperty":"pageName"}, {}]
+}]
+}]
+}],
 layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 panelRow1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 panelBattery: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -140,20 +147,14 @@ picture12: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/imag
 labelPedidos3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Geolocation","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navGeolocation"}]
 }]
 }],
-panelRow4: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-panelGlobalization: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture13: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/gear.png","styles":{},"width":"100%"}, {"onclick":"navAgenda"}],
-labelCtasCtes3: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Globalization","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navAgenda"}]
-}]
-}],
 panelRow5: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 panelInappBrowser: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture14: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/link.png","styles":{},"width":"100%"}, {"onclick":"navInappBrowser"}],
-labelStock4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Inapp Browser","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navCalendario"}]
+labelStock4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Inapp Browser","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navInappBrowser"}]
 }],
 panelMedia: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navInformes"}],
-labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navInformes"}]
+picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navMedia"}],
+labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navMedia"}]
 }],
 panelMediaCapture: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/video.png","styles":{},"width":"100%"}, {"onclick":"navMediaCapture"}],
