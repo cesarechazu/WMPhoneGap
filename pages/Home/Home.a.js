@@ -104,6 +104,13 @@ wire: ["wm.Wire", {"expression":"\"Media\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
+navMediaRecord: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":"\"Media\"","targetProperty":"pageName"}, {}]
+}]
+}]
+}],
 layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 panelRow1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 panelBattery: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -153,8 +160,8 @@ picture14: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/imag
 labelStock4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Inapp Browser","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navInappBrowser"}]
 }],
 panelMedia: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navMedia"}],
-labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navMedia"}]
+picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navMediaRecord"}],
+labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navMediaRecord"}]
 }],
 panelMediaCapture: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/video.png","styles":{},"width":"100%"}, {"onclick":"navMediaCapture"}],
@@ -169,6 +176,10 @@ labelStock5: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"cen
 panelBarCode: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture18: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/barcode.png","styles":{},"width":"100%"}, {"onclick":"navBarcode"}],
 labelStock6: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Barcode","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBarcode"}]
+}],
+panelNetwork: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+picture19: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/rss_blue.png","styles":{},"width":"100%"}, {"onclick":"navBarcode"}],
+labelStock7: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Network Info","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navBarcode"}]
 }]
 }]
 }]
