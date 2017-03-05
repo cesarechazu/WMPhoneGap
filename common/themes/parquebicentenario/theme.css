@@ -1,0 +1,1016 @@
+.parquebicentenario  .wmapproot {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #4b4b4b;
+font-weight: normal;
+}
+.parquebicentenario .wmapproot > .wmpagecontainer,
+.parquebicentenario.wmapproot > .wmpagecontainer,
+.parquebicentenario #studio_designer > .wmlayout {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.dj_ie9 .parquebicentenario div,
+.dj_ie9 .parquebicentenario input,
+.dj_ie9 .parquebicentenario button {
+border-radius: 0px !important;
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab,
+.parquebicentenario .wmtablayers button.wmtablayers-verticaltab {
+font-family: "Open Sans", sans-serif;
+color: #474747;
+font-weight: normal;
+font-size: 13px;
+background-color: #fafafa;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab {
+height: 27px;
+margin-left: 4px;
+border-radius: 4px 4px 0px 0px;
+-webkit-border-radius: 4px 4px 0px 0px;
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
+}
+.dj_ff .parquebicentenario .wmtablayers .wmtablayers-tab {
+box-shadow: 0 0 0 black !important;
+}
+.parquebicentenario .wmtablayers-tab:first-child {
+margin-left: 4px;
+}
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.parquebicentenario .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.parquebicentenario .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+color: #851912;
+font-weight: bold;
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.parquebicentenario .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+}
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:focus,
+.parquebicentenario .wmtablayers .wmtablayers-tab:focus {
+color: #851912;
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab:hover,
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:hover {
+color: #851912;
+background-color: #f2f2f2;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab:hover {
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab:active,
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:active,
+.parquebicentenario .wmtablayers .wmtablayers-tab:active:.focus,
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:active:focus {
+background-color: #444444;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtablayers .wmtablayers-tab:active,
+.parquebicentenario .wmtablayers .wmtablayers-tab:active:focus {
+box-shadow: 0px 0px 0px #444444;
+}
+.parquebicentenario .wmtablayers  .wmTabLayers-client > .wmlayer {
+}
+.parquebicentenario .wmtablayers div.wmtablayers-tabbar {
+background-color: #fafafa;
+background-image: none;
+filter: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+.parquebicentenario .wmtablayers button.wmtablayers-verticaltab {
+font-size: 14px;
+width: 100%;
+border-top: solid 0px rgb(68, 68, 68);
+border-right: solid 0px transparent;
+border-bottom: solid 0px rgb(68, 68, 68);
+border-left: solid 0px rgb(68, 68, 68);
+}
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:first-child {
+}
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:hover {
+}
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+}
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:active,
+.parquebicentenario .wmtablayers .wmtablayers-verticaltab:active:focus {
+box-shadow: 0px 0px 0px #444444;
+}
+.parquebicentenario .wmaccordion div.wmaccordion-header {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background-color: #851912;
+background-image: none;
+filter: none;
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+}
+.parquebicentenario .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+color: #474747;
+font-weight: normal;
+background-color: #fafafa;
+background-image: none;
+filter: none;
+}
+.parquebicentenario div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+background-color: #f2f2f2;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmaccordion .accordionArrowNode {
+float: none !important;
+position: absolute;
+right: 0px;
+}
+.parquebicentenario .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+position: relative;
+float: none;
+}
+.parquebicentenario .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+}
+.parquebicentenario .wmaccordion .wmlayer.wmaccordion-content {
+background-color: transparent;
+}
+.parquebicentenario .wmfancypanel .wmFancyPanel-containerWidget {
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+-webkit-border-top-left-radius: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+box-shadow: 0px 0px 0px black !important;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmfancypanel .wmFancyPanel-labelWidget {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: normal;
+color: #851912;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+}
+.parquebicentenario .wmbutton,
+.parquebicentenario button.wmbutton,
+.parquebicentenario .wmbutton .dijitReset {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #474747;
+font-weight: normal;
+}
+.parquebicentenario .wmbutton {
+border-radius: 4px;
+-webkit-border-radius: 4px;
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(75%,#d2d2d2), to(#d2d2d2));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='#d2d2d2',GradientType=0);
+}
+.parquebicentenario   .wmbutton:hover {
+color: #FFFFFF;
+font-weight: normal;
+background-color: #851912;
+background-image: none;
+filter: none;
+}
+.parquebicentenario   button.wmbutton.toggleButtonDown,
+.parquebicentenario   .wmbutton.Active,
+.parquebicentenario   .wmbutton.Active:hover,
+.parquebicentenario   .wmbutton:active,
+.parquebicentenario   .wmbutton:hover:active {
+color: #FFFFFF;
+font-weight: normal;
+background-color: #9f3d34;
+background-image: none;
+filter: none;
+}
+.parquebicentenario   .wmbutton:focus {
+outline: solid 1px #9999ff;
+}
+.parquebicentenario .wmbutton.wmPopupButton .popupIcon {
+background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+background-position: 0% 50%;
+}
+.parquebicentenario .Disabled.wmbutton,
+.parquebicentenario .Disabled.wmbutton:hover,
+.parquebicentenario .Disabled.wmbutton:active,
+.parquebicentenario .Disabled.wmbutton:active:hover {
+color: #fbfbfb;
+font-weight: normal;
+background-color: #333333;
+background-image: none;
+opacity: 0.25;
+}
+.parquebicentenario .wmtogglebuttonpanel {
+}
+.parquebicentenario .wmtogglebuttonpanel .wmbutton:first-child {
+}
+.parquebicentenario .wmtogglebuttonpanel .wmbutton:last-child {
+}
+.parquebicentenario .wmapproot .wmtogglebuttonpanel .wmbutton {
+}
+.parquebicentenario .wmtogglebuttonpanel .wmbutton {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background-color: #1c1e20;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background-color: #851912;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .dojoxGrid .dijitTextBox,
+.parquebicentenario .dojoxGrid .dijitComboBox,
+.parquebicentenario .dojoxGrid .dijitSelect .dijitButtonContents,
+.parquebicentenario .wmeditor .dijitTextBox,
+.parquebicentenario .wmeditor .dijitTextArea,
+.parquebicentenario .wmeditor .dijitComboBox,
+.parquebicentenario .wmeditor .dijitSelect .dijitButtonContents,
+.parquebicentenario .dijitTimePickerItem,
+.parquebicentenario .wmeditor .RichTextEditable iframe {
+border: solid 1px #a8a8a8;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario  .wmeditor .dijitTextBox,
+.parquebicentenario  .wmeditor .dijitTextArea,
+.parquebicentenario  .wmeditor .dijitComboBox,
+.parquebicentenario  .dojoxGrid .dijitTextBox,
+.parquebicentenario  .dojoxGrid .dijitTextArea,
+.parquebicentenario  .dojoxGrid .dijitComboBox
+{
+border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+.parquebicentenario .wmeditor.wmrichtext {
+-webkit-border-bottom-left-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.parquebicentenario .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.parquebicentenario .dijitTimePickerItem.dijitTimePickerItemHover,
+.parquebicentenario .wmeditor .dijitTextBox.dijitHover,
+.parquebicentenario .wmeditor .dijitTextArea:hover,
+.parquebicentenario .wmeditor .dijitComboBox.dijitHover,
+.parquebicentenario .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.parquebicentenario .wmeditor .RichTextEditable:hover iframe {
+color: #505050;
+border: solid 1px #851912;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .dojoxGrid .dijitTextBox.dijitFocused,
+.parquebicentenario .dojoxGrid .dijitComboBox.dijitFocused,
+.parquebicentenario .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+.parquebicentenario .wmeditor .dijitTextBox.dijitFocused,
+.parquebicentenario .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.parquebicentenario .wmeditor .dijitTextArea.dijitFocused,
+.parquebicentenario .wmeditor .dijitTextArea.dijitFocused:hover,
+.parquebicentenario .wmeditor .dijitComboBox.dijitFocused,
+.parquebicentenario .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.parquebicentenario .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.parquebicentenario .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.parquebicentenario .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.parquebicentenario .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.parquebicentenario .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.parquebicentenario .wmeditor .RichTextEditable.Focused iframe {
+color: #505050;
+border: solid 1px #851912;
+background-color: rgb(250, 250, 250);
+background-image: none;
+filter: none;
+}
+.parquebicentenario .isDirty.wmeditor .dijitTextBox,
+.parquebicentenario .isDirty.wmeditor .dijitTextArea,
+.parquebicentenario .isDirty.wmeditor .dijitComboBox {
+border: solid 1px #a8a8a8;
+}
+.parquebicentenario .wmeditor .dijitError.dijitTextBox,
+.parquebicentenario .wmeditor .dijitError.dijitTextArea,
+.parquebicentenario .wmeditor .dijitError.dijitComboBox,
+.parquebicentenario .wmeditor .dijitError.isDirty.dijitTextBox,
+.parquebicentenario .wmeditor .dijitError.isDirty.dijitTextArea,
+.parquebicentenario .wmeditor .dijitError.isDirty.dijitComboBox
+{
+color: #ffffff;
+border: solid 1px #a8a8a8;
+background-color: #c90909;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmeditor .wmeditor-caption {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
+font-weight: normal;
+}
+.parquebicentenario .wmeditor .wmeditor-readonlyNode {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+border: solid 1px #a8a8a8;
+}
+.parquebicentenario .dojoxGrid .dijitComboBox .dijitArrowButton,
+.parquebicentenario .wmeditor .dijitSpinner .dijitArrowButton,
+.parquebicentenario .wmeditor .dijitComboBox .dijitArrowButton,
+.parquebicentenario .wmeditor .dijitSelect .dijitArrowButton {
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.parquebicentenario .dojoxGrid .dijitComboBox .dijitArrowButton,
+.parquebicentenario .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.parquebicentenario .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+.parquebicentenario .wmeditor .dijitComboBox .dijitArrowButton,
+.parquebicentenario .wmeditor .dijitSelect .dijitArrowButton,
+.parquebicentenario .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.parquebicentenario .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+}
+.parquebicentenario .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+.parquebicentenario .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.parquebicentenario .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.parquebicentenario .wmeditor .dijitSelect .dijitArrowButton:hover {
+}
+.parquebicentenario .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+.parquebicentenario .wmeditor .dijitSpinner .dijitArrowButton:active,
+.parquebicentenario .wmeditor .dijitComboBox .dijitArrowButton:active,
+.parquebicentenario .wmeditor .dijitSelect .dijitArrowButton:active {
+}
+.parquebicentenario .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.parquebicentenario .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+.parquebicentenario .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.parquebicentenario .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+.parquebicentenario .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+.parquebicentenario .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+.parquebicentenario .wmeditor .dijitSlider .dijitSliderImageHandleH {
+background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+outline-width: 0;
+}
+.parquebicentenario .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.parquebicentenario .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.parquebicentenario .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.parquebicentenario .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+background-color: #851912;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.parquebicentenario .wmeditor .dijitSlider .dijitSliderRightBumper,
+.parquebicentenario .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.parquebicentenario .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+background-color: #dcdcdc;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .GridListStyle div.dojoxGrid,
+.parquebicentenario .GridListStyle .wmlist {
+font-size: 13px;
+}
+.parquebicentenario .GridListStyle  .wmlist-cell,
+.parquebicentenario .GridListStyle td.dojoxGridCell {
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
+}
+.parquebicentenario .GridListStyle div.dojoxGridRow,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.parquebicentenario .GridListStyle div.wmlist-item,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+font-family: "Open Sans", sans-serif;
+font-weight: normal;
+}
+.parquebicentenario .GridListStyle div.dojoxGridContent .dojoxGridCell {
+background-color: transparent;
+}
+.parquebicentenario .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.parquebicentenario .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+border: 1px dashed transparent !important;
+}
+.parquebicentenario .GridListStyle div.dojoxGridRow,
+.parquebicentenario .GridListStyle div.wmlist-item,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+color: #474747;
+background-color: #f5f5f5;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.parquebicentenario .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.parquebicentenario .GridListStyle .wmlist-item.Odd {
+color: #474747;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .wmlist-item.wmlist-item-selected,
+.parquebicentenario .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.parquebicentenario .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #851912;
+background-image: none;
+filter: none;
+color: #ffffff;
+}
+.parquebicentenario .dojoxGridCellFocus {
+outline: solid 0px #ae0909;
+outline-offset: -1px;
+}
+.parquebicentenario .GridListStyle .wmlist-item.wmlist-item-over,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.parquebicentenario .GridListStyle .dojoxGridRowOver a,
+.parquebicentenario .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+background-color: #b4b4b4;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .GridListStyle .wmlist-header th,
+.parquebicentenario .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+font-size: 13px;
+}
+.parquebicentenario .GridListStyle .wmlist-header .wmlist-cell,
+.parquebicentenario .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+border-top: solid 1px rgb(168, 168, 168);
+border-right: solid 1px rgb(168, 168, 168);
+border-bottom: solid 1px rgb(168, 168, 168);
+border-left: solid 1px rgb(168, 168, 168);
+}
+.parquebicentenario .GridListStyle .wmlist-header,
+.parquebicentenario .GridListStyle div.dojoxGridHeader {
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.parquebicentenario .GridListStyle .wmlist-header th,
+.parquebicentenario .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.parquebicentenario .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {
+background: transparent none !important;
+font-family: "Open Sans", sans-serif;
+color: #474747;
+font-weight: normal;
+}
+.parquebicentenario .GridListStyle .dojoxGridCell,
+.parquebicentenario .GridListStyle .wmlist-cell {
+padding: 4px 8px;
+}
+.parquebicentenario .GridListStyle .dojoxGridCellFocus {
+}
+.parquebicentenario .MobileListStyle div.wmlist-item,
+.parquebicentenario .Disabled.MobileListStyle div.wmlist-item,
+.parquebicentenario .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+margin: 5px;
+background-color: #851912;
+background-image: none;
+filter: none;
+color: #ffffff;
+font-family: "Open Sans", sans-serif;
+min-height: 24px;
+}
+.parquebicentenario .wmlist.MobileListStyle td.wmlist-cell {
+border: solid 0px #a8a8a8;
+}
+.parquebicentenario .MobileListStyle div.wmlist-item.wmlist-item-over,
+.parquebicentenario .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+background-color: #555555;
+color: #FFFFFF;
+}
+.parquebicentenario .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.parquebicentenario .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.parquebicentenario .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.parquebicentenario .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+background-color: #333333;
+color: #FFFFFF;
+}
+.parquebicentenario .wmprogressbar .dijitProgressBar {
+}
+.parquebicentenario .wmprogressbar .dijitProgressBarLabel {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: normal;
+}
+.parquebicentenario .wmprogressbar .dijitProgressBar {
+background-color: #b4b4b4;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmprogressbar .dijitProgressBarFull {
+background-color: #851912;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmprogressbar .dijitProgressBarTile {
+background-image: inherit;
+background-color: inherit;
+}
+.parquebicentenario .wmbevel {
+background-color: #cccccc;
+background-image: none;
+filter: none;
+}
+.parquebicentenario div.wmsplitter-h,
+.parquebicentenario div.wmsplitter-v {
+background-color: #cccccc;
+}
+.parquebicentenario div.wmsplitter-h:hover,
+.parquebicentenario div.wmsplitter-v:hover {
+background-color: #6b6b6b;
+}
+.parquebicentenario .wmsplitter-h {
+background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+.parquebicentenario .wmsplitter-v {
+background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+.parquebicentenario .dijitCalendarDayLabel,
+.parquebicentenario .dijitCalendarDateLabel {
+font-size: 13px;
+}
+.parquebicentenario table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+background-color: #ffffff !important;
+background-image: none !important;
+filter: none !important;
+color: #474747;
+}
+.parquebicentenario .dijitCalendarBodyContainer td {
+border-top: solid 1px rgb(204, 204, 204);
+border-right: solid 1px rgb(204, 204, 204);
+border-bottom: solid 0px rgb(102, 102, 102);
+border-left: solid 0px rgb(102, 102, 102);
+}
+.parquebicentenario .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.parquebicentenario .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+background-color: #851912 !important;
+background-image: none !important;
+filter: none !important;
+color: #ffffff !important;
+}
+.parquebicentenario .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.parquebicentenario .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.parquebicentenario .dijitCalendarContainer .dijitCalendarHoveredYear,
+.parquebicentenario .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.parquebicentenario .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+background-color: #851912 !important;
+background-image: none !important;
+filter: none !important;
+color: #969696;
+}
+.parquebicentenario .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.parquebicentenario .dijitCalendarContainer .dijitCalendarNextMonth {
+background-color: #ffffff !important;
+background-image: none !important;
+filter: none !important;
+color: #dfdfdf;
+}
+.parquebicentenario .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+background-color: #eeeeee !important;
+background-image: none !important;
+filter: none !important;
+color: #474747;
+}
+.parquebicentenario tr.dijitCalendarMonthContainer th {
+background-color: #787878;
+background-image: none;
+filter: none;
+}
+.parquebicentenario tr.dijitCalendarMonthContainer th {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #eeeeee;
+font-weight: normal;
+}
+.parquebicentenario tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #FFFFFF;
+font-weight: normal;
+border: solid 0px rgb(251, 251, 251);
+box-shadow: 0px 0px 0px black;
+}
+.parquebicentenario table.dijitCalendarContainer {
+}
+.parquebicentenario .wmapproot a,
+.parquebicentenario  #wavemakerNode  .wmapproot a,
+#studio_designer.parquebicentenario .wmapproot a:visited,
+.parquebicentenario  #wavemakerNode  .wmapproot a:visited {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
+font-weight: normal;
+text-decoration:underline;
+}
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover,
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover:visited {
+color: #474747;
+text-decoration:underline;
+}
+.parquebicentenario  #wavemakerNode  .wmapproot a:active,
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover:active,
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover:visited:active {
+color: #474747;
+text-decoration:none;
+}
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a,
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:hover,
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:active,
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+color: #999999;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: normal;
+min-height: 22px;
+line-height: 28px;
+padding-left: 10px;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #851912;
+}
+.parquebicentenario .dojoxPortlet {
+border: solid 1px #949494;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle {
+background-color: #eeeeee;
+background-image: none;
+filter: none;
+border-bottom: solid 1px #949494;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+border-color: #333333;
+width: 16px;
+height: 20px;
+margin-right: 4px;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+position: relative;
+top: 3px;
+height: 16px;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+position: relative;
+top: 3px;
+height: 16px;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+.parquebicentenario .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+}
+.parquebicentenario .wmdialog {
+box-shadow: 4px 4px 8px black;
+-webkit-box-shadow: 4px 4px 8px black;
+}
+.parquebicentenario .wmdialog {
+background-color: white;
+background-image: none;
+filter: none;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
+font-weight: normal;
+}
+.parquebicentenario .dialogtitlebar .wmlabel{
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #851912;
+font-weight: bold;
+}
+.parquebicentenario .dialogtitlebar {
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(37%,#dcdcdc), to(#dcdcdc));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0);
+}
+.parquebicentenario .dialogtitlebar .dialogclosebutton {
+}
+.parquebicentenario .dialogtitlebar .dialogminifybutton {
+background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+}
+.parquebicentenario .dialogtitlebar .dialogmaxifybutton {
+background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+.parquebicentenario .dialogfooter,
+.parquebicentenario .wmpagedialog-controlspanel {
+}
+.parquebicentenario .dialogfooter .wmbutton {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #505050;
+font-weight: normal;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+}
+.parquebicentenario .dialogfooter .wmbutton:hover {
+color: #FFFFFF;
+background-color: #851912;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .dialogfooter button.wmbutton.toggleButtonDown,
+.parquebicentenario .dialogfooter .wmbutton.Active,
+.parquebicentenario .dialogfooter .wmbutton:active,
+.parquebicentenario .dialogfooter .wmbutton.Active:hover,
+.parquebicentenario .dialogfooter .wmbutton:active:hover {
+}
+.parquebicentenario .dojoMenu .dijitMenu,
+.parquebicentenario .dojoMenu .dijitMenuBar,
+.parquebicentenario .dojoMenu .dijitMenuItem {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: normal;
+color: #eeeeee;
+background-color: #232323;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .dojoMenu .dijitMenuBar .dijitMenuItem {
+margin-right: 0px;
+margin-left: 0px;
+height: 32px;
+line-height: 32px;
+text-align: center;
+}
+.parquebicentenario .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+color: #ffffff;
+outline: 0px;
+}
+.parquebicentenario .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+.parquebicentenario .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+padding-right: 25px !important;
+}
+.parquebicentenario .dijitMenuPopup .dijitMenuTable {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+.parquebicentenario .dijitMenuPopup {
+box-shadow: 3px 3px 4px #6b6b6b;
+-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+.parquebicentenario .dijitPopup .dijitMenuTable .dijitMenuItem {
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+color: #333333;
+font-weight: normal;
+background-color: transparent;
+border-top: solid 0px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 0px #cccccc;
+border-left: solid 1px #cccccc;
+height: 28px;
+padding-bottom: 3px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 3px;
+}
+.parquebicentenario .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.parquebicentenario .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #851912;
+background-image: none;
+filter: none;
+outline-width: 0;
+}
+.parquebicentenario .dijitPopup .dijitCalendarMonthMenu,
+.parquebicentenario  ul.dijitMenu {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
+box-shadow: 3px 3px 4px #cccccc;
+-webkit-box-shadow: 3px 3px 4px #cccccc;
+}
+.parquebicentenario .dijitPopup .dijitCalendarMonthLabel,
+.parquebicentenario  ul.dijitMenu .dijitMenuItem {
+padding: 4px 5px;
+text-align: left;
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+color: #474747;
+font-weight: normal;
+background-color: transparent;
+border-top: solid 0px rgb(251, 251, 251);
+border-right: solid 0px rgb(251, 251, 251);
+border-bottom: solid 0px rgb(170, 170, 170);
+border-left: solid 0px rgb(251, 251, 251);
+}
+.parquebicentenario .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.parquebicentenario  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #851912;
+background-image: none;
+filter: none;
+border-top: solid 0px rgb(251, 251, 251);
+border-right: solid 0px rgb(251, 251, 251);
+border-bottom: solid 0px rgb(170, 170, 170);
+border-left: solid 0px rgb(251, 251, 251);
+}
+.parquebicentenario .AppToolTip {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #fafafa;
+font-weight: normal;
+background-color: #55575c;
+background-image: none;
+filter: none;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+html.WMApp .parquebicentenario div.wmtoast.wmtoastExtraSpecific {
+background-color: rgb(40,40,40);
+background-image: none;
+filter: none;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+box-shadow: 4px 4px 8px #222;
+-webkit-box-shadow: 4px 4px 8px #222;
+}
+.parquebicentenario .wmtoast .wmtoastmessage {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #505050;
+font-weight: normal;
+}
+html.WMApp .parquebicentenario div.wmtoast.Success.wmtoastExtraSpecific {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Success .wmtoastmessage {
+color: black;
+}
+.parquebicentenario .wmtoast.Success .ToastLeft {
+background-image: url(images/OK.png);
+}
+html.WMApp .parquebicentenario div.wmtoast.Warning.wmtoastExtraSpecific {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Warning .wmtoastmessage {
+color: black;
+}
+.parquebicentenario .wmtoast.Warning .ToastLeft {
+background-image: url(images/Caution.png);
+}
+html.WMApp .parquebicentenario div.wmtoast.Error.wmtoastExtraSpecific {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Error .wmtoastmessage {
+color: #9f1414;
+}
+.parquebicentenario .wmtoast.Error .ToastLeft {
+background-image: url(images/Close.png);
+}
+html.WMApp .parquebicentenario div.wmtoast.Info.wmtoastExtraSpecific {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Info .wmtoastmessage {
+color: black;
+}
+.parquebicentenario .wmtoast.Info .ToastLeft {
+background-image: url(images/Help\ Circle.png);
+}
+.parquebicentenario .wmtoast .wmtoasttitle {
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+color: black;
+font-weight: bold;
+}
+.wmtoastExtraSpecific.fadeInAnim {
+-webkit-animation-name: toastFadeInKeyFrames;
+-moz-animation-name: toastFadeInKeyFrames;
+animation-name: toastFadeInKeyFrames;
+}
+@keyframes toastFadeInKeyFrames {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 0.9;
+}
+}
+html.WMApp .parquebicentenario div.wmtoast.wmtoastExtraSpecific {
+opacity: 0.9;
+}

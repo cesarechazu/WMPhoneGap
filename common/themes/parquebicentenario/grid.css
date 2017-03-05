@@ -1,0 +1,186 @@
+/* GROUP: Grid Rows */
+.parquebicentenario .GridListStyle div.dojoxGrid, 
+.parquebicentenario .GridListStyle .wmlist {
+	font-size: 13px;
+}
+
+.parquebicentenario .GridListStyle  .wmlist-cell,
+.parquebicentenario .GridListStyle td.dojoxGridCell {
+	border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+	border-bottom: solid 1px #dfdfdf;
+	border-left: solid 1px #dfdfdf;
+}
+
+.parquebicentenario .GridListStyle div.dojoxGridRow,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.parquebicentenario .GridListStyle div.wmlist-item,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+	font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+.parquebicentenario .GridListStyle div.dojoxGridContent .dojoxGridCell {
+   background-color: transparent; /* THEMER: HIDE */
+}
+
+.parquebicentenario .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.parquebicentenario .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+   border: 1px dashed transparent !important; /* THEMER: HIDE */
+}
+
+
+/* GROUP: Odd Numbered Rows */
+.parquebicentenario .GridListStyle div.dojoxGridRow,
+.parquebicentenario .GridListStyle div.wmlist-item,
+
+/* Disabled grid rows */
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+
+/* Disabled odd    rows */
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+	color: #474747;
+	background-color: #f5f5f5;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Even Numbered Rows */
+.parquebicentenario .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.parquebicentenario .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.parquebicentenario .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.parquebicentenario .GridListStyle .wmlist-item.Odd {
+	color: #474747;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Selected Row */
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.parquebicentenario .GridListStyle .wmlist-item.wmlist-item-selected,
+.parquebicentenario .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.parquebicentenario .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+	background-color: #851912;
+	background-image: none;
+	filter: none;
+	color: #ffffff;
+}
+
+/* GROUP: Selected Cell */
+.parquebicentenario .dojoxGridCellFocus {
+    outline: solid 0px #ae0909;
+    outline-offset: -1px; /* Change this to match outline width (but negative). Not supported by IE */ /* THEMER: HIDE */
+}
+
+/* GROUP: Hover row */
+.parquebicentenario .GridListStyle .wmlist-item.wmlist-item-over,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.parquebicentenario .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.parquebicentenario .GridListStyle .dojoxGridRowOver a,
+.parquebicentenario .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+	background-color: #b4b4b4;
+	background-image: none;
+	filter: none;
+/* 	color: #000000; // THEMER: DISABLED */
+}
+
+/* GROUP: Grid Header */
+.parquebicentenario .GridListStyle .wmlist-header th,
+.parquebicentenario .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+	font-size: 13px;
+}
+
+.parquebicentenario .GridListStyle .wmlist-header .wmlist-cell,
+.parquebicentenario .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+	border-top: solid 1px rgb(168, 168, 168);
+	border-right: solid 1px rgb(168, 168, 168);
+	border-bottom: solid 1px rgb(168, 168, 168);
+	border-left: solid 1px rgb(168, 168, 168);
+}
+
+
+
+.parquebicentenario .GridListStyle .wmlist-header,
+.parquebicentenario .GridListStyle div.dojoxGridHeader {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.parquebicentenario .GridListStyle .wmlist-header th,
+.parquebicentenario .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.parquebicentenario .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
+    background: transparent none !important; /* THEMER: HIDE */
+	font-family: "Open Sans", sans-serif;
+	color: #474747;
+	font-weight: normal;
+}
+
+/* GROUP: Grid Cells */
+.parquebicentenario .GridListStyle .dojoxGridCell,
+.parquebicentenario .GridListStyle .wmlist-cell {
+    padding: 4px 8px;
+}
+
+/* GROUP: Focused Cell */
+.parquebicentenario .GridListStyle .dojoxGridCellFocus {
+/*   outline: solid 1px #5b9dd7; // THEMER: DISABLED */
+}
+
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Mobile List */
+.parquebicentenario .MobileListStyle div.wmlist-item,
+.parquebicentenario .Disabled.MobileListStyle div.wmlist-item,
+.parquebicentenario .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+    margin: 5px;
+	background-color: #851912;
+	background-image: none;
+	filter: none;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+    min-height: 24px;
+}
+
+.parquebicentenario .wmlist.MobileListStyle td.wmlist-cell {
+	border: solid 0px #a8a8a8;
+}
+
+/* GROUP: Mobile List Hover (Desktop only!) */
+.parquebicentenario .MobileListStyle div.wmlist-item.wmlist-item-over,
+.parquebicentenario .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+	background-color: #555555;
+	color: #FFFFFF;
+}
+
+/* GROUP: Mobile List Selected Row */
+.parquebicentenario .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.parquebicentenario .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.parquebicentenario .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.parquebicentenario .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+	background-color: #333333; 
+	color: #FFFFFF; 
+}
+/* THEMER: DO NOT SUBCLASS END */

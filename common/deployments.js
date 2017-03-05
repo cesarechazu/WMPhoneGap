@@ -155,6 +155,7 @@
 			"username": null
 		}],
 		"AfipWSAA_670RELEASE": [],
+		"parquebicentenario": [],
 		"bltcelular": [],
 		"JasperStudioReportes": [],
 		"qventasmobile": [{
@@ -208,7 +209,6 @@
 			"token": null,
 			"username": null
 		}],
-		"AfipWSAA": [],
 		"qventas": [{
 			"applicationName": "qventas",
 			"archiveType": "WAR",
@@ -221,39 +221,41 @@
 				"updateSchema": false,
 				"username": "dba"
 			}],
-			"deploymentId": "qventas0",
+			"deploymentId": "qventas4",
 			"deploymentType": "FILE",
 			"deploymentUrl": null,
 			"destroyAllData": null,
 			"host": null,
 			"httpPort": 0,
 			"httpsPort": 0,
-			"name": "PC Adrian",
+			"name": "localhost-dba-1234567",
 			"password": "7b6a43524a2b381667313a6b124c1a",
 			"port": 0,
 			"target": null,
 			"token": null,
 			"username": null
-		}, {
-			"applicationName": "qventas",
+		}],
+		"AfipWSAA": [],
+		"parque": [{
+			"applicationName": "parque",
 			"archiveType": "WAR",
 			"databases": [{
-				"connectionUrl": "jdbc:postgresql://localhost:5432/qventas",
-				"dataModelId": "qventasDB",
-				"dbName": "qventas",
+				"connectionUrl": "jdbc:jtds:sqlserver://localhost:1433/parque",
+				"dataModelId": "parqueDB",
+				"dbName": "parque",
 				"jndiName": null,
-				"password": "7b6a43524a747f493f39312b425c32205754",
+				"password": "7b6a43524a0f2c086569732e465978700d662158",
 				"updateSchema": false,
 				"username": "dba"
 			}],
-			"deploymentId": "qventas1",
+			"deploymentId": "parque0",
 			"deploymentType": "FILE",
 			"deploymentUrl": null,
 			"destroyAllData": null,
 			"host": null,
 			"httpPort": 0,
 			"httpsPort": 0,
-			"name": "Corralon",
+			"name": "localhost-parque-dba-Jarnet298",
 			"password": "7b6a43524a2b381667313a6b124c1a",
 			"port": 0,
 			"target": null,

@@ -1,0 +1,55 @@
+dojo.declare("Media", wm.Page, {
+    start: function() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+        function onDeviceReady() {
+            console.log(Media);
+        }
+    },
+    "preferredDevice": "phone",
+
+    buttonStartRecordClick: function(inSender) {
+        this.buttonStartRecord.setValue("disabled", true);
+
+        function recordAudio() {
+            var src = "wmphonegap_recording.mp3";
+            var mediaRec = new Media(src, 
+            
+            
+            function() {
+                this.buttonPlayRecord.setValue("disabled",true);
+            }, 
+            
+            function(err) {
+                this.buttonPlayRecord.setValue("disabled",false);
+                
+            });
+            
+            // Record audio
+            mediaRec.startRecord();
+
+            // Stop recording after 10 seconds
+            setTimeout(function() {
+                mediaRec.stopRecord();
+            }, 10000);
+        }
+    },
+    buttonPlayRecordClick: function(inSender) {
+        function playAudio(url) {
+            var src = "wmphonegap_recording.mp3";
+            var my_media = new Media(src,
+            // success callback
+            function() {
+                this.buttonStartRecord.setValue("disabled", false);
+            },
+            
+            // error callback
+            function(err) {
+                console.log("playAudio():Audio Error: " + err);
+            });
+            // Play audio
+            my_media.play();
+        }
+    },
+    _end: 0
+});

@@ -1,0 +1,111 @@
+/* GROUP: Toast Dialog */
+html.WMApp .parquebicentenario div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 4px 4px 8px #222;
+	-webkit-box-shadow: 4px 4px 8px #222;
+}
+.parquebicentenario .wmtoast .wmtoastmessage {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #505050;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .parquebicentenario div.wmtoast.Success.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Success .wmtoastmessage {
+    color: black;
+}
+
+
+/* GROUP: Success Graphic */
+.parquebicentenario .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .parquebicentenario div.wmtoast.Warning.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Warning .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Warning Graphic */
+.parquebicentenario .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .parquebicentenario div.wmtoast.Error.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Error .wmtoastmessage {
+	color: #9f1414;
+}
+
+/* GROUP: Error Graphic */
+.parquebicentenario .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .parquebicentenario div.wmtoast.Info.wmtoastExtraSpecific {
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
+}
+.parquebicentenario .wmtoast .wmtoasttitle,
+.parquebicentenario .wmtoast.Info .wmtoastmessage {
+    color: black;
+}
+
+/* GROUP: Info Graphic */
+.parquebicentenario .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.parquebicentenario .wmtoast .wmtoasttitle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+    color: black;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .parquebicentenario div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}

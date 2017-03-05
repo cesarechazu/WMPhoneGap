@@ -1,0 +1,43 @@
+/* GROUP: Links */
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.parquebicentenario .wmapproot a,
+.parquebicentenario  #wavemakerNode  .wmapproot a,
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.parquebicentenario .wmapproot a:visited,
+.parquebicentenario  #wavemakerNode  .wmapproot a:visited {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #474747;
+	font-weight: normal;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover,
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover:visited {
+	color: #474747;
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot a:active,
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover:active,
+.parquebicentenario  #wavemakerNode  .wmapproot a:hover:visited:active {
+	color: #474747;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a,
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:hover,
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:active,
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.parquebicentenario .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.parquebicentenario  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}
