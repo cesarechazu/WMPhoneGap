@@ -3,7 +3,7 @@ dojo.declare("Media", wm.Page, {
         document.addEventListener("deviceready", onDeviceReady, false);
 
         function onDeviceReady() {
-            
+             console.log(Media);
         }
     },
     "preferredDevice": "phone",
