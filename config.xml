@@ -77,7 +77,6 @@
     <plugin name="phonegap-plugin-barcodescanner" source="npm" />
     
     <!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
     <icon src="resources/images/logos/Android/wavemaker_36x36.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="resources/images/logos/Android/wavemaker_48x48.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="resources/images/logos/Android/wavemaker_72x72.png"   gap:platform="android"    gap:qualifier="hdpi" />
