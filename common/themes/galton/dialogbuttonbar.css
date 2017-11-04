@@ -1,0 +1,50 @@
+
+/* GROUP: Dialog Footer */
+.galton .dialogfooter,
+.galton .wmpagedialog-controlspanel {
+/* 	background-color: rgb(238, 238, 238); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Dialog Footer Buttons */
+.galton .dialogfooter .wmbutton {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #373737;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+/* 	box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Hover) */
+.galton .dialogfooter .wmbutton:hover {
+    color: #FFFFFF; 
+	background-color: #0d47a1;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Active) */
+.galton .dialogfooter button.wmbutton.toggleButtonDown,
+.galton .dialogfooter .wmbutton.Active,
+.galton .dialogfooter .wmbutton:active,
+.galton .dialogfooter .wmbutton.Active:hover,
+.galton .dialogfooter .wmbutton:active:hover {
+	color: #ffffff;
+	background-color: #1565c0;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+}
+

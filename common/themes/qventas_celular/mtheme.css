@@ -1,0 +1,948 @@
+.qventas_celular  .wmapproot {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: normal;
+}
+.qventas_celular .wmapproot > .wmpagecontainer,
+.qventas_celular.wmapproot > .wmpagecontainer,
+.qventas_celular #studio_designer > .wmlayout {
+background-color: #eeeeee;
+background-image: none;
+filter: none;
+}
+.dj_ie9 .qventas_celular div,
+.dj_ie9 .qventas_celular input,
+.dj_ie9 .qventas_celular button {
+border-radius: 0px !important;
+}
+.qventas_celular .wmtablayers .wmtablayers-tab,
+.qventas_celular .wmtablayers button.wmtablayers-verticaltab {
+font-family: "Open Sans",sans-serif;
+color: #373737;
+font-weight: normal;
+font-size: 13px;
+background-color: transparent;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtablayers .wmtablayers-tab {
+height: 27px;
+margin-left: 2;
+border-radius: 2px;
+-webkit-border-radius: 2px;
+border-top: solid 1px rgb(197, 197, 197);
+border-right: solid 1px rgb(197, 197, 197);
+border-bottom: solid 1px rgb(197, 197, 197);
+border-left: solid 1px rgb(197, 197, 197);
+}
+.dj_ff .qventas_celular .wmtablayers .wmtablayers-tab {
+box-shadow: 0 0 0 black !important;
+}
+.qventas_celular .wmtablayers-tab:first-child {
+margin-left: 4;
+}
+.qventas_celular .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.qventas_celular .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.qventas_celular .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.qventas_celular .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+background-color: transparent;
+background-image: none;
+filter: none;
+color: #1976d2;
+border-top: solid 1px #c5c5c5;
+border-right: solid 1px #c5c5c5;
+border-bottom: solid 1px #c5c5c5;
+border-left: solid 1px #c5c5c5;
+}
+.qventas_celular .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.qventas_celular .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+}
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:focus,
+.qventas_celular .wmtablayers .wmtablayers-tab:focus {
+color: #1976d2;
+}
+.qventas_celular .wmtablayers .wmtablayers-tab:hover,
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:hover {
+color: #1976d2;
+background-color: #f2f2f2;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtablayers .wmtablayers-tab:hover {
+}
+.qventas_celular .wmtablayers .wmtablayers-tab:active,
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:active,
+.qventas_celular .wmtablayers .wmtablayers-tab:active:.focus,
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:active:focus {
+background-color: #444444;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtablayers .wmtablayers-tab:active,
+.qventas_celular .wmtablayers .wmtablayers-tab:active:focus {
+box-shadow: 0px 0px 0px #444444;
+}
+.qventas_celular .wmtablayers  .wmTabLayers-client > .wmlayer {
+}
+.qventas_celular .wmtablayers div.wmtablayers-tabbar {
+background-color: transparent;
+background-image: none;
+filter: none;
+margin-bottom: 0;
+margin-left: 0;
+margin-right: 0;
+margin-top: 0;
+}
+.qventas_celular .wmtablayers button.wmtablayers-verticaltab {
+font-size: 13px;
+width: 100%;
+border-top: solid 0px rgb(68, 68, 68);
+border-right: solid 0px transparent;
+border-bottom: solid 0px rgb(68, 68, 68);
+border-left: solid 0px rgb(68, 68, 68);
+}
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:first-child {
+}
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:hover {
+}
+.qventas_celular .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+}
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:active,
+.qventas_celular .wmtablayers .wmtablayers-verticaltab:active:focus {
+box-shadow: 0px 0px 0px #444444;
+}
+.qventas_celular .wmaccordion div.wmaccordion-header {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background-color: #0866c6;
+background-image: none;
+filter: none;
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+}
+.qventas_celular .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+color: #999999;
+font-weight: normal;
+background-color: #282828;
+background-image: none;
+filter: none;
+}
+.qventas_celular div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+color: #ffffff;
+background-color: #2c2c2c;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmaccordion .accordionArrowNode {
+float: none !important;
+position: absolute;
+right: 0px;
+}
+.qventas_celular .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+position: relative;
+float: none;
+}
+.qventas_celular .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+}
+.qventas_celular .wmaccordion .wmlayer.wmaccordion-content {
+}
+.qventas_celular .wmfancypanel .wmFancyPanel-containerWidget {
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+-webkit-border-top-left-radius: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+box-shadow: 0px 0px 0px black !important;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmfancypanel .wmFancyPanel-labelWidget {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+font-family: "Open Sans",sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: #757575;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmbutton,
+.qventas_celular button.wmbutton,
+.qventas_celular .wmbutton .dijitReset {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: normal;
+}
+.qventas_celular .wmbutton {
+border-radius: 4px;
+-webkit-border-radius: 4px;
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(75%,#d2d2d2), to(#d2d2d2));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='#d2d2d2',GradientType=0);
+}
+.qventas_celular   .wmbutton:hover {
+color: #FFFFFF;
+font-weight: normal;
+background-color: #1976d2;
+background-image: none;
+filter: none;
+}
+.qventas_celular   button.wmbutton.toggleButtonDown,
+.qventas_celular   .wmbutton.Active,
+.qventas_celular   .wmbutton.Active:hover,
+.qventas_celular   .wmbutton:active,
+.qventas_celular   .wmbutton:hover:active {
+color: #FFFFFF;
+font-weight: normal;
+background-color: #2196f3;
+background-image: none;
+filter: none;
+}
+.qventas_celular   .wmbutton:focus {
+outline: solid 1px #9999ff;
+}
+.qventas_celular .wmbutton.wmPopupButton .popupIcon {
+background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+background-position: 0% 50%;
+}
+.qventas_celular .Disabled.wmbutton,
+.qventas_celular .Disabled.wmbutton:hover,
+.qventas_celular .Disabled.wmbutton:active,
+.qventas_celular .Disabled.wmbutton:active:hover {
+color: #fbfbfb;
+font-weight: normal;
+background-color: #333333;
+background-image: none;
+opacity: 0.25;
+}
+.qventas_celular .wmtogglebuttonpanel {
+}
+.qventas_celular .wmtogglebuttonpanel .wmbutton:first-child {
+}
+.qventas_celular .wmtogglebuttonpanel .wmbutton:last-child {
+}
+.qventas_celular .wmapproot .wmtogglebuttonpanel .wmbutton {
+}
+.qventas_celular .wmtogglebuttonpanel .wmbutton {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background-color: #1c1e20;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #ffffff;
+font-weight: normal;
+background-color: #1976d2;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmeditor .dijitTextBox,
+.qventas_celular .wmeditor .dijitTextArea,
+.qventas_celular .wmeditor .dijitComboBox,
+.qventas_celular .wmeditor .dijitSelect .dijitButtonContents,
+.qventas_celular .dijitTimePickerItem,
+.qventas_celular .wmeditor .RichTextEditable iframe {
+border: solid 1px #afafaf;
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.qventas_celular  .wmeditor .dijitTextBox,
+.qventas_celular  .wmeditor .dijitTextArea,
+.qventas_celular  .wmeditor .dijitComboBox,
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.qventas_celular .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.qventas_celular .dijitTimePickerItem.dijitTimePickerItemHover,
+.qventas_celular .wmeditor .dijitTextBox.dijitHover,
+.qventas_celular .wmeditor .dijitTextArea:hover,
+.qventas_celular .wmeditor .dijitComboBox.dijitHover,
+.qventas_celular .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.qventas_celular .wmeditor .RichTextEditable:hover iframe {
+color: #373737;
+border: solid 1px #1976d2;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmeditor .dijitTextBox.dijitFocused,
+.qventas_celular .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.qventas_celular .wmeditor .dijitTextArea.dijitFocused,
+.qventas_celular .wmeditor .dijitTextArea.dijitFocused:hover,
+.qventas_celular .wmeditor .dijitComboBox.dijitFocused,
+.qventas_celular .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.qventas_celular .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.qventas_celular .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.qventas_celular .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.qventas_celular .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.qventas_celular .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.qventas_celular .wmeditor .RichTextEditable.Focused iframe {
+color: #373737;
+border: solid 1px #1976d2;
+background-color: #bbdefb;
+background-image: none;
+filter: none;
+}
+.qventas_celular .isDirty.wmeditor .dijitTextBox,
+.qventas_celular .isDirty.wmeditor .dijitTextArea,
+.qventas_celular .isDirty.wmeditor .dijitComboBox {
+color: #373737;
+border: solid 1px rgb(168, 168, 168);
+}
+.qventas_celular .wmeditor .dijitError.dijitTextBox,
+.qventas_celular .wmeditor .dijitError.dijitTextArea,
+.qventas_celular .wmeditor .dijitError.dijitComboBox,
+.qventas_celular .wmeditor .dijitError.isDirty.dijitTextBox,
+.qventas_celular .wmeditor .dijitError.isDirty.dijitTextArea,
+.qventas_celular .wmeditor .dijitError.isDirty.dijitComboBox
+{
+color: #ffffff;
+border: solid 1px #d9d9d9;
+background-color: #e92b2b;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmeditor .wmeditor-caption {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: bold;
+}
+.qventas_celular .wmeditor .wmeditor-readonlyNode {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+border: solid 1px #d9d9d9;
+color: #4b4b4b;
+}
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton {
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.qventas_celular .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+}
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton:hover {
+}
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton:active,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton:active,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton:active {
+}
+.qventas_celular .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+.qventas_celular .wmeditor .dijitSlider .dijitSliderImageHandleH {
+background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+outline-width: 0;
+}
+.qventas_celular .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.qventas_celular .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+background-color: #1976d2;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.qventas_celular .wmeditor .dijitSlider .dijitSliderRightBumper,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+background-color: #dcdcdc;
+background-image: none;
+filter: none;
+}
+.qventas_celular .GridListStyle .wmlist {
+font-size: 13px;
+}
+.qventas_celular .GridListStyle  .wmlist-cell{
+border-top: solid 1px #d9d9d9;
+border-right: solid 1px #d9d9d9;
+border-bottom: solid 1px #d9d9d9;
+border-left: solid 1px #d9d9d9;
+}
+.qventas_celular .GridListStyle div.wmlist-item,
+.qventas_celular .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+font-family: "Open Sans",sans-serif;
+font-weight: normal;
+}
+.qventas_celular .GridListStyle div.wmlist-item,
+.qventas_celular .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.qventas_celular .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.qventas_celular .GridListStyle .wmlist-item.Odd {
+color: #373737;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.qventas_celular .GridListStyle .wmlist-item.wmlist-item-selected,
+.qventas_celular .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.qventas_celular .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #64b5f6;
+background-image: none;
+filter: none;
+color: #ffffff;
+}
+.qventas_celular .GridListStyle .wmlist-item.wmlist-item-over{
+background-color: #b4b4b4;
+background-image: none;
+filter: none;
+color: #ffffff;
+}
+.qventas_celular .GridListStyle .wmlist-header th{
+font-size: 13px;
+}
+.qventas_celular .GridListStyle .wmlist-header .wmlist-cell{
+border-top: solid 1px #d9d9d9;
+border-right: solid 1px #d9d9d9;
+border-bottom: solid 1px #d9d9d9;
+border-left: solid 1px #d9d9d9;
+}
+.qventas_celular .GridListStyle .wmlist-header{
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.qventas_celular .GridListStyle .wmlist-header th{
+background: transparent none !important;
+font-family: "Open Sans",sans-serif;
+color: #373737;
+font-weight: normal;
+}
+.qventas_celular .GridListStyle .wmlist-cell {
+padding: 4px 8px;
+}
+.qventas_celular .MobileListStyle div.wmlist-item,
+.qventas_celular .Disabled.MobileListStyle div.wmlist-item,
+.qventas_celular .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+margin: 5px;
+background-color: #0866c6;
+background-image: none;
+filter: none;
+color: #373737;
+font-family: "Open Sans",sans-serif;
+min-height: 24px;
+}
+.qventas_celular .wmlist.MobileListStyle td.wmlist-cell {
+border: solid 0px #d9d9d9;
+}
+.qventas_celular .MobileListStyle div.wmlist-item.wmlist-item-over,
+.qventas_celular .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+background-color: #555555;
+color: #FFFFFF;
+}
+.qventas_celular .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.qventas_celular .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.qventas_celular .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.qventas_celular .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+background-color: #333333;
+color: #FFFFFF;
+}
+.qventas_celular .wmprogressbar .dijitProgressBar {
+}
+.qventas_celular .wmprogressbar .dijitProgressBarLabel {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: normal;
+}
+.qventas_celular .wmprogressbar .dijitProgressBar {
+background-color: #b4b4b4;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmprogressbar .dijitProgressBarFull {
+background-color: #1976d2;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmprogressbar .dijitProgressBarTile {
+background-image: inherit;
+background-color: inherit;
+}
+.qventas_celular .wmbevel {
+background-color: #cccccc;
+background-image: none;
+filter: none;
+}
+.qventas_celular div.wmsplitter-h,
+.qventas_celular div.wmsplitter-v {
+background-color: #cccccc;
+}
+.qventas_celular div.wmsplitter-h:hover,
+.qventas_celular div.wmsplitter-v:hover {
+background-color: #6b6b6b;
+}
+.qventas_celular .wmsplitter-h {
+background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+.qventas_celular .wmsplitter-v {
+background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+.qventas_celular .dijitCalendarDayLabel,
+.qventas_celular .dijitCalendarDateLabel {
+font-size: 13px;
+}
+.qventas_celular table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+background-color: #ffffff !important;
+background-image: none !important;
+filter: none !important;
+color: #373737;
+}
+.qventas_celular .dijitCalendarBodyContainer td {
+border-top: solid 1px rgb(204, 204, 204);
+border-right: solid 1px rgb(204, 204, 204);
+border-bottom: solid 0px rgb(102, 102, 102);
+border-left: solid 0px rgb(102, 102, 102);
+}
+.qventas_celular .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.qventas_celular .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+background-color: #1976d2 !important;
+background-image: none !important;
+filter: none !important;
+color: #ffffff !important;
+}
+.qventas_celular .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.qventas_celular .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.qventas_celular .dijitCalendarContainer .dijitCalendarHoveredYear,
+.qventas_celular .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.qventas_celular .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+background-color: #1976d2 !important;
+background-image: none !important;
+filter: none !important;
+color: #ffffff;
+}
+.qventas_celular .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.qventas_celular .dijitCalendarContainer .dijitCalendarNextMonth {
+background-color: #ffffff !important;
+background-image: none !important;
+filter: none !important;
+color: #dfdfdf;
+}
+.qventas_celular .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+background-color: #eeeeee !important;
+background-image: none !important;
+filter: none !important;
+color: #373737;
+}
+.qventas_celular tr.dijitCalendarMonthContainer th {
+background-color: #1976d2;
+background-image: none;
+filter: none;
+}
+.qventas_celular tr.dijitCalendarMonthContainer th {
+font-family: "Open Sans",sans-serif;
+font-size: 14px;
+color: #eeeeee;
+font-weight: normal;
+}
+.qventas_celular tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #FFFFFF;
+font-weight: normal;
+border: solid 0px rgb(251, 251, 251);
+box-shadow: 0px 0px 0px black;
+}
+.qventas_celular table.dijitCalendarContainer {
+}
+.qventas_celular .wmapproot a,
+.qventas_celular  #wavemakerNode  .wmapproot a,
+#studio_designer.qventas_celular .wmapproot a:visited,
+.qventas_celular  #wavemakerNode  .wmapproot a:visited {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #1976d2;
+font-weight: normal;
+text-decoration:underline;
+}
+.qventas_celular  #wavemakerNode  .wmapproot a:hover,
+.qventas_celular  #wavemakerNode  .wmapproot a:hover:visited {
+text-decoration:underline;
+}
+.qventas_celular  #wavemakerNode  .wmapproot a:active,
+.qventas_celular  #wavemakerNode  .wmapproot a:hover:active,
+.qventas_celular  #wavemakerNode  .wmapproot a:hover:visited:active {
+color: #474747;
+text-decoration:none;
+}
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a,
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:hover,
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:active,
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+color: #999999;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+font-weight: normal;
+min-height: 22px;
+line-height: 28px;
+padding-left: 10px;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #373737;
+}
+.qventas_celular .dojoxPortlet {
+border-top: solid 1px #d9d9d9;
+border-right: solid 1px #d9d9d9;
+border-bottom: solid 1px #d9d9d9;
+border-left: solid 1px #d9d9d9;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle {
+background-color: #eeeeee;
+background-image: none;
+filter: none;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+border-color: #333333;
+width: 16px;
+height: 20px;
+margin-right: 4px;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+position: relative;
+top: 3px;
+height: 16px;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+position: relative;
+top: 3px;
+height: 16px;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+.qventas_celular .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+}
+.qventas_celular .wmdialog {
+border-radius: 2px;
+-webkit-border-radius: 2px;
+box-shadow: 2px 2px 4px black;
+-webkit-box-shadow: 2px 2px 4px black;
+}
+.qventas_celular .wmdialog {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: normal;
+}
+.qventas_celular .dialogtitlebar .wmlabel{
+font-family: "Open Sans",sans-serif;
+font-size: 14px;
+color: #1976d2;
+font-weight: bold;
+}
+.qventas_celular .dialogtitlebar {
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(37%,rgb(220, 220, 220)), to(rgb(220, 220, 220)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(220, 220, 220)',GradientType=0);
+}
+.qventas_celular .dialogtitlebar .dialogclosebutton {
+}
+.qventas_celular .dialogtitlebar .dialogminifybutton {
+}
+.qventas_celular .dialogtitlebar .dialogmaxifybutton {
+}
+.qventas_celular .dialogfooter,
+.qventas_celular .wmpagedialog-controlspanel {
+}
+.qventas_celular .dialogfooter .wmbutton {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: normal;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+border-radius: 2px;
+-webkit-border-radius: 2px;
+}
+.qventas_celular .dialogfooter .wmbutton:hover {
+color: #FFFFFF;
+background-color: #1976d2;
+background-image: none;
+filter: none;
+}
+.qventas_celular .dialogfooter button.wmbutton.toggleButtonDown,
+.qventas_celular .dialogfooter .wmbutton.Active,
+.qventas_celular .dialogfooter .wmbutton:active,
+.qventas_celular .dialogfooter .wmbutton.Active:hover,
+.qventas_celular .dialogfooter .wmbutton:active:hover {
+}
+.qventas_celular .dojoMenu .dijitMenu,
+.qventas_celular .dojoMenu .dijitMenuBar,
+.qventas_celular .dojoMenu .dijitMenuItem {
+font-family: "Open Sans",sans-serif;
+font-size: 13px;
+font-weight: normal;
+color: #eeeeee;
+background-color: #232323;
+background-image: none;
+filter: none;
+}
+.qventas_celular .dojoMenu .dijitMenuBar .dijitMenuItem {
+margin-right: 0px;
+margin-left: 0px;
+height: 32px;
+line-height: 32px;
+text-align: center;
+}
+.qventas_celular .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+color: #ffffff;
+outline: 0px;
+}
+.qventas_celular .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+.qventas_celular .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+padding-right: 25px !important;
+}
+.qventas_celular .dijitMenuPopup .dijitMenuTable {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+.qventas_celular .dijitMenuPopup {
+box-shadow: 3px 3px 4px #6b6b6b;
+-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+.qventas_celular .dijitPopup .dijitMenuTable .dijitMenuItem {
+font-size: 13px;
+font-family: "Open Sans",sans-serif;
+color: #373737;
+font-weight: normal;
+background-color: transparent;
+border-top: solid 0px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 0px #cccccc;
+border-left: solid 1px #cccccc;
+height: 28px;
+padding-bottom: 3px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 3px;
+}
+.qventas_celular .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.qventas_celular .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #1976d2;
+background-image: none;
+filter: none;
+outline-width: 0;
+}
+.qventas_celular .dijitPopup .dijitCalendarMonthMenu,
+.qventas_celular  ul.dijitMenu {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+border-top: solid 1px #d9d9d9;
+border-right: solid 1px #d9d9d9;
+border-bottom: solid 1px #d9d9d9;
+border-left: solid 1px #d9d9d9;
+box-shadow: 3px 3px 4px #cccccc;
+-webkit-box-shadow: 3px 3px 4px #cccccc;
+}
+.qventas_celular .dijitPopup .dijitCalendarMonthLabel,
+.qventas_celular  ul.dijitMenu .dijitMenuItem {
+padding: 4px 5px;
+text-align: left;
+font-size: 13px;
+font-family: "Open Sans",sans-serif;
+color: #373737;
+font-weight: normal;
+background-color: transparent;
+border-top: solid 0px #d9d9d9;
+border-right: solid 0px #d9d9d9;
+border-bottom: solid 0px #d9d9d9;
+border-left: solid 0px #d9d9d9;
+}
+.qventas_celular .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.qventas_celular  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #1976d2;
+background-image: none;
+filter: none;
+border-top: solid 0px rgb(251, 251, 251);
+border-right: solid 0px rgb(251, 251, 251);
+border-bottom: solid 0px rgb(170, 170, 170);
+border-left: solid 0px rgb(251, 251, 251);
+}
+.qventas_celular .AppToolTip {
+font-family: "Open Sans",sans-serif;
+font-size: 12px;
+color: #fafafa;
+font-weight: normal;
+background-color: #0f0f0f;
+background-image: none;
+filter: none;
+border-radius: 2px;
+-webkit-border-radius: 2px;
+box-shadow: 0px 0px 0px #666;
+-webkit-box-shadow: 0px 0px 0px #666;
+}
+html.WMApp .qventas_celular div.wmtoast.wmtoastExtraSpecific {
+background-color: rgb(40,40,40);
+background-image: none;
+filter: none;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+box-shadow: 4px 4px 8px #222;
+-webkit-box-shadow: 4px 4px 8px #222;
+}
+.qventas_celular .wmtoast .wmtoastmessage {
+font-family: "Open Sans",sans-serif;
+font-size: 14px;
+color: #505050;
+font-weight: normal;
+}
+html.WMApp .qventas_celular div.wmtoast.Success.wmtoastExtraSpecific {
+background-color: #c8e6c9;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Success .wmtoastmessage {
+color: #1b5e20;
+}
+.qventas_celular .wmtoast.Success .ToastLeft {
+background-image: url(images/OK.png);
+}
+html.WMApp .qventas_celular div.wmtoast.Warning.wmtoastExtraSpecific {
+background-color: #fff9c4;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Warning .wmtoastmessage {
+color: #f57f17;
+}
+.qventas_celular .wmtoast.Warning .ToastLeft {
+background-image: url(images/Caution.png);
+}
+html.WMApp .qventas_celular div.wmtoast.Error.wmtoastExtraSpecific {
+background-color: #ffcdd2;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Error .wmtoastmessage {
+color: #b71c1c;
+}
+.qventas_celular .wmtoast.Error .ToastLeft {
+background-image: url(images/Close.png);
+}
+html.WMApp .qventas_celular div.wmtoast.Info.wmtoastExtraSpecific {
+background-color: #bbdefb;
+background-image: none;
+filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Info .wmtoastmessage {
+color: #0d47a1;
+}
+.qventas_celular .wmtoast.Info .ToastLeft {
+background-image: url(images/Help\ Circle.png);
+}
+.qventas_celular .wmtoast .wmtoasttitle {
+font-family: "Open Sans",sans-serif;
+font-size: 18px;
+color: #212121;
+font-weight: bold;
+}
+.wmtoastExtraSpecific.fadeInAnim {
+-webkit-animation-name: toastFadeInKeyFrames;
+-moz-animation-name: toastFadeInKeyFrames;
+animation-name: toastFadeInKeyFrames;
+}
+@keyframes toastFadeInKeyFrames {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 0.9;
+}
+}
+html.WMApp .qventas_celular div.wmtoast.wmtoastExtraSpecific {
+opacity: 0.9;
+}

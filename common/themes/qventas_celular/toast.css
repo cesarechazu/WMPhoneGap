@@ -1,0 +1,111 @@
+/* GROUP: Toast Dialog */
+html.WMApp .qventas_celular div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 4px 4px 8px #222;
+	-webkit-box-shadow: 4px 4px 8px #222;
+}
+.qventas_celular .wmtoast .wmtoastmessage {
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+	color: #505050;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .qventas_celular div.wmtoast.Success.wmtoastExtraSpecific {
+	background-color: #c8e6c9;
+	background-image: none;
+	filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Success .wmtoastmessage {
+	color: #1b5e20;
+}
+
+
+/* GROUP: Success Graphic */
+.qventas_celular .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .qventas_celular div.wmtoast.Warning.wmtoastExtraSpecific {
+	background-color: #fff9c4;
+	background-image: none;
+	filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Warning .wmtoastmessage {
+	color: #f57f17;
+}
+
+/* GROUP: Warning Graphic */
+.qventas_celular .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .qventas_celular div.wmtoast.Error.wmtoastExtraSpecific {
+	background-color: #ffcdd2;
+	background-image: none;
+	filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Error .wmtoastmessage {
+	color: #b71c1c;
+}
+
+/* GROUP: Error Graphic */
+.qventas_celular .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .qventas_celular div.wmtoast.Info.wmtoastExtraSpecific {
+	background-color: #bbdefb;
+	background-image: none;
+	filter: none;
+}
+.qventas_celular .wmtoast .wmtoasttitle,
+.qventas_celular .wmtoast.Info .wmtoastmessage {
+	color: #0d47a1;
+}
+
+/* GROUP: Info Graphic */
+.qventas_celular .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.qventas_celular .wmtoast .wmtoasttitle {
+	font-family: "Open Sans",sans-serif;
+	font-size: 18px;
+	color: #212121;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .qventas_celular div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}

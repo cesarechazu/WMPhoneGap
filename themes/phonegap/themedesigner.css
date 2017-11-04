@@ -1,0 +1,1502 @@
+ /***** START SECTION: Main Document *****/
+/* GROUP: Main Document Styles */
+.phonegap  .wmapproot {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+}
+.phonegap .wmapproot > .wmpagecontainer,
+.phonegap.wmapproot > .wmpagecontainer,
+.phonegap #studio_designer > .wmlayout {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}
+
+/* IE9 has buggy display when combinding both gradients and radius.
+ * Gradients and not radius work on IE8, so we'll just do it the IE 8 way */
+.dj_ie9 .phonegap div,
+.dj_ie9 .phonegap input,
+.dj_ie9 .phonegap button {
+   border-radius: 0px !important; /* THEMER: HIDE */
+}
+/***** END SECTION: Main Document *****//***** START SECTION: Tabs *****/
+/* GROUP: Standard Tab Button */
+.phonegap .wmtablayers .wmtablayers-tab,
+.phonegap .wmtablayers button.wmtablayers-verticaltab {
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
+	font-weight: normal;
+	font-size: 12px;
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+}
+.phonegap .wmtablayers .wmtablayers-tab {
+
+	height: 27px;
+	margin-left: 2;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+
+	border-top: solid 1px rgb(197, 197, 197);
+	border-right: solid 1px rgb(197, 197, 197);
+	border-bottom: solid 1px rgb(197, 197, 197);
+	border-left: solid 1px rgb(197, 197, 197);
+}
+.dj_ff .phonegap .wmtablayers .wmtablayers-tab {
+       box-shadow: 0 0 0 black !important; /* THEMER: HIDE */
+}
+/* GROUP: First Tab */
+.phonegap .wmtablayers-tab:first-child {
+	margin-left: 4;
+}
+
+
+/* GROUP: Standard Selected Tab Button */
+.phonegap .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.phonegap .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+	color: #1976d2;
+	border-top: solid 1px #c5c5c5;
+	border-right: solid 1px #c5c5c5;
+	border-bottom: solid 1px #c5c5c5;
+	border-left: solid 1px #c5c5c5;
+}
+.phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	top: 0px; // THEMER: DISABLED */
+    /* NOTE: To create different values of top for different browsers, use
+     .dj_ie .phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected, 
+     .dj_ff .phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+     .dj_webkit .phonegap .wmtablayers .wmtablayers-tab.wmtablayers-selected */
+}
+
+/* GROUP: Tab Button with Focus */
+.phonegap .wmtablayers .wmtablayers-verticaltab:focus,
+.phonegap .wmtablayers .wmtablayers-tab:focus {
+/* 	outline: solid 0px ; // THEMER: DISABLED */
+	color: #1976d2;
+}
+
+/* GROUP: Tab Button with Hover */
+.phonegap .wmtablayers .wmtablayers-tab:hover,
+.phonegap .wmtablayers .wmtablayers-verticaltab:hover {
+	color: #1976d2;
+	background-color: #f2f2f2;
+	background-image: none;
+	filter: none;
+/* 	border-top: solid 2px rgb(8, 102, 198); // THEMER: DISABLED */
+/* 	border-right: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+/* 	border-bottom: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+/* 	border-left: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+}
+.phonegap .wmtablayers .wmtablayers-tab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Button with Mouse Down */
+/* NOTE: This does not appear to work in firefox at design time but is fine at runtime */
+.phonegap .wmtablayers .wmtablayers-tab:active,
+.phonegap .wmtablayers .wmtablayers-verticaltab:active,
+.phonegap .wmtablayers .wmtablayers-tab:active:.focus,
+.phonegap .wmtablayers .wmtablayers-verticaltab:active:focus {
+/* 	color: #ffffff; // THEMER: DISABLED */
+background-color: #444444; 
+background-image: none;
+filter: none;
+}
+.phonegap .wmtablayers .wmtablayers-tab:active,
+.phonegap .wmtablayers .wmtablayers-tab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+
+
+/* GROUP: Layer Borders */
+.phonegap .wmtablayers  .wmTabLayers-client > .wmlayer {
+/* 	border-radius: 4px !important; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px !important; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Bar */
+.phonegap .wmtablayers div.wmtablayers-tabbar {
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+
+
+/* GROUP: Vertical Tab Buttons */
+.phonegap .wmtablayers button.wmtablayers-verticaltab {
+	font-size: 13px;
+	width: 100%;
+/* 	margin-left: 5%; // THEMER: DISABLED */
+/* 	margin-bottom: 10px; // THEMER: DISABLED */
+/* 	border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+	border-top: solid 0px rgb(68, 68, 68);
+	border-right: solid 0px transparent;
+	border-bottom: solid 0px rgb(68, 68, 68);
+	border-left: solid 0px rgb(68, 68, 68);
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+}
+
+/* GROUP: First Vertical Tab */
+.phonegap .wmtablayers .wmtablayers-verticaltab:first-child {
+/* 	margin-top: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab Buttons with Hover */
+.phonegap .wmtablayers .wmtablayers-verticaltab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Selected Tab Buttons */
+.phonegap .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+/*  border: solid 1px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab with Mouse Down */
+.phonegap .wmtablayers .wmtablayers-verticaltab:active,
+.phonegap .wmtablayers .wmtablayers-verticaltab:active:focus {
+    box-shadow: 0px 0px 0px #444444; 
+}
+/***** END SECTION: Tabs *****//***** START SECTION: Accordions *****/
+
+/* GROUP: Accordion Header */
+.phonegap .wmaccordion div.wmaccordion-header {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #0866c6;
+	background-image: none;
+	filter: none;
+    -webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+/* 	border-top: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-right: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-bottom: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-left: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	cursor: auto; // THEMER: DISABLED */
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+	padding-left: 20px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Closed Header */
+.phonegap .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+	color: #999999;
+	font-weight: normal;
+	background-color: #282828;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Header Hover */
+.phonegap div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+	color: #ffffff;
+	background-color: #2c2c2c;
+	background-image: none;
+	filter: none;
+}
+
+
+
+/* GROUP: Accordion Arrow (Selected) */
+.phonegap .wmaccordion .accordionArrowNode {
+   float: none !important; /* THEMER: HIDE */
+   position: absolute; /* THEMER: HIDE */
+	right: 0px;
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%; // THEMER: DISABLED */
+}
+.phonegap .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+     position: relative; /* THEMER: HIDE */
+     float: none; /* THEMER: HIDE */
+}
+
+/* GROUP: Accordion Arrow (Closed) */
+.phonegap .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+/* 	background: url(images/arrowRightDark.png) no-repeat 0% 0%; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Layer Styling */
+.phonegap .wmaccordion .wmlayer.wmaccordion-content {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+/* 	background-color: transparent; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/***** END SECTION: Accordions *****//***** START SECTION: Titled Panel *****/
+/* GROUP: Container */
+.phonegap .wmfancypanel .wmFancyPanel-containerWidget {
+    border-top-left-radius: 0px !important; /* THEMER: HIDE */
+    border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-left-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black !important;/* THEMER: HIDE */
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Panel Title */
+.phonegap .wmfancypanel .wmFancyPanel-labelWidget {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+/***** END SECTION: Titled Panel *****//***** START SECTION: Buttons *****/
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.phonegap .wmbutton,
+.phonegap button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
+.phonegap .wmbutton .dijitReset {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+}
+.phonegap .wmbutton {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(75%,#d2d2d2), to(#d2d2d2));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='#d2d2d2',GradientType=0);
+}
+
+/* GROUP: Hover State */
+ .phonegap   .wmbutton:hover {
+ 	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Active State */
+/* button.wmbutton required instead of .wmbutton for IE8 */
+.phonegap   button.wmbutton.toggleButtonDown,
+.phonegap   .wmbutton.Active,
+.phonegap   .wmbutton.Active:hover,
+.phonegap   .wmbutton:active,
+.phonegap   .wmbutton:hover:active {
+	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #2196f3;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.phonegap   .wmbutton:focus {
+     outline: solid 1px #9999ff;
+}
+
+/* GROUP: Popup Menu */
+.phonegap .wmbutton.wmPopupButton .popupIcon {
+   background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+   background-position: 0% 50%;
+}
+
+/* GROUP: Disabled Button */
+.phonegap .Disabled.wmbutton,
+.phonegap .Disabled.wmbutton:hover,
+.phonegap .Disabled.wmbutton:active,
+.phonegap .Disabled.wmbutton:active:hover {
+	color: #fbfbfb;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+  background-color: #333333;
+  background-image: none;
+	opacity: 0.25;
+}
+/***** END SECTION: Buttons *****//***** START SECTION: Toggle Button Panel *****/
+/* GROUP: Toggle Panel */
+.phonegap .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.phonegap .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.phonegap .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.phonegap .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.phonegap .wmtogglebuttonpanel .wmbutton {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #1c1e20;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Selected Button */
+.phonegap .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}
+/***** END SECTION: Toggle Button Panel *****//***** START SECTION: Editors *****/
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dojoxGrid .dijitTextBox,
+.phonegap .dojoxGrid .dijitComboBox,
+.phonegap .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitTextBox,
+.phonegap .wmeditor .dijitTextArea,
+.phonegap .wmeditor .dijitComboBox,
+.phonegap .wmeditor .dijitSelect .dijitButtonContents,
+.phonegap .dijitTimePickerItem,
+.phonegap .wmeditor .RichTextEditable iframe {
+	border: solid 1px #afafaf;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+/* 	padding: 0px ; // THEMER: DISABLED */
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap  .wmeditor .dijitTextBox,
+.phonegap  .wmeditor .dijitTextArea,
+.phonegap  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap  .dojoxGrid .dijitTextBox,
+.phonegap  .dojoxGrid .dijitTextArea,
+.phonegap  .dojoxGrid .dijitComboBox
+ {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.phonegap .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.phonegap .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitTextBox.dijitHover,
+.phonegap .wmeditor .dijitTextArea:hover,
+.phonegap .wmeditor .dijitComboBox.dijitHover,
+.phonegap .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.phonegap .wmeditor .RichTextEditable:hover iframe {
+	color: #373737;
+	border: solid 1px #1976d2;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dojoxGrid .dijitTextBox.dijitFocused,
+.phonegap .dojoxGrid .dijitComboBox.dijitFocused,
+.phonegap .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitTextBox.dijitFocused,
+.phonegap .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.phonegap .wmeditor .dijitTextArea.dijitFocused,
+.phonegap .wmeditor .dijitTextArea.dijitFocused:hover,
+.phonegap .wmeditor .dijitComboBox.dijitFocused,
+.phonegap .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.phonegap .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.phonegap .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.phonegap .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.phonegap .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.phonegap .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.phonegap .wmeditor .RichTextEditable.Focused iframe {
+	color: #373737;
+	border: solid 1px #1976d2;
+	background-color: #bbdefb;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: isDirty */
+.phonegap .isDirty.wmeditor .dijitTextBox,
+.phonegap .isDirty.wmeditor .dijitTextArea,
+.phonegap .isDirty.wmeditor .dijitComboBox {
+	color: #373737;
+	border: solid 1px rgb(168, 168, 168);
+/* 	background-color: #b98181; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.phonegap .wmeditor .dijitError.dijitTextBox,
+.phonegap .wmeditor .dijitError.dijitTextArea,
+.phonegap .wmeditor .dijitError.dijitComboBox,
+.phonegap .wmeditor .dijitError.isDirty.dijitTextBox,
+.phonegap .wmeditor .dijitError.isDirty.dijitTextArea,
+.phonegap .wmeditor .dijitError.isDirty.dijitComboBox
+{
+	color: #ffffff;
+	border: solid 1px #d9d9d9;
+	background-color: #e92b2b;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.phonegap .wmeditor .wmeditor-caption {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+}
+
+/* GROUP: Read-only */
+.phonegap .wmeditor .wmeditor-readonlyNode {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	border: solid 1px #d9d9d9;
+	color: #4b4b4b;
+/* 	font-weight: undefined; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitSpinner .dijitArrowButton,
+.phonegap .wmeditor .dijitComboBox .dijitArrowButton,
+.phonegap .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dojoxGrid .dijitComboBox .dijitArrowButton,
+.phonegap .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.phonegap .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitComboBox .dijitArrowButton,
+.phonegap .wmeditor .dijitSelect .dijitArrowButton,
+.phonegap .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.phonegap .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.phonegap .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.phonegap .wmeditor .dijitSelect .dijitArrowButton:hover {
+/* 		  background-color: rgb(255, 102, 102); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitSpinner .dijitArrowButton:active,
+.phonegap .wmeditor .dijitComboBox .dijitArrowButton:active,
+.phonegap .wmeditor .dijitSelect .dijitArrowButton:active {
+/* 		  background-color: rgb(102, 102, 255); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.phonegap .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.phonegap .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.phonegap .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.phonegap .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.phonegap .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+
+/* GROUP: Spinner Arrows Up */
+.phonegap .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+
+
+
+/* GROUP: Sliders */
+.phonegap .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+    outline-width: 0;
+}
+
+/* GROUP: Slider Bar Progress */
+.phonegap .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.phonegap .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.phonegap .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.phonegap .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.phonegap .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.phonegap .wmeditor .dijitSlider .dijitSliderRightBumper,
+.phonegap .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.phonegap .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #dcdcdc;
+	background-image: none;
+	filter: none;
+}    
+
+/***** END SECTION: Editors *****//***** START SECTION: Grids *****/
+/* GROUP: Grid Rows */
+.phonegap .GridListStyle div.dojoxGrid, 
+.phonegap .GridListStyle .wmlist {
+	font-size: 12px;
+}
+
+.phonegap .GridListStyle  .wmlist-cell,
+.phonegap .GridListStyle td.dojoxGridCell {
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
+}
+
+.phonegap .GridListStyle div.dojoxGridRow,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.phonegap .GridListStyle div.wmlist-item,
+.phonegap .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+	font-family: "Open Sans",sans-serif;
+    font-weight: normal;
+}
+
+.phonegap .GridListStyle div.dojoxGridContent .dojoxGridCell {
+   background-color: transparent; /* THEMER: HIDE */
+}
+
+.phonegap .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.phonegap .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+   border: 1px dashed transparent !important; /* THEMER: HIDE */
+}
+
+
+/* GROUP: Odd Numbered Rows */
+.phonegap .GridListStyle div.dojoxGridRow,
+.phonegap .GridListStyle div.wmlist-item,
+
+/* Disabled grid rows */
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.phonegap .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.phonegap .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.phonegap .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+
+/* Disabled odd    rows */
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.phonegap .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.phonegap .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+	color: #373737;
+	background-color: #f5f5f5;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Even Numbered Rows */
+.phonegap .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.phonegap .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.phonegap .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.phonegap .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.phonegap .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.phonegap .GridListStyle .wmlist-item.Odd {
+	color: #373737;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Selected Row */
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.phonegap .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.phonegap .GridListStyle .wmlist-item.wmlist-item-selected,
+.phonegap .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.phonegap .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+	background-color: #64b5f6;
+	background-image: none;
+	filter: none;
+	color: #ffffff;
+}
+
+/* GROUP: Selected Cell */
+.phonegap .dojoxGridCellFocus {
+    outline: solid 0px #ae0909;
+    outline-offset: -1px; /* Change this to match outline width (but negative). Not supported by IE */ /* THEMER: HIDE */
+}
+
+/* GROUP: Hover row */
+.phonegap .GridListStyle .wmlist-item.wmlist-item-over,
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.phonegap .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.phonegap .GridListStyle .dojoxGridRowOver a,
+.phonegap .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+	background-color: #b4b4b4;
+	background-image: none;
+	filter: none;
+	color: #ffffff;
+}
+
+/* GROUP: Grid Header */
+.phonegap .GridListStyle .wmlist-header th,
+.phonegap .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+	font-size: 12px;
+}
+
+.phonegap .GridListStyle .wmlist-header .wmlist-cell,
+.phonegap .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
+}
+
+
+
+.phonegap .GridListStyle .wmlist-header,
+.phonegap .GridListStyle div.dojoxGridHeader {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.phonegap .GridListStyle .wmlist-header th,
+.phonegap .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.phonegap .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
+    background: transparent none !important; /* THEMER: HIDE */
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
+	font-weight: normal;
+}
+
+/* GROUP: Grid Cells */
+.phonegap .GridListStyle .dojoxGridCell,
+.phonegap .GridListStyle .wmlist-cell {
+    padding: 4px 8px;
+}
+
+/* GROUP: Focused Cell */
+.phonegap .GridListStyle .dojoxGridCellFocus {
+/*   outline: solid 1px #5b9dd7; // THEMER: DISABLED */
+}
+
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Mobile List */
+.phonegap .MobileListStyle div.wmlist-item,
+.phonegap .Disabled.MobileListStyle div.wmlist-item,
+.phonegap .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+    margin: 5px;
+	background-color: #0866c6;
+	background-image: none;
+	filter: none;
+	color: #373737;
+	font-family: "Open Sans",sans-serif;
+    min-height: 24px;
+}
+
+.phonegap .wmlist.MobileListStyle td.wmlist-cell {
+	border: solid 0px #d9d9d9;
+}
+
+/* GROUP: Mobile List Hover (Desktop only!) */
+.phonegap .MobileListStyle div.wmlist-item.wmlist-item-over,
+.phonegap .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+	background-color: #555555;
+	color: #FFFFFF;
+}
+
+/* GROUP: Mobile List Selected Row */
+.phonegap .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.phonegap .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.phonegap .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.phonegap .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+	background-color: #333333; 
+	color: #FFFFFF; 
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Grids *****//***** START SECTION: Progress Bar *****/
+/* GROUP: ProgressBar */
+.phonegap .wmprogressbar .dijitProgressBar {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+/* 	border: solid 1px black; // THEMER: DISABLED */
+}
+
+
+.phonegap .wmprogressbar .dijitProgressBarLabel {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+		color: #FFFFFF;
+	font-weight: normal;
+}
+
+.phonegap .wmprogressbar .dijitProgressBar {
+	background-color: #b4b4b4;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Progress Indicator */
+.phonegap .wmprogressbar .dijitProgressBarFull {
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+/* 	border-radius: 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px; // THEMER: DISABLED */
+/* 	border-top: solid 0px black; // THEMER: DISABLED */
+/* 	border-right: solid 1px black; // THEMER: DISABLED */
+/* 	border-bottom: solid 0px black; // THEMER: DISABLED */
+/* 	border-left: solid 0px black; // THEMER: DISABLED */
+    }
+
+
+.phonegap .wmprogressbar .dijitProgressBarTile {
+   background-image: inherit; /* THEMER: HIDE */
+   background-color: inherit; /* THEMER: HIDE */
+}
+/***** END SECTION: Progress Bar *****//***** START SECTION: Splitter/Bevel *****/
+/* GROUP: Bevel */
+.phonegap .wmbevel {
+	background-color: #cccccc;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Splitter */
+/* NOTE: If you use gradients, then you can't use the horizontal and vertical images (which is important) */
+.phonegap div.wmsplitter-h,
+.phonegap div.wmsplitter-v {
+	background-color: #cccccc; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Hover */
+.phonegap div.wmsplitter-h:hover,
+.phonegap div.wmsplitter-v:hover {
+	background-color: #6b6b6b; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Horizontal Image */
+.phonegap .wmsplitter-h {
+	background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+
+/* GROUP: Splitter Vertical Image */
+.phonegap .wmsplitter-v {
+	background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+
+/***** END SECTION: Splitter/Bevel *****//***** START SECTION: Calendar *****/
+/* GROUP: Calendar Cells */
+.phonegap .dijitCalendarDayLabel,
+.phonegap .dijitCalendarDateLabel {
+	font-size: 12px;
+}
+
+.phonegap table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #373737;
+}
+
+.phonegap .dijitCalendarBodyContainer td {
+	border-top: solid 1px rgb(204, 204, 204);
+	border-right: solid 1px rgb(204, 204, 204);
+	border-bottom: solid 0px rgb(102, 102, 102);
+	border-left: solid 0px rgb(102, 102, 102);
+}
+
+/* GROUP: Selected Cell */
+.phonegap .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.phonegap .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+	background-color: #1976d2 !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #ffffff !important;
+}
+
+/* GROUP: Hover Cell */
+.phonegap .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.phonegap .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.phonegap .dijitCalendarContainer .dijitCalendarHoveredYear,
+.phonegap .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.phonegap .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+	background-color: #1976d2 !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #ffffff;
+}
+
+
+/* GROUP: Dates Not In Month */
+.phonegap .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.phonegap .dijitCalendarContainer .dijitCalendarNextMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #dfdfdf;
+}
+
+/* GROUP: Column Headings */
+.phonegap .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+	background-color: #eeeeee !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #373737;
+}
+
+/* GROUP: Header */
+.phonegap tr.dijitCalendarMonthContainer th {    
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Month Container */
+.phonegap tr.dijitCalendarMonthContainer th {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #eeeeee;
+	font-weight: normal;
+}
+
+/* GROUP: Month Label */
+.phonegap tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+    color: #FFFFFF; 
+	font-weight: normal;
+    border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black; /* THEMER: HIDE */
+}
+
+/* GROUP: Outer Widget */
+.phonegap table.dijitCalendarContainer {
+/* 	border: solid 2px rgb(102, 102, 102); // THEMER: DISABLED */
+
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+
+/***** END SECTION: Calendar *****//***** START SECTION: Links *****/
+/* GROUP: Links */
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.phonegap .wmapproot a,
+.phonegap  #wavemakerNode  .wmapproot a,
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.phonegap .wmapproot a:visited,
+.phonegap  #wavemakerNode  .wmapproot a:visited {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #1976d2;
+	font-weight: normal;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot a:hover,
+.phonegap  #wavemakerNode  .wmapproot a:hover:visited {
+/* 	color: #474747; // THEMER: DISABLED */
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot a:active,
+.phonegap  #wavemakerNode  .wmapproot a:hover:active,
+.phonegap  #wavemakerNode  .wmapproot a:hover:visited:active {
+	color: #474747;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot .Disabled a,
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot .Disabled a:hover,
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot .Disabled a:active,
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.phonegap .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.phonegap  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}
+/***** END SECTION: Links *****//***** START SECTION: Dashboard *****/
+/* GROUP: Portlet Titlebar */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+
+  min-height: 22px;
+	line-height: 28px;
+  padding-left: 10px;
+}
+
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+	color: #373737;
+}
+
+.phonegap .dojoxPortlet {
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
+/* 	border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+}
+
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle {
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Portlet Titlebar Icons */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+  border-color: #333333;
+  width: 16px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+/* GROUP: Portlet Close Icon */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+/* 	background: url(images/DialogIconsGray.png) no-repeat 0px 0px; // THEMER: DISABLED */
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+/* GROUP: Portlet Close Icon Hover */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+/* background-position: 0px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Minify Icon */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+
+/* GROUP: Portlet Minify Icon Hover */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Unminify Icon */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+
+/* GROUP: Portlet Unminify Icon Hover */
+.phonegap .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+/* 	background-position: -16px -16px; ; // THEMER: DISABLED */
+}
+/***** END SECTION: Dashboard *****//***** START SECTION: Dialogs *****/
+/* GROUP: Dialog Frame */
+.phonegap .wmdialog {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 2px 2px 4px black;
+	-webkit-box-shadow: 2px 2px 4px black;
+}
+
+/* GROUP: Dialog Container */
+.phonegap .wmdialog {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+}
+
+/* GROUP: Dialog Titlebar */
+.phonegap .dialogtitlebar .wmlabel{
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #1976d2;
+	font-weight: bold;
+}
+
+.phonegap .dialogtitlebar {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(37%,rgb(220, 220, 220)), to(rgb(220, 220, 220)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(220, 220, 220)',GradientType=0);
+}
+
+
+/* GROUP: Titlebar Buttons: Close Button */
+.phonegap .dialogtitlebar .dialogclosebutton {
+/* 	background: url(images/DialogIconsGray.png) repeat 0% 0%; // THEMER: DISABLED */
+}
+
+/* GROUP: Titlebar Buttons: Minify Button */
+.phonegap .dialogtitlebar .dialogminifybutton {
+/* 	background: url(images/DialogIconsGray.png) no-repeat -16px 0px; // THEMER: DISABLED */
+}
+/* GROUP: Titlebar Buttons: Maxify Button */
+.phonegap .dialogtitlebar .dialogmaxifybutton {
+/* 	background: url(images/DialogIconsGray.png) no-repeat -32px 0px; // THEMER: DISABLED */
+}
+
+/***** END SECTION: Dialogs *****//***** START SECTION: Dialog Button Bars *****/
+
+/* GROUP: Dialog Footer */
+.phonegap .dialogfooter,
+.phonegap .wmpagedialog-controlspanel {
+/* 	background-color: rgb(238, 238, 238); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Dialog Footer Buttons */
+.phonegap .dialogfooter .wmbutton {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+/* 	box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+/* GROUP: Footer Buttons (Hover) */
+.phonegap .dialogfooter .wmbutton:hover {
+    color: #FFFFFF; 
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Active) */
+.phonegap .dialogfooter button.wmbutton.toggleButtonDown,
+.phonegap .dialogfooter .wmbutton.Active,
+.phonegap .dialogfooter .wmbutton:active,
+.phonegap .dialogfooter .wmbutton.Active:hover,
+.phonegap .dialogfooter .wmbutton:active:hover {
+/* 	color: #ffffff; // THEMER: DISABLED */
+/* 	background-color: rgb(68, 68, 68); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+}
+
+
+/***** END SECTION: Dialog Button Bars *****//***** START SECTION: Menus *****/
+/* GROUP: Menu Bar Styling */
+.phonegap .dojoMenu .dijitMenu,
+.phonegap .dojoMenu .dijitMenuBar,
+.phonegap .dojoMenu .dijitMenuItem {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #eeeeee;
+	background-color: #232323;
+	background-image: none;
+	filter: none;
+}
+
+.phonegap .dojoMenu .dijitMenuBar .dijitMenuItem {
+	margin-right: 0px;
+    margin-left: 0px;
+	height: 32px;
+	line-height: 32px;
+    text-align: center;
+}
+
+/* GROUP: Menu Bar Hover */
+.phonegap .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+	color: #ffffff;
+/* 	background-color: rgb(35, 35, 35); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+	outline: 0px;
+}
+
+/* GROUP: Menu Bar Select */
+.phonegap .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+
+/* GROUP: Horizontal Menu Bar Icon */
+.phonegap .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 90% 50% !important; // THEMER: DISABLED */
+	padding-right: 25px !important;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Popup Menu Box */
+.phonegap .dijitMenuPopup .dijitMenuTable {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.phonegap .dijitMenuPopup {
+	box-shadow: 3px 3px 4px #6b6b6b;
+	-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+
+/* GROUP: Popup Menu Item */
+.phonegap .dijitPopup .dijitMenuTable .dijitMenuItem {
+	font-size: 12px;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 0px #cccccc;
+	border-left: solid 1px #cccccc;
+    height: 28px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+}
+
+/* GROUP: Popup Menu Item Hover/Selected */
+/* NOTE: There is no good way with dojo menus to distinguish between hover and select */
+.phonegap .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.phonegap .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+    outline-width: 0;
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Menus *****//***** START SECTION: Combobox Dropdowns *****/
+/* GROUP: ComboBox Drop-down Box */
+.phonegap .dijitPopup .dijitCalendarMonthMenu,
+.phonegap  ul.dijitMenu {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
+	box-shadow: 3px 3px 4px #cccccc;
+	-webkit-box-shadow: 3px 3px 4px #cccccc;
+}
+
+/* GROUP: ComboBox Drop-down Items */
+.phonegap .dijitPopup .dijitCalendarMonthLabel,
+.phonegap  ul.dijitMenu .dijitMenuItem {
+    padding: 4px 5px;
+    text-align: left;
+	font-size: 12px;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px #d9d9d9;
+	border-right: solid 0px #d9d9d9;
+	border-bottom: solid 0px #d9d9d9;
+	border-left: solid 0px #d9d9d9;
+}
+
+
+/* GROUP: ComboBox Item Hover */
+.phonegap .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.phonegap  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #1976d2; /* THEMER: IGNORE */
+	background-image: none; /* THEMER: IGNORE */
+	filter: none; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 0px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+/***** END SECTION: Combobox Dropdowns *****//***** START SECTION: Tool Tips *****/
+/* GROUP: Tool tips */
+.phonegap .AppToolTip {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #fafafa;
+	font-weight: normal;
+
+	background-color: #0f0f0f;
+	background-image: none;
+	filter: none;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0px 0px 0px #666;
+	-webkit-box-shadow: 0px 0px 0px #666;
+}
+/***** END SECTION: Tool Tips *****//***** START SECTION: Toast Dialogs *****/
+/* GROUP: Toast Dialog */
+html.WMApp .phonegap div.wmtoast.wmtoastExtraSpecific {
+    background-color: rgb(40,40,40);
+    background-image: none;
+    filter: none;
+
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	box-shadow: 4px 4px 8px #222;
+	-webkit-box-shadow: 4px 4px 8px #222;
+}
+.phonegap .wmtoast .wmtoastmessage {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #505050;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .phonegap div.wmtoast.Success.wmtoastExtraSpecific {
+	background-color: #c8e6c9;
+	background-image: none;
+	filter: none;
+}
+.phonegap .wmtoast .wmtoasttitle,
+.phonegap .wmtoast.Success .wmtoastmessage {
+	color: #1b5e20;
+}
+
+
+/* GROUP: Success Graphic */
+.phonegap .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .phonegap div.wmtoast.Warning.wmtoastExtraSpecific {
+	background-color: #fff9c4;
+	background-image: none;
+	filter: none;
+}
+.phonegap .wmtoast .wmtoasttitle,
+.phonegap .wmtoast.Warning .wmtoastmessage {
+	color: #f57f17;
+}
+
+/* GROUP: Warning Graphic */
+.phonegap .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .phonegap div.wmtoast.Error.wmtoastExtraSpecific {
+	background-color: #ffcdd2;
+	background-image: none;
+	filter: none;
+}
+.phonegap .wmtoast .wmtoasttitle,
+.phonegap .wmtoast.Error .wmtoastmessage {
+	color: #b71c1c;
+}
+
+/* GROUP: Error Graphic */
+.phonegap .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .phonegap div.wmtoast.Info.wmtoastExtraSpecific {
+	background-color: #bbdefb;
+	background-image: none;
+	filter: none;
+}
+.phonegap .wmtoast .wmtoasttitle,
+.phonegap .wmtoast.Info .wmtoastmessage {
+	color: #0d47a1;
+}
+
+/* GROUP: Info Graphic */
+.phonegap .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.phonegap .wmtoast .wmtoasttitle {
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+	color: #212121;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .phonegap div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}
+/***** END SECTION: Toast Dialogs *****/

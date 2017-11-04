@@ -1,0 +1,236 @@
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dojoxGrid .dijitTextBox,
+.qventas_celular .dojoxGrid .dijitComboBox,
+.qventas_celular .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitTextBox,
+.qventas_celular .wmeditor .dijitTextArea,
+.qventas_celular .wmeditor .dijitComboBox,
+.qventas_celular .wmeditor .dijitSelect .dijitButtonContents,
+.qventas_celular .dijitTimePickerItem,
+.qventas_celular .wmeditor .RichTextEditable iframe {
+	border: solid 1px #afafaf;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #373737;
+	font-weight: normal;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+/* 	padding: 0px ; // THEMER: DISABLED */
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular  .wmeditor .dijitTextBox,
+.qventas_celular  .wmeditor .dijitTextArea,
+.qventas_celular  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular  .dojoxGrid .dijitTextBox,
+.qventas_celular  .dojoxGrid .dijitTextArea,
+.qventas_celular  .dojoxGrid .dijitComboBox
+ {
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+.qventas_celular .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.qventas_celular .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitTextBox.dijitHover,
+.qventas_celular .wmeditor .dijitTextArea:hover,
+.qventas_celular .wmeditor .dijitComboBox.dijitHover,
+.qventas_celular .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.qventas_celular .wmeditor .RichTextEditable:hover iframe {
+	color: #373737;
+	border: solid 1px #1976d2;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dojoxGrid .dijitTextBox.dijitFocused,
+.qventas_celular .dojoxGrid .dijitComboBox.dijitFocused,
+.qventas_celular .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitTextBox.dijitFocused,
+.qventas_celular .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.qventas_celular .wmeditor .dijitTextArea.dijitFocused,
+.qventas_celular .wmeditor .dijitTextArea.dijitFocused:hover,
+.qventas_celular .wmeditor .dijitComboBox.dijitFocused,
+.qventas_celular .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.qventas_celular .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.qventas_celular .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.qventas_celular .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.qventas_celular .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.qventas_celular .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.qventas_celular .wmeditor .RichTextEditable.Focused iframe {
+	color: #373737;
+	border: solid 1px #1976d2;
+	background-color: #bbdefb;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: isDirty */
+.qventas_celular .isDirty.wmeditor .dijitTextBox,
+.qventas_celular .isDirty.wmeditor .dijitTextArea,
+.qventas_celular .isDirty.wmeditor .dijitComboBox {
+	color: #373737;
+	border: solid 1px rgb(168, 168, 168);
+/* 	background-color: #b98181; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.qventas_celular .wmeditor .dijitError.dijitTextBox,
+.qventas_celular .wmeditor .dijitError.dijitTextArea,
+.qventas_celular .wmeditor .dijitError.dijitComboBox,
+.qventas_celular .wmeditor .dijitError.isDirty.dijitTextBox,
+.qventas_celular .wmeditor .dijitError.isDirty.dijitTextArea,
+.qventas_celular .wmeditor .dijitError.isDirty.dijitComboBox
+{
+	color: #ffffff;
+	border: solid 1px #d9d9d9;
+	background-color: #e92b2b;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.qventas_celular .wmeditor .wmeditor-caption {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #373737;
+	font-weight: bold;
+}
+
+/* GROUP: Read-only */
+.qventas_celular .wmeditor .wmeditor-readonlyNode {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	border: solid 1px #d9d9d9;
+	color: #4b4b4b;
+/* 	font-weight: undefined; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dojoxGrid .dijitComboBox .dijitArrowButton,
+.qventas_celular .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.qventas_celular .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton:hover {
+/* 		  background-color: rgb(255, 102, 102); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton:active,
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton:active,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton:active {
+/* 		  background-color: rgb(102, 102, 255); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.qventas_celular .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.qventas_celular .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.qventas_celular .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+
+/* GROUP: Spinner Arrows Up */
+.qventas_celular .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+
+
+
+/* GROUP: Sliders */
+.qventas_celular .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+    outline-width: 0;
+}
+
+/* GROUP: Slider Bar Progress */
+.qventas_celular .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.qventas_celular .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.qventas_celular .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.qventas_celular .wmeditor .dijitSlider .dijitSliderRightBumper,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.qventas_celular .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #dcdcdc;
+	background-image: none;
+	filter: none;
+}    

@@ -1,0 +1,76 @@
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.phonegap .wmbutton,
+.phonegap button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
+.phonegap .wmbutton .dijitReset {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+}
+.phonegap .wmbutton {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(75%,#d2d2d2), to(#d2d2d2));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='#d2d2d2',GradientType=0);
+}
+
+/* GROUP: Hover State */
+ .phonegap   .wmbutton:hover {
+ 	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Active State */
+/* button.wmbutton required instead of .wmbutton for IE8 */
+.phonegap   button.wmbutton.toggleButtonDown,
+.phonegap   .wmbutton.Active,
+.phonegap   .wmbutton.Active:hover,
+.phonegap   .wmbutton:active,
+.phonegap   .wmbutton:hover:active {
+	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #2196f3;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.phonegap   .wmbutton:focus {
+     outline: solid 1px #9999ff;
+}
+
+/* GROUP: Popup Menu */
+.phonegap .wmbutton.wmPopupButton .popupIcon {
+   background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+   background-position: 0% 50%;
+}
+
+/* GROUP: Disabled Button */
+.phonegap .Disabled.wmbutton,
+.phonegap .Disabled.wmbutton:hover,
+.phonegap .Disabled.wmbutton:active,
+.phonegap .Disabled.wmbutton:active:hover {
+	color: #fbfbfb;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+  background-color: #333333;
+  background-image: none;
+	opacity: 0.25;
+}

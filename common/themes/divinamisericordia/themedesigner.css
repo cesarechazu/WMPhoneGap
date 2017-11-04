@@ -1,0 +1,1504 @@
+ /***** START SECTION: Main Document *****/
+/* GROUP: Main Document Styles */
+.divinamisericordia  .wmapproot {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+	color: #373737;
+	font-weight: normal;
+}
+.divinamisericordia .wmapproot > .wmpagecontainer,
+.divinamisericordia.wmapproot > .wmpagecontainer,
+.divinamisericordia #studio_designer > .wmlayout {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+}
+
+/* IE9 has buggy display when combinding both gradients and radius.
+ * Gradients and not radius work on IE8, so we'll just do it the IE 8 way */
+.dj_ie9 .divinamisericordia div,
+.dj_ie9 .divinamisericordia input,
+.dj_ie9 .divinamisericordia button {
+   border-radius: 0px !important; /* THEMER: HIDE */
+}
+/***** END SECTION: Main Document *****//***** START SECTION: Tabs *****/
+/* GROUP: Standard Tab Button */
+.divinamisericordia .wmtablayers .wmtablayers-tab,
+.divinamisericordia .wmtablayers button.wmtablayers-verticaltab {
+	font-family: "Open Sans", sans-serif;
+	color: #474747;
+	font-weight: normal;
+	font-size: 1em;
+	background-color: #fafafa;
+	background-image: none;
+	filter: none;
+}
+.divinamisericordia .wmtablayers .wmtablayers-tab {
+
+	height: 27px;
+/* 	margin-left: 4px; // THEMER: DISABLED */
+	border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+
+	border-top: solid 1px rgb(223, 223, 223);
+	border-right: solid 1px rgb(223, 223, 223);
+	border-bottom: solid 1px rgb(223, 223, 223);
+	border-left: solid 1px rgb(223, 223, 223);
+}
+.dj_ff .divinamisericordia .wmtablayers .wmtablayers-tab {
+       box-shadow: 0 0 0 black !important; /* THEMER: HIDE */
+}
+/* GROUP: First Tab */
+.divinamisericordia .wmtablayers-tab:first-child {
+/* 	margin-left: 4px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Standard Selected Tab Button */
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	color: #7dac44;
+	border-top: solid 1px #dfdfdf;
+	border-right: solid 1px #dfdfdf;
+	border-bottom: solid 1px #dfdfdf;
+	border-left: solid 1px #dfdfdf;
+}
+.divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+	top: 0;
+    /* NOTE: To create different values of top for different browsers, use
+     .dj_ie .divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected, 
+     .dj_ff .divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+     .dj_webkit .divinamisericordia .wmtablayers .wmtablayers-tab.wmtablayers-selected */
+}
+
+/* GROUP: Tab Button with Focus */
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:focus,
+.divinamisericordia .wmtablayers .wmtablayers-tab:focus {
+/* 	outline: solid 0px ; // THEMER: DISABLED */
+	color: #7dac44;
+}
+
+/* GROUP: Tab Button with Hover */
+.divinamisericordia .wmtablayers .wmtablayers-tab:hover,
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:hover {
+	color: #7dac44;
+	background-color: #f2f2f2;
+	background-image: none;
+	filter: none;
+/* 	border-top: solid 2px rgb(8, 102, 198); // THEMER: DISABLED */
+/* 	border-right: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+/* 	border-bottom: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+/* 	border-left: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+}
+.divinamisericordia .wmtablayers .wmtablayers-tab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Button with Mouse Down */
+/* NOTE: This does not appear to work in firefox at design time but is fine at runtime */
+.divinamisericordia .wmtablayers .wmtablayers-tab:active,
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:active,
+.divinamisericordia .wmtablayers .wmtablayers-tab:active:.focus,
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:active:focus {
+/* 	color: #ffffff; // THEMER: DISABLED */
+background-color: #444444; 
+background-image: none;
+filter: none;
+}
+.divinamisericordia .wmtablayers .wmtablayers-tab:active,
+.divinamisericordia .wmtablayers .wmtablayers-tab:active:focus {
+/* 	box-shadow: 0px 0px 0px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px #444444; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Layer Borders */
+.divinamisericordia .wmtablayers  .wmTabLayers-client > .wmlayer {
+/* 	border-radius: 4px !important; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px !important; // THEMER: DISABLED */
+}
+
+/* GROUP: Tab Bar */
+.divinamisericordia .wmtablayers div.wmtablayers-tabbar {
+	background-color: #fafafa;
+	background-image: none;
+	filter: none;
+	margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	margin-top: 0px;
+}
+
+
+
+/* GROUP: Vertical Tab Buttons */
+.divinamisericordia .wmtablayers button.wmtablayers-verticaltab {
+	font-size: 1em;
+	width: 98%;
+/* 	margin-left: 5%; // THEMER: DISABLED */
+/* 	margin-bottom: 10px; // THEMER: DISABLED */
+/* 	border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px 0px 0px 4px; // THEMER: DISABLED */
+	border-top: solid 0px rgb(68, 68, 68);
+	border-right: solid 0px transparent;
+	border-bottom: solid 0px rgb(68, 68, 68);
+	border-left: solid 0px rgb(68, 68, 68);
+/* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
+}
+
+/* GROUP: First Vertical Tab */
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:first-child {
+/* 	margin-top: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab Buttons with Hover */
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:hover {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Selected Tab Buttons */
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+/* 	box-shadow: null; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: null; // THEMER: DISABLED */
+/*  border: solid 1px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Vertical Tab with Mouse Down */
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:active,
+.divinamisericordia .wmtablayers .wmtablayers-verticaltab:active:focus {
+/* 	box-shadow: 0px 0px 0px #444444; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px #444444; // THEMER: DISABLED */
+}
+/***** END SECTION: Tabs *****//***** START SECTION: Accordions *****/
+
+/* GROUP: Accordion Header */
+.divinamisericordia .wmaccordion div.wmaccordion-header {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #7dac44;
+	background-image: none;
+	filter: none;
+    -webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+/* 	border-top: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-right: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-bottom: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-left: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	cursor: auto; // THEMER: DISABLED */
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+	padding-left: 20px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Closed Header */
+.divinamisericordia .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+	color: #999999;
+	font-weight: normal;
+	background-color: #282828;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Header Hover */
+.divinamisericordia div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+	color: #ffffff;
+	background-color: #2c2c2c;
+	background-image: none;
+	filter: none;
+}
+
+
+
+/* GROUP: Accordion Arrow (Selected) */
+.divinamisericordia .wmaccordion .accordionArrowNode {
+   float: none !important; /* THEMER: HIDE */
+   position: absolute; /* THEMER: HIDE */
+	right: 0px;
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%; // THEMER: DISABLED */
+}
+.divinamisericordia .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+     position: relative; /* THEMER: HIDE */
+     float: none; /* THEMER: HIDE */
+}
+
+/* GROUP: Accordion Arrow (Closed) */
+.divinamisericordia .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+/* 	background: url(images/arrowRightDark.png) no-repeat 0% 0%; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Layer Styling */
+.divinamisericordia .wmaccordion .wmlayer.wmaccordion-content {
+/* 	border-radius: 2px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
+/* 	background-color: transparent; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/***** END SECTION: Accordions *****//***** START SECTION: Titled Panel *****/
+/* GROUP: Container */
+.divinamisericordia .wmfancypanel .wmFancyPanel-containerWidget {
+    border-top-left-radius: 0px !important; /* THEMER: HIDE */
+    border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-left-radius: 0px !important;/* THEMER: HIDE */
+    -webkit-border-top-right-radius: 0px !important;/* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black !important;/* THEMER: HIDE */
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Panel Title */
+.divinamisericordia .wmfancypanel .wmFancyPanel-labelWidget {
+/* 	border-radius: 3px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 3px; // THEMER: DISABLED */
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #666666;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+/***** END SECTION: Titled Panel *****//***** START SECTION: Buttons *****/
+/* GROUP: Standard Button */
+/* dijitReset needed for popupButton */
+.divinamisericordia .wmbutton,
+.divinamisericordia button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
+.divinamisericordia .wmbutton .dijitReset {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #474747;
+	font-weight: normal;
+}
+.divinamisericordia .wmbutton {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(75%,#d2d2d2), to(#d2d2d2));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='#d2d2d2',GradientType=0);
+}
+
+/* GROUP: Hover State */
+ .divinamisericordia   .wmbutton:hover {
+ 	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+	background-color: #7dac44;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Active State */
+/* button.wmbutton required instead of .wmbutton for IE8 */
+.divinamisericordia   button.wmbutton.toggleButtonDown,
+.divinamisericordia   .wmbutton.Active,
+.divinamisericordia   .wmbutton.Active:hover,
+.divinamisericordia   .wmbutton:active,
+.divinamisericordia   .wmbutton:hover:active {
+	color: #FFFFFF;
+	font-weight: normal;
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #a0c76e;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus State */
+/* NOTE: This occurs when the user tabs to the button.
+  It may also occur when the user clicks the button */
+.divinamisericordia   .wmbutton:focus {
+     outline: solid 1px #9999ff;
+}
+
+/* GROUP: Popup Menu */
+.divinamisericordia .wmbutton.wmPopupButton .popupIcon {
+   background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+   background-position: 0% 50%;
+}
+
+/* GROUP: Disabled Button */
+.divinamisericordia .Disabled.wmbutton,
+.divinamisericordia .Disabled.wmbutton:hover,
+.divinamisericordia .Disabled.wmbutton:active,
+.divinamisericordia .Disabled.wmbutton:active:hover {
+	color: #fbfbfb;
+	font-weight: normal;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+  background-color: #333333;
+  background-image: none;
+	opacity: 0.25;
+}
+/***** END SECTION: Buttons *****//***** START SECTION: Toggle Button Panel *****/
+/* GROUP: Toggle Panel */
+.divinamisericordia .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.divinamisericordia .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.divinamisericordia .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.divinamisericordia .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.divinamisericordia .wmtogglebuttonpanel .wmbutton {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: transparent;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Selected Button */
+.divinamisericordia .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #1b5e20;
+	background-image: none;
+	filter: none;
+}
+/***** END SECTION: Toggle Button Panel *****//***** START SECTION: Editors *****/
+/* TODO: Fix all .dijitButtonContents which are found in Select editors which are found in editable grid */
+
+/* GROUP: Standard Editors */
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dojoxGrid .dijitTextBox,
+.divinamisericordia .dojoxGrid .dijitComboBox,
+.divinamisericordia .dojoxGrid .dijitSelect .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitTextBox,
+.divinamisericordia .wmeditor .dijitTextArea,
+.divinamisericordia .wmeditor .dijitComboBox,
+.divinamisericordia .wmeditor .dijitSelect .dijitButtonContents,
+.divinamisericordia .dijitTimePickerItem,
+.divinamisericordia .wmeditor .RichTextEditable iframe {
+	border: solid 1px #a8a8a8;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #373737;
+	font-weight: normal;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	padding: 6,12,6,12;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia  .wmeditor .dijitTextBox,
+.divinamisericordia  .wmeditor .dijitTextArea,
+.divinamisericordia  .wmeditor .dijitComboBox,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia  .dojoxGrid .dijitTextBox,
+.divinamisericordia  .dojoxGrid .dijitTextArea,
+.divinamisericordia  .dojoxGrid .dijitComboBox
+ {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.divinamisericordia .wmeditor.wmrichtext {
+    -webkit-border-bottom-left-radius: 4px;  /* THEMER: CALC: ${border-bottom-left-radius} */
+    -webkit-border-bottom-right-radius: 4px; /* THEMER: CALC: ${border-bottom-right-radius} */
+    border-bottom-left-radius: 4px;       /* THEMER: CALC: ${border-bottom-left-radius} */
+    border-bottom-right-radius: 4px;      /* THEMER: CALC: ${border-bottom-right-radius} */
+}
+
+
+/* GROUP: Hover */
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.divinamisericordia .dijitTimePickerItem.dijitTimePickerItemHover,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitTextBox.dijitHover,
+.divinamisericordia .wmeditor .dijitTextArea:hover,
+.divinamisericordia .wmeditor .dijitComboBox.dijitHover,
+.divinamisericordia .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.divinamisericordia .wmeditor .RichTextEditable:hover iframe {
+	color: #373737;
+	border: solid 1px #7dac44;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Focus */
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dojoxGrid .dijitTextBox.dijitFocused,
+.divinamisericordia .dojoxGrid .dijitComboBox.dijitFocused,
+.divinamisericordia .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitTextBox.dijitFocused,
+.divinamisericordia .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.divinamisericordia .wmeditor .dijitTextArea.dijitFocused,
+.divinamisericordia .wmeditor .dijitTextArea.dijitFocused:hover,
+.divinamisericordia .wmeditor .dijitComboBox.dijitFocused,
+.divinamisericordia .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.divinamisericordia .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.divinamisericordia .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.divinamisericordia .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.divinamisericordia .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.divinamisericordia .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.divinamisericordia .wmeditor .RichTextEditable.Focused iframe {
+	color: #373737;
+	border: solid 1px #7dac44;
+	background-color: #d3f0a7;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: isDirty */
+.divinamisericordia .isDirty.wmeditor .dijitTextBox,
+.divinamisericordia .isDirty.wmeditor .dijitTextArea,
+.divinamisericordia .isDirty.wmeditor .dijitComboBox {
+/* 	color: #ffffff; // THEMER: DISABLED */
+	border: solid 1px #a8a8a8;
+/* 	background-color: #b98181; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Invalid */
+.divinamisericordia .wmeditor .dijitError.dijitTextBox,
+.divinamisericordia .wmeditor .dijitError.dijitTextArea,
+.divinamisericordia .wmeditor .dijitError.dijitComboBox,
+.divinamisericordia .wmeditor .dijitError.isDirty.dijitTextBox,
+.divinamisericordia .wmeditor .dijitError.isDirty.dijitTextArea,
+.divinamisericordia .wmeditor .dijitError.isDirty.dijitComboBox
+{
+	color: #373737;
+	border: solid 1px #ed0202;
+	background-color: #f2bdbd;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Captions */
+.divinamisericordia .wmeditor .wmeditor-caption {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #373737;
+	font-weight: normal;
+}
+
+/* GROUP: Read-only */
+.divinamisericordia .wmeditor .wmeditor-readonlyNode {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+    border: solid 1px #a8a8a8;
+/* 	color: ; // THEMER: DISABLED */
+/* 	font-weight: undefined; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes */
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dojoxGrid .dijitComboBox .dijitArrowButton,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitSpinner .dijitArrowButton,
+.divinamisericordia .wmeditor .dijitComboBox .dijitArrowButton,
+.divinamisericordia .wmeditor .dijitSelect .dijitArrowButton {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dojoxGrid .dijitComboBox .dijitArrowButton,
+.divinamisericordia .dijitComboBox .dijitArrowButton .dijitArrowButtonInner, /* Grid combo boxes and selects */
+.divinamisericordia .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitComboBox .dijitArrowButton,
+.divinamisericordia .wmeditor .dijitSelect .dijitArrowButton,
+.divinamisericordia .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.divinamisericordia .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+/* 	border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 2px 2px 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Drop Down Boxes Hover */ 
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.divinamisericordia .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.divinamisericordia .wmeditor .dijitSelect .dijitArrowButton:hover {
+/* 		  background-color: rgb(255, 102, 102); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Drop Down Clicking */
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitSpinner .dijitArrowButton:active,
+.divinamisericordia .wmeditor .dijitComboBox .dijitArrowButton:active,
+.divinamisericordia .wmeditor .dijitSelect .dijitArrowButton:active {
+/* 		  background-color: rgb(102, 102, 255); // THEMER: DISABLED */
+/* 		  background-image: none; // THEMER: DISABLED */
+/* 		  filter: none; // THEMER: DISABLED */
+		  
+}
+
+
+/* GROUP: Drop Down Box Arrows */
+/* THEMER: DO NOT SUBCLASS START */
+.divinamisericordia .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.divinamisericordia .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+/* THEMER: DO NOT SUBCLASS END */
+.divinamisericordia .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.divinamisericordia .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+
+
+
+/* GROUP: Spinner Arrows Down */
+.divinamisericordia .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+
+/* GROUP: Spinner Arrows Up */
+.divinamisericordia .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+	background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+
+
+
+/* GROUP: Sliders */
+.divinamisericordia .wmeditor .dijitSlider .dijitSliderImageHandleH {
+    background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+    outline-width: 0;
+}
+
+/* GROUP: Slider Bar Progress */
+.divinamisericordia .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.divinamisericordia .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.divinamisericordia .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.divinamisericordia .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+	background-color: #7dac44;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Slider Bar Remainder */
+.divinamisericordia .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.divinamisericordia .wmeditor .dijitSlider .dijitSliderRightBumper,
+.divinamisericordia .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.divinamisericordia .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+	background-color: #dcdcdc;
+	background-image: none;
+	filter: none;
+}    
+
+/***** END SECTION: Editors *****//***** START SECTION: Grids *****/
+/* GROUP: Grid Rows */
+.divinamisericordia .GridListStyle div.dojoxGrid, 
+.divinamisericordia .GridListStyle .wmlist {
+	font-size: 1em;
+}
+
+.divinamisericordia .GridListStyle  .wmlist-cell,
+.divinamisericordia .GridListStyle td.dojoxGridCell {
+	border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+	border-bottom: solid 1px #dfdfdf;
+	border-left: solid 1px #dfdfdf;
+}
+
+.divinamisericordia .GridListStyle div.dojoxGridRow,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.divinamisericordia .GridListStyle div.wmlist-item,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+	font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+.divinamisericordia .GridListStyle div.dojoxGridContent .dojoxGridCell {
+   background-color: transparent; /* THEMER: HIDE */
+}
+
+.divinamisericordia .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.divinamisericordia .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+   border: 1px dashed transparent !important; /* THEMER: HIDE */
+}
+
+
+/* GROUP: Odd Numbered Rows */
+.divinamisericordia .GridListStyle div.dojoxGridRow,
+.divinamisericordia .GridListStyle div.wmlist-item,
+
+/* Disabled grid rows */
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+
+/* Disabled odd    rows */
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+	color: #373737;
+	background-color: #f5f5f5;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Even Numbered Rows */
+.divinamisericordia .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.divinamisericordia .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.divinamisericordia .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.divinamisericordia .GridListStyle .wmlist-item.Odd {
+	color: #474747;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Selected Row */
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.divinamisericordia .GridListStyle .wmlist-item.wmlist-item-selected,
+.divinamisericordia .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.divinamisericordia .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+	background-color: #a0c76e;
+	background-image: none;
+	filter: none;
+	color: #ffffff;
+}
+
+/* GROUP: Selected Cell */
+.divinamisericordia .dojoxGridCellFocus {
+    outline: solid 0px #ae0909;
+    outline-offset: -1px; /* Change this to match outline width (but negative). Not supported by IE */ /* THEMER: HIDE */
+}
+
+/* GROUP: Hover row */
+.divinamisericordia .GridListStyle .wmlist-item.wmlist-item-over,
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.divinamisericordia .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.divinamisericordia .GridListStyle .dojoxGridRowOver a,
+.divinamisericordia .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+	background-color: #b4b4b4;
+	background-image: none;
+	filter: none;
+	color: #ffffff;
+}
+
+/* GROUP: Grid Header */
+.divinamisericordia .GridListStyle .wmlist-header th,
+.divinamisericordia .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.divinamisericordia .GridListStyle .wmlist-header .wmlist-cell,
+.divinamisericordia .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+	border-top: solid 1px rgb(168, 168, 168);
+	border-right: solid 1px rgb(168, 168, 168);
+	border-bottom: solid 1px rgb(168, 168, 168);
+	border-left: solid 1px rgb(168, 168, 168);
+}
+
+
+
+.divinamisericordia .GridListStyle .wmlist-header,
+.divinamisericordia .GridListStyle div.dojoxGridHeader {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.divinamisericordia .GridListStyle .wmlist-header th,
+.divinamisericordia .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.divinamisericordia .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
+    background: transparent none !important; /* THEMER: HIDE */
+	font-family: "Open Sans", sans-serif;
+	color: #474747;
+	font-weight: normal;
+}
+
+/* GROUP: Grid Cells */
+.divinamisericordia .GridListStyle .dojoxGridCell,
+.divinamisericordia .GridListStyle .wmlist-cell {
+    padding: 4px 8px;
+}
+
+/* GROUP: Focused Cell */
+.divinamisericordia .GridListStyle .dojoxGridCellFocus {
+/*   outline: solid 1px #5b9dd7; // THEMER: DISABLED */
+}
+
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Mobile List */
+.divinamisericordia .MobileListStyle div.wmlist-item,
+.divinamisericordia .Disabled.MobileListStyle div.wmlist-item,
+.divinamisericordia .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+    margin: 5px;
+	background-color: #a0c76e;
+	background-image: none;
+	filter: none;
+    color: #000000;
+	font-family: "Open Sans", sans-serif;
+    min-height: 24px;
+}
+
+.divinamisericordia .wmlist.MobileListStyle td.wmlist-cell {
+	border: solid 0px #a8a8a8;
+}
+
+/* GROUP: Mobile List Hover (Desktop only!) */
+.divinamisericordia .MobileListStyle div.wmlist-item.wmlist-item-over,
+.divinamisericordia .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+	background-color: #555555;
+	color: #FFFFFF;
+}
+
+/* GROUP: Mobile List Selected Row */
+.divinamisericordia .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.divinamisericordia .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.divinamisericordia .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.divinamisericordia .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+	background-color: #373737;
+	background-image: none;
+	filter: none;
+	color: #FFFFFF; 
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Grids *****//***** START SECTION: Progress Bar *****/
+/* GROUP: ProgressBar */
+.divinamisericordia .wmprogressbar .dijitProgressBar {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+/* 	border: solid 1px black; // THEMER: DISABLED */
+}
+
+
+.divinamisericordia .wmprogressbar .dijitProgressBarLabel {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+		color: #FFFFFF;
+	font-weight: normal;
+}
+
+.divinamisericordia .wmprogressbar .dijitProgressBar {
+	background-color: #b4b4b4;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Progress Indicator */
+.divinamisericordia .wmprogressbar .dijitProgressBarFull {
+	background-color: #a0c76e;
+	background-image: none;
+	filter: none;
+/* 	border-radius: 3px 3px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 3px 3px 8px 0px; // THEMER: DISABLED */
+/* 	border-top: solid 0px black; // THEMER: DISABLED */
+/* 	border-right: solid 1px black; // THEMER: DISABLED */
+/* 	border-bottom: solid 0px black; // THEMER: DISABLED */
+/* 	border-left: solid 0px black; // THEMER: DISABLED */
+    }
+
+
+.divinamisericordia .wmprogressbar .dijitProgressBarTile {
+   background-image: inherit; /* THEMER: HIDE */
+   background-color: inherit; /* THEMER: HIDE */
+}
+/***** END SECTION: Progress Bar *****//***** START SECTION: Splitter/Bevel *****/
+/* GROUP: Bevel */
+.divinamisericordia .wmbevel {
+	background-color: #cccccc;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Splitter */
+/* NOTE: If you use gradients, then you can't use the horizontal and vertical images (which is important) */
+.divinamisericordia div.wmsplitter-h,
+.divinamisericordia div.wmsplitter-v {
+	background-color: #cccccc; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Hover */
+.divinamisericordia div.wmsplitter-h:hover,
+.divinamisericordia div.wmsplitter-v:hover {
+	background-color: #6b6b6b; /* THEMER: NO BACKGROUND IMAGE */
+}
+/* GROUP: Splitter Horizontal Image */
+.divinamisericordia .wmsplitter-h {
+	background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+
+/* GROUP: Splitter Vertical Image */
+.divinamisericordia .wmsplitter-v {
+	background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+
+/***** END SECTION: Splitter/Bevel *****//***** START SECTION: Calendar *****/
+/* GROUP: Calendar Cells */
+.divinamisericordia .dijitCalendarDayLabel,
+.divinamisericordia .dijitCalendarDateLabel {
+	font-size: 13px;
+}
+
+.divinamisericordia table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #7d7d7d;
+}
+
+.divinamisericordia .dijitCalendarBodyContainer td {
+	border-top: solid 1px rgb(204, 204, 204);
+	border-right: solid 1px rgb(204, 204, 204);
+	border-bottom: solid 0px rgb(102, 102, 102);
+	border-left: solid 0px rgb(102, 102, 102);
+}
+
+/* GROUP: Selected Cell */
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+	background-color: #a0c76e !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #ffffff !important;
+}
+
+/* GROUP: Hover Cell */
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarHoveredYear,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+	background-color: #7dac44 !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #373737;
+}
+
+
+/* GROUP: Dates Not In Month */
+.divinamisericordia .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarNextMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #dfdfdf;
+}
+
+/* GROUP: Column Headings */
+.divinamisericordia .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+	background-color: #eeeeee !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #373737;
+}
+
+/* GROUP: Header */
+.divinamisericordia tr.dijitCalendarMonthContainer th {    
+	background-color: #9b9b9b;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Month Container */
+.divinamisericordia tr.dijitCalendarMonthContainer th {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #eeeeee;
+	font-weight: normal;
+}
+
+/* GROUP: Month Label */
+.divinamisericordia tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+    color: #FFFFFF; 
+	font-weight: normal;
+    border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black; /* THEMER: HIDE */
+}
+
+/* GROUP: Outer Widget */
+.divinamisericordia table.dijitCalendarContainer {
+/* 	border: solid 2px rgb(102, 102, 102); // THEMER: DISABLED */
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+/***** END SECTION: Calendar *****//***** START SECTION: Links *****/
+/* GROUP: Links */
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.divinamisericordia .wmapproot a,
+.divinamisericordia  #wavemakerNode  .wmapproot a,
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.divinamisericordia .wmapproot a:visited,
+.divinamisericordia  #wavemakerNode  .wmapproot a:visited {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	color: #474747;
+	font-weight: normal;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot a:hover,
+.divinamisericordia  #wavemakerNode  .wmapproot a:hover:visited {
+	color: #474747;
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot a:active,
+.divinamisericordia  #wavemakerNode  .wmapproot a:hover:active,
+.divinamisericordia  #wavemakerNode  .wmapproot a:hover:visited:active {
+	color: #474747;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot .Disabled a,
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot .Disabled a:hover,
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot .Disabled a:active,
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.divinamisericordia .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.divinamisericordia  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}
+/***** END SECTION: Links *****//***** START SECTION: Dashboard *****/
+/* GROUP: Portlet Titlebar */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+
+  min-height: 22px;
+	line-height: 28px;
+  padding-left: 10px;
+}
+
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+  color: #333333;
+}
+
+.divinamisericordia .dojoxPortlet {
+  border: solid 1px #949494;
+/* 	border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+}
+
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle {
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+  border-bottom: solid 1px #949494;
+}
+
+/* GROUP: Portlet Titlebar Icons */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+  border-color: #333333;
+  width: 16px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+/* GROUP: Portlet Close Icon */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+/* 	background: url(images/DialogIconsGray.png) no-repeat 0px 0px; // THEMER: DISABLED */
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+/* GROUP: Portlet Close Icon Hover */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+/* background-position: 0px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Minify Icon */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+
+/* GROUP: Portlet Minify Icon Hover */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Unminify Icon */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+
+/* GROUP: Portlet Unminify Icon Hover */
+.divinamisericordia .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+/* 	background-position: -16px -16px; ; // THEMER: DISABLED */
+}
+/***** END SECTION: Dashboard *****//***** START SECTION: Dialogs *****/
+/* GROUP: Dialog Frame */
+.divinamisericordia .wmdialog {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+	box-shadow: 4px 4px 8px black;
+	-webkit-box-shadow: 4px 4px 8px black;
+}
+
+/* GROUP: Dialog Container */
+.divinamisericordia .wmdialog {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #373737;
+	font-weight: normal;
+}
+
+/* GROUP: Dialog Titlebar */
+.divinamisericordia .dialogtitlebar .wmlabel{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.1em;
+	color: #7dac44;
+	font-weight: bold;
+}
+
+.divinamisericordia .dialogtitlebar {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(37%,#dcdcdc), to(#dcdcdc));
+	background-image: -moz-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0);
+}
+
+
+/* GROUP: Titlebar Buttons: Close Button */
+.divinamisericordia .dialogtitlebar .dialogclosebutton {
+/* 	background: url(images/DialogIconsGray.png) repeat 0% 0%; // THEMER: DISABLED */
+}
+
+/* GROUP: Titlebar Buttons: Minify Button */
+.divinamisericordia .dialogtitlebar .dialogminifybutton {
+	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+}
+/* GROUP: Titlebar Buttons: Maxify Button */
+.divinamisericordia .dialogtitlebar .dialogmaxifybutton {
+	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+
+/***** END SECTION: Dialogs *****//***** START SECTION: Dialog Button Bars *****/
+
+/* GROUP: Dialog Footer */
+.divinamisericordia .dialogfooter,
+.divinamisericordia .wmpagedialog-controlspanel {
+/* 	background-color: rgb(238, 238, 238); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+}
+
+/* GROUP: Dialog Footer Buttons */
+.divinamisericordia .dialogfooter .wmbutton {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #373737;
+	font-weight: normal;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+/* 	box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Hover) */
+.divinamisericordia .dialogfooter .wmbutton:hover {
+    color: #FFFFFF; 
+	background-color: #7dac44;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+}
+
+/* GROUP: Footer Buttons (Active) */
+.divinamisericordia .dialogfooter button.wmbutton.toggleButtonDown,
+.divinamisericordia .dialogfooter .wmbutton.Active,
+.divinamisericordia .dialogfooter .wmbutton:active,
+.divinamisericordia .dialogfooter .wmbutton.Active:hover,
+.divinamisericordia .dialogfooter .wmbutton:active:hover {
+	color: #ffffff;
+	background-color: #a0c76e;
+	background-image: none;
+	filter: none;
+/* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
+}
+
+
+/***** END SECTION: Dialog Button Bars *****//***** START SECTION: Menus *****/
+/* GROUP: Menu Bar Styling */
+.divinamisericordia .dojoMenu .dijitMenu,
+.divinamisericordia .dojoMenu .dijitMenuBar,
+.divinamisericordia .dojoMenu .dijitMenuItem {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #eeeeee;
+	background-color: #232323;
+	background-image: none;
+	filter: none;
+}
+
+.divinamisericordia .dojoMenu .dijitMenuBar .dijitMenuItem {
+	margin-right: 0px;
+    margin-left: 0px;
+	height: 32px;
+	line-height: 32px;
+    text-align: center;
+}
+
+/* GROUP: Menu Bar Hover */
+.divinamisericordia .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+	color: #ffffff;
+/* 	background-color: rgb(35, 35, 35); // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
+	outline: 0px;
+}
+
+/* GROUP: Menu Bar Select */
+.divinamisericordia .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+
+/* GROUP: Horizontal Menu Bar Icon */
+.divinamisericordia .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+/* 	background: url(images/comboArrowDownDark.png) no-repeat 90% 50% !important; // THEMER: DISABLED */
+	padding-right: 25px !important;
+}
+
+/* THEMER: DO NOT SUBCLASS START */
+/* GROUP: Popup Menu Box */
+.divinamisericordia .dijitMenuPopup .dijitMenuTable {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.divinamisericordia .dijitMenuPopup {
+	box-shadow: 3px 3px 4px #6b6b6b;
+	-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+
+/* GROUP: Popup Menu Item */
+.divinamisericordia .dijitPopup .dijitMenuTable .dijitMenuItem {
+	font-size: 1em;
+	font-family: "Open Sans", sans-serif;
+	color: #373737;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 0px #cccccc;
+	border-left: solid 1px #cccccc;
+    height: 28px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+}
+
+/* GROUP: Popup Menu Item Hover/Selected */
+/* NOTE: There is no good way with dojo menus to distinguish between hover and select */
+.divinamisericordia .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.divinamisericordia .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #7dac44;
+	background-image: none;
+	filter: none;
+    outline-width: 0;
+}
+/* THEMER: DO NOT SUBCLASS END */
+/***** END SECTION: Menus *****//***** START SECTION: Combobox Dropdowns *****/
+/* GROUP: ComboBox Drop-down Box */
+.divinamisericordia .dijitPopup .dijitCalendarMonthMenu,
+.divinamisericordia  ul.dijitMenu {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	border-top: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-left: solid 1px #cccccc;
+	box-shadow: 3px 3px 4px #cccccc;
+	-webkit-box-shadow: 3px 3px 4px #cccccc;
+}
+
+/* GROUP: ComboBox Drop-down Items */
+.divinamisericordia .dijitPopup .dijitCalendarMonthLabel,
+.divinamisericordia  ul.dijitMenu .dijitMenuItem {
+    padding: 4px 5px;
+    text-align: left;
+	font-size: 1em;
+	font-family: "Open Sans", sans-serif;
+	color: #373737;
+	font-weight: normal;
+    background-color: transparent; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 0px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+
+/* GROUP: ComboBox Item Hover */
+.divinamisericordia .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.divinamisericordia  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+    color: #FFFFFF;
+	background-color: #7dac44; /* THEMER: IGNORE */
+	background-image: none; /* THEMER: IGNORE */
+	filter: none; /* THEMER: IGNORE */
+	border-top: solid 0px rgb(251, 251, 251);
+	border-right: solid 0px rgb(251, 251, 251);
+	border-bottom: solid 0px rgb(170, 170, 170);
+	border-left: solid 0px rgb(251, 251, 251);
+}
+
+/***** END SECTION: Combobox Dropdowns *****//***** START SECTION: Tool Tips *****/
+/* GROUP: Tool tips */
+.divinamisericordia .AppToolTip {
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #000000;
+	background-image: none;
+	filter: none;
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+}
+/***** END SECTION: Tool Tips *****//***** START SECTION: Toast Dialogs *****/
+/* GROUP: Toast Dialog */
+html.WMApp .divinamisericordia div.wmtoast.wmtoastExtraSpecific {
+	background-color: #282828;
+	background-image: none;
+	filter: none;
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 2px 2px 4px #222;
+	-webkit-box-shadow: 2px 2px 4px #222;
+}
+.divinamisericordia .wmtoast .wmtoastmessage {
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9em;
+	color: #505050;
+	font-weight: normal;
+}
+
+/* GROUP: Success Styling */
+html.WMApp .divinamisericordia div.wmtoast.Success.wmtoastExtraSpecific {
+	background-color: #d7f0da;
+	background-image: none;
+	filter: none;
+}
+.divinamisericordia .wmtoast .wmtoasttitle,
+.divinamisericordia .wmtoast.Success .wmtoastmessage {
+	color: #072503;
+}
+
+
+/* GROUP: Success Graphic */
+.divinamisericordia .wmtoast.Success .ToastLeft {
+   background-image: url(images/OK.png);
+}
+
+/* GROUP: Warning Styling */
+html.WMApp .divinamisericordia div.wmtoast.Warning.wmtoastExtraSpecific {
+	background-color: #f0efd2;
+	background-image: none;
+	filter: none;
+}
+.divinamisericordia .wmtoast .wmtoasttitle,
+.divinamisericordia .wmtoast.Warning .wmtoastmessage {
+	color: #646a28;
+}
+
+/* GROUP: Warning Graphic */
+.divinamisericordia .wmtoast.Warning .ToastLeft {
+   background-image: url(images/Caution.png);
+}
+
+/* GROUP: Error Styling */
+html.WMApp .divinamisericordia div.wmtoast.Error.wmtoastExtraSpecific {
+	background-color: #f0d0d0;
+	background-image: none;
+	filter: none;
+}
+.divinamisericordia .wmtoast .wmtoasttitle,
+.divinamisericordia .wmtoast.Error .wmtoastmessage {
+	color: #9f1414;
+}
+
+/* GROUP: Error Graphic */
+.divinamisericordia .wmtoast.Error .ToastLeft {
+   background-image: url(images/Close.png);
+}
+
+/* GROUP: Info Styling */
+html.WMApp .divinamisericordia div.wmtoast.Info.wmtoastExtraSpecific {
+	background-color: #ced7eb;
+	background-image: none;
+	filter: none;
+}
+.divinamisericordia .wmtoast .wmtoasttitle,
+.divinamisericordia .wmtoast.Info .wmtoastmessage {
+	color: #132d65;
+}
+
+/* GROUP: Info Graphic */
+.divinamisericordia .wmtoast.Info .ToastLeft {
+   background-image: url(images/Help\ Circle.png);
+}
+
+/* GROUP: Title */
+.divinamisericordia .wmtoast .wmtoasttitle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.25em;
+	color: #373737;
+	font-weight: bold;
+}
+
+/* GROUP: Opacity */
+.wmtoastExtraSpecific.fadeInAnim {
+      -webkit-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      -moz-animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+      animation-name: toastFadeInKeyFrames; /* THEMER: HIDE */
+}
+
+@keyframes toastFadeInKeyFrames {
+   0% {
+       opacity: 0; /* THEMER: HIDE */
+   }
+   100% {
+	opacity: 0.9;
+   }
+ }
+
+/* GROUP: Opacity again */
+html.WMApp .divinamisericordia div.wmtoast.wmtoastExtraSpecific {
+	opacity: 0.9;
+}
+/***** END SECTION: Toast Dialogs *****/

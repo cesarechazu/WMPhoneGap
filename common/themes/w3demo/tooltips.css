@@ -1,0 +1,16 @@
+/* GROUP: Tool tips */
+.w3demo .AppToolTip {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #fafafa;
+	font-weight: normal;
+
+	background-color: #0f0f0f;
+	background-image: none;
+	filter: none;
+
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0px 0px 0px #666;
+	-webkit-box-shadow: 0px 0px 0px #666;
+}

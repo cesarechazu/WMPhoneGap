@@ -3,9 +3,9 @@
 .qventas .wmbutton,
 .qventas button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
 .qventas .wmbutton .dijitReset {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 }
 .qventas .wmbutton {
@@ -26,7 +26,7 @@
 	font-weight: normal;
 /* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 }
@@ -43,7 +43,7 @@
 	font-weight: normal;
 /* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
-	background-color: #68a2df;
+	background-color: #2196f3;
 	background-image: none;
 	filter: none;
 }

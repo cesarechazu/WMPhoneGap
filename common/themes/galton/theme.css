@@ -1,0 +1,1025 @@
+.galton  .wmapproot {
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #373737;
+font-weight: normal;
+}
+.galton .wmapproot > .wmpagecontainer,
+.galton.wmapproot > .wmpagecontainer,
+.galton #studio_designer > .wmlayout {
+background-color: #f0f0f0;
+background-image: none;
+filter: none;
+}
+.dj_ie9 .galton div,
+.dj_ie9 .galton input,
+.dj_ie9 .galton button {
+border-radius: 0px !important;
+}
+.galton .wmtablayers .wmtablayers-tab,
+.galton .wmtablayers button.wmtablayers-verticaltab {
+font-family: "Open Sans", sans-serif;
+color: #474747;
+font-weight: normal;
+font-size: 1em;
+background-color: rgb(230, 230, 230);
+background-image: none;
+filter: none;
+}
+.galton .wmtablayers .wmtablayers-tab {
+height: 28px;
+border-top: solid 0px rgb(210, 210, 210);
+border-right: solid 0px rgb(230, 230, 230);
+border-bottom: solid 0px rgb(230, 230, 230);
+border-left: solid 0px rgb(230, 230, 230);
+}
+.dj_ff .galton .wmtablayers .wmtablayers-tab {
+box-shadow: 0 0 0 black !important;
+}
+.galton .wmtablayers-tab:first-child {
+}
+.galton .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
+.galton .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
+.galton .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.galton .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+background-color: rgb(250, 250, 250);
+background-image: none;
+filter: none;
+color: #0d47a1;
+border-top: solid 0px rgb(13, 71, 161);
+border-right: solid 0px rgb(215, 215, 215);
+border-bottom: solid 0px rgb(215, 215, 215);
+border-left: solid 0px rgb(215, 215, 215);
+}
+.galton .wmtablayers .wmtablayers-tab.wmtablayers-selected,
+.galton .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
+top: 0;
+}
+.galton .wmtablayers .wmtablayers-verticaltab:focus,
+.galton .wmtablayers .wmtablayers-tab:focus {
+color: #0d47a1;
+}
+.galton .wmtablayers .wmtablayers-tab:hover,
+.galton .wmtablayers .wmtablayers-verticaltab:hover {
+color: #0d47a1;
+border-top: solid 2px #0d47a1;
+border-right: solid 0px #0d47a1;
+border-bottom: solid 0px #0d47a1;
+border-left: solid 0px #0d47a1;
+}
+.galton .wmtablayers .wmtablayers-tab:hover {
+}
+.galton .wmtablayers .wmtablayers-tab:active,
+.galton .wmtablayers .wmtablayers-verticaltab:active,
+.galton .wmtablayers .wmtablayers-tab:active:.focus,
+.galton .wmtablayers .wmtablayers-verticaltab:active:focus {
+background-color: #444444;
+background-image: none;
+filter: none;
+}
+.galton .wmtablayers .wmtablayers-tab:active,
+.galton .wmtablayers .wmtablayers-tab:active:focus {
+}
+.galton .wmtablayers  .wmTabLayers-client > .wmlayer {
+}
+.galton .wmtablayers div.wmtablayers-tabbar {
+background-color: rgb(230, 230, 230);
+background-image: none;
+filter: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+.galton .wmtablayers button.wmtablayers-verticaltab {
+font-size: 1em;
+width: 98%;
+border-top: solid 0px rgb(68, 68, 68);
+border-right: solid 0px transparent;
+border-bottom: solid 0px rgb(68, 68, 68);
+border-left: solid 0px rgb(68, 68, 68);
+}
+.galton .wmtablayers .wmtablayers-verticaltab:first-child {
+}
+.galton .wmtablayers .wmtablayers-verticaltab:hover {
+}
+.galton .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected {
+}
+.galton .wmtablayers .wmtablayers-verticaltab:active,
+.galton .wmtablayers .wmtablayers-verticaltab:active:focus {
+}
+.galton .wmaccordion div.wmaccordion-header {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #ffffff;
+font-weight: normal;
+background-color: #0d47a1;
+background-image: none;
+filter: none;
+-webkit-background-clip: border-box;
+-webkit-background-origin: padding-box;
+-webkit-background-size: auto;
+display: block;
+height: 21px;
+line-height: 21px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 10px;
+padding-top: 10px;
+text-decoration: none solid rgb(51, 51, 51);
+text-shadow: none;
+vertical-align: baseline;
+}
+.galton .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
+color: #999999;
+font-weight: normal;
+background-color: #282828;
+background-image: none;
+filter: none;
+}
+.galton div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
+color: #ffffff;
+background-color: #2c2c2c;
+background-image: none;
+filter: none;
+}
+.galton .wmaccordion .accordionArrowNode {
+float: none !important;
+position: absolute;
+right: 0px;
+}
+.galton .wmaccordion .accordionArrowNode.accordionOnLeftArrowNode {
+position: relative;
+float: none;
+}
+.galton .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
+}
+.galton .wmaccordion .wmlayer.wmaccordion-content {
+}
+.galton .wmfancypanel .wmFancyPanel-containerWidget {
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+-webkit-border-top-left-radius: 0px !important;
+-webkit-border-top-right-radius: 0px !important;
+box-shadow: 0px 0px 0px black !important;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.galton .wmfancypanel .wmFancyPanel-labelWidget {
+border-radius: 3px;
+-webkit-border-radius: 3px;
+font-family: "Open Sans", sans-serif;
+font-size: 1.2em;
+font-weight: 600;
+color: #666666;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.galton .wmbutton,
+.galton button.wmbutton,
+.galton .wmbutton .dijitReset {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #474747;
+font-weight: normal;
+}
+.galton .wmbutton {
+border-radius: 4px;
+-webkit-border-radius: 4px;
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(75%,#d2d2d2), to(#d2d2d2));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,#d2d2d2 75%,#d2d2d2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='#d2d2d2',GradientType=0);
+}
+.galton   .wmbutton:hover {
+color: #FFFFFF;
+font-weight: normal;
+background-color: #0d47a1;
+background-image: none;
+filter: none;
+}
+.galton   button.wmbutton.toggleButtonDown,
+.galton   .wmbutton.Active,
+.galton   .wmbutton.Active:hover,
+.galton   .wmbutton:active,
+.galton   .wmbutton:hover:active {
+color: #FFFFFF;
+font-weight: normal;
+background-color: #1565c0;
+background-image: none;
+filter: none;
+}
+.galton   .wmbutton:focus {
+outline: solid 1px #9999ff;
+}
+.galton .wmbutton.wmPopupButton .popupIcon {
+background-image: url(lib/wm/base/widget/themes/wm_default/images/comboArrowDownDark.png);
+background-position: 0% 50%;
+}
+.galton .Disabled.wmbutton,
+.galton .Disabled.wmbutton:hover,
+.galton .Disabled.wmbutton:active,
+.galton .Disabled.wmbutton:active:hover {
+color: #fbfbfb;
+font-weight: normal;
+background-color: #333333;
+background-image: none;
+opacity: 0.25;
+}
+.galton .wmtogglebuttonpanel {
+}
+.galton .wmtogglebuttonpanel .wmbutton:first-child {
+}
+.galton .wmtogglebuttonpanel .wmbutton:last-child {
+}
+.galton .wmapproot .wmtogglebuttonpanel .wmbutton {
+}
+.galton .wmtogglebuttonpanel .wmbutton {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #ffffff;
+font-weight: normal;
+background-color: #1c1e20;
+background-image: none;
+filter: none;
+}
+.galton .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #ffffff;
+font-weight: normal;
+background-color: #0d47a1;
+background-image: none;
+filter: none;
+}
+.galton .dojoxGrid .dijitTextBox,
+.galton .dojoxGrid .dijitComboBox,
+.galton .dojoxGrid .dijitSelect .dijitButtonContents,
+.galton .wmeditor .dijitTextBox,
+.galton .wmeditor .dijitTextArea,
+.galton .wmeditor .dijitComboBox,
+.galton .wmeditor .dijitSelect .dijitButtonContents,
+.galton .dijitTimePickerItem,
+.galton .wmeditor .RichTextEditable iframe {
+border: solid 1px #a8a8a8;
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #373737;
+font-weight: normal;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+padding: 6,12,6,12;
+}
+.galton  .wmeditor .dijitTextBox,
+.galton  .wmeditor .dijitTextArea,
+.galton  .wmeditor .dijitComboBox,
+.galton  .dojoxGrid .dijitTextBox,
+.galton  .dojoxGrid .dijitTextArea,
+.galton  .dojoxGrid .dijitComboBox
+{
+border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.galton .wmeditor.wmrichtext {
+-webkit-border-bottom-left-radius: 4px;
+-webkit-border-bottom-right-radius: 4px;
+border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.galton .dijitTimePickerMarker.dijitTimePickerMarkerHover,
+.galton .dijitTimePickerItem.dijitTimePickerItemHover,
+.galton .wmeditor .dijitTextBox.dijitHover,
+.galton .wmeditor .dijitTextArea:hover,
+.galton .wmeditor .dijitComboBox.dijitHover,
+.galton .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
+.galton .wmeditor .RichTextEditable:hover iframe {
+color: #373737;
+border: solid 1px #0d47a1;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.galton .dojoxGrid .dijitTextBox.dijitFocused,
+.galton .dojoxGrid .dijitComboBox.dijitFocused,
+.galton .dojoxGrid .dijitSelect.dijitFocused .dijitButtonContents,
+.galton .wmeditor .dijitTextBox.dijitFocused,
+.galton .wmeditor .dijitTextBox.dijitFocused.dijitHover,
+.galton .wmeditor .dijitTextArea.dijitFocused,
+.galton .wmeditor .dijitTextArea.dijitFocused:hover,
+.galton .wmeditor .dijitComboBox.dijitFocused,
+.galton .wmeditor .dijitComboBox.dijitFocused.dijitHover,
+.galton .wmeditor .dijitSelect.dijitFocused .dijitButtonContents,
+.galton .wmeditor .dijitSelect.dijitFocused.dijitHover .dijitButtonContents,
+.galton .isDirty.wmeditor .dijitTextBox.dijitFocused,
+.galton .isDirty.wmeditor .dijitTextArea.dijitFocused,
+.galton .isDirty.wmeditor .dijitComboBox.dijitFocused,
+.galton .wmeditor .RichTextEditable.Focused iframe {
+color: #373737;
+border: solid 1px #1565c0;
+background-color: #e1f5fe;
+background-image: none;
+filter: none;
+}
+.galton .isDirty.wmeditor .dijitTextBox,
+.galton .isDirty.wmeditor .dijitTextArea,
+.galton .isDirty.wmeditor .dijitComboBox {
+border: solid 1px #a8a8a8;
+}
+.galton .wmeditor .dijitError.dijitTextBox,
+.galton .wmeditor .dijitError.dijitTextArea,
+.galton .wmeditor .dijitError.dijitComboBox,
+.galton .wmeditor .dijitError.isDirty.dijitTextBox,
+.galton .wmeditor .dijitError.isDirty.dijitTextArea,
+.galton .wmeditor .dijitError.isDirty.dijitComboBox
+{
+color: #373737;
+border: solid 1px #ed0202;
+background-color: #f2bdbd;
+background-image: none;
+filter: none;
+}
+.galton .wmeditor .wmeditor-caption {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #373737;
+font-weight: normal;
+}
+.galton .wmeditor .wmeditor-readonlyNode {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+border: solid 1px #a8a8a8;
+}
+.galton .dojoxGrid .dijitComboBox .dijitArrowButton,
+.galton .wmeditor .dijitSpinner .dijitArrowButton,
+.galton .wmeditor .dijitComboBox .dijitArrowButton,
+.galton .wmeditor .dijitSelect .dijitArrowButton {
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.galton .dojoxGrid .dijitComboBox .dijitArrowButton,
+.galton .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.galton .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+.galton .wmeditor .dijitComboBox .dijitArrowButton,
+.galton .wmeditor .dijitSelect .dijitArrowButton,
+.galton .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.galton .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+}
+.galton .dojoxGrid .dijitComboBox .dijitArrowButton:hover,
+.galton .wmeditor .dijitSpinner .dijitArrowButton:hover,
+.galton .wmeditor .dijitComboBox .dijitArrowButton:hover,
+.galton .wmeditor .dijitSelect .dijitArrowButton:hover {
+}
+.galton .dojoxGrid .dijitComboBox .dijitArrowButton:active,
+.galton .wmeditor .dijitSpinner .dijitArrowButton:active,
+.galton .wmeditor .dijitComboBox .dijitArrowButton:active,
+.galton .wmeditor .dijitSelect .dijitArrowButton:active {
+}
+.galton .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.galton .dijitSelect .dijitArrowButton .dijitArrowButtonInner,
+.galton .wmeditor .dijitComboBox .dijitArrowButton .dijitArrowButtonInner,
+.galton .wmeditor .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowDownDark.png) no-repeat 50% 50%;
+}
+.galton .wmeditor .dijitSpinner .dijitArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowDownDark.png) no-repeat 30% 30%;
+}
+.galton .wmeditor .dijitSpinner .dijitArrowButton.dijitUpArrowButton .dijitArrowButtonInner {
+background: url(images/comboArrowUpDark.png) no-repeat 0% 0%;
+}
+.galton .wmeditor .dijitSlider .dijitSliderImageHandleH {
+background: url(images/preciseSliderThumb.png) no-repeat 50% 0%;
+outline-width: 0;
+}
+.galton .wmeditor .dijitSlider .dijitSliderProgressBarH,
+.galton .wmeditor .dijitSlider .dijitSliderLeftBumper,
+.galton .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
+.galton .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
+background-color: #1565c0;
+background-image: none;
+filter: none;
+}
+.galton .wmeditor .dijitSlider .dijitSliderRemainingBarH,
+.galton .wmeditor .dijitSlider .dijitSliderRightBumper,
+.galton .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRemainingBarH,
+.galton .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderRightBumper {
+background-color: #dcdcdc;
+background-image: none;
+filter: none;
+}
+.galton .GridListStyle div.dojoxGrid,
+.galton .GridListStyle .wmlist {
+font-size: 1em;
+}
+.galton .GridListStyle  .wmlist-cell,
+.galton .GridListStyle td.dojoxGridCell {
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
+}
+.galton .GridListStyle div.dojoxGridRow,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
+.galton .GridListStyle div.wmlist-item,
+.galton .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
+font-family: "Open Sans", sans-serif;
+font-weight: normal;
+}
+.galton .GridListStyle div.dojoxGridContent .dojoxGridCell {
+background-color: transparent;
+}
+.galton .GridListStyle div.dojoxGridContent .dojoxGridCellFocus,
+.galton .GridListStyle div.dojoxGridContent .dojoxGrid-cell-focus {
+border: 1px dashed transparent !important;
+}
+.galton .GridListStyle div.dojoxGridRow,
+.galton .GridListStyle div.wmlist-item,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowSelected,
+.galton .GridListStyle.Disabled .dojoxGridRowOver td.dojoxGridCell,
+.galton .GridListStyle.Disabled div.wmlist-item.wmlist-item-over,
+.galton .GridListStyle.Disabled div.wmlist-item.wmlist-item-selected,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.galton .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.galton .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
+color: #373737;
+background-color: #f5f5f5;
+background-image: none;
+filter: none;
+}
+.galton .GridListStyle div.dojoxGrid-row.dojoxGrid-row-odd,
+.galton .GridListStyle div.dojoxGridRow.dojoxGridRowOdd,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.galton .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver td.dojoxGridCell,
+.galton .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
+.galton .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
+.galton .GridListStyle .wmlist-item.Odd {
+color: #474747;
+background-color: #ffffff;
+background-image: none;
+filter: none;
+}
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowSelected,
+.galton .GridListStyle.Disabled .dojoxGridRow.dojoxGridRowSelected,
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowSelected td.dojoxGridCell,
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowOver.dojoxGridRowSelected,
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver.dojoxGridRowSelected,
+.galton .GridListStyle .wmlist-item.wmlist-item-selected,
+.galton .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
+.galton .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
+background-color: #1565c0;
+background-image: none;
+filter: none;
+color: #ffffff;
+}
+.galton .dojoxGridCellFocus {
+outline: solid 0px #ae0909;
+outline-offset: -1px;
+}
+.galton .GridListStyle .wmlist-item.wmlist-item-over,
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowOver,
+.galton .GridListStyle .dojoxGridRow.dojoxGridRowOdd.dojoxGridRowOver,
+.galton .GridListStyle .dojoxGridRowOver a,
+.galton .GridListStyle .dojoxGridRowOver td.dojoxGridCell {
+background-color: #b4b4b4;
+background-image: none;
+filter: none;
+color: #ffffff;
+}
+.galton .GridListStyle .wmlist-header th,
+.galton .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
+font-size: 1em;
+}
+.galton .GridListStyle .wmlist-header .wmlist-cell,
+.galton .GridListStyle div.dojoxGridHeader .dojoxGridCell {
+border-top: solid 1px rgb(168, 168, 168);
+border-right: solid 1px rgb(168, 168, 168);
+border-bottom: solid 1px rgb(168, 168, 168);
+border-left: solid 1px rgb(168, 168, 168);
+}
+.galton .GridListStyle .wmlist-header,
+.galton .GridListStyle div.dojoxGridHeader {
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(217, 217, 217) 50%,rgb(217, 217, 217) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(217, 217, 217)',GradientType=0);
+}
+.galton .GridListStyle .wmlist-header th,
+.galton .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
+.galton .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {
+background: transparent none !important;
+font-family: "Open Sans", sans-serif;
+color: #474747;
+font-weight: normal;
+}
+.galton .GridListStyle .dojoxGridCell,
+.galton .GridListStyle .wmlist-cell {
+padding: 4px 8px;
+}
+.galton .GridListStyle .dojoxGridCellFocus {
+}
+.galton .MobileListStyle div.wmlist-item,
+.galton .Disabled.MobileListStyle div.wmlist-item,
+.galton .Disabled.MobileListStyle div.wmlist-item.wmlist-item-over {
+border-radius: 0px;
+-webkit-border-radius: 0px;
+margin: 5px;
+background-color: #1565c0;
+background-image: none;
+filter: none;
+color: #000000;
+font-family: "Open Sans", sans-serif;
+min-height: 24px;
+}
+.galton .wmlist.MobileListStyle td.wmlist-cell {
+border: solid 0px #a8a8a8;
+}
+.galton .MobileListStyle div.wmlist-item.wmlist-item-over,
+.galton .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
+background-color: #737373;
+background-image: none;
+filter: none;
+color: #FFFFFF;
+}
+.galton .MobileListStyle div.wmlist-item.wmlist-item-selected,
+.galton .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected,
+.galton .MobileListStyle div.wmlist-item.wmlist-item-selected.wmlist-item-over,
+.galton .MobileListStyle div.wmlist-item.Odd.wmlist-item-selected.wmlist-item-over {
+background-color: #505050;
+background-image: none;
+filter: none;
+color: #FFFFFF;
+}
+.galton .wmprogressbar .dijitProgressBar {
+border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.galton .wmprogressbar .dijitProgressBarLabel {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #FFFFFF;
+font-weight: normal;
+}
+.galton .wmprogressbar .dijitProgressBar {
+background-color: #b4b4b4;
+background-image: none;
+filter: none;
+}
+.galton .wmprogressbar .dijitProgressBarFull {
+background-color: #1565c0;
+background-image: none;
+filter: none;
+}
+.galton .wmprogressbar .dijitProgressBarTile {
+background-image: inherit;
+background-color: inherit;
+}
+.galton .wmbevel {
+background-color: #cccccc;
+background-image: none;
+filter: none;
+}
+.galton div.wmsplitter-h,
+.galton div.wmsplitter-v {
+background-color: #cccccc;
+}
+.galton div.wmsplitter-h:hover,
+.galton div.wmsplitter-v:hover {
+background-color: #6b6b6b;
+}
+.galton .wmsplitter-h {
+background: url(images/splitter_bg_h.png) no-repeat 50% 50%;
+}
+.galton .wmsplitter-v {
+background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
+}
+.galton .dijitCalendarDayLabel,
+.galton .dijitCalendarDateLabel {
+font-size: 13px;
+}
+.galton table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+background-color: #ffffff !important;
+background-image: none !important;
+filter: none !important;
+color: #7d7d7d;
+}
+.galton .dijitCalendarBodyContainer td {
+border-top: solid 1px rgb(204, 204, 204);
+border-right: solid 1px rgb(204, 204, 204);
+border-bottom: solid 0px rgb(102, 102, 102);
+border-left: solid 0px rgb(102, 102, 102);
+}
+.galton .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.galton .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+background-color: #1565c0 !important;
+background-image: none !important;
+filter: none !important;
+color: #ffffff !important;
+}
+.galton .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.galton .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.galton .dijitCalendarContainer .dijitCalendarHoveredYear,
+.galton .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.galton .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+background-color: #0d47a1 !important;
+background-image: none !important;
+filter: none !important;
+color: #e6e6e6;
+}
+.galton .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.galton .dijitCalendarContainer .dijitCalendarNextMonth {
+background-color: #ffffff !important;
+background-image: none !important;
+filter: none !important;
+color: #dfdfdf;
+}
+.galton .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+background-color: #eeeeee !important;
+background-image: none !important;
+filter: none !important;
+color: #373737;
+}
+.galton tr.dijitCalendarMonthContainer th {
+background-color: #9b9b9b;
+background-image: none;
+filter: none;
+}
+.galton tr.dijitCalendarMonthContainer th {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #eeeeee;
+font-weight: normal;
+}
+.galton tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #FFFFFF;
+font-weight: normal;
+border: solid 0px rgb(251, 251, 251);
+box-shadow: 0px 0px 0px black;
+}
+.galton table.dijitCalendarContainer {
+border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.galton .wmapproot a,
+.galton  #wavemakerNode  .wmapproot a,
+#studio_designer.galton .wmapproot a:visited,
+.galton  #wavemakerNode  .wmapproot a:visited {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
+font-weight: normal;
+text-decoration:underline;
+}
+.galton  #wavemakerNode  .wmapproot a:hover,
+.galton  #wavemakerNode  .wmapproot a:hover:visited {
+color: #474747;
+text-decoration:underline;
+}
+.galton  #wavemakerNode  .wmapproot a:active,
+.galton  #wavemakerNode  .wmapproot a:hover:active,
+.galton  #wavemakerNode  .wmapproot a:hover:visited:active {
+color: #474747;
+text-decoration:none;
+}
+.galton  #wavemakerNode  .wmapproot .Disabled a,
+.galton  #wavemakerNode  .wmapproot .Disabled a:hover,
+.galton  #wavemakerNode  .wmapproot .Disabled a:active,
+.galton  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.galton  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+color: #999999;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle {
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: normal;
+min-height: 22px;
+line-height: 28px;
+padding-left: 10px;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+color: #333333;
+}
+.galton .dojoxPortlet {
+border: solid 1px #949494;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle {
+background-color: #eeeeee;
+background-image: none;
+filter: none;
+border-bottom: solid 1px #949494;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+border-color: #333333;
+width: 16px;
+height: 20px;
+margin-right: 4px;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+position: relative;
+top: 3px;
+height: 16px;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+position: relative;
+top: 3px;
+height: 16px;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+.galton .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+}
+.galton .wmdialog {
+box-shadow: 4px 4px 8px black;
+-webkit-box-shadow: 4px 4px 8px black;
+}
+.galton .wmdialog {
+background-color: #f0f0f0;
+background-image: none;
+filter: none;
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #373737;
+font-weight: normal;
+}
+.galton .dialogtitlebar .wmlabel{
+font-family: "Open Sans", sans-serif;
+font-size: 1.1em;
+color: #0d47a1;
+font-weight: bold;
+}
+.galton .dialogtitlebar {
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(37%,#dcdcdc), to(#dcdcdc));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0);
+}
+.galton .dialogtitlebar .dialogclosebutton {
+}
+.galton .dialogtitlebar .dialogminifybutton {
+background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+}
+.galton .dialogtitlebar .dialogmaxifybutton {
+background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+.galton .dialogfooter,
+.galton .wmpagedialog-controlspanel {
+}
+.galton .dialogfooter .wmbutton {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+color: #373737;
+font-weight: normal;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+}
+.galton .dialogfooter .wmbutton:hover {
+color: #FFFFFF;
+background-color: #0d47a1;
+background-image: none;
+filter: none;
+}
+.galton .dialogfooter button.wmbutton.toggleButtonDown,
+.galton .dialogfooter .wmbutton.Active,
+.galton .dialogfooter .wmbutton:active,
+.galton .dialogfooter .wmbutton.Active:hover,
+.galton .dialogfooter .wmbutton:active:hover {
+color: #ffffff;
+background-color: #1565c0;
+background-image: none;
+filter: none;
+}
+.galton .dojoMenu .dijitMenu,
+.galton .dojoMenu .dijitMenuBar,
+.galton .dojoMenu .dijitMenuItem {
+font-family: "Open Sans", sans-serif;
+font-size: 1em;
+font-weight: normal;
+color: #eeeeee;
+background-color: #232323;
+background-image: none;
+filter: none;
+}
+.galton .dojoMenu .dijitMenuBar .dijitMenuItem {
+margin-right: 0px;
+margin-left: 0px;
+height: 32px;
+line-height: 32px;
+text-align: center;
+}
+.galton .dojoMenu .dijitMenuItem.dijitMenuItemHover {
+color: #ffffff;
+outline: 0px;
+}
+.galton .dojoMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #333333;
+background-image: none;
+filter: none;
+outline: 0px;
+}
+.galton .dojoMenu div.dijitMenuBar div.dijitMenuItem {
+padding-right: 25px !important;
+}
+.galton .dijitMenuPopup .dijitMenuTable {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+}
+.galton .dijitMenuPopup {
+box-shadow: 3px 3px 4px #6b6b6b;
+-webkit-box-shadow: 3px 3px 4px #6b6b6b;
+}
+.galton .dijitPopup .dijitMenuTable .dijitMenuItem {
+font-size: 1em;
+font-family: "Open Sans", sans-serif;
+color: #373737;
+font-weight: normal;
+background-color: transparent;
+border-top: solid 0px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 0px #cccccc;
+border-left: solid 1px #cccccc;
+height: 28px;
+padding-bottom: 3px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 3px;
+}
+.galton .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
+.galton .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #1565c0;
+background-image: none;
+filter: none;
+outline-width: 0;
+}
+.galton .dijitPopup .dijitCalendarMonthMenu,
+.galton  ul.dijitMenu {
+background-color: #ffffff;
+background-image: none;
+filter: none;
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
+box-shadow: 3px 3px 4px #cccccc;
+-webkit-box-shadow: 3px 3px 4px #cccccc;
+}
+.galton .dijitPopup .dijitCalendarMonthLabel,
+.galton  ul.dijitMenu .dijitMenuItem {
+padding: 4px 5px;
+text-align: left;
+font-size: 1em;
+font-family: "Open Sans", sans-serif;
+color: #373737;
+font-weight: normal;
+background-color: transparent;
+border-top: solid 0px rgb(251, 251, 251);
+border-right: solid 0px rgb(251, 251, 251);
+border-bottom: solid 0px rgb(170, 170, 170);
+border-left: solid 0px rgb(251, 251, 251);
+}
+.galton .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
+.galton  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
+color: #FFFFFF;
+background-color: #1565c0;
+background-image: none;
+filter: none;
+border-top: solid 0px rgb(251, 251, 251);
+border-right: solid 0px rgb(251, 251, 251);
+border-bottom: solid 0px rgb(170, 170, 170);
+border-left: solid 0px rgb(251, 251, 251);
+}
+.galton .AppToolTip {
+font-family: "Open Sans", sans-serif;
+font-size: 0.9em;
+color: #ffffff;
+font-weight: normal;
+background-color: #000000;
+background-image: none;
+filter: none;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+box-shadow: 2px 2px 3px #666;
+-webkit-box-shadow: 2px 2px 3px #666;
+}
+html.WMApp .galton div.wmtoast.wmtoastExtraSpecific {
+background-color: #282828;
+background-image: none;
+filter: none;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+box-shadow: 2px 2px 4px #222;
+-webkit-box-shadow: 2px 2px 4px #222;
+}
+.galton .wmtoast .wmtoastmessage {
+font-family: "Open Sans", sans-serif;
+font-size: 0.9em;
+color: #505050;
+font-weight: normal;
+}
+html.WMApp .galton div.wmtoast.Success.wmtoastExtraSpecific {
+background-color: #d7f0da;
+background-image: none;
+filter: none;
+}
+.galton .wmtoast .wmtoasttitle,
+.galton .wmtoast.Success .wmtoastmessage {
+color: #072503;
+}
+.galton .wmtoast.Success .ToastLeft {
+background-image: url(images/OK.png);
+}
+html.WMApp .galton div.wmtoast.Warning.wmtoastExtraSpecific {
+background-color: #f0efd2;
+background-image: none;
+filter: none;
+}
+.galton .wmtoast .wmtoasttitle,
+.galton .wmtoast.Warning .wmtoastmessage {
+color: #646a28;
+}
+.galton .wmtoast.Warning .ToastLeft {
+background-image: url(images/Caution.png);
+}
+html.WMApp .galton div.wmtoast.Error.wmtoastExtraSpecific {
+background-color: #f0d0d0;
+background-image: none;
+filter: none;
+}
+.galton .wmtoast .wmtoasttitle,
+.galton .wmtoast.Error .wmtoastmessage {
+color: #9f1414;
+}
+.galton .wmtoast.Error .ToastLeft {
+background-image: url(images/Close.png);
+}
+html.WMApp .galton div.wmtoast.Info.wmtoastExtraSpecific {
+background-color: #ced7eb;
+background-image: none;
+filter: none;
+}
+.galton .wmtoast .wmtoasttitle,
+.galton .wmtoast.Info .wmtoastmessage {
+color: #132d65;
+}
+.galton .wmtoast.Info .ToastLeft {
+background-image: url(images/Help\ Circle.png);
+}
+.galton .wmtoast .wmtoasttitle {
+font-family: "Open Sans", sans-serif;
+font-size: 1.25em;
+color: #373737;
+font-weight: bold;
+}
+.wmtoastExtraSpecific.fadeInAnim {
+-webkit-animation-name: toastFadeInKeyFrames;
+-moz-animation-name: toastFadeInKeyFrames;
+animation-name: toastFadeInKeyFrames;
+}
+@keyframes toastFadeInKeyFrames {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 0.9;
+}
+}
+html.WMApp .galton div.wmtoast.wmtoastExtraSpecific {
+opacity: 0.9;
+}

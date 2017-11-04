@@ -1,7 +1,7 @@
 /* GROUP: Portlet Titlebar */
 .qventas .dojoxPortlet div.dijitTitlePaneTitle {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	font-weight: normal;
 
   min-height: 22px;
@@ -10,11 +10,14 @@
 }
 
 .qventas .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
-  color: #333333;
+	color: #373737;
 }
 
 .qventas .dojoxPortlet {
-  border: solid 1px #949494;
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
 /* 	border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
 /* 	-webkit-border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
 }
@@ -23,7 +26,6 @@
 	background-color: #eeeeee;
 	background-image: none;
 	filter: none;
-  border-bottom: solid 1px #949494;
 }
 
 /* GROUP: Portlet Titlebar Icons */

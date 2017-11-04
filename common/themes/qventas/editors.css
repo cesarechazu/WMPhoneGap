@@ -12,10 +12,10 @@
 .qventas .wmeditor .dijitSelect .dijitButtonContents,
 .qventas .dijitTimePickerItem,
 .qventas .wmeditor .RichTextEditable iframe {
-	border: solid 1px #a8a8a8;
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #474747;
+	border: solid 1px #afafaf;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 	background-color: #ffffff;
 	background-image: none;
@@ -54,8 +54,8 @@
 .qventas .wmeditor .dijitComboBox.dijitHover,
 .qventas .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
 .qventas .wmeditor .RichTextEditable:hover iframe {
-	color: #505050;
-	border: solid 1px #0866c6;
+	color: #373737;
+	border: solid 1px #1976d2;
 	background-color: #ffffff;
 	background-image: none;
 	filter: none;
@@ -79,9 +79,9 @@
 .qventas .isDirty.wmeditor .dijitTextArea.dijitFocused,
 .qventas .isDirty.wmeditor .dijitComboBox.dijitFocused,
 .qventas .wmeditor .RichTextEditable.Focused iframe {
-	color: #505050;
-	border: solid 1px #0866c6;
-	background-color: rgb(250, 250, 250);
+	color: #373737;
+	border: solid 1px #1976d2;
+	background-color: #bbdefb;
 	background-image: none;
 	filter: none;
 }
@@ -90,8 +90,8 @@
 .qventas .isDirty.wmeditor .dijitTextBox,
 .qventas .isDirty.wmeditor .dijitTextArea,
 .qventas .isDirty.wmeditor .dijitComboBox {
-/* 	color: #ffffff; // THEMER: DISABLED */
-	border: solid 1px #a8a8a8;
+	color: #373737;
+	border: solid 1px rgb(168, 168, 168);
 /* 	background-color: #b98181; // THEMER: DISABLED */
 /* 	background-image: none; // THEMER: DISABLED */
 /* 	filter: none; // THEMER: DISABLED */
@@ -106,8 +106,8 @@
 .qventas .wmeditor .dijitError.isDirty.dijitComboBox
 {
 	color: #ffffff;
-	border: solid 1px #a8a8a8;
-	background-color: #c90909;
+	border: solid 1px #d9d9d9;
+	background-color: #e92b2b;
 	background-image: none;
 	filter: none;
 }
@@ -115,18 +115,18 @@
 
 /* GROUP: Captions */
 .qventas .wmeditor .wmeditor-caption {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 }
 
 /* GROUP: Read-only */
 .qventas .wmeditor .wmeditor-readonlyNode {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-    border: solid 1px #a8a8a8;
-/* 	color: ; // THEMER: DISABLED */
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	border: solid 1px #d9d9d9;
+	color: #4b4b4b;
 /* 	font-weight: undefined; // THEMER: DISABLED */
 }
 
@@ -220,7 +220,7 @@
 .qventas .wmeditor .dijitSlider .dijitSliderLeftBumper,
 .qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
 .qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 }

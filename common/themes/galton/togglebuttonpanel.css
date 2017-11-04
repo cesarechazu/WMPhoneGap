@@ -1,0 +1,49 @@
+/* GROUP: Toggle Panel */
+.galton .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.galton .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.galton .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.galton .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.galton .wmtogglebuttonpanel .wmbutton {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #1c1e20;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Selected Button */
+.galton .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #0d47a1;
+	background-image: none;
+	filter: none;
+}

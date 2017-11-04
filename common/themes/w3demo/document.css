@@ -1,0 +1,26 @@
+/* GROUP: Main Document Styles */
+.w3demo  .wmapproot {
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+	color: #373737;
+	font-weight: normal;
+}
+.w3demo .wmapproot > .wmpagecontainer,
+.w3demo.wmapproot > .wmpagecontainer,
+.w3demo #studio_designer > .wmlayout {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+/* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+/* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+}
+
+/* IE9 has buggy display when combinding both gradients and radius.
+ * Gradients and not radius work on IE8, so we'll just do it the IE 8 way */
+.dj_ie9 .w3demo div,
+.dj_ie9 .w3demo input,
+.dj_ie9 .w3demo button {
+   border-radius: 0px !important; /* THEMER: HIDE */
+}

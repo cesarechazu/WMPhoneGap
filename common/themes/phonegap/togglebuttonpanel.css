@@ -1,0 +1,49 @@
+/* GROUP: Toggle Panel */
+.phonegap .wmtogglebuttonpanel {
+/* 	border-radius: 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: First Button Radius */
+.phonegap .wmtogglebuttonpanel .wmbutton:first-child {
+/* 	border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 8px 0px 0px 8px; // THEMER: DISABLED */
+}
+
+/* GROUP: Last Button Radius */
+.phonegap .wmtogglebuttonpanel .wmbutton:last-child {
+/* 	border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px 8px 8px 0px; // THEMER: DISABLED */
+}
+
+/* GROUP: Middle Buttons Radius */
+.phonegap .wmapproot .wmtogglebuttonpanel .wmbutton {
+/* 	border-radius: 0px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
+}
+
+
+/* GROUP: Buttons */
+.phonegap .wmtogglebuttonpanel .wmbutton {
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #1c1e20;
+	background-image: none;
+	filter: none;
+}
+
+
+/* GROUP: Selected Button */
+.phonegap .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #1976d2;
+	background-image: none;
+	filter: none;
+}

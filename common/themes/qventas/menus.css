@@ -2,8 +2,8 @@
 .qventas .dojoMenu .dijitMenu,
 .qventas .dojoMenu .dijitMenuBar,
 .qventas .dojoMenu .dijitMenuItem {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	font-weight: normal;
 	color: #eeeeee;
 	background-color: #232323;
@@ -63,9 +63,9 @@ outline: 0px;
 
 /* GROUP: Popup Menu Item */
 .qventas .dijitPopup .dijitMenuTable .dijitMenuItem {
-	font-size: 14px;
-	font-family: "Open Sans", sans-serif;
-	color: #333333;
+	font-size: 12px;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
 	font-weight: normal;
     background-color: transparent; /* THEMER: IGNORE */
 	border-top: solid 0px #cccccc;
@@ -84,7 +84,7 @@ outline: 0px;
 .qventas .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
 .qventas .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
     color: #FFFFFF;
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
     outline-width: 0;

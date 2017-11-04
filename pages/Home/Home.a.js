@@ -118,6 +118,13 @@ wire: ["wm.Wire", {"expression":"\"NetworkInformation\"","targetProperty":"pageN
 }]
 }]
 }],
+navNFC: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
+binding: ["wm.Binding", {}, {}, {
+wire: ["wm.Wire", {"expression":"\"NFC\"","targetProperty":"pageName"}, {}]
+}]
+}]
+}],
 layoutBox1: ["wm.Layout", {"horizontalAlign":"left","padding":"10,20,10,20","styles":{"backgroundImage":"resources/images/qventasback.png"},"verticalAlign":"top"}, {}, {
 panelRow1: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 panelBattery: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
@@ -187,6 +194,12 @@ labelStock6: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"cen
 panelNetwork: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture19: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/rss_blue.png","styles":{},"width":"100%"}, {"onclick":"navNetworkInfo"}],
 labelStock7: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Network Info","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navNetworkInfo"}]
+}]
+}],
+panelRow7: ["wm.Panel", {"height":"125px","horizontalAlign":"left","layoutKind":"left-to-right","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
+panelNFC: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"35%"}, {}, {
+picture20: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/chip.png","styles":{},"width":"100%"}, {"onclick":"navNFC"}],
+labelNFC: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"NFC","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navNFC"}]
 }]
 }]
 }]

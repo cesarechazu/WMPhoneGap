@@ -1,0 +1,92 @@
+/* GROUP: Calendar Cells */
+.divinamisericordia .dijitCalendarDayLabel,
+.divinamisericordia .dijitCalendarDateLabel {
+	font-size: 13px;
+}
+
+.divinamisericordia table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #7d7d7d;
+}
+
+.divinamisericordia .dijitCalendarBodyContainer td {
+	border-top: solid 1px rgb(204, 204, 204);
+	border-right: solid 1px rgb(204, 204, 204);
+	border-bottom: solid 0px rgb(102, 102, 102);
+	border-left: solid 0px rgb(102, 102, 102);
+}
+
+/* GROUP: Selected Cell */
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarSelectedDate,
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
+	background-color: #a0c76e !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #ffffff !important;
+}
+
+/* GROUP: Hover Cell */
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarHoveredDate,
+.divinamisericordia .dijitCalendarContainer td.dijitCalendarHoveredDate.dijitCalendarCurrentMonth,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarHoveredYear,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarNextYear:hover,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
+	background-color: #7dac44 !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #373737;
+}
+
+
+/* GROUP: Dates Not In Month */
+.divinamisericordia .dijitCalendarContainer .dijitCalendarPreviousMonth,
+.divinamisericordia .dijitCalendarContainer .dijitCalendarNextMonth {
+	background-color: #ffffff !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #dfdfdf;
+}
+
+/* GROUP: Column Headings */
+.divinamisericordia .dijitCalendarContainer .dijitCalendarDayLabelTemplate {
+	background-color: #eeeeee !important;
+	background-image: none !important;
+	filter: none !important;
+	color: #373737;
+}
+
+/* GROUP: Header */
+.divinamisericordia tr.dijitCalendarMonthContainer th {    
+	background-color: #9b9b9b;
+	background-image: none;
+	filter: none;
+}
+
+/* GROUP: Month Container */
+.divinamisericordia tr.dijitCalendarMonthContainer th {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #eeeeee;
+	font-weight: normal;
+}
+
+/* GROUP: Month Label */
+.divinamisericordia tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+    color: #FFFFFF; 
+	font-weight: normal;
+    border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
+    box-shadow: 0px 0px 0px black; /* THEMER: HIDE */
+}
+
+/* GROUP: Outer Widget */
+.divinamisericordia table.dijitCalendarContainer {
+/* 	border: solid 2px rgb(102, 102, 102); // THEMER: DISABLED */
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+

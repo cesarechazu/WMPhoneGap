@@ -1,0 +1,70 @@
+/* GROUP: Portlet Titlebar */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle {
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+
+  min-height: 22px;
+	line-height: 28px;
+  padding-left: 10px;
+}
+
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
+  color: #333333;
+}
+
+.divinamisericordiaweb .dojoxPortlet {
+  border: solid 1px #949494;
+/* 	border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
+}
+
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle {
+	background-color: #eeeeee;
+	background-image: none;
+	filter: none;
+  border-bottom: solid 1px #949494;
+}
+
+/* GROUP: Portlet Titlebar Icons */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
+  border-color: #333333;
+  width: 16px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+/* GROUP: Portlet Close Icon */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode {
+/* 	background: url(images/DialogIconsGray.png) no-repeat 0px 0px; // THEMER: DISABLED */
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+/* GROUP: Portlet Close Icon Hover */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxCloseNode:hover {
+/* background-position: 0px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Minify Icon */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown {
+	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+  position: relative;
+  top: 3px;
+  height: 16px;
+}
+
+/* GROUP: Portlet Minify Icon Hover */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon.dojoxArrowDown:hover {
+/*  background-position: -16px -16px; // THEMER: DISABLED */
+}
+
+/* GROUP: Portlet Unminify Icon */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown {
+	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}
+
+/* GROUP: Portlet Unminify Icon Hover */
+.divinamisericordiaweb .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
+/* 	background-position: -16px -16px; ; // THEMER: DISABLED */
+}

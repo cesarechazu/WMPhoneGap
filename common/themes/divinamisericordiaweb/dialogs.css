@@ -1,0 +1,49 @@
+/* GROUP: Dialog Frame */
+.divinamisericordiaweb .wmdialog {
+/* 	border-radius: 4px; // THEMER: DISABLED */
+/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+	box-shadow: 4px 4px 8px black;
+	-webkit-box-shadow: 4px 4px 8px black;
+}
+
+/* GROUP: Dialog Container */
+.divinamisericordiaweb .wmdialog {
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+	color: #373737;
+	font-weight: normal;
+}
+
+/* GROUP: Dialog Titlebar */
+.divinamisericordiaweb .dialogtitlebar .wmlabel{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.1em;
+	color: #7dac44;
+	font-weight: bold;
+}
+
+.divinamisericordiaweb .dialogtitlebar {
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(37%,#dcdcdc), to(#dcdcdc));
+	background-image: -moz-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+	background-image: -o-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+	background-image: -ms-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0);
+}
+
+
+/* GROUP: Titlebar Buttons: Close Button */
+.divinamisericordiaweb .dialogtitlebar .dialogclosebutton {
+/* 	background: url(images/DialogIconsGray.png) repeat 0% 0%; // THEMER: DISABLED */
+}
+
+/* GROUP: Titlebar Buttons: Minify Button */
+.divinamisericordiaweb .dialogtitlebar .dialogminifybutton {
+	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+}
+/* GROUP: Titlebar Buttons: Maxify Button */
+.divinamisericordiaweb .dialogtitlebar .dialogmaxifybutton {
+	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+}

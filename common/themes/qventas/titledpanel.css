@@ -18,13 +18,11 @@
 	border-radius: 0px;
 	-webkit-border-radius: 0px;
 
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #474747;
-	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
-	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
-	background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
-	background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
 }

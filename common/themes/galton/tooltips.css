@@ -1,0 +1,16 @@
+/* GROUP: Tool tips */
+.galton .AppToolTip {
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9em;
+	color: #ffffff;
+	font-weight: normal;
+
+	background-color: #000000;
+	background-image: none;
+	filter: none;
+
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+}

@@ -9,9 +9,9 @@
 
 /* GROUP: Dialog Footer Buttons */
 .qventas .dialogfooter .wmbutton {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
-	color: #505050;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
 	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
@@ -20,14 +20,14 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
 /* 	box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
-/* 	border-radius: 4px; // THEMER: DISABLED */
-/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
 }
 
 /* GROUP: Footer Buttons (Hover) */
 .qventas .dialogfooter .wmbutton:hover {
     color: #FFFFFF; 
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 /* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */

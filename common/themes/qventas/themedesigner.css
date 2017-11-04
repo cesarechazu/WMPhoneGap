@@ -1,9 +1,9 @@
  /***** START SECTION: Main Document *****/
 /* GROUP: Main Document Styles */
 .qventas  .wmapproot {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #4b4b4b;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 }
 .qventas .wmapproot > .wmpagecontainer,
@@ -13,7 +13,7 @@
 /* 	-webkit-border-radius: 0px; // THEMER: DISABLED */
 /* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
-	background-color: #ffffff;
+	background-color: #eeeeee;
 	background-image: none;
 	filter: none;
 }
@@ -29,34 +29,34 @@
 /* GROUP: Standard Tab Button */
 .qventas .wmtablayers .wmtablayers-tab,
 .qventas .wmtablayers button.wmtablayers-verticaltab {
-	font-family: "Open Sans", sans-serif;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
 	font-weight: normal;
-	font-size: 13px;
-	background-color: #fafafa;
+	font-size: 12px;
+	background-color: transparent;
 	background-image: none;
 	filter: none;
 }
 .qventas .wmtablayers .wmtablayers-tab {
 
 	height: 27px;
-	margin-left: 4px;
-	border-radius: 4px 4px 0px 0px;
-	-webkit-border-radius: 4px 4px 0px 0px;
+	margin-left: 2;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
 /* 	box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: -1px 1px 1px #444444; // THEMER: DISABLED */
 
-	border-top: solid 1px #dfdfdf;
-	border-right: solid 1px #dfdfdf;
-	border-bottom: solid 1px #dfdfdf;
-	border-left: solid 1px #dfdfdf;
+	border-top: solid 1px rgb(197, 197, 197);
+	border-right: solid 1px rgb(197, 197, 197);
+	border-bottom: solid 1px rgb(197, 197, 197);
+	border-left: solid 1px rgb(197, 197, 197);
 }
 .dj_ff .qventas .wmtablayers .wmtablayers-tab {
        box-shadow: 0 0 0 black !important; /* THEMER: HIDE */
 }
 /* GROUP: First Tab */
 .qventas .wmtablayers-tab:first-child {
-	margin-left: 4px;
+	margin-left: 4;
 }
 
 
@@ -65,14 +65,14 @@
 .qventas .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected,
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
-	background-color: #ffffff;
+	background-color: transparent;
 	background-image: none;
 	filter: none;
-    color: #0866c6;
-/* 	border-top: solid 1px rgb(8, 102, 198); // THEMER: DISABLED */
-/* 	border-right: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
-/* 	border-bottom: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
-/* 	border-left: solid 0px rgb(251, 251, 251); // THEMER: DISABLED */
+	color: #1976d2;
+	border-top: solid 1px #c5c5c5;
+	border-right: solid 1px #c5c5c5;
+	border-bottom: solid 1px #c5c5c5;
+	border-left: solid 1px #c5c5c5;
 }
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected,
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
@@ -89,13 +89,13 @@
 .qventas .wmtablayers .wmtablayers-verticaltab:focus,
 .qventas .wmtablayers .wmtablayers-tab:focus {
 /* 	outline: solid 0px ; // THEMER: DISABLED */
-	color: #0866c6;
+	color: #1976d2;
 }
 
 /* GROUP: Tab Button with Hover */
 .qventas .wmtablayers .wmtablayers-tab:hover,
 .qventas .wmtablayers .wmtablayers-verticaltab:hover {
-	color: #0866c6;
+	color: #1976d2;
 	background-color: #f2f2f2;
 	background-image: none;
 	filter: none;
@@ -134,20 +134,20 @@ filter: none;
 
 /* GROUP: Tab Bar */
 .qventas .wmtablayers div.wmtablayers-tabbar {
-	background-color: #fafafa;
+	background-color: transparent;
 	background-image: none;
 	filter: none;
-	margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-	margin-top: 0px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
 }
 
 
 
 /* GROUP: Vertical Tab Buttons */
 .qventas .wmtablayers button.wmtablayers-verticaltab {
-	font-size: 14px;
+	font-size: 13px;
 	width: 100%;
 /* 	margin-left: 5%; // THEMER: DISABLED */
 /* 	margin-bottom: 10px; // THEMER: DISABLED */
@@ -188,8 +188,8 @@ filter: none;
 
 /* GROUP: Accordion Header */
 .qventas .wmaccordion div.wmaccordion-header {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	color: #ffffff;
 	font-weight: normal;
 	background-color: #0866c6;
@@ -198,10 +198,10 @@ filter: none;
     -webkit-background-clip: border-box;
 -webkit-background-origin: padding-box;
 -webkit-background-size: auto;
-	border-top: solid 1px #dfdfdf;
-	border-right: solid 1px #dfdfdf;
-	border-bottom: solid 1px #dfdfdf;
-	border-left: solid 1px #dfdfdf;
+/* 	border-top: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-right: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-bottom: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
+/* 	border-left: solid 1px rgb(223, 223, 223); // THEMER: DISABLED */
 /* 	cursor: auto; // THEMER: DISABLED */
 display: block;
 height: 21px;
@@ -211,7 +211,7 @@ margin-left: 0px;
 margin-right: 0px;
 margin-top: 0px;
 padding-bottom: 10px;
-padding-left: 10px;
+	padding-left: 20px;
 padding-right: 10px;
 padding-top: 10px;
 text-decoration: none solid rgb(51, 51, 51);
@@ -223,17 +223,17 @@ vertical-align: baseline;
 
 /* GROUP: Closed Header */
 .qventas .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
-	color: #474747;
+	color: #999999;
 	font-weight: normal;
-	background-color: #fafafa;
+	background-color: #282828;
 	background-image: none;
 	filter: none;
 }
 
 /* GROUP: Header Hover */
 .qventas div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
-/* 	color: #ffffff; // THEMER: DISABLED */
-	background-color: #f2f2f2;
+	color: #ffffff;
+	background-color: #2c2c2c;
 	background-image: none;
 	filter: none;
 }
@@ -262,7 +262,9 @@ vertical-align: baseline;
 .qventas .wmaccordion .wmlayer.wmaccordion-content {
 /* 	border-radius: 2px; // THEMER: DISABLED */
 /* 	-webkit-border-radius: 2px; // THEMER: DISABLED */
-    background-color: transparent;
+/* 	background-color: transparent; // THEMER: DISABLED */
+/* 	background-image: none; // THEMER: DISABLED */
+/* 	filter: none; // THEMER: DISABLED */
 }
 
 /***** END SECTION: Accordions *****//***** START SECTION: Titled Panel *****/
@@ -286,15 +288,13 @@ vertical-align: baseline;
 	border-radius: 0px;
 	-webkit-border-radius: 0px;
 
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	font-weight: normal;
-	color: #474747;
-	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
-	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
-	background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
-	background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #757575;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
 }
 /***** END SECTION: Titled Panel *****//***** START SECTION: Buttons *****/
 /* GROUP: Standard Button */
@@ -302,9 +302,9 @@ vertical-align: baseline;
 .qventas .wmbutton,
 .qventas button.wmbutton, /* mostly to clobber .dj_ie .wmbutton in default/theme.css */
 .qventas .wmbutton .dijitReset {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 }
 .qventas .wmbutton {
@@ -325,7 +325,7 @@ vertical-align: baseline;
 	font-weight: normal;
 /* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 }
@@ -342,7 +342,7 @@ vertical-align: baseline;
 	font-weight: normal;
 /* 	box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 4px 4px 4px black; // THEMER: DISABLED */
-	background-color: #68a2df;
+	background-color: #2196f3;
 	background-image: none;
 	filter: none;
 }
@@ -401,8 +401,8 @@ vertical-align: baseline;
 
 /* GROUP: Buttons */
 .qventas .wmtogglebuttonpanel .wmbutton {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	color: #ffffff;
 	font-weight: normal;
 
@@ -414,12 +414,12 @@ vertical-align: baseline;
 
 /* GROUP: Selected Button */
 .qventas .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans",sans-serif;
 	font-size: 13px;
 	color: #ffffff;
 	font-weight: normal;
 
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 }
@@ -438,10 +438,10 @@ vertical-align: baseline;
 .qventas .wmeditor .dijitSelect .dijitButtonContents,
 .qventas .dijitTimePickerItem,
 .qventas .wmeditor .RichTextEditable iframe {
-	border: solid 1px #a8a8a8;
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #474747;
+	border: solid 1px #afafaf;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 	background-color: #ffffff;
 	background-image: none;
@@ -480,8 +480,8 @@ vertical-align: baseline;
 .qventas .wmeditor .dijitComboBox.dijitHover,
 .qventas .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
 .qventas .wmeditor .RichTextEditable:hover iframe {
-	color: #505050;
-	border: solid 1px #0866c6;
+	color: #373737;
+	border: solid 1px #1976d2;
 	background-color: #ffffff;
 	background-image: none;
 	filter: none;
@@ -505,9 +505,9 @@ vertical-align: baseline;
 .qventas .isDirty.wmeditor .dijitTextArea.dijitFocused,
 .qventas .isDirty.wmeditor .dijitComboBox.dijitFocused,
 .qventas .wmeditor .RichTextEditable.Focused iframe {
-	color: #505050;
-	border: solid 1px #0866c6;
-	background-color: rgb(250, 250, 250);
+	color: #373737;
+	border: solid 1px #1976d2;
+	background-color: #bbdefb;
 	background-image: none;
 	filter: none;
 }
@@ -516,8 +516,8 @@ vertical-align: baseline;
 .qventas .isDirty.wmeditor .dijitTextBox,
 .qventas .isDirty.wmeditor .dijitTextArea,
 .qventas .isDirty.wmeditor .dijitComboBox {
-/* 	color: #ffffff; // THEMER: DISABLED */
-	border: solid 1px #a8a8a8;
+	color: #373737;
+	border: solid 1px rgb(168, 168, 168);
 /* 	background-color: #b98181; // THEMER: DISABLED */
 /* 	background-image: none; // THEMER: DISABLED */
 /* 	filter: none; // THEMER: DISABLED */
@@ -532,8 +532,8 @@ vertical-align: baseline;
 .qventas .wmeditor .dijitError.isDirty.dijitComboBox
 {
 	color: #ffffff;
-	border: solid 1px #a8a8a8;
-	background-color: #c90909;
+	border: solid 1px #d9d9d9;
+	background-color: #e92b2b;
 	background-image: none;
 	filter: none;
 }
@@ -541,18 +541,18 @@ vertical-align: baseline;
 
 /* GROUP: Captions */
 .qventas .wmeditor .wmeditor-caption {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 }
 
 /* GROUP: Read-only */
 .qventas .wmeditor .wmeditor-readonlyNode {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-    border: solid 1px #a8a8a8;
-/* 	color: ; // THEMER: DISABLED */
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	border: solid 1px #d9d9d9;
+	color: #4b4b4b;
 /* 	font-weight: undefined; // THEMER: DISABLED */
 }
 
@@ -646,7 +646,7 @@ vertical-align: baseline;
 .qventas .wmeditor .dijitSlider .dijitSliderLeftBumper,
 .qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
 .qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 }
@@ -665,15 +665,15 @@ vertical-align: baseline;
 /* GROUP: Grid Rows */
 .qventas .GridListStyle div.dojoxGrid, 
 .qventas .GridListStyle .wmlist {
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .qventas .GridListStyle  .wmlist-cell,
 .qventas .GridListStyle td.dojoxGridCell {
-	border-top: solid 1px #dfdfdf;
-    border-right: solid 1px #dfdfdf;
-	border-bottom: solid 1px #dfdfdf;
-	border-left: solid 1px #dfdfdf;
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
 }
 
 .qventas .GridListStyle div.dojoxGridRow,
@@ -681,7 +681,7 @@ vertical-align: baseline;
 .qventas .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
 .qventas .GridListStyle div.wmlist-item,
 .qventas .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans",sans-serif;
     font-weight: normal;
 }
 
@@ -711,7 +711,7 @@ vertical-align: baseline;
 .qventas .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
-	color: #474747;
+	color: #373737;
 	background-color: #f5f5f5;
 	background-image: none;
 	filter: none;
@@ -727,7 +727,7 @@ vertical-align: baseline;
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
 .qventas .GridListStyle .wmlist-item.Odd {
-	color: #474747;
+	color: #373737;
 	background-color: #ffffff;
 	background-image: none;
 	filter: none;
@@ -743,7 +743,7 @@ vertical-align: baseline;
 .qventas .GridListStyle .wmlist-item.wmlist-item-selected,
 .qventas .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
 .qventas .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
-	background-color: #2075cc;
+	background-color: #64b5f6;
 	background-image: none;
 	filter: none;
 	color: #ffffff;
@@ -764,21 +764,21 @@ vertical-align: baseline;
 	background-color: #b4b4b4;
 	background-image: none;
 	filter: none;
-/* 	color: #000000; // THEMER: DISABLED */
+	color: #ffffff;
 }
 
 /* GROUP: Grid Header */
 .qventas .GridListStyle .wmlist-header th,
 .qventas .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .qventas .GridListStyle .wmlist-header .wmlist-cell,
 .qventas .GridListStyle div.dojoxGridHeader .dojoxGridCell {
-	border-top: solid 1px rgb(168, 168, 168);
-	border-right: solid 1px rgb(168, 168, 168);
-	border-bottom: solid 1px rgb(168, 168, 168);
-	border-left: solid 1px rgb(168, 168, 168);
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
 }
 
 
@@ -795,8 +795,8 @@ vertical-align: baseline;
 .qventas .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
 .qventas .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
     background: transparent none !important; /* THEMER: HIDE */
-	font-family: "Open Sans", sans-serif;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
 	font-weight: normal;
 }
 
@@ -823,13 +823,13 @@ vertical-align: baseline;
 	background-color: #0866c6;
 	background-image: none;
 	filter: none;
-    color: #000000;
-	font-family: "Open Sans", sans-serif;
+	color: #373737;
+	font-family: "Open Sans",sans-serif;
     min-height: 24px;
 }
 
 .qventas .wmlist.MobileListStyle td.wmlist-cell {
-	border: solid 0px #a8a8a8;
+	border: solid 0px #d9d9d9;
 }
 
 /* GROUP: Mobile List Hover (Desktop only!) */
@@ -858,8 +858,8 @@ vertical-align: baseline;
 
 
 .qventas .wmprogressbar .dijitProgressBarLabel {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 		color: #FFFFFF;
 	font-weight: normal;
 }
@@ -873,7 +873,7 @@ vertical-align: baseline;
 
 /* GROUP: Progress Indicator */
 .qventas .wmprogressbar .dijitProgressBarFull {
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 /* 	border-radius: 8px 0px; // THEMER: DISABLED */
@@ -922,14 +922,14 @@ vertical-align: baseline;
 /* GROUP: Calendar Cells */
 .qventas .dijitCalendarDayLabel,
 .qventas .dijitCalendarDateLabel {
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .qventas table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
 	background-color: #ffffff !important;
 	background-image: none !important;
 	filter: none !important;
-	color: #474747;
+	color: #373737;
 }
 
 .qventas .dijitCalendarBodyContainer td {
@@ -942,7 +942,7 @@ vertical-align: baseline;
 /* GROUP: Selected Cell */
 .qventas .dijitCalendarContainer td.dijitCalendarSelectedDate,
 .qventas .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
-	background-color: #0866c6 !important;
+	background-color: #1976d2 !important;
 	background-image: none !important;
 	filter: none !important;
 	color: #ffffff !important;
@@ -954,10 +954,10 @@ vertical-align: baseline;
 .qventas .dijitCalendarContainer .dijitCalendarHoveredYear,
 .qventas .dijitCalendarContainer .dijitCalendarNextYear:hover,
 .qventas .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
-	background-color: #0866c6 !important;
+	background-color: #1976d2 !important;
 	background-image: none !important;
 	filter: none !important;
-	color: #474747;
+	color: #ffffff;
 }
 
 
@@ -975,28 +975,28 @@ vertical-align: baseline;
 	background-color: #eeeeee !important;
 	background-image: none !important;
 	filter: none !important;
-	color: #474747;
+	color: #373737;
 }
 
 /* GROUP: Header */
 .qventas tr.dijitCalendarMonthContainer th {    
-	background-color: #787878;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 }
 
 /* GROUP: Month Container */
 .qventas tr.dijitCalendarMonthContainer th {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
 	color: #eeeeee;
 	font-weight: normal;
 }
 
 /* GROUP: Month Label */
 .qventas tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
     color: #FFFFFF; 
 	font-weight: normal;
     border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */
@@ -1020,9 +1020,9 @@ vertical-align: baseline;
 .qventas .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
 #studio_designer.qventas .wmapproot a:visited,
 .qventas  #wavemakerNode  .wmapproot a:visited {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #474747;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #1976d2;
 	font-weight: normal;
   text-decoration:underline;
 }
@@ -1030,7 +1030,7 @@ vertical-align: baseline;
 .qventas .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
 .qventas  #wavemakerNode  .wmapproot a:hover,
 .qventas  #wavemakerNode  .wmapproot a:hover:visited {
-	color: #474747;
+/* 	color: #474747; // THEMER: DISABLED */
   text-decoration:underline;
 }
 
@@ -1059,8 +1059,8 @@ vertical-align: baseline;
 /***** END SECTION: Links *****//***** START SECTION: Dashboard *****/
 /* GROUP: Portlet Titlebar */
 .qventas .dojoxPortlet div.dijitTitlePaneTitle {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	font-weight: normal;
 
   min-height: 22px;
@@ -1069,11 +1069,14 @@ vertical-align: baseline;
 }
 
 .qventas .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
-  color: #333333;
+	color: #373737;
 }
 
 .qventas .dojoxPortlet {
-  border: solid 1px #949494;
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
 /* 	border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
 /* 	-webkit-border-radius: 3px 3px 4px 4px; // THEMER: DISABLED */
 }
@@ -1082,7 +1085,6 @@ vertical-align: baseline;
 	background-color: #eeeeee;
 	background-image: none;
 	filter: none;
-  border-bottom: solid 1px #949494;
 }
 
 /* GROUP: Portlet Titlebar Icons */
@@ -1130,37 +1132,37 @@ vertical-align: baseline;
 /***** END SECTION: Dashboard *****//***** START SECTION: Dialogs *****/
 /* GROUP: Dialog Frame */
 .qventas .wmdialog {
-/* 	border-radius: 4px; // THEMER: DISABLED */
-/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
-	box-shadow: 4px 4px 8px black;
-	-webkit-box-shadow: 4px 4px 8px black;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 2px 2px 4px black;
+	-webkit-box-shadow: 2px 2px 4px black;
 }
 
 /* GROUP: Dialog Container */
 .qventas .wmdialog {
-    background-color: white;
-    background-image: none;
-    filter: none;
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #474747;
+	background-color: #ffffff;
+	background-image: none;
+	filter: none;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 }
 
 /* GROUP: Dialog Titlebar */
 .qventas .dialogtitlebar .wmlabel{
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
-	color: #0866c6;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #1976d2;
 	font-weight: bold;
 }
 
 .qventas .dialogtitlebar {
-	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(37%,#dcdcdc), to(#dcdcdc));
-	background-image: -moz-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
-	background-image: -o-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
-	background-image: -ms-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(37%,rgb(220, 220, 220)), to(rgb(220, 220, 220)));
+	background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+	background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+	background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(220, 220, 220)',GradientType=0);
 }
 
 
@@ -1171,11 +1173,11 @@ vertical-align: baseline;
 
 /* GROUP: Titlebar Buttons: Minify Button */
 .qventas .dialogtitlebar .dialogminifybutton {
-	background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
+/* 	background: url(images/DialogIconsGray.png) no-repeat -16px 0px; // THEMER: DISABLED */
 }
 /* GROUP: Titlebar Buttons: Maxify Button */
 .qventas .dialogtitlebar .dialogmaxifybutton {
-	background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
+/* 	background: url(images/DialogIconsGray.png) no-repeat -32px 0px; // THEMER: DISABLED */
 }
 
 /***** END SECTION: Dialogs *****//***** START SECTION: Dialog Button Bars *****/
@@ -1190,9 +1192,9 @@ vertical-align: baseline;
 
 /* GROUP: Dialog Footer Buttons */
 .qventas .dialogfooter .wmbutton {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
-	color: #505050;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	color: #373737;
 	font-weight: normal;
 	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
 	background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
@@ -1201,14 +1203,14 @@ vertical-align: baseline;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
 /* 	box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
 /* 	-webkit-box-shadow: 2px 2px 8px black; // THEMER: DISABLED */
-/* 	border-radius: 4px; // THEMER: DISABLED */
-/* 	-webkit-border-radius: 4px; // THEMER: DISABLED */
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
 }
 
 /* GROUP: Footer Buttons (Hover) */
 .qventas .dialogfooter .wmbutton:hover {
     color: #FFFFFF; 
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
 /* 	box-shadow: 0px 0px 0px black; // THEMER: DISABLED */
@@ -1235,8 +1237,8 @@ vertical-align: baseline;
 .qventas .dojoMenu .dijitMenu,
 .qventas .dojoMenu .dijitMenuBar,
 .qventas .dojoMenu .dijitMenuItem {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	font-weight: normal;
 	color: #eeeeee;
 	background-color: #232323;
@@ -1296,9 +1298,9 @@ outline: 0px;
 
 /* GROUP: Popup Menu Item */
 .qventas .dijitPopup .dijitMenuTable .dijitMenuItem {
-	font-size: 14px;
-	font-family: "Open Sans", sans-serif;
-	color: #333333;
+	font-size: 12px;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
 	font-weight: normal;
     background-color: transparent; /* THEMER: IGNORE */
 	border-top: solid 0px #cccccc;
@@ -1317,7 +1319,7 @@ outline: 0px;
 .qventas .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
 .qventas .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
     color: #FFFFFF;
-	background-color: #0866c6;
+	background-color: #1976d2;
 	background-image: none;
 	filter: none;
     outline-width: 0;
@@ -1330,10 +1332,10 @@ outline: 0px;
 	background-color: #ffffff;
 	background-image: none;
 	filter: none;
-	border-top: solid 1px #cccccc;
-	border-right: solid 1px #cccccc;
-	border-bottom: solid 1px #cccccc;
-	border-left: solid 1px #cccccc;
+	border-top: solid 1px #d9d9d9;
+	border-right: solid 1px #d9d9d9;
+	border-bottom: solid 1px #d9d9d9;
+	border-left: solid 1px #d9d9d9;
 	box-shadow: 3px 3px 4px #cccccc;
 	-webkit-box-shadow: 3px 3px 4px #cccccc;
 }
@@ -1343,15 +1345,15 @@ outline: 0px;
 .qventas  ul.dijitMenu .dijitMenuItem {
     padding: 4px 5px;
     text-align: left;
-	font-size: 14px;
-	font-family: "Open Sans", sans-serif;
-	color: #474747;
+	font-size: 12px;
+	font-family: "Open Sans",sans-serif;
+	color: #373737;
 	font-weight: normal;
     background-color: transparent; /* THEMER: IGNORE */
-	border-top: solid 0px rgb(251, 251, 251);
-	border-right: solid 0px rgb(251, 251, 251);
-	border-bottom: solid 0px rgb(170, 170, 170);
-	border-left: solid 0px rgb(251, 251, 251);
+	border-top: solid 0px #d9d9d9;
+	border-right: solid 0px #d9d9d9;
+	border-bottom: solid 0px #d9d9d9;
+	border-left: solid 0px #d9d9d9;
 }
 
 
@@ -1359,7 +1361,7 @@ outline: 0px;
 .qventas .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
 .qventas  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
     color: #FFFFFF;
-	background-color: #0866c6; /* THEMER: IGNORE */
+	background-color: #1976d2; /* THEMER: IGNORE */
 	background-image: none; /* THEMER: IGNORE */
 	filter: none; /* THEMER: IGNORE */
 	border-top: solid 0px rgb(251, 251, 251);
@@ -1371,19 +1373,19 @@ outline: 0px;
 /***** END SECTION: Combobox Dropdowns *****//***** START SECTION: Tool Tips *****/
 /* GROUP: Tool tips */
 .qventas .AppToolTip {
-	font-family: "Open Sans", sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
 	color: #fafafa;
 	font-weight: normal;
 
-	background-color: #55575c;
+	background-color: #0f0f0f;
 	background-image: none;
 	filter: none;
 
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-/* 	box-shadow: 4px 4px 8px #666; // THEMER: DISABLED */
-/* 	-webkit-box-shadow: 4px 4px 8px #666; // THEMER: DISABLED */
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	box-shadow: 0px 0px 0px #666;
+	-webkit-box-shadow: 0px 0px 0px #666;
 }
 /***** END SECTION: Tool Tips *****//***** START SECTION: Toast Dialogs *****/
 /* GROUP: Toast Dialog */
@@ -1398,21 +1400,21 @@ html.WMApp .qventas div.wmtoast.wmtoastExtraSpecific {
 	-webkit-box-shadow: 4px 4px 8px #222;
 }
 .qventas .wmtoast .wmtoastmessage {
-	font-family: "Open Sans", sans-serif;
-	font-size: 14px;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
 	color: #505050;
 	font-weight: normal;
 }
 
 /* GROUP: Success Styling */
 html.WMApp .qventas div.wmtoast.Success.wmtoastExtraSpecific {
-    background-color: #ffffff;
-    background-image: none;
-    filter: none;
+	background-color: #c8e6c9;
+	background-image: none;
+	filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Success .wmtoastmessage {
-    color: black;
+	color: #1b5e20;
 }
 
 
@@ -1423,13 +1425,13 @@ html.WMApp .qventas div.wmtoast.Success.wmtoastExtraSpecific {
 
 /* GROUP: Warning Styling */
 html.WMApp .qventas div.wmtoast.Warning.wmtoastExtraSpecific {
-    background-color: #ffffff;
-    background-image: none;
-    filter: none;
+	background-color: #fff9c4;
+	background-image: none;
+	filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Warning .wmtoastmessage {
-    color: black;
+	color: #f57f17;
 }
 
 /* GROUP: Warning Graphic */
@@ -1439,13 +1441,13 @@ html.WMApp .qventas div.wmtoast.Warning.wmtoastExtraSpecific {
 
 /* GROUP: Error Styling */
 html.WMApp .qventas div.wmtoast.Error.wmtoastExtraSpecific {
-    background-color: #ffffff;
-    background-image: none;
-    filter: none;
+	background-color: #ffcdd2;
+	background-image: none;
+	filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Error .wmtoastmessage {
-	color: #9f1414;
+	color: #b71c1c;
 }
 
 /* GROUP: Error Graphic */
@@ -1455,13 +1457,13 @@ html.WMApp .qventas div.wmtoast.Error.wmtoastExtraSpecific {
 
 /* GROUP: Info Styling */
 html.WMApp .qventas div.wmtoast.Info.wmtoastExtraSpecific {
-    background-color: #ffffff;
-    background-image: none;
-    filter: none;
+	background-color: #bbdefb;
+	background-image: none;
+	filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Info .wmtoastmessage {
-    color: black;
+	color: #0d47a1;
 }
 
 /* GROUP: Info Graphic */
@@ -1471,9 +1473,9 @@ html.WMApp .qventas div.wmtoast.Info.wmtoastExtraSpecific {
 
 /* GROUP: Title */
 .qventas .wmtoast .wmtoasttitle {
-	font-family: "Open Sans", sans-serif;
-	font-size: 18px;
-    color: black;
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+	color: #212121;
 	font-weight: bold;
 }
 

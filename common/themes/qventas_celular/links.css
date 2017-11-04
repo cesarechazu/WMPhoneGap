@@ -1,0 +1,43 @@
+/* GROUP: Links */
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+.qventas_celular .wmapproot a,
+.qventas_celular  #wavemakerNode  .wmapproot a,
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:visited, /* THEMER: REMOVE LINE */ /* Theme designer needs to override studio's stylesheet, but running app does not need this */
+#studio_designer.qventas_celular .wmapproot a:visited,
+.qventas_celular  #wavemakerNode  .wmapproot a:visited {
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+	color: #1976d2;
+	font-weight: normal;
+  text-decoration:underline;
+}
+/* GROUP: Hover */
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot a:hover,
+.qventas_celular  #wavemakerNode  .wmapproot a:hover:visited {
+/* 	color: #474747; // THEMER: DISABLED */
+  text-decoration:underline;
+}
+
+/* GROUP: Links being Clicked */
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot a:active,
+.qventas_celular  #wavemakerNode  .wmapproot a:hover:active,
+.qventas_celular  #wavemakerNode  .wmapproot a:hover:visited:active {
+	color: #474747;
+  text-decoration:none;
+}
+
+/* GROUP: Disabled Links */
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a,
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:hover,
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:active, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:active,
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:active, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:hover:active,
+.qventas_celular .wmapproot.WidgetThemerPage-demoPanelWithAppRoot > div > .Disabled.wmlabel > .wmSizeNode a:hover:visited:active, /* THEMER: REMOVE LINE */
+.qventas_celular  #wavemakerNode  .wmapproot .Disabled a:hover:visited:active {
+  color: #999999;
+}
