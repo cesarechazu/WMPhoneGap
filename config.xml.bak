@@ -49,7 +49,6 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
-    
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
