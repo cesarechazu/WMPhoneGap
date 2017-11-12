@@ -24,7 +24,7 @@
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-	<preference name="phonegap-version" 		  value="cli-6.4.0" />
+	<preference name="phonegap-version"           value="cli-6.4.0" />
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
@@ -50,6 +50,7 @@
     <!-- Plugins -->
 
     <!-- Core plugins -->
+    
     <plugin name="cordova-plugin-battery-status" />
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
@@ -69,14 +70,19 @@
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />
 	
-
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
         <plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-    <plugin name="phonegap-plugin-barcodescanner" source="npm" />
+    <plugin name="cordova-plugin-barcodescanner" source="npm" />
 	<plugin name="phonegap-nfc" source="npm" />
+	
+	<config-file target="AndroidManifest.xml" parent="/*" mode="merge">
+		<uses-permission android:name="android.permission.CAMERA" />
+		<uses-feature android:name="android.hardware.camera" />
+		<uses-feature android:name="android.hardware.camera.autofocus" />
+	</config-file>
     
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
