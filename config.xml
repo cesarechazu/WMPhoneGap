@@ -142,12 +142,14 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+	<!-- Define only android platform -->
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+	<!-- Define only android platform 
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-
+	-->
 </widget>
