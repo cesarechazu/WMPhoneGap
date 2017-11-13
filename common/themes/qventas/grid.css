@@ -1,15 +1,15 @@
 /* GROUP: Grid Rows */
 .qventas .GridListStyle div.dojoxGrid, 
 .qventas .GridListStyle .wmlist {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .qventas .GridListStyle  .wmlist-cell,
 .qventas .GridListStyle td.dojoxGridCell {
-	border-top: solid 1px #d9d9d9;
-	border-right: solid 1px #d9d9d9;
-	border-bottom: solid 1px #d9d9d9;
-	border-left: solid 1px #d9d9d9;
+	border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+	border-bottom: solid 1px #dfdfdf;
+	border-left: solid 1px #dfdfdf;
 }
 
 .qventas .GridListStyle div.dojoxGridRow,
@@ -17,7 +17,7 @@
 .qventas .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOver td.dojoxGridCell,
 .qventas .GridListStyle div.wmlist-item,
 .qventas .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
-	font-family: "Open Sans",sans-serif;
+	font-family: "Open Sans", sans-serif;
     font-weight: normal;
 }
 
@@ -47,7 +47,7 @@
 .qventas .GridListStyle.Disabled div.dojoxGridRow.dojoxGridRowOdd.dojoxGridRowSelected,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected   {
-	color: #373737;
+	color: #474747;
 	background-color: #f5f5f5;
 	background-image: none;
 	filter: none;
@@ -63,7 +63,7 @@
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
 .qventas .GridListStyle .wmlist-item.Odd {
-	color: #373737;
+	color: #474747;
 	background-color: #ffffff;
 	background-image: none;
 	filter: none;
@@ -79,7 +79,7 @@
 .qventas .GridListStyle .wmlist-item.wmlist-item-selected,
 .qventas .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
 .qventas .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
-	background-color: #64b5f6;
+	background-color: #2075cc;
 	background-image: none;
 	filter: none;
 	color: #ffffff;
@@ -100,21 +100,21 @@
 	background-color: #b4b4b4;
 	background-image: none;
 	filter: none;
-	color: #ffffff;
+/* 	color: #000000; // THEMER: DISABLED */
 }
 
 /* GROUP: Grid Header */
 .qventas .GridListStyle .wmlist-header th,
 .qventas .GridListStyle.wmNoFontSize div.dojoxGridHeader .dojoxGridCell {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .qventas .GridListStyle .wmlist-header .wmlist-cell,
 .qventas .GridListStyle div.dojoxGridHeader .dojoxGridCell {
-	border-top: solid 1px #d9d9d9;
-	border-right: solid 1px #d9d9d9;
-	border-bottom: solid 1px #d9d9d9;
-	border-left: solid 1px #d9d9d9;
+	border-top: solid 1px rgb(168, 168, 168);
+	border-right: solid 1px rgb(168, 168, 168);
+	border-bottom: solid 1px rgb(168, 168, 168);
+	border-left: solid 1px rgb(168, 168, 168);
 }
 
 
@@ -131,8 +131,8 @@
 .qventas .GridListStyle div.dojoxGridHeader th.dojoxGridCell,
 .qventas .GridListStyle div.dojoxGridHeader th.dojoxGridCell.dojoxGridCellOver {	
     background: transparent none !important; /* THEMER: HIDE */
-	font-family: "Open Sans",sans-serif;
-	color: #373737;
+	font-family: "Open Sans", sans-serif;
+	color: #474747;
 	font-weight: normal;
 }
 
@@ -159,13 +159,13 @@
 	background-color: #0866c6;
 	background-image: none;
 	filter: none;
-	color: #373737;
-	font-family: "Open Sans",sans-serif;
+    color: #000000;
+	font-family: "Open Sans", sans-serif;
     min-height: 24px;
 }
 
 .qventas .wmlist.MobileListStyle td.wmlist-cell {
-	border: solid 0px #d9d9d9;
+	border: solid 0px #a8a8a8;
 }
 
 /* GROUP: Mobile List Hover (Desktop only!) */

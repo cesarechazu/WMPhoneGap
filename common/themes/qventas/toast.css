@@ -10,21 +10,21 @@ html.WMApp .qventas div.wmtoast.wmtoastExtraSpecific {
 	-webkit-box-shadow: 4px 4px 8px #222;
 }
 .qventas .wmtoast .wmtoastmessage {
-	font-family: "Open Sans",sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
 	color: #505050;
 	font-weight: normal;
 }
 
 /* GROUP: Success Styling */
 html.WMApp .qventas div.wmtoast.Success.wmtoastExtraSpecific {
-	background-color: #c8e6c9;
-	background-image: none;
-	filter: none;
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Success .wmtoastmessage {
-	color: #1b5e20;
+    color: black;
 }
 
 
@@ -35,13 +35,13 @@ html.WMApp .qventas div.wmtoast.Success.wmtoastExtraSpecific {
 
 /* GROUP: Warning Styling */
 html.WMApp .qventas div.wmtoast.Warning.wmtoastExtraSpecific {
-	background-color: #fff9c4;
-	background-image: none;
-	filter: none;
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Warning .wmtoastmessage {
-	color: #f57f17;
+    color: black;
 }
 
 /* GROUP: Warning Graphic */
@@ -51,13 +51,13 @@ html.WMApp .qventas div.wmtoast.Warning.wmtoastExtraSpecific {
 
 /* GROUP: Error Styling */
 html.WMApp .qventas div.wmtoast.Error.wmtoastExtraSpecific {
-	background-color: #ffcdd2;
-	background-image: none;
-	filter: none;
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Error .wmtoastmessage {
-	color: #b71c1c;
+	color: #9f1414;
 }
 
 /* GROUP: Error Graphic */
@@ -67,13 +67,13 @@ html.WMApp .qventas div.wmtoast.Error.wmtoastExtraSpecific {
 
 /* GROUP: Info Styling */
 html.WMApp .qventas div.wmtoast.Info.wmtoastExtraSpecific {
-	background-color: #bbdefb;
-	background-image: none;
-	filter: none;
+    background-color: #ffffff;
+    background-image: none;
+    filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Info .wmtoastmessage {
-	color: #0d47a1;
+    color: black;
 }
 
 /* GROUP: Info Graphic */
@@ -83,9 +83,9 @@ html.WMApp .qventas div.wmtoast.Info.wmtoastExtraSpecific {
 
 /* GROUP: Title */
 .qventas .wmtoast .wmtoasttitle {
-	font-family: "Open Sans",sans-serif;
-	font-size: 14px;
-	color: #212121;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+    color: black;
 	font-weight: bold;
 }
 

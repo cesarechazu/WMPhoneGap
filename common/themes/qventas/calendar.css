@@ -1,14 +1,14 @@
 /* GROUP: Calendar Cells */
 .qventas .dijitCalendarDayLabel,
 .qventas .dijitCalendarDateLabel {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .qventas table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
 	background-color: #ffffff !important;
 	background-image: none !important;
 	filter: none !important;
-	color: #373737;
+	color: #474747;
 }
 
 .qventas .dijitCalendarBodyContainer td {
@@ -21,7 +21,7 @@
 /* GROUP: Selected Cell */
 .qventas .dijitCalendarContainer td.dijitCalendarSelectedDate,
 .qventas .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
-	background-color: #1976d2 !important;
+	background-color: #0866c6 !important;
 	background-image: none !important;
 	filter: none !important;
 	color: #ffffff !important;
@@ -33,10 +33,10 @@
 .qventas .dijitCalendarContainer .dijitCalendarHoveredYear,
 .qventas .dijitCalendarContainer .dijitCalendarNextYear:hover,
 .qventas .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
-	background-color: #1976d2 !important;
+	background-color: #0866c6 !important;
 	background-image: none !important;
 	filter: none !important;
-	color: #ffffff;
+	color: #474747;
 }
 
 
@@ -54,28 +54,28 @@
 	background-color: #eeeeee !important;
 	background-image: none !important;
 	filter: none !important;
-	color: #373737;
+	color: #474747;
 }
 
 /* GROUP: Header */
 .qventas tr.dijitCalendarMonthContainer th {    
-	background-color: #1976d2;
+	background-color: #787878;
 	background-image: none;
 	filter: none;
 }
 
 /* GROUP: Month Container */
 .qventas tr.dijitCalendarMonthContainer th {
-	font-family: "Open Sans",sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
 	color: #eeeeee;
 	font-weight: normal;
 }
 
 /* GROUP: Month Label */
 .qventas tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
-	font-family: "Open Sans",sans-serif;
-	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
     color: #FFFFFF; 
 	font-weight: normal;
     border: solid 0px rgb(251, 251, 251); /* THEMER: HIDE */

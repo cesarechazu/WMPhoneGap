@@ -7,8 +7,8 @@
 
 
 .qventas .wmprogressbar .dijitProgressBarLabel {
-	font-family: "Open Sans",sans-serif;
-	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
 		color: #FFFFFF;
 	font-weight: normal;
 }
@@ -22,7 +22,7 @@
 
 /* GROUP: Progress Indicator */
 .qventas .wmprogressbar .dijitProgressBarFull {
-	background-color: #1976d2;
+	background-color: #0866c6;
 	background-image: none;
 	filter: none;
 /* 	border-radius: 8px 0px; // THEMER: DISABLED */

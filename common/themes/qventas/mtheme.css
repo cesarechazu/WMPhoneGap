@@ -1,13 +1,13 @@
 .qventas  .wmapproot {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #4b4b4b;
 font-weight: normal;
 }
 .qventas .wmapproot > .wmpagecontainer,
 .qventas.wmapproot > .wmpagecontainer,
 .qventas #studio_designer > .wmlayout {
-background-color: #eeeeee;
+background-color: #ffffff;
 background-image: none;
 filter: none;
 }
@@ -18,53 +18,49 @@ border-radius: 0px !important;
 }
 .qventas .wmtablayers .wmtablayers-tab,
 .qventas .wmtablayers button.wmtablayers-verticaltab {
-font-family: "Open Sans",sans-serif;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+color: #474747;
 font-weight: normal;
-font-size: 12px;
-background-color: transparent;
+font-size: 13px;
+background-color: #fafafa;
 background-image: none;
 filter: none;
 }
 .qventas .wmtablayers .wmtablayers-tab {
 height: 27px;
-margin-left: 2;
-border-radius: 2px;
--webkit-border-radius: 2px;
-border-top: solid 1px rgb(197, 197, 197);
-border-right: solid 1px rgb(197, 197, 197);
-border-bottom: solid 1px rgb(197, 197, 197);
-border-left: solid 1px rgb(197, 197, 197);
+margin-left: 4px;
+border-radius: 4px 4px 0px 0px;
+-webkit-border-radius: 4px 4px 0px 0px;
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
 }
 .dj_ff .qventas .wmtablayers .wmtablayers-tab {
 box-shadow: 0 0 0 black !important;
 }
 .qventas .wmtablayers-tab:first-child {
-margin-left: 4;
+margin-left: 4px;
 }
 .qventas .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected,
 .qventas .wmtablayers .wmtablayers-verticaltab.wmtablayers-selected:hover,
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected,
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
-background-color: transparent;
+background-color: #ffffff;
 background-image: none;
 filter: none;
-color: #1976d2;
-border-top: solid 1px #c5c5c5;
-border-right: solid 1px #c5c5c5;
-border-bottom: solid 1px #c5c5c5;
-border-left: solid 1px #c5c5c5;
+color: #0866c6;
 }
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected,
 .qventas .wmtablayers .wmtablayers-tab.wmtablayers-selected:hover {
 }
 .qventas .wmtablayers .wmtablayers-verticaltab:focus,
 .qventas .wmtablayers .wmtablayers-tab:focus {
-color: #1976d2;
+color: #0866c6;
 }
 .qventas .wmtablayers .wmtablayers-tab:hover,
 .qventas .wmtablayers .wmtablayers-verticaltab:hover {
-color: #1976d2;
+color: #0866c6;
 background-color: #f2f2f2;
 background-image: none;
 filter: none;
@@ -86,16 +82,16 @@ box-shadow: 0px 0px 0px #444444;
 .qventas .wmtablayers  .wmTabLayers-client > .wmlayer {
 }
 .qventas .wmtablayers div.wmtablayers-tabbar {
-background-color: transparent;
+background-color: #fafafa;
 background-image: none;
 filter: none;
-margin-bottom: 0;
-margin-left: 0;
-margin-right: 0;
-margin-top: 0;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
 }
 .qventas .wmtablayers button.wmtablayers-verticaltab {
-font-size: 13px;
+font-size: 14px;
 width: 100%;
 border-top: solid 0px rgb(68, 68, 68);
 border-right: solid 0px transparent;
@@ -113,8 +109,8 @@ border-left: solid 0px rgb(68, 68, 68);
 box-shadow: 0px 0px 0px #444444;
 }
 .qventas .wmaccordion div.wmaccordion-header {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
 color: #ffffff;
 font-weight: normal;
 background-color: #0866c6;
@@ -123,6 +119,10 @@ filter: none;
 -webkit-background-clip: border-box;
 -webkit-background-origin: padding-box;
 -webkit-background-size: auto;
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
 display: block;
 height: 21px;
 line-height: 21px;
@@ -131,7 +131,7 @@ margin-left: 0px;
 margin-right: 0px;
 margin-top: 0px;
 padding-bottom: 10px;
-padding-left: 20px;
+padding-left: 10px;
 padding-right: 10px;
 padding-top: 10px;
 text-decoration: none solid rgb(51, 51, 51);
@@ -139,15 +139,14 @@ text-shadow: none;
 vertical-align: baseline;
 }
 .qventas .wmaccordion div.wmaccordion-header.wmaccordion-collapsed {
-color: #999999;
+color: #474747;
 font-weight: normal;
-background-color: #282828;
+background-color: #fafafa;
 background-image: none;
 filter: none;
 }
 .qventas div.wmaccordion .wmaccordion-header.wmaccordion-collapsed:hover {
-color: #ffffff;
-background-color: #2c2c2c;
+background-color: #f2f2f2;
 background-image: none;
 filter: none;
 }
@@ -163,6 +162,7 @@ float: none;
 .qventas .wmaccordion .wmaccordion-collapsed .accordionArrowNode {
 }
 .qventas .wmaccordion .wmlayer.wmaccordion-content {
+background-color: transparent;
 }
 .qventas .wmfancypanel .wmFancyPanel-containerWidget {
 border-top-left-radius: 0px !important;
@@ -179,20 +179,22 @@ filter: none;
 .qventas .wmfancypanel .wmFancyPanel-labelWidget {
 border-radius: 0px;
 -webkit-border-radius: 0px;
-font-family: "Open Sans",sans-serif;
-font-size: 13px;
-font-weight: bold;
-color: #757575;
-background-color: #ffffff;
-background-image: none;
-filter: none;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+font-weight: normal;
+color: #474747;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
 }
 .qventas .wmbutton,
 .qventas button.wmbutton,
 .qventas .wmbutton .dijitReset {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #474747;
 font-weight: normal;
 }
 .qventas .wmbutton {
@@ -207,7 +209,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255,
 .qventas   .wmbutton:hover {
 color: #FFFFFF;
 font-weight: normal;
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 }
@@ -218,7 +220,7 @@ filter: none;
 .qventas   .wmbutton:hover:active {
 color: #FFFFFF;
 font-weight: normal;
-background-color: #2196f3;
+background-color: #68a2df;
 background-image: none;
 filter: none;
 }
@@ -248,8 +250,8 @@ opacity: 0.25;
 .qventas .wmapproot .wmtogglebuttonpanel .wmbutton {
 }
 .qventas .wmtogglebuttonpanel .wmbutton {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
 color: #ffffff;
 font-weight: normal;
 background-color: #1c1e20;
@@ -257,11 +259,11 @@ background-image: none;
 filter: none;
 }
 .qventas .wmtogglebuttonpanel .wmbutton.toggleButtonDown {
-font-family: "Open Sans",sans-serif;
+font-family: "Open Sans", sans-serif;
 font-size: 13px;
 color: #ffffff;
 font-weight: normal;
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 }
@@ -271,10 +273,10 @@ filter: none;
 .qventas .wmeditor .dijitSelect .dijitButtonContents,
 .qventas .dijitTimePickerItem,
 .qventas .wmeditor .RichTextEditable iframe {
-border: solid 1px #afafaf;
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #373737;
+border: solid 1px #a8a8a8;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
 font-weight: normal;
 background-color: #ffffff;
 background-image: none;
@@ -294,8 +296,8 @@ border-bottom-right-radius: 4px;
 .qventas .wmeditor .dijitComboBox.dijitHover,
 .qventas .wmeditor .dijitSelect.dijitHover .dijitButtonContents,
 .qventas .wmeditor .RichTextEditable:hover iframe {
-color: #373737;
-border: solid 1px #1976d2;
+color: #505050;
+border: solid 1px #0866c6;
 background-color: #ffffff;
 background-image: none;
 filter: none;
@@ -312,17 +314,16 @@ filter: none;
 .qventas .isDirty.wmeditor .dijitTextArea.dijitFocused,
 .qventas .isDirty.wmeditor .dijitComboBox.dijitFocused,
 .qventas .wmeditor .RichTextEditable.Focused iframe {
-color: #373737;
-border: solid 1px #1976d2;
-background-color: #bbdefb;
+color: #505050;
+border: solid 1px #0866c6;
+background-color: rgb(250, 250, 250);
 background-image: none;
 filter: none;
 }
 .qventas .isDirty.wmeditor .dijitTextBox,
 .qventas .isDirty.wmeditor .dijitTextArea,
 .qventas .isDirty.wmeditor .dijitComboBox {
-color: #373737;
-border: solid 1px rgb(168, 168, 168);
+border: solid 1px #a8a8a8;
 }
 .qventas .wmeditor .dijitError.dijitTextBox,
 .qventas .wmeditor .dijitError.dijitTextArea,
@@ -332,22 +333,21 @@ border: solid 1px rgb(168, 168, 168);
 .qventas .wmeditor .dijitError.isDirty.dijitComboBox
 {
 color: #ffffff;
-border: solid 1px #d9d9d9;
-background-color: #e92b2b;
+border: solid 1px #a8a8a8;
+background-color: #c90909;
 background-image: none;
 filter: none;
 }
 .qventas .wmeditor .wmeditor-caption {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
 font-weight: normal;
 }
 .qventas .wmeditor .wmeditor-readonlyNode {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-border: solid 1px #d9d9d9;
-color: #4b4b4b;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+border: solid 1px #a8a8a8;
 }
 .qventas .wmeditor .dijitSpinner .dijitArrowButton,
 .qventas .wmeditor .dijitComboBox .dijitArrowButton,
@@ -393,7 +393,7 @@ outline-width: 0;
 .qventas .wmeditor .dijitSlider .dijitSliderLeftBumper,
 .qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderProgressBarH,
 .qventas .wmeditor .dijitSliderFocused.dijitSlider .dijitSliderLeftBumper {
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 }
@@ -406,24 +406,24 @@ background-image: none;
 filter: none;
 }
 .qventas .GridListStyle .wmlist {
-font-size: 12px;
+font-size: 13px;
 }
 .qventas .GridListStyle  .wmlist-cell{
-border-top: solid 1px #d9d9d9;
-border-right: solid 1px #d9d9d9;
-border-bottom: solid 1px #d9d9d9;
-border-left: solid 1px #d9d9d9;
+border-top: solid 1px #dfdfdf;
+border-right: solid 1px #dfdfdf;
+border-bottom: solid 1px #dfdfdf;
+border-left: solid 1px #dfdfdf;
 }
 .qventas .GridListStyle div.wmlist-item,
 .qventas .GridListStyle.Disabled div.wmlist-item.wmlist-item-over  {
-font-family: "Open Sans",sans-serif;
+font-family: "Open Sans", sans-serif;
 font-weight: normal;
 }
 .qventas .GridListStyle div.wmlist-item,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-over,
 .qventas .GridListStyle.Disabled div.wmlist-item.Odd.wmlist-item-selected,
 .qventas .GridListStyle .wmlist-item.Odd {
-color: #373737;
+color: #474747;
 background-color: #ffffff;
 background-image: none;
 filter: none;
@@ -431,7 +431,7 @@ filter: none;
 .qventas .GridListStyle .wmlist-item.wmlist-item-selected,
 .qventas .GridListStyle.Disabled .wmlist-item.wmlist-item-selected,
 .qventas .GridListStyle .wmlist-item.wmlist-item-selected.wmlist-item-over {
-background-color: #64b5f6;
+background-color: #2075cc;
 background-image: none;
 filter: none;
 color: #ffffff;
@@ -440,16 +440,15 @@ color: #ffffff;
 background-color: #b4b4b4;
 background-image: none;
 filter: none;
-color: #ffffff;
 }
 .qventas .GridListStyle .wmlist-header th{
-font-size: 12px;
+font-size: 13px;
 }
 .qventas .GridListStyle .wmlist-header .wmlist-cell{
-border-top: solid 1px #d9d9d9;
-border-right: solid 1px #d9d9d9;
-border-bottom: solid 1px #d9d9d9;
-border-left: solid 1px #d9d9d9;
+border-top: solid 1px rgb(168, 168, 168);
+border-right: solid 1px rgb(168, 168, 168);
+border-bottom: solid 1px rgb(168, 168, 168);
+border-left: solid 1px rgb(168, 168, 168);
 }
 .qventas .GridListStyle .wmlist-header{
 background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(50%,rgb(217, 217, 217)), to(rgb(217, 217, 217)));
@@ -460,8 +459,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255,
 }
 .qventas .GridListStyle .wmlist-header th{
 background: transparent none !important;
-font-family: "Open Sans",sans-serif;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+color: #474747;
 font-weight: normal;
 }
 .qventas .GridListStyle .wmlist-cell {
@@ -476,12 +475,12 @@ margin: 5px;
 background-color: #0866c6;
 background-image: none;
 filter: none;
-color: #373737;
-font-family: "Open Sans",sans-serif;
+color: #000000;
+font-family: "Open Sans", sans-serif;
 min-height: 24px;
 }
 .qventas .wmlist.MobileListStyle td.wmlist-cell {
-border: solid 0px #d9d9d9;
+border: solid 0px #a8a8a8;
 }
 .qventas .MobileListStyle div.wmlist-item.wmlist-item-over,
 .qventas .MobileListStyle div.wmlist-item.Odd.wmlist-item-over {
@@ -498,8 +497,8 @@ color: #FFFFFF;
 .qventas .wmprogressbar .dijitProgressBar {
 }
 .qventas .wmprogressbar .dijitProgressBarLabel {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
 color: #FFFFFF;
 font-weight: normal;
 }
@@ -509,7 +508,7 @@ background-image: none;
 filter: none;
 }
 .qventas .wmprogressbar .dijitProgressBarFull {
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 }
@@ -538,13 +537,13 @@ background: url(images/splitter_bg_v.png) no-repeat 50% 50%;
 }
 .qventas .dijitCalendarDayLabel,
 .qventas .dijitCalendarDateLabel {
-font-size: 12px;
+font-size: 13px;
 }
 .qventas table.dijitCalendarContainer td.dijitCalendarCurrentMonth {
 background-color: #ffffff !important;
 background-image: none !important;
 filter: none !important;
-color: #373737;
+color: #474747;
 }
 .qventas .dijitCalendarBodyContainer td {
 border-top: solid 1px rgb(204, 204, 204);
@@ -554,7 +553,7 @@ border-left: solid 0px rgb(102, 102, 102);
 }
 .qventas .dijitCalendarContainer td.dijitCalendarSelectedDate,
 .qventas .dijitCalendarContainer td.dijitCalendarSelectedDate.dijitCalendarCurrentMonth {
-background-color: #1976d2 !important;
+background-color: #0866c6 !important;
 background-image: none !important;
 filter: none !important;
 color: #ffffff !important;
@@ -564,10 +563,10 @@ color: #ffffff !important;
 .qventas .dijitCalendarContainer .dijitCalendarHoveredYear,
 .qventas .dijitCalendarContainer .dijitCalendarNextYear:hover,
 .qventas .dijitCalendarContainer .dijitCalendarPreviousYear:hover {
-background-color: #1976d2 !important;
+background-color: #0866c6 !important;
 background-image: none !important;
 filter: none !important;
-color: #ffffff;
+color: #474747;
 }
 .qventas .dijitCalendarContainer .dijitCalendarPreviousMonth,
 .qventas .dijitCalendarContainer .dijitCalendarNextMonth {
@@ -580,22 +579,22 @@ color: #dfdfdf;
 background-color: #eeeeee !important;
 background-image: none !important;
 filter: none !important;
-color: #373737;
+color: #474747;
 }
 .qventas tr.dijitCalendarMonthContainer th {
-background-color: #1976d2;
+background-color: #787878;
 background-image: none;
 filter: none;
 }
 .qventas tr.dijitCalendarMonthContainer th {
-font-family: "Open Sans",sans-serif;
-font-size: 13px;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
 color: #eeeeee;
 font-weight: normal;
 }
 .qventas tr.dijitCalendarMonthContainer th .dijitCalendarMonthLabel {
-font-family: "Open Sans",sans-serif;
-font-size: 13px;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
 color: #FFFFFF;
 font-weight: normal;
 border: solid 0px rgb(251, 251, 251);
@@ -607,14 +606,15 @@ box-shadow: 0px 0px 0px black;
 .qventas  #wavemakerNode  .wmapproot a,
 #studio_designer.qventas .wmapproot a:visited,
 .qventas  #wavemakerNode  .wmapproot a:visited {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #1976d2;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
 font-weight: normal;
 text-decoration:underline;
 }
 .qventas  #wavemakerNode  .wmapproot a:hover,
 .qventas  #wavemakerNode  .wmapproot a:hover:visited {
+color: #474747;
 text-decoration:underline;
 }
 .qventas  #wavemakerNode  .wmapproot a:active,
@@ -631,26 +631,24 @@ text-decoration:none;
 color: #999999;
 }
 .qventas .dojoxPortlet div.dijitTitlePaneTitle {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
 font-weight: normal;
 min-height: 22px;
 line-height: 28px;
 padding-left: 10px;
 }
 .qventas .dojoxPortlet div.dijitTitlePaneTitle .dijitTitlePaneTextNode {
-color: #373737;
+color: #333333;
 }
 .qventas .dojoxPortlet {
-border-top: solid 1px #d9d9d9;
-border-right: solid 1px #d9d9d9;
-border-bottom: solid 1px #d9d9d9;
-border-left: solid 1px #d9d9d9;
+border: solid 1px #949494;
 }
 .qventas .dojoxPortlet div.dijitTitlePaneTitle {
 background-color: #eeeeee;
 background-image: none;
 filter: none;
+border-bottom: solid 1px #949494;
 }
 .qventas .dojoxPortlet div.dijitTitlePaneTitle .dojoxPortletIcon {
 border-color: #333333;
@@ -679,58 +677,56 @@ background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
 .qventas .dojoxPortlet div.dijitTitlePaneTitle.dijitClosed .dojoxPortletIcon.dojoxArrowDown:hover {
 }
 .qventas .wmdialog {
-border-radius: 2px;
--webkit-border-radius: 2px;
-box-shadow: 2px 2px 4px black;
--webkit-box-shadow: 2px 2px 4px black;
+box-shadow: 4px 4px 8px black;
+-webkit-box-shadow: 4px 4px 8px black;
 }
 .qventas .wmdialog {
-background-color: #ffffff;
+background-color: white;
 background-image: none;
 filter: none;
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #474747;
 font-weight: normal;
 }
 .qventas .dialogtitlebar .wmlabel{
-font-family: "Open Sans",sans-serif;
-font-size: 13px;
-color: #1976d2;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+color: #0866c6;
 font-weight: bold;
 }
 .qventas .dialogtitlebar {
-background-image: -webkit-gradient(linear, center top, center bottom, from(rgb(255, 255, 255)), color-stop(37%,rgb(220, 220, 220)), to(rgb(220, 220, 220)));
-background-image: -moz-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
-background-image: -o-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
-background-image: -ms-linear-gradient(top, rgb(255, 255, 255) 0%,rgb(220, 220, 220) 37%,rgb(220, 220, 220) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(255, 255, 255)', endColorstr='rgb(220, 220, 220)',GradientType=0);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(37%,#dcdcdc), to(#dcdcdc));
+background-image: -moz-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+background-image: -o-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+background-image: -ms-linear-gradient(top, #ffffff 0%,#dcdcdc 37%,#dcdcdc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dcdcdc',GradientType=0);
 }
 .qventas .dialogtitlebar .dialogclosebutton {
 }
 .qventas .dialogtitlebar .dialogminifybutton {
+background: url(images/DialogIconsGray.png) no-repeat -16px 0px;
 }
 .qventas .dialogtitlebar .dialogmaxifybutton {
+background: url(images/DialogIconsGray.png) no-repeat -32px 0px;
 }
 .qventas .dialogfooter,
 .qventas .wmpagedialog-controlspanel {
 }
 .qventas .dialogfooter .wmbutton {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
-color: #373737;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+color: #505050;
 font-weight: normal;
 background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), color-stop(50%,#d9d9d9), to(#d9d9d9));
 background-image: -moz-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
 background-image: -o-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
 background-image: -ms-linear-gradient(top, #ffffff 0%,#d9d9d9 50%,#d9d9d9 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0);
-border-radius: 2px;
--webkit-border-radius: 2px;
 }
 .qventas .dialogfooter .wmbutton:hover {
 color: #FFFFFF;
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 }
@@ -743,8 +739,8 @@ filter: none;
 .qventas .dojoMenu .dijitMenu,
 .qventas .dojoMenu .dijitMenuBar,
 .qventas .dojoMenu .dijitMenuItem {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
 font-weight: normal;
 color: #eeeeee;
 background-color: #232323;
@@ -788,9 +784,9 @@ box-shadow: 3px 3px 4px #6b6b6b;
 -webkit-box-shadow: 3px 3px 4px #6b6b6b;
 }
 .qventas .dijitPopup .dijitMenuTable .dijitMenuItem {
-font-size: 12px;
-font-family: "Open Sans",sans-serif;
-color: #373737;
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+color: #333333;
 font-weight: normal;
 background-color: transparent;
 border-top: solid 0px #cccccc;
@@ -806,7 +802,7 @@ padding-top: 3px;
 .qventas .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemFocused,
 .qventas .dijitPopup .dijitMenu.dijitMenuTable .dijitMenuItem.dijitMenuItemSelected {
 color: #FFFFFF;
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 outline-width: 0;
@@ -816,10 +812,10 @@ outline-width: 0;
 background-color: #ffffff;
 background-image: none;
 filter: none;
-border-top: solid 1px #d9d9d9;
-border-right: solid 1px #d9d9d9;
-border-bottom: solid 1px #d9d9d9;
-border-left: solid 1px #d9d9d9;
+border-top: solid 1px #cccccc;
+border-right: solid 1px #cccccc;
+border-bottom: solid 1px #cccccc;
+border-left: solid 1px #cccccc;
 box-shadow: 3px 3px 4px #cccccc;
 -webkit-box-shadow: 3px 3px 4px #cccccc;
 }
@@ -827,20 +823,20 @@ box-shadow: 3px 3px 4px #cccccc;
 .qventas  ul.dijitMenu .dijitMenuItem {
 padding: 4px 5px;
 text-align: left;
-font-size: 12px;
-font-family: "Open Sans",sans-serif;
-color: #373737;
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+color: #474747;
 font-weight: normal;
 background-color: transparent;
-border-top: solid 0px #d9d9d9;
-border-right: solid 0px #d9d9d9;
-border-bottom: solid 0px #d9d9d9;
-border-left: solid 0px #d9d9d9;
+border-top: solid 0px rgb(251, 251, 251);
+border-right: solid 0px rgb(251, 251, 251);
+border-bottom: solid 0px rgb(170, 170, 170);
+border-left: solid 0px rgb(251, 251, 251);
 }
 .qventas .dijitPopup .dijitCalendarMonthLabel .dijitMenuItemSelected,
 .qventas  ul.dijitMenu .dijitMenuItem.dijitMenuItemSelected {
 color: #FFFFFF;
-background-color: #1976d2;
+background-color: #0866c6;
 background-image: none;
 filter: none;
 border-top: solid 0px rgb(251, 251, 251);
@@ -849,17 +845,15 @@ border-bottom: solid 0px rgb(170, 170, 170);
 border-left: solid 0px rgb(251, 251, 251);
 }
 .qventas .AppToolTip {
-font-family: "Open Sans",sans-serif;
-font-size: 12px;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
 color: #fafafa;
 font-weight: normal;
-background-color: #0f0f0f;
+background-color: #55575c;
 background-image: none;
 filter: none;
-border-radius: 2px;
--webkit-border-radius: 2px;
-box-shadow: 0px 0px 0px #666;
--webkit-box-shadow: 0px 0px 0px #666;
+border-radius: 4px;
+-webkit-border-radius: 4px;
 }
 html.WMApp .qventas div.wmtoast.wmtoastExtraSpecific {
 background-color: rgb(40,40,40);
@@ -871,63 +865,63 @@ box-shadow: 4px 4px 8px #222;
 -webkit-box-shadow: 4px 4px 8px #222;
 }
 .qventas .wmtoast .wmtoastmessage {
-font-family: "Open Sans",sans-serif;
-font-size: 13px;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
 color: #505050;
 font-weight: normal;
 }
 html.WMApp .qventas div.wmtoast.Success.wmtoastExtraSpecific {
-background-color: #c8e6c9;
+background-color: #ffffff;
 background-image: none;
 filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Success .wmtoastmessage {
-color: #1b5e20;
+color: black;
 }
 .qventas .wmtoast.Success .ToastLeft {
 background-image: url(images/OK.png);
 }
 html.WMApp .qventas div.wmtoast.Warning.wmtoastExtraSpecific {
-background-color: #fff9c4;
+background-color: #ffffff;
 background-image: none;
 filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Warning .wmtoastmessage {
-color: #f57f17;
+color: black;
 }
 .qventas .wmtoast.Warning .ToastLeft {
 background-image: url(images/Caution.png);
 }
 html.WMApp .qventas div.wmtoast.Error.wmtoastExtraSpecific {
-background-color: #ffcdd2;
+background-color: #ffffff;
 background-image: none;
 filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Error .wmtoastmessage {
-color: #b71c1c;
+color: #9f1414;
 }
 .qventas .wmtoast.Error .ToastLeft {
 background-image: url(images/Close.png);
 }
 html.WMApp .qventas div.wmtoast.Info.wmtoastExtraSpecific {
-background-color: #bbdefb;
+background-color: #ffffff;
 background-image: none;
 filter: none;
 }
 .qventas .wmtoast .wmtoasttitle,
 .qventas .wmtoast.Info .wmtoastmessage {
-color: #0d47a1;
+color: black;
 }
 .qventas .wmtoast.Info .ToastLeft {
 background-image: url(images/Help\ Circle.png);
 }
 .qventas .wmtoast .wmtoasttitle {
-font-family: "Open Sans",sans-serif;
-font-size: 14px;
-color: #212121;
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+color: black;
 font-weight: bold;
 }
 .wmtoastExtraSpecific.fadeInAnim {

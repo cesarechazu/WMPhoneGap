@@ -1,4 +1,0 @@
-{
-spacer1: ["wm.Spacer", {height: "100px"}],
-spacer2: ["wm.Spacer", {height: "100px"}]
-}
