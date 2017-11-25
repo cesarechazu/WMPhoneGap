@@ -51,30 +51,33 @@
     <!-- Core plugins -->
     
     <plugin name="cordova-plugin-battery-status" />
-    <plugin name="cordova-plugin-camera" />
-    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-camera" spec="2.3.1" />
+    <plugin name="cordova-plugin-media-capture" spec="1.4.1" />
     <plugin name="cordova-plugin-console" />
-    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-contacts" spec="2.2.1" />
     <plugin name="cordova-plugin-device" />
-    <plugin name="cordova-plugin-device-motion" />
-    <plugin name="cordova-plugin-device-orientation" />
     <plugin name="cordova-plugin-dialogs" />
-    <plugin name="cordova-plugin-file" />
+    <plugin name="cordova-plugin-file" spec="4.3.1" />
     <plugin name="cordova-plugin-file-transfer" />
-    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-geolocation" spec="2.4.1" />
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
-    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-media" spec="2.4.1" />
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />
+	
+	<!-- obsolete plugins 
+	<plugin name="cordova-plugin-device-motion" />
+	<plugin name="cordova-plugin-device-orientation" />
+	-->
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
         <plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-    <plugin name="phonegap-plugin-barcodescanner" source="npm" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="6.0.0" source="npm" />
     
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
