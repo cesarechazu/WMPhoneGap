@@ -39,7 +39,7 @@
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
     <preference name="keeprunning"    			  value="true" />           <!-- android: Determines whether the application stays running in the background even after a pause event fires. Setting this to false does not kill the app after a pause event, but simply halts execution of code within the cordova webview while the app is in the background. -->
     <preference name="androidlaunchmode"  		  value="singleTop" />      <!-- android: Allowed values: standard, singleTop, singleTask, singleInstance Sets the Activity android:launchMode attribute. This changes what happens when the app is launched from app icon or intent and is already running. -->
-    
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
     
     <!--
         Define a specific version of PhoneGap to build into your app.
@@ -57,7 +57,7 @@
     <plugin name="cordova-plugin-contacts" spec="2.2.1" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-dialogs" />
-    <plugin name="cordova-plugin-file" spec="4.3.1" />
+    <plugin name="cordova-plugin-file" spec="5.0.0" />
     <plugin name="cordova-plugin-file-transfer" />
     <plugin name="cordova-plugin-geolocation" spec="2.4.1" />
     <plugin name="cordova-plugin-globalization" />
