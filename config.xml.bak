@@ -77,7 +77,7 @@
     <!--
         <plugin name="com.phonegap.plugins.barcodescanner" />
     -->
-    <plugin name="phonegap-plugin-barcodescanner" source="npm" />
+    <plugin name="phonegap-plugin-barcodescanner" spec="6.0.0" source="npm" />
     
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
