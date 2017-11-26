@@ -7,7 +7,7 @@ dojo.declare("Main", wm.Page, {
 
         function onDeviceReady() {
             if (cordova.platformId == 'android') {
-                StatusBar.backgroundColorByHexString("#1A237E");
+                StatusBar.backgroundColorByHexString("#0D47A1");
             }
         }
 

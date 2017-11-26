@@ -5,7 +5,7 @@ var form = this;
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
 if (cordova.platformId == 'android') {
-StatusBar.backgroundColorByHexString("#1A237E");
+StatusBar.backgroundColorByHexString("#0D47A1");
 }
 }
 //capture the event back button

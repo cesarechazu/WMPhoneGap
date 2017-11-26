@@ -104,24 +104,17 @@ wire: ["wm.Wire", {"expression":"\"Media\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
-navMediaRecord: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
+navNFC: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
 input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
 binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":"\"Media\"","targetProperty":"pageName"}, {}]
+wire: ["wm.Wire", {"expression":"\"NFC\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
 navNetworkInfo: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
 input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
 binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":"\"NetworkInformation\"","targetProperty":"pageName"}, {}]
-}]
-}]
-}],
-navNFC: ["wm.NavigationCall", {"operation":"gotoPage"}, {}, {
-input: ["wm.ServiceInput", {"type":"gotoPageInputs"}, {}, {
-binding: ["wm.Binding", {}, {}, {
-wire: ["wm.Wire", {"expression":"\"NFC\"","targetProperty":"pageName"}, {}]
+wire: ["wm.Wire", {"expression":"\"NetworkInfo\"","targetProperty":"pageName"}, {}]
 }]
 }]
 }],
@@ -174,8 +167,8 @@ picture14: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/imag
 labelStock4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Inapp Browser","height":"52px","padding":"4","singleLine":false,"styles":{},"width":"100%"}, {"onclick":"navInappBrowser"}]
 }],
 panelMedia: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
-picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navMediaRecord"}],
-labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navMediaRecord"}]
+picture15: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/micphone.png","styles":{},"width":"100%"}, {"onclick":"navMedia"}],
+labelPedidos4: ["wm.Label", {"_classes":{"domNode":["botonesInicio"]},"align":"center","caption":"Media","height":"32px","padding":"4","styles":{},"width":"100%"}, {"onclick":"navMedia"}]
 }],
 panelMediaCapture: ["wm.Panel", {"height":"100%","horizontalAlign":"left","padding":"5","styles":{},"verticalAlign":"top","width":"100%"}, {}, {
 picture3: ["wm.Picture", {"aspect":"h","height":"60px","source":"resources/images/PrimoIcons/video.png","styles":{},"width":"100%"}, {"onclick":"navMediaCapture"}],
