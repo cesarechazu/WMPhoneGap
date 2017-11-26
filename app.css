@@ -5,27 +5,25 @@ font-weight: bold;
 
 }
 
-
-
-
 html.WMApp body .mainHeaderPanel {
 background-color: #0866c6;
 
 }
-
 
 html.WMApp body .iconsNameLabel {
 color: #ffffff;
 font-size: 12px;
 }
 
-
-
-
 html.WMApp body .labelTitle {
 font-size: 18px;
 text-align: center;
 font-weight: bold;
+
+}
+
+html.WMApp body .layoutBoxHome {
+background-image: url('resources/images/back.jpg');
 
 }
 
