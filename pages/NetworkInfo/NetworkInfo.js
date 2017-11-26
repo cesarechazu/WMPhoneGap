@@ -1,6 +1,7 @@
 dojo.declare("NetworkInfo", wm.Page, {
     start: function() {
         var form = this;
+
         document.addEventListener("online", onOnline, false);
 
         function onOnline() {
@@ -18,8 +19,15 @@ dojo.declare("NetworkInfo", wm.Page, {
 
             //alert('Connection type: ' + states[networkState]);
             form.textConnStatus.setValue("dataValue", 'Connection type: ' + states[networkState]);
-            
+
         }
+
+        document.addEventListener("offline", onOffline, false);
+
+        function onOffline() {
+            alert("Your device is not connected.");
+        }
+
     },
     "preferredDevice": "phone",
 

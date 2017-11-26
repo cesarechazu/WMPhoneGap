@@ -16,6 +16,10 @@ states[Connection.NONE] = 'No network connection';
 //alert('Connection type: ' + states[networkState]);
 form.textConnStatus.setValue("dataValue", 'Connection type: ' + states[networkState]);
 }
+document.addEventListener("offline", onOffline, false);
+function onOffline() {
+alert("Your device is not connected.");
+}
 },
 "preferredDevice": "phone",
 _end: 0
